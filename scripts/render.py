@@ -136,7 +136,7 @@ lines.extend([
     "```bibtex",
     "@misc{su2026awesomejev,",
     "  title        = {{AwesomeJev: A Curated Collection of Jev Resources}},",
-    "  author       = {Su, Xuerui},",
+    "  author       = {Xuerui Su},",
     "  year         = {2026},",
     "  howpublished = {GitHub repository},",
     "  url          = {https://github.com/XueruiSu/AwesomeJev}",
