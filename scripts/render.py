@@ -92,6 +92,7 @@ for section, categories in sections.items():
     lines.append(f"- [{section}](#{anchor(section)})")
     for category in categories:
         lines.append(f"  - [{category}](#{anchor(category)})")
+lines.append("- [Citation](#citation)")
 
 for section, categories in sections.items():
     lines.extend(["", f"## {section}", ""])
@@ -125,6 +126,24 @@ for section, categories in sections.items():
                 suffix = f" {refs}." if refs else ""
                 lines.append(f"- {icon(r['icon'])} {stamp(r)} · **{link(r['title'], primary['url'])}** — `{r['status']}`. {r['description']}{suffix}")
         lines.append("")
+
+lines.extend([
+    "## Citation",
+    "",
+    "> [!NOTE]",
+    "> 📚 If you find this resource useful, please cite and [⭐ star the repo](https://github.com/XueruiSu/AwesomeJev):",
+    "",
+    "```bibtex",
+    "@misc{su2026awesomejev,",
+    "  title        = {{AwesomeJev: A Curated Collection of Jev Resources}},",
+    "  author       = {Su, Xuerui},",
+    "  year         = {2026},",
+    "  howpublished = {GitHub repository},",
+    "  url          = {https://github.com/XueruiSu/AwesomeJev}",
+    "}",
+    "```",
+    "",
+])
 
 (ROOT / "README.md").write_text("\n".join(lines).rstrip() + "\n")
 

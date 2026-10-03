@@ -62,6 +62,7 @@ Dates use **[YYYY-MM-DD]**. Each label distinguishes publication, submission, re
   - [Networking and edge systems](#networking-and-edge-systems)
   - [Domain applications and multilingual models](#domain-applications-and-multilingual-models)
   - [Historical context cited in community debate](#historical-context-cited-in-community-debate)
+- [Citation](#citation)
 
 ## 1. Origins and official resources
 
@@ -274,3 +275,18 @@ Grouped by research topic; chronological within each group. Dates are first arXi
 
 - <img src="assets/icons/history.svg" width="22" height="22" alt=""> **[2025-03-30]** · Submitted · **[SalesRLAgent: A Reinforcement Learning Approach for Real-Time Sales Conversion Prediction and Optimization](https://arxiv.org/abs/2503.23303)** — `Earlier preprint`. Earlier domain-specific reinforcement-learning probability prediction cited in the Laya author’s discussion. It predates Jev and does not document Jev’s proprietary architecture. [PDF](https://arxiv.org/pdf/2503.23303).
 - <img src="assets/icons/history.svg" width="22" height="22" alt=""> **[2025-09-23]** · Submitted · **[Confidence-Aware Routing for Large Language Model Reliability Enhancement: A Multi-Signal Approach to Pre-Generation Hallucination Mitigation](https://arxiv.org/abs/2510.01237)** — `Earlier preprint`. Earlier confidence-based routing work cited in the community debate. Included as historical context, not as a Jev evaluation or evidence of architectural identity. [PDF](https://arxiv.org/pdf/2510.01237).
+
+## Citation
+
+> [!NOTE]
+> 📚 If you find this resource useful, please cite and [⭐ star the repo](https://github.com/XueruiSu/AwesomeJev):
+
+```bibtex
+@misc{su2026awesomejev,
+  title        = {{AwesomeJev: A Curated Collection of Jev Resources}},
+  author       = {Su, Xuerui},
+  year         = {2026},
+  howpublished = {GitHub repository},
+  url          = {https://github.com/XueruiSu/AwesomeJev}
+}
+```
