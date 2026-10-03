@@ -1,6 +1,7 @@
 """Render the English directory and BibTeX from data/resources.json (stdlib only)."""
 
 import collections
+import html
 import json
 import pathlib
 import re
@@ -8,6 +9,7 @@ import re
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 data = json.loads((ROOT / "data/resources.json").read_text())
 resources = data["resources"]
+news = json.loads((ROOT / "data/news.json").read_text())["events"]
 
 
 def anchor(text):
@@ -16,6 +18,19 @@ def anchor(text):
 
 def link(label, url):
     return f"[{label}]({url})"
+
+
+def icon(name, alt=""):
+    return f'<img src="assets/icons/{name}.svg" width="22" height="22" alt="{html.escape(alt)}">'
+
+
+def stamp(resource):
+    labels = {
+        "published": "Published", "submitted": "Submitted",
+        "repository_created": "Repository created", "cataloged": "Cataloged",
+        "paper_submitted": "Paper submitted",
+    }
+    return f"**[{resource['date']}]** · {labels[resource['date_kind']]}"
 
 
 sections = collections.defaultdict(lambda: collections.defaultdict(list))
@@ -31,21 +46,48 @@ for section, categories in sections.items():
             entries.sort(key=lambda r: (r["date"], r["arxiv_id"]))
 
 lines = [
+    '<p align="center"><img src="assets/awesomejev-logo.png" width="160" alt="AwesomeJev robot and decision-crystal logo"></p>',
+    "",
     "# AwesomeJev",
+    "",
+    "![Jev ecosystem landscape: TypeSafe and System One origins; Laya, Kev, Jeff and Jeeves; tools and agents; evaluation and debate.](assets/jev-landscape.png)",
     "",
     "A curated, English-language directory of **TypeSafe AI’s Jev** and the emerging ecosystem of typed decision models: original releases, community discussions, open infrastructure, model weights, datasets, and research.",
     "",
     "**Start with the original announcement:** [Introducing System One Models & Jev — September 15, 2026](https://typesafe.ai/blog/introducing-system-one-models-and-jev).",
     "",
-    f"**Last researched: {data['last_updated']}.** {len(resources)} catalog entries, including {post_launch} post-launch research preprints and {earlier} earlier papers cited in community debates. This is a source-backed, best-effort collection, not a claim to have indexed the entire internet.",
+    "## Big News",
+    "",
+]
+for event in sorted(news, key=lambda e: e["date"], reverse=True):
+    note = f" {event['note']}" if event.get("note") else ""
+    lines.append(f"- {icon(event['icon'])} **[{event['date']}]** {event['headline']} [{event['label']}]({event['url']}).{note}")
+lines.extend([
     "",
     "Jev evaluates supplied state against typed questions and returns choices, scores, or yes/no probabilities. Hosted Jev is proprietary; public SDKs and independent open-weight alternatives are different artifacts. No official downloadable Jev weights or architecture paper were located in this review. Schema validity does not establish factual correctness, calibration on every distribution, or immunity to prompt injection. See the [official documentation](https://docs.typesafe.ai/introduction), [model limitations](https://docs.typesafe.ai/model-jaggedness/jev-1.13), and research below.",
     "",
     "[Machine-readable catalog](data/resources.json) · [Paper citations](references.bib) · [Curation methodology](METHODOLOGY.md) · [Contributing](CONTRIBUTING.md)",
     "",
+    "| Explore | Entries | Subcategories | Coverage |",
+    "| --- | ---: | ---: | --- |",
+])
+coverage = [
+    ("rocket", "Original announcement, documentation, and first-party references"),
+    ("chat", "Popular threads, technical articles, debates, and discovery directories"),
+    ("chip", "SDKs, integrations, open models, runtimes, benchmarks, and applications"),
+    ("book", f"{post_launch} post-launch preprints + {earlier} historical-context papers"),
+]
+for (section, categories), (symbol, description) in zip(sections.items(), coverage):
+    count = sum(len(entries) for entries in categories.values())
+    lines.append(f"| {icon(symbol)} [{section}](#{anchor(section)}) | **{count}** | {len(categories)} | {description} |")
+lines.extend([
+    f"| **Total** | **{len(resources)}** | **{sum(len(c) for c in sections.values())}** | Catalog entries; one project may appear in multiple resource types |",
+    "",
+    "Dates use **[YYYY-MM-DD]**. Each label distinguishes publication, submission, repository creation, or cataloging. **Cataloged** means the original publication date is unverified; repository creation does not establish a public release date. See [date evidence and conventions](METHODOLOGY.md#dates-and-news). Topic icons are navigation cues, not publisher logos.",
+    "",
     "## Contents",
     "",
-]
+])
 for section, categories in sections.items():
     lines.append(f"- [{section}](#{anchor(section)})")
     for category in categories:
@@ -75,14 +117,13 @@ for section, categories in sections.items():
             for r in entries:
                 a = r["attention"]
                 refs = " · ".join(link(x["label"], x["url"]) for x in r["links"])
-                lines.append(f"| **{r['title']}**<br>{refs} | {a['points']:,} / {a['comments']:,} | {r['description']} |")
+                lines.append(f"| {icon(r['icon'])} **{r['title']}**<br>{stamp(r)}<br>{refs} | {a['points']:,} / {a['comments']:,} | {r['description']} |")
         else:
             for r in entries:
                 primary, *rest = r["links"]
                 refs = " · ".join(link(x["label"], x["url"]) for x in rest)
-                date = f" · {r['date']}" if r["date"] else ""
                 suffix = f" {refs}." if refs else ""
-                lines.append(f"- **{link(r['title'], primary['url'])}** — `{r['status']}{date}`. {r['description']}{suffix}")
+                lines.append(f"- {icon(r['icon'])} {stamp(r)} · **{link(r['title'], primary['url'])}** — `{r['status']}`. {r['description']}{suffix}")
         lines.append("")
 
 (ROOT / "README.md").write_text("\n".join(lines).rstrip() + "\n")

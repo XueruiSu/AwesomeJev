@@ -1,0 +1,77 @@
+{
+  "title": "Big News",
+  "events": [
+    {
+      "date": "2026-09-30",
+      "icon": "network",
+      "headline": "JevSpawn proposes adaptive agentic inference with compositional action spaces.",
+      "url": "https://arxiv.org/abs/2610.00437",
+      "label": "Paper",
+      "note": ""
+    },
+    {
+      "date": "2026-09-29",
+      "icon": "globe",
+      "headline": "Chinese-Jev introduces Chinese-language decision training and CJ-Bench.",
+      "url": "https://arxiv.org/abs/2609.36965",
+      "label": "Paper",
+      "note": "Weights remain pending in the checked repository."
+    },
+    {
+      "date": "2026-09-29",
+      "icon": "gauge",
+      "headline": "A broad Jev evaluation examines 37 datasets, calibration, and answer formats.",
+      "url": "https://arxiv.org/abs/2609.37647",
+      "label": "Paper",
+      "note": ""
+    },
+    {
+      "date": "2026-09-24",
+      "icon": "shield",
+      "headline": "JevOut investigates how natural-looking context can redirect typed decisions.",
+      "url": "https://arxiv.org/abs/2609.30243",
+      "label": "Paper",
+      "note": ""
+    },
+    {
+      "date": "2026-09-22",
+      "icon": "eye",
+      "headline": "Visual Jev explores efficient decisions over shared visual context.",
+      "url": "https://arxiv.org/abs/2609.25845",
+      "label": "Paper",
+      "note": ""
+    },
+    {
+      "date": "2026-09-21",
+      "icon": "brain",
+      "headline": "Jev-Mem introduces a System One controller for agent memory.",
+      "url": "https://arxiv.org/abs/2609.23986",
+      "label": "Paper",
+      "note": ""
+    },
+    {
+      "date": "2026-09-18",
+      "icon": "bolt",
+      "headline": "Laya 0.1.0 is published on PyPI, an early runtime release in the open decision-model ecosystem.",
+      "url": "https://pypi.org/project/laya/0.1.0/",
+      "label": "Release",
+      "note": "This dates the Python package, not the model checkpoints."
+    },
+    {
+      "date": "2026-09-16",
+      "icon": "cloud",
+      "headline": "Vercel adds Jev to AI Gateway.",
+      "url": "https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway",
+      "label": "Announcement",
+      "note": ""
+    },
+    {
+      "date": "2026-09-15",
+      "icon": "rocket",
+      "headline": "TypeSafe AI introduces Jev and System One models.",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "label": "Original announcement",
+      "note": ""
+    }
+  ]
+}

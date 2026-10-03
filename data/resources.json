@@ -17,7 +17,10 @@
           "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "rocket",
+      "date_kind": "published",
+      "date_source": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
     },
     {
       "id": "r002",
@@ -26,14 +29,17 @@
       "title": "TypeSafe manifesto",
       "description": "The company’s argument for models designed to make decisions inside software.",
       "status": "Official",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Source",
           "url": "https://typesafe.ai/manifesto"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "book",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
     },
     {
       "id": "r003",
@@ -42,14 +48,17 @@
       "title": "The Bitterest Lesson",
       "description": "Founder’s research perspective on the objectives and data used to train useful models. Background to the Jev launch.",
       "status": "Official",
-      "date": null,
+      "date": "2026-09-10",
       "links": [
         {
           "label": "Source",
           "url": "https://typesafe.ai/blog/bitterest-lesson"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://typesafe.ai/blog/bitterest-lesson"
     },
     {
       "id": "r004",
@@ -58,14 +67,17 @@
       "title": "AI: too good to be true, too bad to be useful",
       "description": "TypeSafe’s argument about the gap between conversational ability and dependable automation.",
       "status": "Official",
-      "date": null,
+      "date": "2026-06-19",
       "links": [
         {
           "label": "Source",
           "url": "https://typesafe.ai/blog/ai-too-good-to-be-true-too-bad-to-be-useful-typesafe-ai"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://typesafe.ai/blog/ai-too-good-to-be-true-too-bad-to-be-useful-typesafe-ai"
     },
     {
       "id": "r005",
@@ -74,14 +86,17 @@
       "title": "Introduction and quick start",
       "description": "The official entry point for sending state and typed questions to Jev.",
       "status": "Official",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/introduction"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "book",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
     },
     {
       "id": "r006",
@@ -90,14 +105,17 @@
       "title": "Choice, Score, and Noul",
       "description": "Definitions of the three output primitives, including probability distributions and answer shapes.",
       "status": "Official",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/primitives"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "network",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
     },
     {
       "id": "r007",
@@ -106,14 +124,17 @@
       "title": "Confidence",
       "description": "How TypeSafe distinguishes answer probability from confidence and uses them in workflows.",
       "status": "Official",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/confidence"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "gauge",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
     },
     {
       "id": "r008",
@@ -122,14 +143,17 @@
       "title": "Model reference",
       "description": "Version identifiers, supported inputs, limits, and current service specifications.",
       "status": "Official",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/models"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "chip",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
     },
     {
       "id": "r009",
@@ -138,14 +162,17 @@
       "title": "Jev 1.13 jaggedness",
       "description": "First-party documentation of uneven capabilities and known weak spots. Essential context for evaluating launch claims.",
       "status": "Official",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "shield",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
     },
     {
       "id": "r010",
@@ -154,14 +181,17 @@
       "title": "Patterns and cookbooks",
       "description": "Implementation guides for routing, scoring, fan-out, classification, search, and other bounded decisions.",
       "status": "Official",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/cookbooks"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "book",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
     },
     {
       "id": "r011",
@@ -170,14 +200,17 @@
       "title": "Workflow evaluations",
       "description": "Vendor-run workflow comparisons, examples, and methodology; reference-model agreement is not the same as human ground truth.",
       "status": "Official",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Source",
           "url": "https://evals.typesafe.ai/"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "gauge",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
     },
     {
       "id": "r012",
@@ -186,14 +219,17 @@
       "title": "Documentation index",
       "description": "Machine-readable index of official documentation for deeper exploration.",
       "status": "Official",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/llms.txt"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "book",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
     },
     {
       "id": "r013",
@@ -220,7 +256,10 @@
         "comments": 520,
         "observed_on": "2026-10-03",
         "source": "https://hn.algolia.com/api/v1/items/49717558"
-      }
+      },
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://news.ycombinator.com/item?id=49717558"
     },
     {
       "id": "r014",
@@ -247,7 +286,10 @@
         "comments": 212,
         "observed_on": "2026-10-03",
         "source": "https://hn.algolia.com/api/v1/items/49812769"
-      }
+      },
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://news.ycombinator.com/item?id=49812769"
     },
     {
       "id": "r015",
@@ -274,7 +316,10 @@
         "comments": 145,
         "observed_on": "2026-10-03",
         "source": "https://hn.algolia.com/api/v1/items/49848269"
-      }
+      },
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://news.ycombinator.com/item?id=49848269"
     },
     {
       "id": "r016",
@@ -301,7 +346,10 @@
         "comments": 225,
         "observed_on": "2026-10-03",
         "source": "https://hn.algolia.com/api/v1/items/49883844"
-      }
+      },
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://news.ycombinator.com/item?id=49883844"
     },
     {
       "id": "r017",
@@ -328,7 +376,10 @@
         "comments": 211,
         "observed_on": "2026-10-03",
         "source": "https://hn.algolia.com/api/v1/items/49783999"
-      }
+      },
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://news.ycombinator.com/item?id=49783999"
     },
     {
       "id": "r018",
@@ -355,7 +406,10 @@
         "comments": 233,
         "observed_on": "2026-10-03",
         "source": "https://hn.algolia.com/api/v1/items/49802161"
-      }
+      },
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://news.ycombinator.com/item?id=49802161"
     },
     {
       "id": "r019",
@@ -382,7 +436,10 @@
         "comments": 124,
         "observed_on": "2026-10-03",
         "source": "https://hn.algolia.com/api/v1/items/49845172"
-      }
+      },
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://news.ycombinator.com/item?id=49845172"
     },
     {
       "id": "r020",
@@ -409,7 +466,10 @@
         "comments": 95,
         "observed_on": "2026-10-03",
         "source": "https://hn.algolia.com/api/v1/items/49891290"
-      }
+      },
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://news.ycombinator.com/item?id=49891290"
     },
     {
       "id": "r021",
@@ -436,7 +496,10 @@
         "comments": 87,
         "observed_on": "2026-10-03",
         "source": "https://hn.algolia.com/api/v1/items/49784706"
-      }
+      },
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://news.ycombinator.com/item?id=49784706"
     },
     {
       "id": "r022",
@@ -463,7 +526,10 @@
         "comments": 10,
         "observed_on": "2026-10-03",
         "source": "https://hn.algolia.com/api/v1/items/49891203"
-      }
+      },
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://news.ycombinator.com/item?id=49891203"
     },
     {
       "id": "r023",
@@ -490,7 +556,10 @@
         "comments": 50,
         "observed_on": "2026-10-03",
         "source": "https://hn.algolia.com/api/v1/items/49778162"
-      }
+      },
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://news.ycombinator.com/item?id=49778162"
     },
     {
       "id": "r024",
@@ -517,7 +586,10 @@
         "comments": 24,
         "observed_on": "2026-10-03",
         "source": "https://hn.algolia.com/api/v1/items/49731282"
-      }
+      },
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://news.ycombinator.com/item?id=49731282"
     },
     {
       "id": "r025",
@@ -544,7 +616,10 @@
         "comments": 39,
         "observed_on": "2026-10-03",
         "source": "https://hn.algolia.com/api/v1/items/49800574"
-      }
+      },
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://news.ycombinator.com/item?id=49800574"
     },
     {
       "id": "r026",
@@ -571,7 +646,10 @@
         "comments": 61,
         "observed_on": "2026-10-03",
         "source": "https://hn.algolia.com/api/v1/items/49816899"
-      }
+      },
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://news.ycombinator.com/item?id=49816899"
     },
     {
       "id": "r027",
@@ -587,7 +665,10 @@
           "url": "https://simonwillison.net/2026/Sep/21/jev/"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://simonwillison.net/2026/Sep/21/jev/"
     },
     {
       "id": "r028",
@@ -603,7 +684,10 @@
           "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev"
     },
     {
       "id": "r029",
@@ -619,7 +703,10 @@
           "url": "https://www.langchain.com/blog/building-a-harness-with-jev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://www.langchain.com/blog/building-a-harness-with-jev"
     },
     {
       "id": "r030",
@@ -635,7 +722,10 @@
           "url": "https://www.langchain.com/blog/building-prod-with-jev-and-langgraph"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://www.langchain.com/blog/building-prod-with-jev-and-langgraph"
     },
     {
       "id": "r031",
@@ -644,14 +734,17 @@
       "title": "What is Jev? — Browserbase",
       "description": "Browserbase explains how Stagehand can use Jev for bounded browser actions and fall back to an LLM.",
       "status": "Article",
-      "date": null,
+      "date": "2026-09-21",
       "links": [
         {
           "label": "Article",
           "url": "https://www.browserbase.com/blog/what-is-jev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://www.browserbase.com/blog/what-is-jev"
     },
     {
       "id": "r032",
@@ -660,14 +753,17 @@
       "title": "You could have built Jev",
       "description": "Pete Sergeant explains option scoring and compares independent implementations; reproducing an interface does not prove model equivalence.",
       "status": "Article",
-      "date": null,
+      "date": "2026-09-18",
       "links": [
         {
           "label": "Article",
           "url": "https://sgnt.ai/p/jev/"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://sgnt.ai/p/jev/"
     },
     {
       "id": "r033",
@@ -683,7 +779,10 @@
           "url": "https://www.alexmolas.com/2026/09/23/jev-cant-be-calibrated.html"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://www.alexmolas.com/2026/09/23/jev-cant-be-calibrated.html"
     },
     {
       "id": "r034",
@@ -699,7 +798,10 @@
           "url": "https://www.distillabs.ai/blog/jev-or-a-fine-tuned-small-model-we-built-a-pipeline-with-both-to-see-the-real-difference/"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://www.distillabs.ai/blog/jev-or-a-fine-tuned-small-model-we-built-a-pipeline-with-both-to-see-the-real-difference/"
     },
     {
       "id": "r035",
@@ -708,14 +810,17 @@
       "title": "Laya author’s prior-work discussion",
       "description": "First-person account linking earlier sales-prediction and confidence-routing work. Architectural equivalence and priority claims are disputed and are not established by this thread.",
       "status": "Discussion",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Reddit",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wihgum/i_literally_built_the_jev_architecture_one_year/"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "chat",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
     },
     {
       "id": "r036",
@@ -724,14 +829,17 @@
       "title": "Is Jev a new model class or a classifier?",
       "description": "Community debate about novelty, zero-shot classification, and the difference between a useful product and a new architecture.",
       "status": "Discussion",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Reddit",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woe70t/jev_isnt_new_tech_its_marketing_targets_people/"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "chat",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
     },
     {
       "id": "r037",
@@ -740,14 +848,17 @@
       "title": "Awesome Jev / TypeSafe — AbdelStark",
       "description": "Broad community directory of integrations, demos, and independent tests. Used for discovery; listed projects should be checked at their original sources.",
       "status": "Directory",
-      "date": null,
+      "date": "2026-09-17",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/AbdelStark/awesome-typesafe-jev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "compass",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/AbdelStark/awesome-typesafe-jev"
     },
     {
       "id": "r038",
@@ -756,14 +867,17 @@
       "title": "Awesome Jev — heyjunpenn",
       "description": "Larger community project catalog useful for discovering the long tail of Jev applications.",
       "status": "Directory",
-      "date": null,
+      "date": "2026-09-19",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/heyjunpenn/awesome-jev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "compass",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/heyjunpenn/awesome-jev"
     },
     {
       "id": "r039",
@@ -772,14 +886,17 @@
       "title": "Awesome Jev — Amal-David",
       "description": "Community collection with projects, skills, demonstrations, and a curated social-post gallery.",
       "status": "Directory",
-      "date": null,
+      "date": "2026-09-18",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/Amal-David/awesome-jev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "compass",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Amal-David/awesome-jev"
     },
     {
       "id": "r040",
@@ -788,14 +905,17 @@
       "title": "TypeSafe Python SDK",
       "description": "Official synchronous and asynchronous Python client for Jev.",
       "status": "Official open-source code",
-      "date": null,
+      "date": "2026-09-04",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/typesafe-ai/typesafe-sdk-python"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/typesafe-ai/typesafe-sdk-python"
     },
     {
       "id": "r041",
@@ -804,14 +924,17 @@
       "title": "TypeSafe JavaScript / TypeScript SDK",
       "description": "Official client with inferred answer types and typed question helpers.",
       "status": "Official open-source code",
-      "date": null,
+      "date": "2026-09-04",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/typesafe-ai/typesafe-sdk-js"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/typesafe-ai/typesafe-sdk-js"
     },
     {
       "id": "r042",
@@ -820,14 +943,17 @@
       "title": "TypeSafe Agent Skills",
       "description": "Official integration guidance for coding agents and skill-compatible tools.",
       "status": "Official open-source code",
-      "date": null,
+      "date": "2026-08-24",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/typesafe-ai/skills"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/typesafe-ai/skills"
     },
     {
       "id": "r043",
@@ -836,14 +962,17 @@
       "title": "System One Adapter",
       "description": "Official adapter that runs the decision interface over other LLM APIs for comparisons; it does not expose Jev weights.",
       "status": "Official open-source code",
-      "date": null,
+      "date": "2026-08-08",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/typesafe-ai/system-one-adapter-python"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/typesafe-ai/system-one-adapter-python"
     },
     {
       "id": "r044",
@@ -852,14 +981,17 @@
       "title": "WorkflowEvals",
       "description": "Source code for TypeSafe’s workflow evaluations. Its reference answers come from other models.",
       "status": "Official open-source code",
-      "date": null,
+      "date": "2026-09-28",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/typesafe-ai/WorkflowEvals"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/typesafe-ai/WorkflowEvals"
     },
     {
       "id": "r045",
@@ -868,14 +1000,17 @@
       "title": "TypeSafe n8n nodes",
       "description": "Official repository for connecting the TypeSafe API to n8n workflows.",
       "status": "Official open-source code",
-      "date": null,
+      "date": "2026-09-23",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/typesafe-ai/n8n-nodes-typesafe-ai"
     },
     {
       "id": "r046",
@@ -884,14 +1019,17 @@
       "title": "Vercel AI Gateway",
       "description": "Provider announcement and usage examples for accessing Jev through AI Gateway.",
       "status": "Hosted integration",
-      "date": null,
+      "date": "2026-09-16",
       "links": [
         {
           "label": "Docs",
           "url": "https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "cloud",
+      "date_kind": "published",
+      "date_source": "https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway"
     },
     {
       "id": "r047",
@@ -900,14 +1038,17 @@
       "title": "Cloudflare Workers AI",
       "description": "Provider-maintained Jev model page and structured evaluation examples.",
       "status": "Hosted integration",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Docs",
           "url": "https://developers.cloudflare.com/ai/models/typesafe/jev/"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "cloud",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
     },
     {
       "id": "r048",
@@ -916,14 +1057,17 @@
       "title": "OpenRouter Jev playground",
       "description": "Provider playground for turning a task into typed Jev questions.",
       "status": "Hosted integration",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Docs",
           "url": "https://openrouter.ai/labs/jev/compile"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "cloud",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
     },
     {
       "id": "r049",
@@ -932,14 +1076,17 @@
       "title": "Netlify AI Gateway",
       "description": "Provider documentation covering gateway configuration and TypeSafe integration.",
       "status": "Hosted integration",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Docs",
           "url": "https://docs.netlify.com/build/ai-gateway/overview/"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "cloud",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
     },
     {
       "id": "r050",
@@ -948,14 +1095,17 @@
       "title": "Jev Ultrafast",
       "description": "Browser Use’s agent represents available browser actions as candidates and uses Jev to select operations and targets.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-16",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/browser-use/jev-ultrafast"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "browser",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/browser-use/jev-ultrafast"
     },
     {
       "id": "r051",
@@ -964,14 +1114,17 @@
       "title": "Jev Browser",
       "description": "Playwright navigation exposed as a library, CLI, and MCP server, with bounded action selection.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-17",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/jkudish/jev-browser"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "browser",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/jkudish/jev-browser"
     },
     {
       "id": "r052",
@@ -980,14 +1133,17 @@
       "title": "Jev MCP — Python",
       "description": "MCP server exposing classification, scoring, checking, matching, and screening through Jev.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-16",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/blakestone-x/jev-mcp"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "browser",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/blakestone-x/jev-mcp"
     },
     {
       "id": "r053",
@@ -996,14 +1152,17 @@
       "title": "Jev MCP — Node",
       "description": "MCP tools for evidence checks, ranking, candidate selection, extraction, and patch review.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-17",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/jkudish/jev-mcp"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "browser",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/jkudish/jev-mcp"
     },
     {
       "id": "r054",
@@ -1012,7 +1171,7 @@
       "title": "Jev-Mem",
       "description": "Agent memory architecture using fast decisions for organization and retrieval, with a separate model for answer synthesis.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-20",
       "links": [
         {
           "label": "GitHub",
@@ -1023,7 +1182,10 @@
           "url": "https://arxiv.org/abs/2609.23986"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "brain",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/libingzheren/Jev-Mem"
     },
     {
       "id": "r055",
@@ -1032,14 +1194,17 @@
       "title": "DuckDB Jev",
       "description": "DuckDB extension for Jev-backed predicates, classification, and scores over rows.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-20",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/prasanthj/duckdb-jev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/prasanthj/duckdb-jev"
     },
     {
       "id": "r056",
@@ -1048,14 +1213,17 @@
       "title": "pg-jev",
       "description": "PostgreSQL extension for typed judgments and probability predicates over table rows.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-17",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/realZachi/pg-jev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/realZachi/pg-jev"
     },
     {
       "id": "r057",
@@ -1064,14 +1232,17 @@
       "title": "jev — CLI and skill",
       "description": "Community command-line wrapper supporting direct TypeSafe and OpenRouter backends.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-18",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/okooo5km/jev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/okooo5km/jev"
     },
     {
       "id": "r058",
@@ -1080,14 +1251,17 @@
       "title": "Jev Java",
       "description": "Community Java client with typed questions and configurable retries.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-19",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/jevkit/jev-java"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/jevkit/jev-java"
     },
     {
       "id": "r059",
@@ -1096,14 +1270,17 @@
       "title": "jev — Haskell",
       "description": "Community Haskell client with composable typed questions and probability-preserving responses.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-20",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/realbogart/jev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/realbogart/jev"
     },
     {
       "id": "r060",
@@ -1112,7 +1289,7 @@
       "title": "Laya",
       "description": "Independent encoder-based decision models with English, multilingual, and workflow-specialist checkpoints; includes training and local serving.",
       "status": "Open weights and code",
-      "date": null,
+      "date": "2026-09-18",
       "links": [
         {
           "label": "GitHub",
@@ -1131,7 +1308,10 @@
           "url": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "bolt",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/NandhaKishorM/laya"
     },
     {
       "id": "r061",
@@ -1140,7 +1320,7 @@
       "title": "Kev",
       "description": "Qwen-based family with released decision checkpoints, training code, evaluation suites, and TypeSafe-compatible serving.",
       "status": "Open weights and code",
-      "date": null,
+      "date": "2026-09-17",
       "links": [
         {
           "label": "GitHub",
@@ -1167,7 +1347,10 @@
           "url": "https://huggingface.co/spaces/jaredpalmer/kev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/jaredpalmer/kev"
     },
     {
       "id": "r062",
@@ -1176,7 +1359,7 @@
       "title": "Bespoke Nimble",
       "description": "Independent decision model with a contrastive data-curation recipe and public benchmark comparisons. Its authors state it was not distilled from Jev.",
       "status": "Open weights and code",
-      "date": null,
+      "date": "2026-09-18",
       "links": [
         {
           "label": "GitHub",
@@ -1187,7 +1370,10 @@
           "url": "https://huggingface.co/bespokelabs/Bespoke-Nimble-9B"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "bolt",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/bespokelabsai/nimble"
     },
     {
       "id": "r063",
@@ -1196,7 +1382,7 @@
       "title": "Jeff — firelex",
       "description": "Small decision models with local inference and domain adapters; distinct from other projects also called Jeff.",
       "status": "Open weights and code",
-      "date": null,
+      "date": "2026-09-28",
       "links": [
         {
           "label": "GitHub",
@@ -1207,7 +1393,10 @@
           "url": "https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/firelex/jeff"
     },
     {
       "id": "r064",
@@ -1216,7 +1405,7 @@
       "title": "Jeeves",
       "description": "PostHog’s reasoning decision model, adding a diffusion drafter to a Qwen-based classifier; not a strictly one-pass decision model.",
       "status": "Open weights and code",
-      "date": null,
+      "date": "2026-09-29",
       "links": [
         {
           "label": "GitHub",
@@ -1231,7 +1420,10 @@
           "url": "https://huggingface.co/PostHog/jeeves-fp8"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "brain",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/PostHog/jeeves"
     },
     {
       "id": "r065",
@@ -1240,7 +1432,7 @@
       "title": "Contrastive Language Models",
       "description": "Contrastive state/action modeling with a TypeSafe-compatible API and an independently released 8B model.",
       "status": "Open weights and code",
-      "date": null,
+      "date": "2026-09-23",
       "links": [
         {
           "label": "GitHub",
@@ -1251,7 +1443,10 @@
           "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "scales",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Contrastive-LM/CLM"
     },
     {
       "id": "r066",
@@ -1260,7 +1455,7 @@
       "title": "Vev",
       "description": "Independent visual and textual decision models based on Qwen3.5, with 4B and 9B releases.",
       "status": "Open weights and code",
-      "date": null,
+      "date": "2026-09-30",
       "links": [
         {
           "label": "GitHub",
@@ -1275,7 +1470,10 @@
           "url": "https://huggingface.co/CountingSheep/vev-9b"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Xiaooolong/vev"
     },
     {
       "id": "r067",
@@ -1284,7 +1482,7 @@
       "title": "WebJev",
       "description": "Decision-model fine-tune specialized for browser actions; includes live-web data and evaluation harnesses.",
       "status": "Open weights and code",
-      "date": null,
+      "date": "2026-09-29",
       "links": [
         {
           "label": "GitHub",
@@ -1299,7 +1497,10 @@
           "url": "https://huggingface.co/datasets/Lexmount/WebJev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "browser",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/lexmount/WebJev"
     },
     {
       "id": "r068",
@@ -1308,7 +1509,7 @@
       "title": "NanoJev",
       "description": "Compact 0.6B model and training pipeline for parallel decisions in game environments; its scope is narrower than general hosted Jev.",
       "status": "Open weights and code",
-      "date": null,
+      "date": "2026-09-17",
       "links": [
         {
           "label": "GitHub",
@@ -1323,7 +1524,10 @@
           "url": "https://huggingface.co/datasets/C-Tianyu/NanoJev-Data"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/TianyuCodings/NanoJev"
     },
     {
       "id": "r069",
@@ -1332,7 +1536,7 @@
       "title": "this-that-model-1.0",
       "description": "A 2B typed-decision model with a research preprint. Reported speed and cost depend on its hardware and evaluation setup.",
       "status": "Open weights",
-      "date": null,
+      "date": "2026-09-20",
       "links": [
         {
           "label": "Weights",
@@ -1343,7 +1547,10 @@
           "url": "https://arxiv.org/abs/2609.23886"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "bolt",
+      "date_kind": "paper_submitted",
+      "date_source": "https://arxiv.org/abs/2609.23886"
     },
     {
       "id": "r070",
@@ -1352,7 +1559,7 @@
       "title": "Chinese-Jev",
       "description": "Chinese decision-model training, calibration, and evaluation code. The project lists trained Chinese-Jev weights as planned, so this entry is not a downloadable-weight release.",
       "status": "Code available; weights pending",
-      "date": null,
+      "date": "2026-09-28",
       "links": [
         {
           "label": "GitHub",
@@ -1375,7 +1582,10 @@
           "url": "https://huggingface.co/datasets/bbldCVer-hf/CJ-Dataset"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "globe",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/gulucaptain/Chinese-Jev"
     },
     {
       "id": "r071",
@@ -1384,14 +1594,17 @@
       "title": "Ollaya",
       "description": "Local runtime for pulling and serving multiple decision-model families behind a TypeSafe-compatible API. Independent of Ollama and TypeSafe.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-23",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/ollaya-dev/ollaya"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "terminal",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/ollaya-dev/ollaya"
     },
     {
       "id": "r072",
@@ -1400,14 +1613,17 @@
       "title": "AnyJev",
       "description": "Nokia Applied Research’s library for typed readouts from open LLMs, including option-bias correction and calibration modes.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-21",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/nokia-applied-research/AnyJev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/nokia-applied-research/AnyJev"
     },
     {
       "id": "r073",
@@ -1416,14 +1632,17 @@
       "title": "SemIf-OpenJev",
       "description": "Open-model option scoring and semantic conditionals; formerly named OpenJev and SemIf. This is an independent implementation.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-16",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/TheoLeeCJ/SemIf-OpenJev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "terminal",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/TheoLeeCJ/SemIf-OpenJev"
     },
     {
       "id": "r074",
@@ -1432,14 +1651,17 @@
       "title": "OpenJev SGLang",
       "description": "Prefill-only decision serving over open models using SGLang.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-17",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/ekzhang/openjev-sglang"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "terminal",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/ekzhang/openjev-sglang"
     },
     {
       "id": "r075",
@@ -1448,14 +1670,17 @@
       "title": "OpenJev — DiffusionGemma",
       "description": "Independent TypeSafe-compatible server reading typed decisions from DiffusionGemma, with NVIDIA and Apple silicon paths.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-18",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/razorback16/openjev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "terminal",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/razorback16/openjev"
     },
     {
       "id": "r076",
@@ -1464,14 +1689,17 @@
       "title": "open-jev — daseinlabs",
       "description": "Local Gemma option scorer using shared context and candidate sequence likelihoods.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-17",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/daseinlabs/open-jev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "terminal",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/daseinlabs/open-jev"
     },
     {
       "id": "r077",
@@ -1480,14 +1708,17 @@
       "title": "Jevlike",
       "description": "Independent model and training starter that scores a changing set of candidate options in one pass.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-16",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/vinnylarouge/jevlike"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "terminal",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/vinnylarouge/jevlike"
     },
     {
       "id": "r078",
@@ -1496,7 +1727,7 @@
       "title": "JevBench",
       "description": "Independent multi-model benchmark with versioned scoring and results. Composite rankings depend on the published accuracy, calibration, latency, and cost methodology.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-19",
       "links": [
         {
           "label": "GitHub",
@@ -1507,7 +1738,10 @@
           "url": "https://www.benchmarkheaven.com/jev-models"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/fstandhartinger/jevbench"
     },
     {
       "id": "r079",
@@ -1516,7 +1750,7 @@
       "title": "Jevals",
       "description": "Public benchmark suites and per-decision results for hosted Jev and comparator models.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-18",
       "links": [
         {
           "label": "GitHub",
@@ -1531,7 +1765,10 @@
           "url": "https://jevals.com/methodology/"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Jevals/jevals-data"
     },
     {
       "id": "r080",
@@ -1540,14 +1777,17 @@
       "title": "Jev Decision Index",
       "description": "Interactive community comparison of decision-model systems hosted as a Hugging Face Space.",
       "status": "Benchmark",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Hugging Face Space",
           "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "gauge",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
     },
     {
       "id": "r081",
@@ -1556,14 +1796,17 @@
       "title": "Janus",
       "description": "Calibration and cascade experiments using Jev and a larger fallback model on labeled classification tasks.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-17",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/FirasSX914/Janus"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/FirasSX914/Janus"
     },
     {
       "id": "r082",
@@ -1572,14 +1815,17 @@
       "title": "jev-certify",
       "description": "Conformal routing and auditing toolkit with a CLINC150 study; its guarantees depend on calibration and deployment assumptions.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-21",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/nikkoxgonzales/jev-certify"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/nikkoxgonzales/jev-certify"
     },
     {
       "id": "r083",
@@ -1588,7 +1834,7 @@
       "title": "Jev benchmarking — AppliedMachineLearning-Lab",
       "description": "Code accompanying the 37-dataset Jev evaluation; keep model versions and request templates fixed when reproducing it.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-24",
       "links": [
         {
           "label": "GitHub",
@@ -1599,7 +1845,10 @@
           "url": "https://arxiv.org/abs/2609.37647"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/AppliedMachineLearning-Lab/jev-benchmarking"
     },
     {
       "id": "r084",
@@ -1608,7 +1857,7 @@
       "title": "RLCDAlignBench",
       "description": "Benchmark of typed decisions for detecting alignment failures, with code and data linked from its paper.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-24",
       "links": [
         {
           "label": "GitHub",
@@ -1619,7 +1868,10 @@
           "url": "https://arxiv.org/abs/2609.29429"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "shield",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/sumleo/RLCDAlignBench"
     },
     {
       "id": "r085",
@@ -1628,7 +1880,7 @@
       "title": "JevOut",
       "description": "Research code for testing whether natural-looking context changes can redirect a decision model.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-24",
       "links": [
         {
           "label": "GitHub",
@@ -1643,7 +1895,10 @@
           "url": "https://xzx34.github.io/jevout/"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "shield",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/xzx34/JevOut"
     },
     {
       "id": "r086",
@@ -1652,14 +1907,17 @@
       "title": "Jev Cookbook",
       "description": "Runnable recipes for support triage, classification, search, data cleanup, and browser actions.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-19",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/nexibeo/jev-cookbook"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "gamepad",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/nexibeo/jev-cookbook"
     },
     {
       "id": "r087",
@@ -1668,14 +1926,17 @@
       "title": "Jev Explained",
       "description": "Interactive educational playground for observing typed decisions and probabilities.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-19",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/davila7/jev-explained"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "gamepad",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/davila7/jev-explained"
     },
     {
       "id": "r088",
@@ -1684,14 +1945,17 @@
       "title": "Jev Showcase",
       "description": "Unofficial operator lab, smart-home examples, and a TypeScript harness.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-19",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/cobusgreyling/Jev"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "gamepad",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/cobusgreyling/Jev"
     },
     {
       "id": "r089",
@@ -1700,14 +1964,17 @@
       "title": "JEV-Star",
       "description": "Research implementation combining Jev action selection with longer-horizon StarCraft II planning.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-22",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/sc2musa/Jev_Star"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "gamepad",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/sc2musa/Jev_Star"
     },
     {
       "id": "r090",
@@ -1716,14 +1983,17 @@
       "title": "Jev chat",
       "description": "Character-by-character generation experiment built on a decision interface; deliberately illustrates an awkward use case.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-20",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/kyle-pena-nlp/jevchat"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "gamepad",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/kyle-pena-nlp/jevchat"
     },
     {
       "id": "r091",
@@ -1732,14 +2002,17 @@
       "title": "Jev Leftpad",
       "description": "Satirical package that uses model decisions for string padding.",
       "status": "Open-source code",
-      "date": null,
+      "date": "2026-09-21",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/f/jev-leftpad"
         }
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "icon": "gamepad",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/f/jev-leftpad"
     },
     {
       "id": "r092",
@@ -1769,7 +2042,10 @@
         "Deußer, Tobias",
         "Sparrenberg, Lorenz",
         "Sifa, Rafet"
-      ]
+      ],
+      "icon": "compass",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.37647"
     },
     {
       "id": "r093",
@@ -1794,7 +2070,10 @@
       "authors": [
         "Ibrahim, Hazem",
         "Zaki, Yasir"
-      ]
+      ],
+      "icon": "compass",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.24574"
     },
     {
       "id": "r094",
@@ -1820,7 +2099,10 @@
         "Ling, Guoming",
         "Xue, Muen",
         "Ye, Zijian"
-      ]
+      ],
+      "icon": "compass",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.30216"
     },
     {
       "id": "r095",
@@ -1845,7 +2127,10 @@
       "authors": [
         "Tang, Lijuan",
         "Zheng, Yuemeng"
-      ]
+      ],
+      "icon": "compass",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.32160"
     },
     {
       "id": "r096",
@@ -1871,7 +2156,10 @@
         "Li, Keyi",
         "He, Yihao",
         "Li, Quanyi"
-      ]
+      ],
+      "icon": "scales",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.33209"
     },
     {
       "id": "r097",
@@ -1898,7 +2186,10 @@
         "Miao, Yidi",
         "Krishnan, Ramayya",
         "Padman, Rema"
-      ]
+      ],
+      "icon": "scales",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.26550"
     },
     {
       "id": "r098",
@@ -1925,7 +2216,10 @@
         "Xu, Junhao",
         "Shi, Jiajia",
         "Yang, Zijin"
-      ]
+      ],
+      "icon": "scales",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.26758"
     },
     {
       "id": "r099",
@@ -1961,7 +2255,10 @@
         "Chen, Simin",
         "Zhang, Ying",
         "Zhang, Leo Yu"
-      ]
+      ],
+      "icon": "scales",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.29429"
     },
     {
       "id": "r100",
@@ -1986,7 +2283,10 @@
       "authors": [
         "Rao, Delip",
         "Callison-Burch, Chris"
-      ]
+      ],
+      "icon": "scales",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.29769"
     },
     {
       "id": "r101",
@@ -2011,7 +2311,10 @@
       "authors": [
         "Wu, Tiantong",
         "Lim, Wei Yang Bryan"
-      ]
+      ],
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.28613"
     },
     {
       "id": "r102",
@@ -2035,7 +2338,10 @@
       "arxiv_id": "2609.28940",
       "authors": [
         "Barbosa, Joas Antonio dos Santos"
-      ]
+      ],
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.28940"
     },
     {
       "id": "r103",
@@ -2067,7 +2373,10 @@
       "arxiv_id": "2609.30243",
       "authors": [
         "Xu, Zixiang"
-      ]
+      ],
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.30243"
     },
     {
       "id": "r104",
@@ -2092,7 +2401,10 @@
       "authors": [
         "Su, Haoyang",
         "Huang, Weiran"
-      ]
+      ],
+      "icon": "brain",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.00437"
     },
     {
       "id": "r105",
@@ -2122,7 +2434,10 @@
         "Jiang, Dongming",
         "Li, Yi",
         "Li, Bingzhe"
-      ]
+      ],
+      "icon": "brain",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.23986"
     },
     {
       "id": "r106",
@@ -2147,7 +2462,10 @@
       "authors": [
         "Wu, Tiantong",
         "Lim, Wei Yang Bryan"
-      ]
+      ],
+      "icon": "brain",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.26532"
     },
     {
       "id": "r107",
@@ -2178,7 +2496,10 @@
         "Zhao, Liangbing",
         "Zeng, Yongcheng",
         "Zhao, Jian"
-      ]
+      ],
+      "icon": "gamepad",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.27331"
     },
     {
       "id": "r108",
@@ -2204,7 +2525,10 @@
         "Kwartler, Ted",
         "Aqrawi, Alan",
         "Abbasi, Arian"
-      ]
+      ],
+      "icon": "coins",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.28919"
     },
     {
       "id": "r109",
@@ -2228,7 +2552,10 @@
       "arxiv_id": "2609.30186",
       "authors": [
         "Zhang, Linghua"
-      ]
+      ],
+      "icon": "phone",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.30186"
     },
     {
       "id": "r110",
@@ -2258,7 +2585,10 @@
         "Cheng, Zehua",
         "Dai, Wei",
         "Sun, Jiahao"
-      ]
+      ],
+      "icon": "chip",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.23886"
     },
     {
       "id": "r111",
@@ -2284,7 +2614,10 @@
         "Dağlı, Volkan",
         "Dağlı, Zerrin",
         "Dağlı, Dağhan"
-      ]
+      ],
+      "icon": "chip",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.25498"
     },
     {
       "id": "r112",
@@ -2313,7 +2646,10 @@
       "authors": [
         "Yu, Guanxu",
         "Yao, Yuhang"
-      ]
+      ],
+      "icon": "eye",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.25845"
     },
     {
       "id": "r113",
@@ -2343,7 +2679,10 @@
         "Ye, Weiwei",
         "Liu, Hangchen",
         "Jiang, Renhe"
-      ]
+      ],
+      "icon": "chip",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.28587"
     },
     {
       "id": "r114",
@@ -2369,7 +2708,10 @@
         "Zhou, Xunlan",
         "Yang, Xianliang",
         "Zhao, Li"
-      ]
+      ],
+      "icon": "eye",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.29283"
     },
     {
       "id": "r115",
@@ -2394,7 +2736,10 @@
       "authors": [
         "Kourtis, Michail-Alexandros",
         "Xilouris, George"
-      ]
+      ],
+      "icon": "network",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.33689"
     },
     {
       "id": "r116",
@@ -2422,7 +2767,10 @@
         "Gong, Haochen",
         "Lang, Rui",
         "Yu, Guangsheng"
-      ]
+      ],
+      "icon": "network",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.22753"
     },
     {
       "id": "r117",
@@ -2450,7 +2798,10 @@
         "Gong, Haochen",
         "Lang, Rui",
         "Yu, Guangsheng"
-      ]
+      ],
+      "icon": "network",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.23136"
     },
     {
       "id": "r118",
@@ -2489,7 +2840,10 @@
         "Zhao, Haoyu",
         "Wu, Zuxuan",
         "Yan, Shuicheng"
-      ]
+      ],
+      "icon": "globe",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.36965"
     },
     {
       "id": "r119",
@@ -2521,7 +2875,10 @@
         "Duong, Tommy",
         "Zhang, Yuxin",
         "Tiangratanakul, Neo"
-      ]
+      ],
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.23959"
     },
     {
       "id": "r120",
@@ -2546,7 +2903,10 @@
       "authors": [
         "Rafe, Amir",
         "Das, Subasish"
-      ]
+      ],
+      "icon": "globe",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.24052"
     },
     {
       "id": "r121",
@@ -2570,7 +2930,10 @@
       "arxiv_id": "2609.24395",
       "authors": [
         "Robitza, Werner"
-      ]
+      ],
+      "icon": "video",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.24395"
     },
     {
       "id": "r122",
@@ -2597,7 +2960,10 @@
         "Fan, Shuyi",
         "Zhang, Hongyang",
         "Xie, Xinhong"
-      ]
+      ],
+      "icon": "globe",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.24965"
     },
     {
       "id": "r123",
@@ -2625,7 +2991,10 @@
       "arxiv_id": "2609.27535",
       "authors": [
         "Li, Hengyu"
-      ]
+      ],
+      "icon": "globe",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.27535"
     },
     {
       "id": "r124",
@@ -2657,7 +3026,10 @@
         "Chen, Shaobin",
         "Sun, Yue",
         "Tan, Tao"
-      ]
+      ],
+      "icon": "heart",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.27607"
     },
     {
       "id": "r125",
@@ -2698,7 +3070,10 @@
         "Chen, Yu",
         "Nakov, Preslav",
         "He, Songwei"
-      ]
+      ],
+      "icon": "scales",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.27678"
     },
     {
       "id": "r126",
@@ -2722,7 +3097,10 @@
       "arxiv_id": "2503.23303",
       "authors": [
         "Nandakishor M"
-      ]
+      ],
+      "icon": "history",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2503.23303"
     },
     {
       "id": "r127",
@@ -2746,7 +3124,10 @@
       "arxiv_id": "2510.01237",
       "authors": [
         "Nandakishor M"
-      ]
+      ],
+      "icon": "history",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2510.01237"
     }
   ]
 }

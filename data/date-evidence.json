@@ -1,0 +1,349 @@
+{
+  "checked_on": "2026-10-03",
+  "note": "GitHub repository creation timestamps are not public-release dates. Dates are UTC. Other publication/submission sources are recorded directly on catalog entries.",
+  "records": [
+    {
+      "resource_id": "r037",
+      "timestamp": "2026-09-17T06:56:37Z",
+      "source": "https://api.github.com/repos/AbdelStark/awesome-typesafe-jev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r038",
+      "timestamp": "2026-09-19T05:14:36Z",
+      "source": "https://api.github.com/repos/heyjunpenn/awesome-jev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r039",
+      "timestamp": "2026-09-18T12:09:59Z",
+      "source": "https://api.github.com/repos/Amal-David/awesome-jev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r040",
+      "timestamp": "2026-09-04T21:01:31Z",
+      "source": "https://api.github.com/repos/typesafe-ai/typesafe-sdk-python",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r041",
+      "timestamp": "2026-09-04T22:16:47Z",
+      "source": "https://api.github.com/repos/typesafe-ai/typesafe-sdk-js",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r042",
+      "timestamp": "2026-08-24T23:58:39Z",
+      "source": "https://api.github.com/repos/typesafe-ai/skills",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r043",
+      "timestamp": "2026-08-08T22:59:50Z",
+      "source": "https://api.github.com/repos/typesafe-ai/system-one-adapter-python",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r044",
+      "timestamp": "2026-09-28T23:18:18Z",
+      "source": "https://api.github.com/repos/typesafe-ai/WorkflowEvals",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r045",
+      "timestamp": "2026-09-23T00:17:24Z",
+      "source": "https://api.github.com/repos/typesafe-ai/n8n-nodes-typesafe-ai",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r050",
+      "timestamp": "2026-09-16T21:30:12Z",
+      "source": "https://api.github.com/repos/browser-use/jev-ultrafast",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r051",
+      "timestamp": "2026-09-17T19:22:28Z",
+      "source": "https://api.github.com/repos/jkudish/jev-browser",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r052",
+      "timestamp": "2026-09-16T17:24:16Z",
+      "source": "https://api.github.com/repos/blakestone-x/jev-mcp",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r053",
+      "timestamp": "2026-09-17T02:25:38Z",
+      "source": "https://api.github.com/repos/jkudish/jev-mcp",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r054",
+      "timestamp": "2026-09-20T05:27:53Z",
+      "source": "https://api.github.com/repos/libingzheren/Jev-Mem",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r055",
+      "timestamp": "2026-09-20T04:10:55Z",
+      "source": "https://api.github.com/repos/prasanthj/duckdb-jev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r056",
+      "timestamp": "2026-09-17T20:04:00Z",
+      "source": "https://api.github.com/repos/realZachi/pg-jev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r057",
+      "timestamp": "2026-09-18T08:32:22Z",
+      "source": "https://api.github.com/repos/okooo5km/jev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r058",
+      "timestamp": "2026-09-19T02:48:25Z",
+      "source": "https://api.github.com/repos/jevkit/jev-java",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r059",
+      "timestamp": "2026-09-20T18:33:39Z",
+      "source": "https://api.github.com/repos/realbogart/jev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r060",
+      "timestamp": "2026-09-18T04:46:33Z",
+      "source": "https://api.github.com/repos/NandhaKishorM/laya",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r061",
+      "timestamp": "2026-09-17T20:49:39Z",
+      "source": "https://api.github.com/repos/jaredpalmer/kev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r062",
+      "timestamp": "2026-09-18T09:07:48Z",
+      "source": "https://api.github.com/repos/bespokelabsai/nimble",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r063",
+      "timestamp": "2026-09-28T16:18:39Z",
+      "source": "https://api.github.com/repos/firelex/jeff",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r064",
+      "timestamp": "2026-09-29T09:56:47Z",
+      "source": "https://api.github.com/repos/PostHog/jeeves",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r065",
+      "timestamp": "2026-09-23T19:29:56Z",
+      "source": "https://api.github.com/repos/Contrastive-LM/CLM",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r066",
+      "timestamp": "2026-09-30T12:29:37Z",
+      "source": "https://api.github.com/repos/Xiaooolong/vev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r067",
+      "timestamp": "2026-09-29T06:59:02Z",
+      "source": "https://api.github.com/repos/lexmount/WebJev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r068",
+      "timestamp": "2026-09-17T16:08:30Z",
+      "source": "https://api.github.com/repos/TianyuCodings/NanoJev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r070",
+      "timestamp": "2026-09-28T16:54:06Z",
+      "source": "https://api.github.com/repos/gulucaptain/Chinese-Jev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r071",
+      "timestamp": "2026-09-23T22:11:15Z",
+      "source": "https://api.github.com/repos/ollaya-dev/ollaya",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r072",
+      "timestamp": "2026-09-21T05:55:40Z",
+      "source": "https://api.github.com/repos/nokia-applied-research/AnyJev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r073",
+      "timestamp": "2026-09-16T03:51:21Z",
+      "source": "https://api.github.com/repos/TheoLeeCJ/SemIf-OpenJev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r074",
+      "timestamp": "2026-09-17T18:11:49Z",
+      "source": "https://api.github.com/repos/ekzhang/openjev-sglang",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r075",
+      "timestamp": "2026-09-18T09:15:33Z",
+      "source": "https://api.github.com/repos/razorback16/openjev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r076",
+      "timestamp": "2026-09-17T06:22:35Z",
+      "source": "https://api.github.com/repos/daseinlabs/open-jev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r077",
+      "timestamp": "2026-09-16T10:26:01Z",
+      "source": "https://api.github.com/repos/vinnylarouge/jevlike",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r078",
+      "timestamp": "2026-09-19T07:07:36Z",
+      "source": "https://api.github.com/repos/fstandhartinger/jevbench",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r079",
+      "timestamp": "2026-09-18T21:36:00Z",
+      "source": "https://api.github.com/repos/Jevals/jevals-data",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r081",
+      "timestamp": "2026-09-17T12:44:54Z",
+      "source": "https://api.github.com/repos/FirasSX914/Janus",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r082",
+      "timestamp": "2026-09-21T21:26:59Z",
+      "source": "https://api.github.com/repos/nikkoxgonzales/jev-certify",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r083",
+      "timestamp": "2026-09-24T17:10:12Z",
+      "source": "https://api.github.com/repos/AppliedMachineLearning-Lab/jev-benchmarking",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r084",
+      "timestamp": "2026-09-24T10:26:08Z",
+      "source": "https://api.github.com/repos/sumleo/RLCDAlignBench",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r085",
+      "timestamp": "2026-09-24T10:33:42Z",
+      "source": "https://api.github.com/repos/xzx34/JevOut",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r086",
+      "timestamp": "2026-09-19T10:10:45Z",
+      "source": "https://api.github.com/repos/nexibeo/jev-cookbook",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r087",
+      "timestamp": "2026-09-19T11:46:20Z",
+      "source": "https://api.github.com/repos/davila7/jev-explained",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r088",
+      "timestamp": "2026-09-19T10:35:48Z",
+      "source": "https://api.github.com/repos/cobusgreyling/Jev",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r089",
+      "timestamp": "2026-09-22T15:15:26Z",
+      "source": "https://api.github.com/repos/sc2musa/Jev_Star",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r090",
+      "timestamp": "2026-09-20T01:55:44Z",
+      "source": "https://api.github.com/repos/kyle-pena-nlp/jevchat",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    },
+    {
+      "resource_id": "r091",
+      "timestamp": "2026-09-21T08:34:36Z",
+      "source": "https://api.github.com/repos/f/jev-leftpad",
+      "field": "created_at",
+      "checked_on": "2026-10-03"
+    }
+  ]
+}
