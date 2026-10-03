@@ -1,0 +1,24 @@
+{
+  "department": {
+    "type": "choice",
+    "instructions": "Classify the customer's main support topic.",
+    "criteria": {
+      "billing": "Charges, invoices, subscriptions, payments or refunds",
+      "technical": "Software bugs, broken integrations, login or export failures",
+      "other": "Press inquiries, company information, newsletters or public reports"
+    }
+  },
+  "urgency": {
+    "type": "score",
+    "instructions": "How urgent is this ticket, based only on stated deadlines and blocking impact?",
+    "criteria": [
+      "Not urgent: no deadline or blocking impact",
+      "Soon: non-blocking issue needs attention in the next few days",
+      "Immediate: a deadline is imminent or the customer cannot continue"
+    ]
+  },
+  "refund_requested": {
+    "type": "noul",
+    "instructions": "Does the customer explicitly request money back?"
+  }
+}

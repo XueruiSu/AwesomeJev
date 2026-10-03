@@ -11,3 +11,8 @@ __pycache__/
 /data/link-checks.json
 /docs/plans/
 /assets/ARTWORK.md
+
+# Hands-on experiment environments and raw run records
+/tutorials/jev-hands-on/.venv/
+/tutorials/jev-hands-on/runs/
+/tutorials/jev-hands-on/.work/
