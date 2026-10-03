@@ -1,0 +1,133 @@
+{
+  "observed_on": "2026-10-03",
+  "method": "Hacker News Algolia search for jev, stories only, sorted by points within the retrieved candidates. Not a complete platform-wide ranking.",
+  "query_url": "https://hn.algolia.com/api/v1/search?query=jev&tags=story&hitsPerPage=50",
+  "items": [
+    {
+      "title": "Introducing System One Models and Jev",
+      "discussion_url": "https://news.ycombinator.com/item?id=49717558",
+      "platform": "Hacker News",
+      "points": 1989,
+      "comments": 520,
+      "observed_on": "2026-10-03",
+      "source": "https://hn.algolia.com/api/v1/items/49717558"
+    },
+    {
+      "title": "Jev in 25 Lines of Python",
+      "discussion_url": "https://news.ycombinator.com/item?id=49812769",
+      "platform": "Hacker News",
+      "points": 691,
+      "comments": 212,
+      "observed_on": "2026-10-03",
+      "source": "https://hn.algolia.com/api/v1/items/49812769"
+    },
+    {
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "discussion_url": "https://news.ycombinator.com/item?id=49848269",
+      "platform": "Hacker News",
+      "points": 617,
+      "comments": 145,
+      "observed_on": "2026-10-03",
+      "source": "https://hn.algolia.com/api/v1/items/49848269"
+    },
+    {
+      "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+      "discussion_url": "https://news.ycombinator.com/item?id=49883844",
+      "platform": "Hacker News",
+      "points": 574,
+      "comments": 225,
+      "observed_on": "2026-10-03",
+      "source": "https://hn.algolia.com/api/v1/items/49883844"
+    },
+    {
+      "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+      "discussion_url": "https://news.ycombinator.com/item?id=49783999",
+      "platform": "Hacker News",
+      "points": 462,
+      "comments": 211,
+      "observed_on": "2026-10-03",
+      "source": "https://hn.algolia.com/api/v1/items/49783999"
+    },
+    {
+      "title": "OpenAI is well positioned to fast-follow Jev",
+      "discussion_url": "https://news.ycombinator.com/item?id=49802161",
+      "platform": "Hacker News",
+      "points": 328,
+      "comments": 233,
+      "observed_on": "2026-10-03",
+      "source": "https://hn.algolia.com/api/v1/items/49802161"
+    },
+    {
+      "title": "Show HN: Jev Plays Pokémon Red",
+      "discussion_url": "https://news.ycombinator.com/item?id=49845172",
+      "platform": "Hacker News",
+      "points": 282,
+      "comments": 124,
+      "observed_on": "2026-10-03",
+      "source": "https://hn.algolia.com/api/v1/items/49845172"
+    },
+    {
+      "title": "Jeeves. Reasoning improves Jev-like decision models",
+      "discussion_url": "https://news.ycombinator.com/item?id=49891290",
+      "platform": "Hacker News",
+      "points": 242,
+      "comments": 95,
+      "observed_on": "2026-10-03",
+      "source": "https://hn.algolia.com/api/v1/items/49891290"
+    },
+    {
+      "title": "Jev-Leftpad",
+      "discussion_url": "https://news.ycombinator.com/item?id=49784706",
+      "platform": "Hacker News",
+      "points": 234,
+      "comments": 87,
+      "observed_on": "2026-10-03",
+      "source": "https://hn.algolia.com/api/v1/items/49784706"
+    },
+    {
+      "title": "Language models for text classification: From bag-of-words to Jev",
+      "discussion_url": "https://news.ycombinator.com/item?id=49891203",
+      "platform": "Hacker News",
+      "points": 213,
+      "comments": 10,
+      "observed_on": "2026-10-03",
+      "source": "https://hn.algolia.com/api/v1/items/49891203"
+    },
+    {
+      "title": "I turned Jev into a (lousy) chatbot",
+      "discussion_url": "https://news.ycombinator.com/item?id=49778162",
+      "platform": "Hacker News",
+      "points": 177,
+      "comments": 50,
+      "observed_on": "2026-10-03",
+      "source": "https://hn.algolia.com/api/v1/items/49778162"
+    },
+    {
+      "title": "Reverse-engineered Jev-like model",
+      "discussion_url": "https://news.ycombinator.com/item?id=49731282",
+      "platform": "Hacker News",
+      "points": 169,
+      "comments": 24,
+      "observed_on": "2026-10-03",
+      "source": "https://hn.algolia.com/api/v1/items/49731282"
+    },
+    {
+      "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+      "discussion_url": "https://news.ycombinator.com/item?id=49800574",
+      "platform": "Hacker News",
+      "points": 153,
+      "comments": 39,
+      "observed_on": "2026-10-03",
+      "source": "https://hn.algolia.com/api/v1/items/49800574"
+    },
+    {
+      "title": "Jev Can't Be Calibrated",
+      "discussion_url": "https://news.ycombinator.com/item?id=49816899",
+      "platform": "Hacker News",
+      "points": 65,
+      "comments": 61,
+      "observed_on": "2026-10-03",
+      "source": "https://hn.algolia.com/api/v1/items/49816899"
+    }
+  ]
+}

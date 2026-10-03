@@ -1,0 +1,1206 @@
+{
+  "checked_on": "2026-10-03",
+  "method": "Unauthenticated HTTP HEAD with redirects; 12-second per-URL timeout. Access failures are not proof of a missing resource. Content verification used original pages, metadata and indexed pages separately.",
+  "urls": [
+    {
+      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+      "status_code": 200,
+      "final_url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.23303",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2503.23303",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.01237",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2510.01237",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.22753",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.22753",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.23136",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.23136",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.23886",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.23886",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.23959",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.23959",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.23986",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.23986",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.24052",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.24052",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.24395",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.24395",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.24574",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.24574",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.24965",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.24965",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.25498",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.25498",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.25845",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.25845",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.26532",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.26532",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.26550",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.26550",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.26758",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.26758",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.27331",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.27331",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.27535",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.27535",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.27607",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.27607",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.27678",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.27678",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.28587",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.28587",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.28613",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.28613",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.28919",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.28919",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.28940",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.28940",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.29283",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.29283",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.29429",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.29429",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.29769",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.29769",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30186",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.30186",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30216",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.30216",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30243",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.30243",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.32160",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.32160",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.33209",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.33209",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.33689",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.33689",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.36965",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.36965",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.37647",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2609.37647",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.00437",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/abs/2610.00437",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2503.23303",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/pdf/2503.23303",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2510.01237",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/pdf/2510.01237",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.22753",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/pdf/2609.22753",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.23136",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/pdf/2609.23136",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.23886",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/pdf/2609.23886",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.23959",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/pdf/2609.23959",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.23986",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/pdf/2609.23986",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.24052",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.24052",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.24395",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/pdf/2609.24395",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.24574",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/pdf/2609.24574",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.24965",
+      "status_code": 200,
+      "final_url": "https://arxiv.org/pdf/2609.24965",
+      "result": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.25498",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.25498",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.25845",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.25845",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.26532",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.26532",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.26550",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.26550",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.26758",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.26758",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.27331",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.27331",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.27535",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.27535",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.27607",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.27607",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.27678",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.27678",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.28587",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.28587",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.28613",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.28613",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.28919",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.28919",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.28940",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.28940",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.29283",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.29283",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.29429",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.29429",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.29769",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.29769",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.30186",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.30186",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.30216",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.30216",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.30243",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.30243",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.32160",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.32160",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.33209",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.33209",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.33689",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.33689",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.36965",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.36965",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.37647",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2609.37647",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2610.00437",
+      "status_code": 0,
+      "final_url": "https://arxiv.org/pdf/2610.00437",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://benchmarkheaven.com/jev-models",
+      "status_code": 200,
+      "final_url": "https://benchmarkheaven.com/jev-models",
+      "result": "reachable"
+    },
+    {
+      "url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "status_code": 200,
+      "final_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "status_code": 200,
+      "final_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://docs.typesafe.ai/confidence",
+      "status_code": 200,
+      "final_url": "https://docs.typesafe.ai/confidence",
+      "result": "reachable"
+    },
+    {
+      "url": "https://docs.typesafe.ai/cookbooks",
+      "status_code": 200,
+      "final_url": "https://docs.typesafe.ai/cookbooks",
+      "result": "reachable"
+    },
+    {
+      "url": "https://docs.typesafe.ai/introduction",
+      "status_code": 200,
+      "final_url": "https://docs.typesafe.ai/introduction",
+      "result": "reachable"
+    },
+    {
+      "url": "https://docs.typesafe.ai/llms.txt",
+      "status_code": 200,
+      "final_url": "https://docs.typesafe.ai/llms.txt",
+      "result": "reachable"
+    },
+    {
+      "url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+      "status_code": 200,
+      "final_url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+      "result": "reachable"
+    },
+    {
+      "url": "https://docs.typesafe.ai/models",
+      "status_code": 200,
+      "final_url": "https://docs.typesafe.ai/models",
+      "result": "reachable"
+    },
+    {
+      "url": "https://docs.typesafe.ai/primitives",
+      "status_code": 200,
+      "final_url": "https://docs.typesafe.ai/primitives",
+      "result": "reachable"
+    },
+    {
+      "url": "https://evals.typesafe.ai/",
+      "status_code": 200,
+      "final_url": "https://evals.typesafe.ai/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/AbdelStark/awesome-typesafe-jev",
+      "status_code": 200,
+      "final_url": "https://github.com/AbdelStark/awesome-typesafe-jev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/Amal-David/awesome-jev",
+      "status_code": 200,
+      "final_url": "https://github.com/Amal-David/awesome-jev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/AppliedMachineLearning-Lab/jev-benchmarking",
+      "status_code": 200,
+      "final_url": "https://github.com/AppliedMachineLearning-Lab/jev-benchmarking",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/Bring-AI/jev-numeric",
+      "status_code": 200,
+      "final_url": "https://github.com/Bring-AI/JevNext",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/Contrastive-LM/CLM",
+      "status_code": 200,
+      "final_url": "https://github.com/Contrastive-LM/CLM",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/FirasSX914/Janus",
+      "status_code": 200,
+      "final_url": "https://github.com/FirasSX914/Janus",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/HengyuLi-Ozaki-lab/kite_population_simulator",
+      "status_code": 200,
+      "final_url": "https://github.com/HengyuLi-Ozaki-lab/kite_population_simulator",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/Jevals/jevals-data",
+      "status_code": 200,
+      "final_url": "https://github.com/Jevals/jevals-data",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/NandhaKishorM/laya",
+      "status_code": 200,
+      "final_url": "https://github.com/NandhaKishorM/laya",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/PostHog/jeeves",
+      "status_code": 200,
+      "final_url": "https://github.com/PostHog/jeeves",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
+      "status_code": 200,
+      "final_url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/TianyuCodings/NanoJev",
+      "status_code": 200,
+      "final_url": "https://github.com/TianyuCodings/NanoJev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/Xiaooolong/vev",
+      "status_code": 200,
+      "final_url": "https://github.com/Xiaooolong/vev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/ZF-Utokyo/Jev-Benchmark",
+      "status_code": 200,
+      "final_url": "https://github.com/ZF-Utokyo/Jev-Benchmark",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/bespokelabsai/nimble",
+      "status_code": 200,
+      "final_url": "https://github.com/bespokelabsai/nimble",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/blakestone-x/jev-mcp",
+      "status_code": 200,
+      "final_url": "https://github.com/blakestone-x/jev-mcp",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "status_code": 200,
+      "final_url": "https://github.com/browser-use/jev-ultrafast",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/cobusgreyling/Jev",
+      "status_code": 200,
+      "final_url": "https://github.com/cobusgreyling/Jev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/daseinlabs/open-jev",
+      "status_code": 200,
+      "final_url": "https://github.com/daseinlabs/open-jev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/davila7/jev-explained",
+      "status_code": 200,
+      "final_url": "https://github.com/davila7/jev-explained",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/ekzhang/openjev-sglang",
+      "status_code": 200,
+      "final_url": "https://github.com/ekzhang/openjev-sglang",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/f/jev-leftpad",
+      "status_code": 200,
+      "final_url": "https://github.com/f/jev-leftpad",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/firelex/jeff",
+      "status_code": 200,
+      "final_url": "https://github.com/firelex/jeff",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/fstandhartinger/jevbench",
+      "status_code": 200,
+      "final_url": "https://github.com/fstandhartinger/jevbench",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/guanxuyu-sv/Visual-Jev",
+      "status_code": 200,
+      "final_url": "https://github.com/guanxuyu-sv/Visual-Jev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/gulucaptain/Chinese-Jev",
+      "status_code": 200,
+      "final_url": "https://github.com/gulucaptain/Chinese-Jev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/heyjunpenn/awesome-jev",
+      "status_code": 200,
+      "final_url": "https://github.com/heyjunpenn/awesome-jev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/jaredpalmer/kev",
+      "status_code": 200,
+      "final_url": "https://github.com/jaredpalmer/kev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/jaredpalmer/kev/tree/main",
+      "status_code": 200,
+      "final_url": "https://github.com/jaredpalmer/kev/tree/main",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/jevkit/jev-java",
+      "status_code": 200,
+      "final_url": "https://github.com/jevkit/jev-java",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/jkudish/jev-browser",
+      "status_code": 200,
+      "final_url": "https://github.com/jkudish/jev-browser",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/jkudish/jev-mcp",
+      "status_code": 200,
+      "final_url": "https://github.com/jkudish/jev-mcp",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/kyle-pena-nlp/jevchat",
+      "status_code": 200,
+      "final_url": "https://github.com/kyle-pena-nlp/jevchat",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/kyle-pena-nlp/jevchat/",
+      "status_code": 200,
+      "final_url": "https://github.com/kyle-pena-nlp/jevchat/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/lexmount/WebJev",
+      "status_code": 200,
+      "final_url": "https://github.com/lexmount/WebJev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/libingzheren/Jev-Mem",
+      "status_code": 200,
+      "final_url": "https://github.com/libingzheren/Jev-Mem",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/nexibeo/jev-cookbook",
+      "status_code": 200,
+      "final_url": "https://github.com/nexibeo/jev-cookbook",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/nikkoxgonzales/jev-certify",
+      "status_code": 200,
+      "final_url": "https://github.com/nikkoxgonzales/jev-certify",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/nokia-applied-research/AnyJev",
+      "status_code": 200,
+      "final_url": "https://github.com/nokia-applied-research/AnyJev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/okooo5km/jev",
+      "status_code": 200,
+      "final_url": "https://github.com/okooo5km/jev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/ollaya-dev/ollaya",
+      "status_code": 200,
+      "final_url": "https://github.com/ollaya-dev/ollaya",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/prasanthj/duckdb-jev",
+      "status_code": 200,
+      "final_url": "https://github.com/prasanthj/duckdb-jev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/razorback16/openjev",
+      "status_code": 200,
+      "final_url": "https://github.com/razorback16/openjev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/realZachi/pg-jev",
+      "status_code": 200,
+      "final_url": "https://github.com/realZachi/pg-jev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/realbogart/jev",
+      "status_code": 200,
+      "final_url": "https://github.com/realbogart/jev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/sc2musa/Jev_Star",
+      "status_code": 200,
+      "final_url": "https://github.com/sc2musa/Jev_Star",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/sumleo/RLCDAlignBench",
+      "status_code": 200,
+      "final_url": "https://github.com/sumleo/RLCDAlignBench",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/typesafe-ai/WorkflowEvals",
+      "status_code": 200,
+      "final_url": "https://github.com/typesafe-ai/WorkflowEvals",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai",
+      "status_code": 200,
+      "final_url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/typesafe-ai/skills",
+      "status_code": 200,
+      "final_url": "https://github.com/typesafe-ai/skills",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/typesafe-ai/system-one-adapter-python",
+      "status_code": 200,
+      "final_url": "https://github.com/typesafe-ai/system-one-adapter-python",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/typesafe-ai/typesafe-sdk-js",
+      "status_code": 200,
+      "final_url": "https://github.com/typesafe-ai/typesafe-sdk-js",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/typesafe-ai/typesafe-sdk-python",
+      "status_code": 200,
+      "final_url": "https://github.com/typesafe-ai/typesafe-sdk-python",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/vinnylarouge/jevlike",
+      "status_code": 200,
+      "final_url": "https://github.com/vinnylarouge/jevlike",
+      "result": "reachable"
+    },
+    {
+      "url": "https://github.com/xzx34/JevOut",
+      "status_code": 200,
+      "final_url": "https://github.com/xzx34/JevOut",
+      "result": "reachable"
+    },
+    {
+      "url": "https://gulucaptain.github.io/Chinese-Jev/",
+      "status_code": 200,
+      "final_url": "https://gulucaptain.github.io/Chinese-Jev/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://huggingface.co/C-Tianyu/NanoJev",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/C-Tianyu/NanoJev",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/CountingSheep/vev-4b",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/CountingSheep/vev-4b",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/CountingSheep/vev-9b",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/CountingSheep/vev-9b",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/Lexmount/WebJev-35B-A3B",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/Lexmount/WebJev-35B-A3B",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/PostHog/jeeves",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/PostHog/jeeves",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/PostHog/jeeves-fp8",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/PostHog/jeeves-fp8",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/bespokelabs/Bespoke-Nimble-9B",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/bespokelabs/Bespoke-Nimble-9B",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/convaiinnovations/laya",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/convaiinnovations/laya",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/convaiinnovations/laya-multilingual",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/convaiinnovations/laya-multilingual",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/datasets/C-Tianyu/NanoJev-Data",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/datasets/C-Tianyu/NanoJev-Data",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/datasets/Lexmount/WebJev",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/datasets/Lexmount/WebJev",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/datasets/bbldCVer-hf/CJ-Bench",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/datasets/bbldCVer-hf/CJ-Bench",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/datasets/bbldCVer-hf/CJ-Dataset",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/datasets/bbldCVer-hf/CJ-Dataset",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/flock-io/this-that-model-1.0",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/flock-io/this-that-model-1.0",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/jaredpalmer/kev-0.8b",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/jaredpalmer/kev-0.8b",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/jaredpalmer/kev-27b",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/jaredpalmer/kev-27b",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/jaredpalmer/kev-4b",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/jaredpalmer/kev-4b",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/jaredpalmer/kev-9b",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/jaredpalmer/kev-9b",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/spaces/convaiinnovations/laya-demo",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/spaces/convaiinnovations/laya-demo",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/spaces/jaredpalmer/kev",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/spaces/jaredpalmer/kev",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
+      "status_code": 0,
+      "final_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://jev-pokemon.vercel.app/",
+      "status_code": 0,
+      "final_url": "https://jev-pokemon.vercel.app/",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://jevals.com/",
+      "status_code": 200,
+      "final_url": "https://jevals.com/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://jevals.com/methodology/",
+      "status_code": 200,
+      "final_url": "https://jevals.com/methodology/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+      "status_code": 200,
+      "final_url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49717558",
+      "status_code": 0,
+      "final_url": "https://news.ycombinator.com/item?id=49717558",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49731282",
+      "status_code": 0,
+      "final_url": "https://news.ycombinator.com/item?id=49731282",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49778162",
+      "status_code": 0,
+      "final_url": "https://news.ycombinator.com/item?id=49778162",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49783999",
+      "status_code": 0,
+      "final_url": "https://news.ycombinator.com/item?id=49783999",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49784706",
+      "status_code": 0,
+      "final_url": "https://news.ycombinator.com/item?id=49784706",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49800574",
+      "status_code": 0,
+      "final_url": "https://news.ycombinator.com/item?id=49800574",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49802161",
+      "status_code": 0,
+      "final_url": "https://news.ycombinator.com/item?id=49802161",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49812769",
+      "status_code": 0,
+      "final_url": "https://news.ycombinator.com/item?id=49812769",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49816899",
+      "status_code": 0,
+      "final_url": "https://news.ycombinator.com/item?id=49816899",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49845172",
+      "status_code": 0,
+      "final_url": "https://news.ycombinator.com/item?id=49845172",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49848269",
+      "status_code": 0,
+      "final_url": "https://news.ycombinator.com/item?id=49848269",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49883844",
+      "status_code": 0,
+      "final_url": "https://news.ycombinator.com/item?id=49883844",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49891203",
+      "status_code": 0,
+      "final_url": "https://news.ycombinator.com/item?id=49891203",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49891290",
+      "status_code": 0,
+      "final_url": "https://news.ycombinator.com/item?id=49891290",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://ollaya.dev/",
+      "status_code": 200,
+      "final_url": "https://ollaya.dev/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://openrouter.ai/labs/jev/compile",
+      "status_code": 200,
+      "final_url": "https://openrouter.ai/labs/jev/compile",
+      "result": "reachable"
+    },
+    {
+      "url": "https://sgnt.ai/p/jev/",
+      "status_code": 200,
+      "final_url": "https://sgnt.ai/p/jev/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/21/jev/",
+      "status_code": 200,
+      "final_url": "https://simonwillison.net/2026/Sep/21/jev/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://typesafe.ai/blog/ai-too-good-to-be-true-too-bad-to-be-useful-typesafe-ai",
+      "status_code": 200,
+      "final_url": "https://typesafe.ai/blog/ai-too-good-to-be-true-too-bad-to-be-useful-typesafe-ai",
+      "result": "reachable"
+    },
+    {
+      "url": "https://typesafe.ai/blog/bitterest-lesson",
+      "status_code": 200,
+      "final_url": "https://typesafe.ai/blog/bitterest-lesson",
+      "result": "reachable"
+    },
+    {
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "status_code": 200,
+      "final_url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://typesafe.ai/manifesto",
+      "status_code": 200,
+      "final_url": "https://typesafe.ai/manifesto",
+      "result": "reachable"
+    },
+    {
+      "url": "https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway",
+      "status_code": 200,
+      "final_url": "https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.alexmolas.com/2026/09/23/jev-cant-be-calibrated.html",
+      "status_code": 200,
+      "final_url": "https://www.alexmolas.com/2026/09/23/jev-cant-be-calibrated.html",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.benchmarkheaven.com/jev-models",
+      "status_code": 200,
+      "final_url": "https://www.benchmarkheaven.com/jev-models",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.browserbase.com/blog/what-is-jev",
+      "status_code": 200,
+      "final_url": "https://www.browserbase.com/blog/what-is-jev",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.distillabs.ai/blog/jev-or-a-fine-tuned-small-model-we-built-a-pipeline-with-both-to-see-the-real-difference/",
+      "status_code": 200,
+      "final_url": "https://www.distillabs.ai/blog/jev-or-a-fine-tuned-small-model-we-built-a-pipeline-with-both-to-see-the-real-difference/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.langchain.com/blog/building-a-harness-with-jev",
+      "status_code": 0,
+      "final_url": "https://www.langchain.com/blog/building-a-harness-with-jev",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/building-prod-with-jev-and-langgraph",
+      "status_code": 0,
+      "final_url": "https://www.langchain.com/blog/building-prod-with-jev-and-langgraph",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "status_code": 200,
+      "final_url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wihgum/i_literally_built_the_jev_architecture_one_year/",
+      "status_code": 0,
+      "final_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wihgum/i_literally_built_the_jev_architecture_one_year/",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woe70t/jev_isnt_new_tech_its_marketing_targets_people/",
+      "status_code": 0,
+      "final_url": "https://www.reddit.com/r/LocalLLaMA/comments/1woe70t/jev_isnt_new_tech_its_marketing_targets_people/",
+      "result": "access_unresolved"
+    },
+    {
+      "url": "https://xzx34.github.io/jevout/",
+      "status_code": 200,
+      "final_url": "https://xzx34.github.io/jevout/",
+      "result": "reachable"
+    }
+  ]
+}
