@@ -4,3 +4,10 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+# Local research snapshots, verification records, and working notes
+/data/attention-snapshot.json
+/data/date-evidence.json
+/data/link-checks.json
+/docs/plans/
+/assets/ARTWORK.md

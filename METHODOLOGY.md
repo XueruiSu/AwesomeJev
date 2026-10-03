@@ -21,7 +21,7 @@ Descriptions are original short summaries. External publications and software re
 
 ## Popularity
 
-The Hacker News subsection is sorted by points among relevant candidates returned by the public [Algolia story search](https://hn.algolia.com/api/v1/search?query=jev&tags=story&hitsPerPage=50). The query is limited to 50 hits and is not a complete search of all submissions. Counts were retrieved on 2026-10-03 and preserved in [attention-snapshot.json](data/attention-snapshot.json), with per-item source links.
+The Hacker News subsection is sorted by points among relevant candidates returned by the public [Algolia story search](https://hn.algolia.com/api/v1/search?query=jev&tags=story&hitsPerPage=50). The query is limited to 50 hits and is not a complete search of all submissions. Counts were retrieved on 2026-10-03; per-entry metrics, measurement dates, and source links are recorded in the [catalog](data/resources.json). Intermediate collection snapshots are kept locally.
 
 Points and comments indicate attention, not technical merit. The list includes humorous demonstrations and criticism with explicit labels. Blog and Reddit entries are not numerically ranked against Hacker News; Reddit vote counts were not consistently available, so none were invented. HN submission dates refer to the submission, which may differ from the original article's publication date.
 
@@ -45,14 +45,14 @@ Independent Jev-like implementations reproduce interface ideas or pursue related
 
 `data/resources.json` is the catalog source of truth; `data/news.json` holds the selected news timeline. Run `python3 scripts/render.py` after editing either to regenerate `README.md` and `references.bib`. Entries have stable identifiers, category, status, a dated event and its type, source links, a topic icon, and a check date. The overview table is calculated from the catalog. The main README deliberately repeats some projects in discussion, implementation, and paper contexts; these represent different resource types rather than additional unique projects.
 
-Check dates document source inspection, not a guarantee that every URL is reachable from every network. Access failures such as timeouts, rate limits, and bot challenges should be distinguished from confirmed missing pages. Review `data/link-checks.json` for the automated reachability snapshot, including unresolved access failures.
+Check dates document source inspection, not a guarantee that every URL is reachable from every network. Access failures such as timeouts, rate limits, and bot challenges should be distinguished from confirmed missing pages. Automated reachability snapshots and intermediate verification records are kept locally and excluded from Git.
 
 ## Dates and news
 
 Every catalog entry displays `[YYYY-MM-DD]` with an event label. `published` refers to a dated article or announcement; `submitted` refers to the first arXiv submission or the linked Hacker News submission. `repository_created` uses GitHub's UTC `created_at` metadata. It does **not** establish when a repository became public, when a model was trained, or when weights were released. `paper_submitted` dates a related paper rather than its model checkpoints. `cataloged` is the collection date used when the source's original date has not been verified.
 
-The `date_source` field identifies the supporting page or API. Repository timestamp excerpts are preserved in [date-evidence.json](data/date-evidence.json). News uses dated announcements, package release records, or original paper submissions. Laya's 2026-09-18 item is specifically the [PyPI 0.1.0 package release](https://pypi.org/project/laya/0.1.0/), verified against its [upload timestamps](https://pypi.org/pypi/laya/0.1.0/json); it is not a claim about the first checkpoint release. The timeline is selective and ordered newest first.
+The `date_source` field identifies the supporting page or API in the published catalog; intermediate timestamp excerpts are retained locally. News uses dated announcements, package release records, or original paper submissions. Laya's 2026-09-18 item is specifically the [PyPI 0.1.0 package release](https://pypi.org/project/laya/0.1.0/), verified against its [upload timestamps](https://pypi.org/pypi/laya/0.1.0/json); it is not a claim about the first checkpoint release. The timeline is selective and ordered newest first.
 
 ## Visual guide
 
-The landscape illustrates selected ecosystem themes, not a technical dependency graph or an exhaustive chronology. The logo and landscape were created with the built-in image generation tool; [artwork notes and prompts](assets/ARTWORK.md) document them. Small SVG icons identify topics such as models, memory, vision, calibration, and security; they are independent directory artwork, not official project logos.
+The landscape illustrates selected ecosystem themes, not a technical dependency graph or an exhaustive chronology. The logo and landscape were created with the built-in image generation tool; artwork prompts and design notes are retained locally. Small SVG icons identify topics such as models, memory, vision, calibration, and security; they are independent directory artwork, not official project logos.
