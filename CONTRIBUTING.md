@@ -13,6 +13,8 @@ Additions, corrections, updated release links, and broken-link reports are welco
 
 Choose an existing topic `icon` from `assets/icons/`, or add an original SVG pictogram in the same style. Keep filenames stable. Add significant dated announcements to `data/news.json`, including a source link and a precise description of the event. The renderer updates the overview counts automatically; do not edit those counts by hand.
 
+Include each work's GitHub repository in its source links when available. The renderer automatically adds a clickable Shields.io star-count badge beside GitHub repository links, including links to repository subdirectories. Counts refresh through Shields.io and may be cached; do not hard-code star counts or add badge URLs to the catalog data.
+
 Keep intermediate research snapshots, link-check reports, date-evidence extracts, artwork prompts, and design/change notes local. Respect `.gitignore` and never force-add these working files. Publish the catalog (`data/resources.json`), news (`data/news.json`), generated documentation, citations, renderer, and final visual assets. Public documentation must not link to ignored files.
 
 The record `id` must be unique and stable. All `links` must have a descriptive `label` and an absolute HTTP(S) `url`. An `attention` object is optional and must identify the platform, measurement date, and source. Do not mix live counts with historical snapshots.

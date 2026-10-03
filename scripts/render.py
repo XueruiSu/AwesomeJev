@@ -5,6 +5,7 @@ import html
 import json
 import pathlib
 import re
+from urllib.parse import urlsplit
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 data = json.loads((ROOT / "data/resources.json").read_text())
@@ -16,8 +17,22 @@ def anchor(text):
     return re.sub(r"[^a-z0-9 -]", "", text.lower()).replace(" ", "-")
 
 
-def link(label, url):
-    return f"[{label}]({url})"
+def github_stars(url):
+    parsed = urlsplit(url)
+    parts = parsed.path.strip("/").split("/")
+    if parsed.hostname not in {"github.com", "www.github.com"} or len(parts) < 2:
+        return ""
+    owner, repo = parts[:2]
+    repo = repo.removesuffix(".git")
+    if not re.fullmatch(r"[A-Za-z0-9-]+", owner) or not re.fullmatch(r"[A-Za-z0-9_.-]+", repo):
+        return ""
+    repository = f"{owner}/{repo}"
+    badge = f"https://img.shields.io/github/stars/{repository}?style=flat-square&label=%E2%98%85"
+    return f" [![GitHub stars]({badge})](https://github.com/{repository})"
+
+
+def link(label, url, include_stars=True):
+    return f"[{label}]({url})" + (github_stars(url) if include_stars else "")
 
 
 def icon(name, alt=""):
@@ -61,7 +76,7 @@ lines = [
 ]
 for event in sorted(news, key=lambda e: e["date"], reverse=True):
     note = f" {event['note']}" if event.get("note") else ""
-    lines.append(f"- {icon(event['icon'])} **[{event['date']}]** {event['headline']} [{event['label']}]({event['url']}).{note}")
+    lines.append(f"- {icon(event['icon'])} **[{event['date']}]** {event['headline']} {link(event['label'], event['url'])}.{note}")
 lines.extend([
     "",
     "Jev evaluates supplied state against typed questions and returns choices, scores, or yes/no probabilities. Hosted Jev is proprietary; public SDKs and independent open-weight alternatives are different artifacts. No official downloadable Jev weights or architecture paper were located in this review. Schema validity does not establish factual correctness, calibration on every distribution, or immunity to prompt injection. See the [official documentation](https://docs.typesafe.ai/introduction), [model limitations](https://docs.typesafe.ai/model-jaggedness/jev-1.13), and research below.",
@@ -124,7 +139,8 @@ for section, categories in sections.items():
                 primary, *rest = r["links"]
                 refs = " · ".join(link(x["label"], x["url"]) for x in rest)
                 suffix = f" {refs}." if refs else ""
-                lines.append(f"- {icon(r['icon'])} {stamp(r)} · **{link(r['title'], primary['url'])}** — `{r['status']}`. {r['description']}{suffix}")
+                title = f"**{link(r['title'], primary['url'], include_stars=False)}**{github_stars(primary['url'])}"
+                lines.append(f"- {icon(r['icon'])} {stamp(r)} · {title} — `{r['status']}`. {r['description']}{suffix}")
         lines.append("")
 
 lines.extend([
