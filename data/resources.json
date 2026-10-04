@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-03",
+  "last_updated": "2026-10-04",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -804,6 +804,90 @@
       "date_source": "https://www.distillabs.ai/blog/jev-or-a-fine-tuned-small-model-we-built-a-pipeline-with-both-to-see-the-real-difference/"
     },
     {
+      "id": "r128",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+      "description": "Cloudflare introduces Jev-compatible multimodal decision models and describes its RL fine-tuning platform. Includes architecture and deployment details; benchmark comparisons are vendor-reported.",
+      "status": "Publisher announcement",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "label": "Announcement",
+          "url": "https://blog.cloudflare.com/clef-decision-models/"
+        },
+        {
+          "label": "Clef",
+          "url": "https://huggingface.co/Cloudflare/clef"
+        },
+        {
+          "label": "Clef-flash",
+          "url": "https://huggingface.co/Cloudflare/clef-flash"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49923692"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "chip",
+      "date_kind": "published",
+      "date_source": "https://blog.cloudflare.com/clef-decision-models/",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 626,
+        "comments": 217,
+        "observed_on": "2026-10-04",
+        "source": "https://hn.algolia.com/api/v1/search?query=clef&tags=story&hitsPerPage=10"
+      }
+    },
+    {
+      "id": "r129",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Jev for Python engineers",
+      "description": "Vercel demonstrates typed Choice, Score, and Noul calls through its experimental Python evaluation API, including classification and AST generation. The examples also discuss failure cases.",
+      "status": "Technical tutorial",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "label": "Blog",
+          "url": "https://vercel.com/blog/jev-for-python-engineers"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/vercel-labs/ai-python"
+        },
+        {
+          "label": "AST example",
+          "url": "https://github.com/vercel-labs/ai-python/blob/main/examples/models/gateway/jev_python_ast.py"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "code",
+      "date_kind": "published",
+      "date_source": "https://vercel.com/blog/jev-for-python-engineers"
+    },
+    {
+      "id": "r130",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Jev is Poorly Calibrated",
+      "description": "Dylan Black tests option probabilities against known physical distributions and probes arithmetic failures. An author-run distribution-matching study, rather than a universal calibration verdict.",
+      "status": "Independent analysis",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "label": "Blog",
+          "url": "https://maximumeffort.substack.com/p/jev-is-poorly-calibrated"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "gauge",
+      "date_kind": "published",
+      "date_source": "https://maximumeffort.substack.com/p/jev-is-poorly-calibrated"
+    },
+    {
       "id": "r035",
       "section": "2. Community discussion and writing",
       "category": "Reddit debates",
@@ -1089,6 +1173,33 @@
       "date_source": "data/resources.json"
     },
     {
+      "id": "r131",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Hosted access and framework guides",
+      "title": "Vercel AI SDK for Python: experimental Jev evaluation",
+      "description": "Apache-2.0 Python SDK with an experimental typed evaluation API for Jev through AI Gateway. Supports Choice, Score, and Noul questions; the date refers to the integration article, not repository creation.",
+      "status": "Hosted integration",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/vercel-labs/ai-python"
+        },
+        {
+          "label": "Integration article",
+          "url": "https://vercel.com/blog/jev-for-python-engineers"
+        },
+        {
+          "label": "License",
+          "url": "https://github.com/vercel-labs/ai-python/blob/main/LICENSE"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "cloud",
+      "date_kind": "published",
+      "date_source": "https://vercel.com/blog/jev-for-python-engineers"
+    },
+    {
       "id": "r050",
       "section": "3. Infrastructure, models, and applications",
       "category": "Browser and agent infrastructure",
@@ -1281,6 +1392,25 @@
       "icon": "database",
       "date_kind": "repository_created",
       "date_source": "https://api.github.com/repos/realbogart/jev"
+    },
+    {
+      "id": "r132",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "Jev Doc Search",
+      "description": "VectifyAI uses Jev choices to navigate PageIndex document trees and select relevant PDF pages without an embedding index. Public Apache-2.0 code; hosted model access is a separate dependency.",
+      "status": "Open-source application",
+      "date": "2026-09-30",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/VectifyAI/jev-doc-search"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/VectifyAI/jev-doc-search"
     },
     {
       "id": "r060",
@@ -1551,6 +1681,102 @@
       "icon": "bolt",
       "date_kind": "paper_submitted",
       "date_source": "https://arxiv.org/abs/2609.23886"
+    },
+    {
+      "id": "r133",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Clef and Clef-flash",
+      "description": "Cloudflare releases independent multimodal decision models with Jev-compatible interfaces, using Qwen3.8-27B and Qwen3.5-9B backbones respectively. Weights and decision-head inference code are available under Apache-2.0.",
+      "status": "Open weights and code",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "label": "Clef",
+          "url": "https://huggingface.co/Cloudflare/clef"
+        },
+        {
+          "label": "Clef-flash",
+          "url": "https://huggingface.co/Cloudflare/clef-flash"
+        },
+        {
+          "label": "Announcement",
+          "url": "https://blog.cloudflare.com/clef-decision-models/"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "chip",
+      "date_kind": "published",
+      "date_source": "https://blog.cloudflare.com/clef-decision-models/"
+    },
+    {
+      "id": "r134",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Strands Decider 2B",
+      "description": "Independent Qwen3.5-2B-Base decision model with LoRA and a pointer readout for runtime-supplied Choice, Score, and Noul questions. Code and weights are Apache-2.0; training data retain their source licenses.",
+      "status": "Open weights and code",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/strands-labs/strands-decider"
+        },
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/StrandsAgents/strands-decider-2B-hobson-v19"
+        },
+        {
+          "label": "Announcement",
+          "url": "https://strandsagents.com/blog/introducing-strands-decider/"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "network",
+      "date_kind": "published",
+      "date_source": "https://strandsagents.com/blog/introducing-strands-decider/"
+    },
+    {
+      "id": "r135",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "GEV-26B-Decide",
+      "description": "AutoTrust decision model based on Gemma 4 26B-A4B, formerly named JEV-Gemma4-26B-A4B with unchanged weights. Adapter, head, and calibration files use Apache-2.0; the backbone retains Gemma terms. Original release date is unverified.",
+      "status": "Open weights and code",
+      "date": "2026-10-04",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/autotrust/GEV-26B-Decide"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "eye",
+      "date_kind": "cataloged",
+      "date_source": "data/resources.json"
+    },
+    {
+      "id": "r136",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Gutsy",
+      "description": "Small Qwen3.5-0.8B decision model exposing a Jev-style API through llama.cpp, with CPU-oriented GGUF quantizations. The repository and released model weights use Apache-2.0; upstream training datasets have separate terms.",
+      "status": "Open weights and code",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/kouhxp/gutsy"
+        },
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/kouhxp/gutsy"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "bolt",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/kouhxp/gutsy"
     },
     {
       "id": "r070",
@@ -2133,6 +2359,33 @@
       "date_source": "https://arxiv.org/abs/2609.32160"
     },
     {
+      "id": "r140",
+      "section": "4. Research papers",
+      "category": "Surveys and broad evaluations",
+      "title": "Judgement in the Age of Jev: From Evaluation Scarcity to Evaluation Abundance",
+      "description": "A conceptual organizational perspective on inexpensive machine evaluation, motivated by Jev. Develops a conditional Jevons-style hypothesis and examines authority, reliance, and complementary costs; not an empirical validation of the product.",
+      "status": "Preprint",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.01231"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.01231"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "book",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.01231",
+      "arxiv_id": "2610.01231",
+      "authors": [
+        "Richard Hill"
+      ]
+    },
+    {
       "id": "r096",
       "section": "4. Research papers",
       "category": "Judging, calibration, and reliability",
@@ -2287,6 +2540,68 @@
       "icon": "scales",
       "date_kind": "submitted",
       "date_source": "https://arxiv.org/abs/2609.29769"
+    },
+    {
+      "id": "r142",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Beyond Answer Confidence: A Controlled Audit of Self-Knowledge in a Black-Box Decision Model",
+      "description": "Audits whether Jev confidence tracks missing knowledge using controlled information changes and surface-cue interventions. Distinguishes answer calibration from reliable knowledge-boundary detection and tests targeted sufficiency questions.",
+      "status": "Preprint",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.01006"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.01006"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Syntheme/beyond-answer-confidence"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "gauge",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.01006",
+      "arxiv_id": "2610.01006",
+      "authors": [
+        "Sharath M Shankaranarayana",
+        "Davor Runje",
+        "Jan Jannink"
+      ]
+    },
+    {
+      "id": "r144",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "When the Right Answer Is Missing: An Arithmetic-Dependent Rejection Bottleneck in Jev",
+      "description": "Tests arithmetic decisions when no offered answer is valid. Finds a rejection bottleneck relative to answer-present tasks and evaluates binary verification and development-set thresholds as mitigations.",
+      "status": "Preprint",
+      "date": "2026-09-30",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.39496"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2609.39496"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "scales",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.39496",
+      "arxiv_id": "2609.39496",
+      "authors": [
+        "Jike Zhong",
+        "Ming Li",
+        "Yuxiang Lai"
+      ]
     },
     {
       "id": "r101",
@@ -2558,6 +2873,39 @@
       "date_source": "https://arxiv.org/abs/2609.30186"
     },
     {
+      "id": "r139",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "Code Owns the Simulation, Jev Owns the Evaluation",
+      "description": "Separates evaluation of supplied outcomes from predicting those outcomes across games, ALFWorld, and robot control. Tests whether host-code lookahead and simulation improve Jev action selection.",
+      "status": "Preprint",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.01834"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.01834"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "brain",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.01834",
+      "arxiv_id": "2610.01834",
+      "authors": [
+        "Yaodong Yang",
+        "Hongyao Tang",
+        "Yi Ma",
+        "Xingyu Fan",
+        "Weixun Wang",
+        "Jinpeng Li",
+        "Tianpei Yang"
+      ]
+    },
+    {
       "id": "r110",
       "section": "4. Research papers",
       "category": "Open and alternative decision-model methods",
@@ -2714,6 +3062,66 @@
       "date_source": "https://arxiv.org/abs/2609.29283"
     },
     {
+      "id": "r137",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "LLM2Jev: LLMs Are Already Jev-Style Decision Models -- When and How to Fine-Tune Them",
+      "description": "Extracts Jev-style option probabilities from ordinary LLMs using bracketed numeric identifiers. Compares training-free readouts with fine-tuning; gains depend on backbone and task, with KL anchors intended to preserve generation behavior.",
+      "status": "Preprint",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.02076"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.02076"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "chip",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.02076",
+      "arxiv_id": "2610.02076",
+      "authors": [
+        "Yinheng Li",
+        "Justin Wagle"
+      ]
+    },
+    {
+      "id": "r147",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "OpenJev-RLCD: A Working RLCD Implementation",
+      "description": "Presents an independent two-stage RLCD implementation that calibrates probabilities over sampled rationales before reinforcement learning. Compares with SFT and RLVR on reasoning tasks; not a reproduction of proprietary Jev training.",
+      "status": "Preprint",
+      "date": "2026-09-30",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.38850"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2609.38850"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ZimmyGao/openjev-rlcd"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "flask",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.38850",
+      "arxiv_id": "2609.38850",
+      "authors": [
+        "Zhimin Gao",
+        "Pichao Wang"
+      ]
+    },
+    {
       "id": "r115",
       "section": "4. Research papers",
       "category": "Networking and edge systems",
@@ -2802,6 +3210,63 @@
       "icon": "network",
       "date_kind": "submitted",
       "date_source": "https://arxiv.org/abs/2609.23136"
+    },
+    {
+      "id": "r141",
+      "section": "4. Research papers",
+      "category": "Networking and edge systems",
+      "title": "Jev-IDS: System One Models for Network Intrusion Detection",
+      "description": "Evaluates typed Jev decisions for intrusion detection under scarce labels on a 300-flow NSL-KDD pilot. Reports accuracy, false-alarm, latency, and cost tradeoffs; the small pilot limits generalization.",
+      "status": "Preprint",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.01079"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.01079"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.01079",
+      "arxiv_id": "2610.01079",
+      "authors": [
+        "Paulo Severo",
+        "Silvio E. Quincozes",
+        "Amanda Dias"
+      ]
+    },
+    {
+      "id": "r146",
+      "section": "4. Research papers",
+      "category": "Networking and edge systems",
+      "title": "A First Glance at Jev for Network Traffic Classification: Accuracy, Processing Time, and Cost",
+      "description": "Examines Jev traffic classification from early packet features on CESNET-QUICEXT-25. Compares accuracy, processing time, and cost with LLMs and trained tree ensembles, noting differences in supervision and service configuration.",
+      "status": "Preprint",
+      "date": "2026-09-30",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.00376"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.00376"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "network",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.00376",
+      "arxiv_id": "2610.00376",
+      "authors": [
+        "Shenghe Xu",
+        "Lifan Mei"
+      ]
     },
     {
       "id": "r118",
@@ -3074,6 +3539,100 @@
       "icon": "scales",
       "date_kind": "submitted",
       "date_source": "https://arxiv.org/abs/2609.27678"
+    },
+    {
+      "id": "r138",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "HydroJEV: A one-second, training-free screen for cyber-attack and fault attribution in water distribution networks",
+      "description": "Studies Jev for cyberattack and fault triage in simulated water networks. A rule-confirmed gate routes uncertain cases to a stronger reviewer; the sealed simulation experiments do not establish operational safety.",
+      "status": "Preprint",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.02048"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.02048"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.02048",
+      "arxiv_id": "2610.02048",
+      "authors": [
+        "Tianwei Mu",
+        "Shengyan Jiang",
+        "Mingzhe Yuan",
+        "Qing Luo",
+        "Min Xiao",
+        "Wenhong Wang",
+        "Jun Li",
+        "Manhong Huang"
+      ]
+    },
+    {
+      "id": "r143",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Decision-Oriented Recommendation Reranking: An Empirical Study of Jev",
+      "description": "Studies Jev recommendation reranking across Amazon Reviews domains and candidate sets. Compares ranking quality and latency with conventional and language-model baselines; hosted-service conditions affect the practical tradeoffs.",
+      "status": "Preprint",
+      "date": "2026-09-30",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.40241"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2609.40241"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "database",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.40241",
+      "arxiv_id": "2609.40241",
+      "authors": [
+        "Hanjia Lyu",
+        "Yinglong Xia"
+      ]
+    },
+    {
+      "id": "r145",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "OmniMed-Jev: Calibrating LVLM Confidence for Trustworthy Medical Multimodal Decisions via System One",
+      "description": "Investigates typed confidence calibration for medical multimodal decisions using a shared vision-language backbone. Interface and training differences complicate attribution; the experiments do not establish clinical readiness.",
+      "status": "Preprint",
+      "date": "2026-09-30",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.00381"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.00381"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lytang63/OmniMed-Jev"
+        }
+      ],
+      "checked_on": "2026-10-04",
+      "icon": "heart",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.00381",
+      "arxiv_id": "2610.00381",
+      "authors": [
+        "Luyao Tang",
+        "Cheng Chen"
+      ]
     },
     {
       "id": "r126",

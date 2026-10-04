@@ -2,6 +2,21 @@
   "title": "Big News",
   "events": [
     {
+      "date": "2026-10-01",
+      "icon": "chip",
+      "headline": "Cloudflare releases Clef and Clef-flash, open-weight multimodal decision models with Jev-compatible interfaces.",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "label": "Announcement",
+      "note": "[Clef](https://huggingface.co/Cloudflare/clef) and [Clef-flash](https://huggingface.co/Cloudflare/clef-flash) weights and inference code are available. Launch discussion: [626 points / 217 comments on Hacker News](https://news.ycombinator.com/item?id=49923692), observed 2026-10-04.",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 626,
+        "comments": 217,
+        "observed_on": "2026-10-04",
+        "source": "https://hn.algolia.com/api/v1/search?query=clef&tags=story&hitsPerPage=10"
+      }
+    },
+    {
       "date": "2026-09-30",
       "icon": "network",
       "headline": "JevSpawn proposes adaptive agentic inference with compositional action spaces.",

@@ -168,7 +168,7 @@ lines.extend([
 
 (ROOT / "README.md").write_text("\n".join(lines).rstrip() + "\n")
 
-bib = ["% Metadata checked against original arXiv records on " + data["last_updated"] + ".", ""]
+bib = ["% Catalog updated on " + data["last_updated"] + "; source-check dates are recorded per entry in data/resources.json.", ""]
 for r in resources:
     if "arxiv_id" not in r:
         continue
