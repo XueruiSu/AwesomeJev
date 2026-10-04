@@ -33,8 +33,6 @@ Jev evaluates supplied state against typed questions and returns choices, scores
 | <img src="assets/icons/book.svg" width="22" height="22" alt=""> [4. Research papers](#4-research-papers) | **47** | 8 | 45 post-launch preprints + 2 historical-context papers |
 | **Total** | **147** | **22** | Catalog entries; one project may appear in multiple resource types |
 
-Dates use **[YYYY-MM-DD]**. Each label distinguishes publication, submission, repository creation, or cataloging. **Cataloged** means the original publication date is unverified; repository creation does not establish a public release date. See [date evidence and conventions](METHODOLOGY.md#dates-and-news). Topic icons are navigation cues, not publisher logos.
-
 ## Hands-on tutorials
 
 **[2026-10-03]** [Jev beginner guide: typed decisions, support routing, and remote open-model experiments](tutorials/jev-hands-on/README.md). Includes a runnable official SDK example, offline policy/SDK tests, twelve synthetic tickets, and two measured Laya runs on one remote RTX 3090. See the [actual results and lessons](tutorials/jev-hands-on/RESULTS.md); official hosted Jev live results are pending API-key configuration.
