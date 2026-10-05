@@ -40,9 +40,11 @@ def icon(name, alt=""):
 
 
 def stamp(resource):
+    if resource["date_kind"] in {"unknown", "cataloged"} or not resource["date"]:
+        return "**[Date unknown]**"
     labels = {
         "published": "Published", "submitted": "Submitted",
-        "repository_created": "Repository created", "cataloged": "Cataloged",
+        "repository_created": "Repository created", "updated": "Page updated",
         "paper_submitted": "Paper submitted",
     }
     return f"**[{resource['date']}]** · {labels[resource['date_kind']]}"

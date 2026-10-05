@@ -17,7 +17,7 @@
           "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "rocket",
       "date_kind": "published",
       "date_source": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
@@ -29,17 +29,18 @@
       "title": "TypeSafe manifesto",
       "description": "The company’s argument for models designed to make decisions inside software.",
       "status": "Official",
-      "date": "2026-10-03",
+      "date": null,
       "links": [
         {
           "label": "Source",
           "url": "https://typesafe.ai/manifesto"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "book",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "unknown",
+      "date_source": null,
+      "cataloged_on": "2026-10-03"
     },
     {
       "id": "r003",
@@ -55,7 +56,7 @@
           "url": "https://typesafe.ai/blog/bitterest-lesson"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "book",
       "date_kind": "published",
       "date_source": "https://typesafe.ai/blog/bitterest-lesson"
@@ -74,7 +75,7 @@
           "url": "https://typesafe.ai/blog/ai-too-good-to-be-true-too-bad-to-be-useful-typesafe-ai"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "book",
       "date_kind": "published",
       "date_source": "https://typesafe.ai/blog/ai-too-good-to-be-true-too-bad-to-be-useful-typesafe-ai"
@@ -86,17 +87,20 @@
       "title": "Introduction and quick start",
       "description": "The official entry point for sending state and typed questions to Jev.",
       "status": "Official",
-      "date": "2026-10-03",
+      "date": "2026-09-20",
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/introduction"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "book",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "updated",
+      "date_source": "https://docs.typesafe.ai/introduction",
+      "cataloged_on": "2026-10-03",
+      "date_source_field": "dateModified",
+      "date_source_timestamp": "2026-09-20T02:53:36.012Z"
     },
     {
       "id": "r006",
@@ -105,17 +109,20 @@
       "title": "Choice, Score, and Noul",
       "description": "Definitions of the three output primitives, including probability distributions and answer shapes.",
       "status": "Official",
-      "date": "2026-10-03",
+      "date": "2026-09-20",
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/primitives"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "network",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "updated",
+      "date_source": "https://docs.typesafe.ai/primitives",
+      "cataloged_on": "2026-10-03",
+      "date_source_field": "dateModified",
+      "date_source_timestamp": "2026-09-20T02:53:36.020Z"
     },
     {
       "id": "r007",
@@ -124,17 +131,20 @@
       "title": "Confidence",
       "description": "How TypeSafe distinguishes answer probability from confidence and uses them in workflows.",
       "status": "Official",
-      "date": "2026-10-03",
+      "date": "2026-10-02",
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/confidence"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "gauge",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "updated",
+      "date_source": "https://docs.typesafe.ai/confidence",
+      "cataloged_on": "2026-10-03",
+      "date_source_field": "dateModified",
+      "date_source_timestamp": "2026-10-02T05:55:34.605Z"
     },
     {
       "id": "r008",
@@ -143,17 +153,20 @@
       "title": "Model reference",
       "description": "Version identifiers, supported inputs, limits, and current service specifications.",
       "status": "Official",
-      "date": "2026-10-03",
+      "date": "2026-10-02",
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/models"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "chip",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "updated",
+      "date_source": "https://docs.typesafe.ai/models",
+      "cataloged_on": "2026-10-03",
+      "date_source_field": "dateModified",
+      "date_source_timestamp": "2026-10-02T21:41:24.659Z"
     },
     {
       "id": "r009",
@@ -162,17 +175,20 @@
       "title": "Jev 1.13 jaggedness",
       "description": "First-party documentation of uneven capabilities and known weak spots. Essential context for evaluating launch claims.",
       "status": "Official",
-      "date": "2026-10-03",
+      "date": "2026-10-02",
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "shield",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "updated",
+      "date_source": "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+      "cataloged_on": "2026-10-03",
+      "date_source_field": "dateModified",
+      "date_source_timestamp": "2026-10-02T22:05:14.261Z"
     },
     {
       "id": "r010",
@@ -181,17 +197,20 @@
       "title": "Patterns and cookbooks",
       "description": "Implementation guides for routing, scoring, fan-out, classification, search, and other bounded decisions.",
       "status": "Official",
-      "date": "2026-10-03",
+      "date": "2026-09-22",
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/cookbooks"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "book",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "updated",
+      "date_source": "https://docs.typesafe.ai/cookbooks",
+      "cataloged_on": "2026-10-03",
+      "date_source_field": "dateModified",
+      "date_source_timestamp": "2026-09-22T05:54:44.189Z"
     },
     {
       "id": "r011",
@@ -200,17 +219,18 @@
       "title": "Workflow evaluations",
       "description": "Vendor-run workflow comparisons, examples, and methodology; reference-model agreement is not the same as human ground truth.",
       "status": "Official",
-      "date": "2026-10-03",
+      "date": null,
       "links": [
         {
           "label": "Source",
           "url": "https://evals.typesafe.ai/"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "gauge",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "unknown",
+      "date_source": null,
+      "cataloged_on": "2026-10-03"
     },
     {
       "id": "r012",
@@ -219,17 +239,18 @@
       "title": "Documentation index",
       "description": "Machine-readable index of official documentation for deeper exploration.",
       "status": "Official",
-      "date": "2026-10-03",
+      "date": null,
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/llms.txt"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "book",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "unknown",
+      "date_source": null,
+      "cataloged_on": "2026-10-03"
     },
     {
       "id": "r013",
@@ -936,7 +957,7 @@
       "title": "Laya author’s prior-work discussion",
       "description": "First-person account linking earlier sales-prediction and confidence-routing work. Architectural equivalence and priority claims are disputed and are not established by this thread.",
       "status": "Discussion",
-      "date": "2026-10-03",
+      "date": null,
       "links": [
         {
           "label": "Reddit",
@@ -945,8 +966,9 @@
       ],
       "checked_on": "2026-10-03",
       "icon": "chat",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "unknown",
+      "date_source": null,
+      "cataloged_on": "2026-10-03"
     },
     {
       "id": "r036",
@@ -955,7 +977,7 @@
       "title": "Is Jev a new model class or a classifier?",
       "description": "Community debate about novelty, zero-shot classification, and the difference between a useful product and a new architecture.",
       "status": "Discussion",
-      "date": "2026-10-03",
+      "date": null,
       "links": [
         {
           "label": "Reddit",
@@ -964,8 +986,9 @@
       ],
       "checked_on": "2026-10-03",
       "icon": "chat",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "unknown",
+      "date_source": null,
+      "cataloged_on": "2026-10-03"
     },
     {
       "id": "r037",
@@ -1164,7 +1187,7 @@
       "title": "Cloudflare Workers AI",
       "description": "Provider-maintained Jev model page and structured evaluation examples.",
       "status": "Hosted integration",
-      "date": "2026-10-03",
+      "date": null,
       "links": [
         {
           "label": "Docs",
@@ -1173,8 +1196,9 @@
       ],
       "checked_on": "2026-10-03",
       "icon": "cloud",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "unknown",
+      "date_source": null,
+      "cataloged_on": "2026-10-03"
     },
     {
       "id": "r048",
@@ -1183,7 +1207,7 @@
       "title": "OpenRouter Jev playground",
       "description": "Provider playground for turning a task into typed Jev questions.",
       "status": "Hosted integration",
-      "date": "2026-10-03",
+      "date": null,
       "links": [
         {
           "label": "Docs",
@@ -1192,8 +1216,9 @@
       ],
       "checked_on": "2026-10-03",
       "icon": "cloud",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "unknown",
+      "date_source": null,
+      "cataloged_on": "2026-10-03"
     },
     {
       "id": "r049",
@@ -1202,7 +1227,7 @@
       "title": "Netlify AI Gateway",
       "description": "Provider documentation covering gateway configuration and TypeSafe integration.",
       "status": "Hosted integration",
-      "date": "2026-10-03",
+      "date": null,
       "links": [
         {
           "label": "Docs",
@@ -1211,8 +1236,9 @@
       ],
       "checked_on": "2026-10-03",
       "icon": "cloud",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "unknown",
+      "date_source": null,
+      "cataloged_on": "2026-10-03"
     },
     {
       "id": "r131",
@@ -1827,7 +1853,7 @@
       "title": "GEV-26B-Decide",
       "description": "AutoTrust decision model based on Gemma 4 26B-A4B, formerly named JEV-Gemma4-26B-A4B with unchanged weights. Adapter, head, and calibration files use Apache-2.0; the backbone retains Gemma terms. Original release date is unverified.",
       "status": "Open weights and code",
-      "date": "2026-10-04",
+      "date": null,
       "links": [
         {
           "label": "Hugging Face",
@@ -1836,8 +1862,9 @@
       ],
       "checked_on": "2026-10-04",
       "icon": "eye",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "unknown",
+      "date_source": null,
+      "cataloged_on": "2026-10-04"
     },
     {
       "id": "r136",
@@ -1869,7 +1896,7 @@
       "title": "Tasksource-JEV-Nano v0",
       "description": "Apache-2.0 weights for a compact ModernBERT/LateOn-based decision model using token-level late interaction to score runtime options. The card includes PyLate inference examples and author-reported evaluations. No exact original release date was verified.",
       "status": "Open weights",
-      "date": "2026-10-05",
+      "date": null,
       "links": [
         {
           "label": "Hugging Face",
@@ -1878,8 +1905,9 @@
       ],
       "checked_on": "2026-10-05",
       "icon": "chip",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "unknown",
+      "date_source": null,
+      "cataloged_on": "2026-10-05"
     },
     {
       "id": "r157",
@@ -1888,7 +1916,7 @@
       "title": "Jevling-E2B-v1",
       "description": "Gemma 4 E2B-based typed decision fine-tune emphasizing Traditional Chinese kiosk transcripts, with Safetensors and GGUF weights. The checkpoint and base model declare Apache-2.0; its custom runtime is a separate artifact. Original release date is unverified.",
       "status": "Open weights",
-      "date": "2026-10-05",
+      "date": null,
       "links": [
         {
           "label": "Hugging Face",
@@ -1905,8 +1933,9 @@
       ],
       "checked_on": "2026-10-05",
       "icon": "globe",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "unknown",
+      "date_source": null,
+      "cataloged_on": "2026-10-05"
     },
     {
       "id": "r070",
@@ -2156,7 +2185,7 @@
       "title": "Jev Decision Index",
       "description": "Interactive community comparison of decision-model systems hosted as a Hugging Face Space.",
       "status": "Benchmark",
-      "date": "2026-10-03",
+      "date": null,
       "links": [
         {
           "label": "Hugging Face Space",
@@ -2165,8 +2194,9 @@
       ],
       "checked_on": "2026-10-03",
       "icon": "gauge",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "unknown",
+      "date_source": null,
+      "cataloged_on": "2026-10-03"
     },
     {
       "id": "r081",
@@ -2313,7 +2343,7 @@
       "title": "Tasksource typed decisions",
       "description": "Recasts public task datasets into Choice, Score, and Noul supervision, including soft targets and grouped questions. Offers a smaller default mix and a full training set. Licenses remain source-dependent, with per-row provenance and usage labels.",
       "status": "Public dataset",
-      "date": "2026-10-05",
+      "date": null,
       "links": [
         {
           "label": "Hugging Face",
@@ -2326,8 +2356,9 @@
       ],
       "checked_on": "2026-10-05",
       "icon": "database",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "unknown",
+      "date_source": null,
+      "cataloged_on": "2026-10-05"
     },
     {
       "id": "r159",
@@ -2336,7 +2367,7 @@
       "title": "Korean JEV Benchmark",
       "description": "Publishes 25,418 Korean finite-choice items and an October 4 comparison of hosted Jev with local model configurations. Serving precision, prompts, and probability readouts differ. Data licenses remain source-dependent; this is a curated derivative, not a new human-annotation study.",
       "status": "Public benchmark dataset",
-      "date": "2026-10-05",
+      "date": null,
       "links": [
         {
           "label": "Hugging Face",
@@ -2349,8 +2380,9 @@
       ],
       "checked_on": "2026-10-05",
       "icon": "globe",
-      "date_kind": "cataloged",
-      "date_source": "data/resources.json"
+      "date_kind": "unknown",
+      "date_source": null,
+      "cataloged_on": "2026-10-05"
     },
     {
       "id": "r086",
