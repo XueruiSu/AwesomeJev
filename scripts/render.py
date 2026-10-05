@@ -46,13 +46,12 @@ def stamp(resource):
         "published": "Published", "submitted": "Submitted",
         "repository_created": "Repository created", "updated": "Page updated",
         "paper_submitted": "Paper submitted",
-        "estimated": "Estimated", "available_by": "Available by",
     }
-    label = labels[resource["date_kind"]]
     if resource["date_kind"] in {"estimated", "available_by"}:
         if not resource.get("date_source") or not resource.get("date_note"):
             raise ValueError(f"{resource['id']}: inferred dates require a source and rationale")
-        label = link(label, resource["date_source"], include_stars=False)
+        return f"**[{resource['date']}]**"
+    label = labels[resource["date_kind"]]
     return f"**[{resource['date']}]** · {label}"
 
 
