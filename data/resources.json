@@ -29,7 +29,7 @@
       "title": "TypeSafe manifesto",
       "description": "The company’s argument for models designed to make decisions inside software.",
       "status": "Official",
-      "date": null,
+      "date": "2026-09-22",
       "links": [
         {
           "label": "Source",
@@ -38,9 +38,10 @@
       ],
       "checked_on": "2026-10-05",
       "icon": "book",
-      "date_kind": "unknown",
-      "date_source": null,
-      "cataloged_on": "2026-10-03"
+      "date_kind": "available_by",
+      "date_source": "https://www.jevdirectory.org/resources/typesafe-manifesto",
+      "cataloged_on": "2026-10-03",
+      "date_note": "The directory explicitly records this exact manifesto as added and verified on 2026-09-22. This is a dated public sighting, not its original publication date."
     },
     {
       "id": "r003",
@@ -219,7 +220,7 @@
       "title": "Workflow evaluations",
       "description": "Vendor-run workflow comparisons, examples, and methodology; reference-model agreement is not the same as human ground truth.",
       "status": "Official",
-      "date": null,
+      "date": "2026-09-15",
       "links": [
         {
           "label": "Source",
@@ -228,9 +229,10 @@
       ],
       "checked_on": "2026-10-05",
       "icon": "gauge",
-      "date_kind": "unknown",
-      "date_source": null,
-      "cataloged_on": "2026-10-03"
+      "date_kind": "published",
+      "date_source": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "cataloged_on": "2026-10-03",
+      "date_note": "The dated launch announcement says TypeSafe is publishing four workflow evaluations and links evals.typesafe.ai."
     },
     {
       "id": "r012",
@@ -239,7 +241,7 @@
       "title": "Documentation index",
       "description": "Machine-readable index of official documentation for deeper exploration.",
       "status": "Official",
-      "date": null,
+      "date": "2026-09-23",
       "links": [
         {
           "label": "Source",
@@ -248,9 +250,10 @@
       ],
       "checked_on": "2026-10-05",
       "icon": "book",
-      "date_kind": "unknown",
-      "date_source": null,
-      "cataloged_on": "2026-10-03"
+      "date_kind": "available_by",
+      "date_source": "https://mrjev.com/changelog/",
+      "cataloged_on": "2026-10-03",
+      "date_note": "The September 23 cookbook-index entry explicitly describes llms.txt as an existing route to the cookbooks. This establishes availability by that date, not the index launch date."
     },
     {
       "id": "r013",
@@ -957,18 +960,22 @@
       "title": "Laya author’s prior-work discussion",
       "description": "First-person account linking earlier sales-prediction and confidence-routing work. Architectural equivalence and priority claims are disputed and are not established by this thread.",
       "status": "Discussion",
-      "date": null,
+      "date": "2026-09-17",
       "links": [
         {
           "label": "Reddit",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wihgum/i_literally_built_the_jev_architecture_one_year/"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "chat",
-      "date_kind": "unknown",
-      "date_source": null,
-      "cataloged_on": "2026-10-03"
+      "date_kind": "estimated",
+      "date_source": "https://learnjev.com/news",
+      "cataloged_on": "2026-10-03",
+      "date_note": "The dated September 17 prior-art entry links this exact Reddit thread. A separate Reddit trends archive records 2026-09-17 04:18 UTC; Reddit itself did not expose an absolute timestamp in this check. The day is inferred from these external records.",
+      "date_corroboration": [
+        "https://github.com/liyedanpdx/reddit-ai-trends/blob/main/reports/latest_report_en.md"
+      ]
     },
     {
       "id": "r036",
@@ -977,18 +984,22 @@
       "title": "Is Jev a new model class or a classifier?",
       "description": "Community debate about novelty, zero-shot classification, and the difference between a useful product and a new architecture.",
       "status": "Discussion",
-      "date": null,
+      "date": "2026-09-23",
       "links": [
         {
           "label": "Reddit",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woe70t/jev_isnt_new_tech_its_marketing_targets_people/"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "chat",
-      "date_kind": "unknown",
-      "date_source": null,
-      "cataloged_on": "2026-10-03"
+      "date_kind": "estimated",
+      "date_source": "https://prismix.dev/news/ab7f353e8593",
+      "cataloged_on": "2026-10-03",
+      "date_note": "An archival copy of the exact Reddit post is dated September 23; independent coverage also assigns that date. The original Reddit timestamp was unavailable, so this is an inferred posting date.",
+      "date_corroboration": [
+        "https://aibeatnews.com/story/jev-isn-t-new-tech-its-marketing/"
+      ]
     },
     {
       "id": "r037",
@@ -1184,21 +1195,22 @@
       "id": "r047",
       "section": "3. Infrastructure, models, and applications",
       "category": "Hosted access and framework guides",
-      "title": "Cloudflare Workers AI",
+      "title": "Cloudflare Jev access",
       "description": "Provider-maintained Jev model page and structured evaluation examples.",
       "status": "Hosted integration",
-      "date": null,
+      "date": "2026-09-18",
       "links": [
         {
           "label": "Docs",
           "url": "https://developers.cloudflare.com/ai/models/typesafe/jev/"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "cloud",
-      "date_kind": "unknown",
-      "date_source": null,
-      "cataloged_on": "2026-10-03"
+      "date_kind": "available_by",
+      "date_source": "https://learnjev.com/news",
+      "cataloged_on": "2026-10-03",
+      "date_note": "The September 18 availability entry links the exact Cloudflare model page and explicitly calls this a documented-by date. It does not establish a go-live date for the current serving interface."
     },
     {
       "id": "r048",
@@ -1207,18 +1219,19 @@
       "title": "OpenRouter Jev playground",
       "description": "Provider playground for turning a task into typed Jev questions.",
       "status": "Hosted integration",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Docs",
           "url": "https://openrouter.ai/labs/jev/compile"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "cloud",
-      "date_kind": "unknown",
-      "date_source": null,
-      "cataloged_on": "2026-10-03"
+      "date_kind": "available_by",
+      "date_source": "https://openrouter.ai/labs/jev/compile",
+      "cataloged_on": "2026-10-03",
+      "date_note": "This exact Prompt to questions playground was inspected in the October 3 catalog and checked again on October 5. Searches found earlier OpenRouter Jev API announcements, but none dating this specific playground; the earlier API dates are not transferred to it."
     },
     {
       "id": "r049",
@@ -1227,18 +1240,23 @@
       "title": "Netlify AI Gateway",
       "description": "Provider documentation covering gateway configuration and TypeSafe integration.",
       "status": "Hosted integration",
-      "date": null,
+      "date": "2026-09-17",
       "links": [
         {
           "label": "Docs",
           "url": "https://docs.netlify.com/build/ai-gateway/overview/"
+        },
+        {
+          "label": "Announcement",
+          "url": "https://www.netlify.com/changelog/typesafe-jev-ai-gateway/"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "cloud",
-      "date_kind": "unknown",
-      "date_source": null,
-      "cataloged_on": "2026-10-03"
+      "date_kind": "published",
+      "date_source": "https://www.netlify.com/changelog/typesafe-jev-ai-gateway/",
+      "cataloged_on": "2026-10-03",
+      "date_note": "Netlify officially announced Jev availability in its AI Gateway on September 17, 2026. The date refers to the integration announcement, not the generic documentation page."
     },
     {
       "id": "r131",
@@ -1851,20 +1869,21 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Open-weight decision models",
       "title": "GEV-26B-Decide",
-      "description": "AutoTrust decision model based on Gemma 4 26B-A4B, formerly named JEV-Gemma4-26B-A4B with unchanged weights. Adapter, head, and calibration files use Apache-2.0; the backbone retains Gemma terms. Original release date is unverified.",
+      "description": "AutoTrust decision model based on Gemma 4 26B-A4B, formerly named JEV-Gemma4-26B-A4B with unchanged weights. Adapter, head, and calibration files use Apache-2.0; the backbone retains Gemma terms.",
       "status": "Open weights and code",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Hugging Face",
           "url": "https://huggingface.co/autotrust/GEV-26B-Decide"
         }
       ],
-      "checked_on": "2026-10-04",
+      "checked_on": "2026-10-05",
       "icon": "eye",
-      "date_kind": "unknown",
-      "date_source": null,
-      "cataloged_on": "2026-10-04"
+      "date_kind": "available_by",
+      "date_source": "https://huggingface.co/autotrust/GEV-26B-Decide",
+      "cataloged_on": "2026-10-04",
+      "date_note": "The model card has a New (3 October 2026) section documenting demonstrations with this checkpoint. It says the weights were previously published as JEV-Gemma4-26B-A4B, so this bounds availability of the named artifact and does not date the first weight release."
     },
     {
       "id": "r136",
@@ -1894,9 +1913,9 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Open-weight decision models",
       "title": "Tasksource-JEV-Nano v0",
-      "description": "Apache-2.0 weights for a compact ModernBERT/LateOn-based decision model using token-level late interaction to score runtime options. The card includes PyLate inference examples and author-reported evaluations. No exact original release date was verified.",
+      "description": "Apache-2.0 weights for a compact ModernBERT/LateOn-based decision model using token-level late interaction to score runtime options. The card includes PyLate inference examples and author-reported evaluations.",
       "status": "Open weights",
-      "date": null,
+      "date": "2026-09-28",
       "links": [
         {
           "label": "Hugging Face",
@@ -1905,18 +1924,21 @@
       ],
       "checked_on": "2026-10-05",
       "icon": "chip",
-      "date_kind": "unknown",
-      "date_source": null,
-      "cataloged_on": "2026-10-05"
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/tasksource/tasksource-jev-nano-v0",
+      "cataloged_on": "2026-10-05",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-09-28T06:18:43.000Z",
+      "date_note": "Hugging Face repository creation timestamp from the original API response retrieved on 2026-10-05. Repository creation is not asserted to be the first public release of the weights or dataset."
     },
     {
       "id": "r157",
       "section": "3. Infrastructure, models, and applications",
       "category": "Open-weight decision models",
       "title": "Jevling-E2B-v1",
-      "description": "Gemma 4 E2B-based typed decision fine-tune emphasizing Traditional Chinese kiosk transcripts, with Safetensors and GGUF weights. The checkpoint and base model declare Apache-2.0; its custom runtime is a separate artifact. Original release date is unverified.",
+      "description": "Gemma 4 E2B-based typed decision fine-tune emphasizing Traditional Chinese kiosk transcripts, with Safetensors and GGUF weights. The checkpoint and base model declare Apache-2.0; its custom runtime is a separate artifact.",
       "status": "Open weights",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Hugging Face",
@@ -1933,9 +1955,12 @@
       ],
       "checked_on": "2026-10-05",
       "icon": "globe",
-      "date_kind": "unknown",
-      "date_source": null,
-      "cataloged_on": "2026-10-05"
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/BricksDisplay/jevling-e2b-v1",
+      "cataloged_on": "2026-10-05",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-03T17:26:38.000Z",
+      "date_note": "Hugging Face repository creation timestamp from the original API response retrieved on 2026-10-05. Repository creation is not asserted to be the first public release of the weights or dataset."
     },
     {
       "id": "r070",
@@ -2185,18 +2210,19 @@
       "title": "Jev Decision Index",
       "description": "Interactive community comparison of decision-model systems hosted as a Hugging Face Space.",
       "status": "Benchmark",
-      "date": null,
+      "date": "2026-09-22",
       "links": [
         {
           "label": "Hugging Face Space",
           "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-05",
       "icon": "gauge",
-      "date_kind": "unknown",
-      "date_source": null,
-      "cataloged_on": "2026-10-03"
+      "date_kind": "available_by",
+      "date_source": "https://aiweekly.co/alerts/jev-decision-index-ranks-30-open-weight-decision-models",
+      "cataloged_on": "2026-10-03",
+      "date_note": "The September 22 article directly links the Space and reports the leaderboard already online. Used as a dated sighting rather than an exact initial release timestamp."
     },
     {
       "id": "r081",
@@ -2343,7 +2369,7 @@
       "title": "Tasksource typed decisions",
       "description": "Recasts public task datasets into Choice, Score, and Noul supervision, including soft targets and grouped questions. Offers a smaller default mix and a full training set. Licenses remain source-dependent, with per-row provenance and usage labels.",
       "status": "Public dataset",
-      "date": null,
+      "date": "2026-09-22",
       "links": [
         {
           "label": "Hugging Face",
@@ -2356,9 +2382,12 @@
       ],
       "checked_on": "2026-10-05",
       "icon": "database",
-      "date_kind": "unknown",
-      "date_source": null,
-      "cataloged_on": "2026-10-05"
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/datasets/tasksource/tasksource-jev-typed-decisions",
+      "cataloged_on": "2026-10-05",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-09-22T09:02:21.000Z",
+      "date_note": "Hugging Face repository creation timestamp from the original API response retrieved on 2026-10-05. Repository creation is not asserted to be the first public release of the weights or dataset."
     },
     {
       "id": "r159",
@@ -2367,7 +2396,7 @@
       "title": "Korean JEV Benchmark",
       "description": "Publishes 25,418 Korean finite-choice items and an October 4 comparison of hosted Jev with local model configurations. Serving precision, prompts, and probability readouts differ. Data licenses remain source-dependent; this is a curated derivative, not a new human-annotation study.",
       "status": "Public benchmark dataset",
-      "date": null,
+      "date": "2026-10-03",
       "links": [
         {
           "label": "Hugging Face",
@@ -2380,9 +2409,12 @@
       ],
       "checked_on": "2026-10-05",
       "icon": "globe",
-      "date_kind": "unknown",
-      "date_source": null,
-      "cataloged_on": "2026-10-05"
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/datasets/DaehanKim/korean-jev-benchmark",
+      "cataloged_on": "2026-10-05",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-03T22:55:39.000Z",
+      "date_note": "Hugging Face repository creation timestamp from the original API response retrieved on 2026-10-05. Repository creation is not asserted to be the first public release of the weights or dataset."
     },
     {
       "id": "r086",

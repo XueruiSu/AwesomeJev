@@ -41,13 +41,19 @@ def icon(name, alt=""):
 
 def stamp(resource):
     if resource["date_kind"] in {"unknown", "cataloged"} or not resource["date"]:
-        return "**[Date unknown]**"
+        raise ValueError(f"{resource['id']}: research an event date, estimate, or dated availability bound before publishing")
     labels = {
         "published": "Published", "submitted": "Submitted",
         "repository_created": "Repository created", "updated": "Page updated",
         "paper_submitted": "Paper submitted",
+        "estimated": "Estimated", "available_by": "Available by",
     }
-    return f"**[{resource['date']}]** · {labels[resource['date_kind']]}"
+    label = labels[resource["date_kind"]]
+    if resource["date_kind"] in {"estimated", "available_by"}:
+        if not resource.get("date_source") or not resource.get("date_note"):
+            raise ValueError(f"{resource['id']}: inferred dates require a source and rationale")
+        label = link(label, resource["date_source"], include_stars=False)
+    return f"**[{resource['date']}]** · {label}"
 
 
 sections = collections.defaultdict(lambda: collections.defaultdict(list))
