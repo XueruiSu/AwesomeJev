@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-05",
+  "last_updated": "2026-10-06",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -954,6 +954,85 @@
       "date_source": "https://www.seangoedecke.com/system-one-models-can-train-their-own-replacements/"
     },
     {
+      "id": "r168",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Introducing d1: The most capable decision model, now with vision",
+      "description": "Liquid AI announces text-and-image typed decisions and demonstrations adapted from Jev ecosystem projects. Its application comparisons are vendor-run single trials. The announcement separates hosted availability from plans for future open-weight models.",
+      "status": "Publisher announcement",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "label": "Announcement",
+          "url": "https://www.liquid.ai/blog/d1-decision-model"
+        },
+        {
+          "label": "API documentation",
+          "url": "https://docs.liquid.ai/lfm/models/decision-models"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49967491"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "eye",
+      "date_kind": "published",
+      "date_source": "https://www.liquid.ai/blog/d1-decision-model",
+      "date_source_field": "datePublished",
+      "date_note": "Date of the vision announcement. The article explicitly refers to an earlier experimental text release; this is not asserted to be the first availability of d1."
+    },
+    {
+      "id": "r169",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Jev — AI Development Setup",
+      "description": "Steve Kinney explains where typed decisions fit into coding-agent routing, tool selection, context compaction, and verification. Distinguishes model-based risk signals from deterministic enforcement and recommends versioned, measured integrations.",
+      "status": "Technical guide",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "label": "Guide",
+          "url": "https://stevekinney.com/courses/ai-development-setup/jev"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "book",
+      "date_kind": "updated",
+      "date_source": "https://stevekinney.com/courses/ai-development-setup/jev",
+      "date_source_field": "dateModified",
+      "date_source_timestamp": "2026-10-05T04:17:56.000Z",
+      "date_note": "The original page exposes dateModified in its structured metadata; no first publication date is claimed."
+    },
+    {
+      "id": "r170",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Jev Ultrafast: Pairing Browser Use with Jev",
+      "description": "Tien Nguyen Anh describes Browser Use for page perception and actions, with Jev choosing among available next steps. An architectural tutorial referencing jev-ultrafast; its speed and cost discussion is not an independent benchmark.",
+      "status": "Technical article",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "label": "Blog",
+          "url": "https://blog.nashtechglobal.com/jev-ultrafast-pairing-browser-use-with-jev/"
+        },
+        {
+          "label": "Referenced project",
+          "url": "https://github.com/browser-use/jev-ultrafast"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "browser",
+      "date_kind": "published",
+      "date_source": "https://blog.nashtechglobal.com/jev-ultrafast-pairing-browser-use-with-jev/",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-05T06:24:07+00:00"
+    },
+    {
       "id": "r035",
       "section": "2. Community discussion and writing",
       "category": "Reddit debates",
@@ -1286,6 +1365,36 @@
       "date_source": "https://vercel.com/blog/jev-for-python-engineers"
     },
     {
+      "id": "r171",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Hosted access and framework guides",
+      "title": "Liquid d1 with vision — hosted decision API",
+      "description": "Independent hosted alternative using Jev-style Choice, Score, and Noul requests. The October 5 announcement adds image inputs to Liquid’s own API; Vercel and OpenRouter support text only in that announcement. Public d1 weights were not located.",
+      "status": "Hosted model",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "label": "API documentation",
+          "url": "https://docs.liquid.ai/lfm/models/decision-models"
+        },
+        {
+          "label": "Vision announcement",
+          "url": "https://www.liquid.ai/blog/d1-decision-model"
+        },
+        {
+          "label": "Playground",
+          "url": "https://d1.liquid.ai/"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "cloud",
+      "date_kind": "published",
+      "date_source": "https://www.liquid.ai/blog/d1-decision-model",
+      "date_source_field": "datePublished",
+      "date_note": "Dates the vision feature announcement, not the earlier text preview or the creation of the playground."
+    },
+    {
       "id": "r050",
       "section": "3. Infrastructure, models, and applications",
       "category": "Browser and agent infrastructure",
@@ -1421,6 +1530,56 @@
       "icon": "code",
       "date_kind": "repository_created",
       "date_source": "https://api.github.com/repos/krishhgg/jev-map"
+    },
+    {
+      "id": "r174",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "dotpals",
+      "description": "MIT-licensed local observer for coding-agent changes, commands, and test output. Optional Jev or local Laya checks interpret unclear test results; the cloud option sends a redacted output excerpt to TypeSafe. Its broader checks also use deterministic logic.",
+      "status": "Open-source code",
+      "date": "2026-09-30",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Rikinshah787/dotpals"
+        },
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=49968767"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Rikinshah787/dotpals",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-09-30T19:43:43Z",
+      "date_note": "GitHub repository creation, not the first release date of a model or integration."
+    },
+    {
+      "id": "r175",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "jev-mcp-router",
+      "description": "MIT-licensed MCP gateway using Jev yes/no decisions to shortlist servers and tools before an LLM sees their schemas. Includes a maintainer-run, 111-request evaluation over 649 tools; reported savings trade off against tool-selection coverage.",
+      "status": "Open-source code",
+      "date": "2026-10-04",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ini8labs/jev-mcp-router"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/ini8labs/jev-mcp-router",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-04T08:06:58Z",
+      "date_note": "GitHub repository creation, not the first release date of a model or integration."
     },
     {
       "id": "r055",
@@ -1963,6 +2122,37 @@
       "date_note": "Hugging Face repository creation timestamp from the original API response retrieved on 2026-10-05. Repository creation is not asserted to be the first public release of the weights or dataset."
     },
     {
+      "id": "r172",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "jiwo 0.8B and 4B",
+      "description": "Independent Qwen3.5-based decision models with a Jev-compatible server and typed probability readouts. Model weights are Apache-2.0 and serving code is MIT. Reported Decision Index results are author submissions, not independently verified leaderboard results.",
+      "status": "Open weights and code",
+      "date": "2026-10-03",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jiwidi/jiwo"
+        },
+        {
+          "label": "0.8B weights",
+          "url": "https://huggingface.co/eljiwo/jiwo-0.8b"
+        },
+        {
+          "label": "4B weights",
+          "url": "https://huggingface.co/eljiwo/jiwo-4b"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/eljiwo/jiwo-0.8b",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-03T21:33:55.000Z",
+      "date_note": "Dates the earliest of the two checked model repositories, jiwo-0.8b. The jiwo-4b repository was created 2026-10-05T07:37:22.000Z. Neither timestamp establishes when its weights first became public."
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -1996,6 +2186,33 @@
       "icon": "globe",
       "date_kind": "repository_created",
       "date_source": "https://api.github.com/repos/gulucaptain/Chinese-Jev"
+    },
+    {
+      "id": "r173",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Training pipelines and announced releases",
+      "title": "jev-270m",
+      "description": "Notebooks and training scripts studying a Jev-inspired decision interface on Gemma 3 270M. Compares stock token readouts, trained pointer heads, and LoRA. Code is Apache-2.0; Gemma weights and derived checkpoints retain Gemma terms.",
+      "status": "Open-source code",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/deep-diver/jev-270m"
+        },
+        {
+          "label": "English notebook",
+          "url": "https://github.com/deep-diver/jev-270m/blob/main/notebooks/gemma3_270m_jev_en.ipynb"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "flask",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/deep-diver/jev-270m",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-05T01:09:41Z",
+      "date_note": "GitHub repository creation, not the first release date of a model or integration."
     },
     {
       "id": "r071",
@@ -2417,6 +2634,60 @@
       "date_note": "Hugging Face repository creation timestamp from the original API response retrieved on 2026-10-05. Repository creation is not asserted to be the first public release of the weights or dataset."
     },
     {
+      "id": "r176",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "JevBench — metamorphic coherence",
+      "description": "Tests whether typed probabilities remain coherent under question rewrites, negation, batching, and option-set changes. Provides synthetic cases, model responses, and Apache-2.0 code and data. Distinct from fstandhartinger/jevbench; coherence scores do not establish task accuracy.",
+      "status": "Open-source benchmark",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/JevBench/jevbench"
+        },
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/datasets/JevBench/jevbench"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "scales",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/JevBench/jevbench",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-01T22:58:51Z",
+      "date_note": "GitHub repository creation. The separately checked Hugging Face dataset repository was created 2026-10-05T14:26:14.000Z; neither is asserted to date the technical report."
+    },
+    {
+      "id": "r177",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "JevAlt held-out test sets",
+      "description": "English, Turkish, and German typed-decision evaluations with soft targets, robustness probes, and recorded Jev comparisons. Data licenses are source-dependent; the card discloses repeated Turkish and German test states in training, limiting claims of uncontaminated evaluation.",
+      "status": "Public benchmark dataset",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/datasets/mertkayacs/jevalt-bench"
+        },
+        {
+          "label": "Evaluation code",
+          "url": "https://github.com/mertkayacs/jevoss"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "globe",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/datasets/mertkayacs/jevalt-bench",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-01T02:36:54.000Z",
+      "date_note": "Hugging Face repository creation, not the first publication of every contained evaluation run."
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -2785,6 +3056,44 @@
       ]
     },
     {
+      "id": "r181",
+      "section": "4. Research papers",
+      "category": "Surveys and broad evaluations",
+      "title": "General Decision Models: Benchmarking and Insights Beyond Jev",
+      "description": "Introduces bilingual JEVal and evaluates decision models in isolated tasks, agent trajectories, and social simulation. Also proposes InnerJev self-distillation. Highlights how local speed gains can coexist with accumulated errors and biased aggregate estimates.",
+      "status": "Preprint",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.03935"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.03935"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "compass",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.03935",
+      "arxiv_id": "2610.03935",
+      "authors": [
+        "Duan, Feiyu",
+        "Lin, Jiayu",
+        "Wang, Jia",
+        "Xiang, Jun",
+        "Wu, Jialiang",
+        "Zhang, Xinnong",
+        "Yan, Hanqi",
+        "Wang, Siyuan",
+        "Wei, Zhongyu"
+      ],
+      "date_source_field": "published",
+      "date_source_timestamp": "2026-10-02T18:47:00Z"
+    },
+    {
       "id": "r096",
       "section": "4. Research papers",
       "category": "Judging, calibration, and reliability",
@@ -3067,6 +3376,37 @@
       ]
     },
     {
+      "id": "r182",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Benchmarking Candidate Coverage in Typed Decision Models",
+      "description": "Uses paired present/absent candidate sets to study Jev and Laya rejection behavior. Separates classification accuracy, score ranking, and threshold policies; its reference-label omission tests do not establish general out-of-scope detection.",
+      "status": "Preprint",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.03387"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.03387"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "gauge",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.03387",
+      "arxiv_id": "2610.03387",
+      "authors": [
+        "Lu, Jiawen",
+        "Wu, Tongtong"
+      ],
+      "date_source_field": "published",
+      "date_source_timestamp": "2026-10-02T14:36:46Z"
+    },
+    {
       "id": "r101",
       "section": "4. Research papers",
       "category": "Robustness and security",
@@ -3187,6 +3527,36 @@
         "Chen, Anlong",
         "Chen, Lei"
       ]
+    },
+    {
+      "id": "r179",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "Evaluating System One Models for Agent Security Decisions: Reliability, Calibration, and Selective Automation",
+      "description": "Evaluates Jev and other decision models on prompt injection, interaction risk, and harmful requests. Examines attack-group errors, selective allow/block policies, and correlated reviewer mistakes rather than relying on aggregate accuracy or calibration alone.",
+      "status": "Preprint",
+      "date": "2026-09-27",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.33401"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2609.33401"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.33401",
+      "arxiv_id": "2609.33401",
+      "authors": [
+        "Liu, Yixuan"
+      ],
+      "date_source_field": "published",
+      "date_source_timestamp": "2026-09-27T09:30:13Z"
     },
     {
       "id": "r104",
@@ -3827,6 +4197,39 @@
       ]
     },
     {
+      "id": "r180",
+      "section": "4. Research papers",
+      "category": "Networking and edge systems",
+      "title": "System One Models for Wireless Decision-Making:Applications and Performance Evaluation",
+      "description": "Studies Jev on bounded wireless-control tasks including antenna selection and intent-conditioned RAN slicing. Compares decision quality and client-observed latency; faster inference can sacrifice task quality and need not reduce end-to-end service latency.",
+      "status": "Preprint",
+      "date": "2026-10-03",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.04345"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.04345"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "network",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.04345",
+      "arxiv_id": "2610.04345",
+      "authors": [
+        "Rahimi, Masoud",
+        "Alemohammad, S. M. Matin",
+        "Behroozi, Hamid",
+        "Nouri, Mahdi"
+      ],
+      "date_source_field": "published",
+      "date_source_timestamp": "2026-10-03T07:13:46Z"
+    },
+    {
       "id": "r118",
       "section": "4. Research papers",
       "category": "Domain applications and multilingual models",
@@ -4219,6 +4622,69 @@
         "Madrid-García, Alfredo",
         "Merino-Barbancho, Beatriz"
       ]
+    },
+    {
+      "id": "r178",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Calibrated to Whom? Persona and Language Effects on Cultural Values in JEV",
+      "description": "Audits Jev cultural-value responses across matched Saudi and American personas in English and Arabic. Finds highly repeatable answers alongside persona- and language-dependent shifts; consistency does not imply representative or unbiased population estimates.",
+      "status": "Preprint",
+      "date": "2026-09-28",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.36399"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2609.36399"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "globe",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.36399",
+      "arxiv_id": "2609.36399",
+      "authors": [
+        "Asseri, Bushra",
+        "Asseri, Abdulaziz"
+      ],
+      "date_source_field": "published",
+      "date_source_timestamp": "2026-09-28T23:53:31Z"
+    },
+    {
+      "id": "r183",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "To Jev or Not? Evaluating the Accuracy and Efficiency of Structured Decision Models for Hate-Speech Moderation",
+      "description": "Presents HATEDECIDE, comparing structured decision models and moderation baselines across four datasets. Tests supplied definitions and question decomposition, finding that changed predictions do not consistently improve classification; latency and cost results are workload-specific.",
+      "status": "Preprint",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.03324"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.03324"
+        }
+      ],
+      "checked_on": "2026-10-06",
+      "cataloged_on": "2026-10-06",
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.03324",
+      "arxiv_id": "2610.03324",
+      "authors": [
+        "Paschalides, Demetris",
+        "Pallis, George",
+        "Dikaiakos, Marios D."
+      ],
+      "date_source_field": "published",
+      "date_source_timestamp": "2026-10-02T13:59:21Z"
     },
     {
       "id": "r126",
