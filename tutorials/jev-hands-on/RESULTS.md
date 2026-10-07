@@ -11,7 +11,7 @@
 | Local application policy | Five offline tests passed on the Mac, using hand-written fixtures |
 | Official SDK 0.7.2 | Four additional offline HTTP-transport tests passed; actual request encoding, response parsing, and failed-run recording exercised |
 | Official hosted Jev | **Live evaluation pending: no TypeSafe API key was configured.** No hosted predictions or latency claims are reported |
-| Independent Laya | Two completed remote GPU runs, twelve tickets each; actual predictions and metadata linked below |
+| Independent Laya | Two completed remote GPU runs, twelve tickets each; measured summary and selected predictions documented below |
 | Mac model inference | None; the GPU runner's macOS guard was exercised and rejected execution before model imports |
 
 The official client tutorial is runnable once account access is configured. Its offline SDK checks are not evidence of live hosted behavior.
@@ -22,11 +22,9 @@ The official client tutorial is runnable once account access is configured. Its 
 | --- | --- |
 | [workload.json](workload.json) | Original questions, tickets, and expected labels |
 | [questions-concise.json](questions-concise.json) | One revised question set, written after inspecting the first run |
-| [Original run snapshot](results/laya-original.json) | All twelve actual responses, timings, policy outcomes, and dependency versions |
-| [Concise-question run snapshot](results/laya-concise.json) | All twelve actual responses under the revised question set |
-| [checkpoint.json](checkpoint.json) | Pinned checkpoint revision and expected file hashes |
+| [run_laya.py](run_laya.py) | Pinned checkpoint revision, expected file hashes, and run-file generation |
 
-The published snapshots omit server paths and the physical GPU index. Prediction values and measured metrics are preserved. Raw logs, environments, and working notes remain local. Each snapshot includes the question set and a hash of the teaching workload.
+Run snapshots, checkpoint manifests, raw logs, environments, and working notes are retained locally and excluded from Git. The tables below preserve the measured summary and selected predictions from the two runs. To inspect complete responses or replay thresholds, generate local run files with the commands below.
 
 ## Environment and execution
 
@@ -90,11 +88,11 @@ Use the environment, GPU selection, and verified files from [lesson 3](03-remote
 
 ## Thresholds changed coverage, not predictions
 
-Replay the published responses on any laptop with standard Python:
+After running the two configurations above, copy the generated `runs/` files from the server to your laptop and replay them with standard Python. The historical snapshot files are not included in the repository:
 
 ```bash
-python evaluate.py results/laya-original.json --thresholds 0 0.1 0.5 0.8 0.9
-python evaluate.py results/laya-concise.json --thresholds 0 0.1 0.5 0.8 0.9
+python evaluate.py runs/laya.json --thresholds 0 0.1 0.5 0.8 0.9
+python evaluate.py runs/laya-concise.json --thresholds 0 0.1 0.5 0.8 0.9
 ```
 
 | Policy threshold | Original queued | Original correct department among queued | Concise queued | Concise correct department among queued |

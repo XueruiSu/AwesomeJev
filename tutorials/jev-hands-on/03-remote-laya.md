@@ -17,7 +17,7 @@ mkdir -p "$JEV_CODE_DIR" "$JEV_DATA_DIR"
 df -h "$JEV_CODE_DIR" "$JEV_DATA_DIR"
 ```
 
-Copy this tutorial's `.py`, `.json`, and `requirements-gpu.txt` files into the code directory. Do not copy `.venv`, `.work`, or `runs` from the Mac. Keep raw run logs in the small-file directory, and downloaded weights and package caches on the large-data disk.
+Copy this tutorial's `.py` files, `workload.json`, `questions-concise.json`, and `requirements-gpu.txt` into the code directory. Keep local checkpoint manifests, `.venv`, `.work`, `results`, and `runs` out of the copy. Keep raw run logs in the small-file directory, and downloaded weights and package caches on the large-data disk.
 
 ## Create an environment on the server
 
@@ -69,7 +69,7 @@ python run_laya.py --questions questions-concise.json \
   --output runs/laya-concise.json
 ```
 
-The runner pins commit `55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851` and verifies the five files listed in [checkpoint.json](checkpoint.json) before loading. This English checkpoint consists of one ~843 MB weight file plus small encoder/tokenizer configuration files. Laya's filtered download avoids fetching the multilingual and typed-decisions sibling checkpoints.
+The runner pins commit `55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851` and verifies the five file hashes in `EXPECTED_SHA256` in [run_laya.py](run_laya.py) before loading. This English checkpoint consists of one ~843 MB weight file plus small encoder/tokenizer configuration files. Laya's filtered download avoids fetching the multilingual and typed-decisions sibling checkpoints.
 
 If the verified files have already been transferred to a local server directory, the tested offline invocation is:
 

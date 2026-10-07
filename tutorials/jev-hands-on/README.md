@@ -51,9 +51,8 @@ Enter the key at the hidden prompt. Alternatively, use an already configured `TY
 | [common.py](common.py) | Output validation, application routing, and small-workload metrics |
 | [run_hosted.py](run_hosted.py) | Official API client, pinned model request, hidden key prompt, and failure recording |
 | [run_laya.py](run_laya.py) | Remote-only GPU runner with revision and file-hash checks |
-| [checkpoint.json](checkpoint.json) | Pinned public checkpoint and expected SHA256 values |
 | [test_policy.py](test_policy.py), [test_sdk.py](test_sdk.py) | Offline checks; no inference evidence |
 
-Raw run files go into ignored `runs/`; environments and download staging also stay local. Published results contain only curated outputs from these synthetic inputs. Keep new private tickets and credentials out of commits.
+Run files, experiment snapshots, checkpoint manifests, environments, and download staging stay local and are ignored by Git. The runner contains the pinned revision and expected file hashes. [Experiment notes](RESULTS.md) retain the measured summary and selected predictions; generate your own run files to replay the evaluation. Keep new private tickets and credentials out of commits.
 
 The GPU runner refuses macOS and requires exactly one selected CUDA device. Use [lesson 3](03-remote-laya.md) for installation and execution on a server; do not install the GPU requirements into your Mac environment.

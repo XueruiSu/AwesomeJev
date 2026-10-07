@@ -12,6 +12,13 @@ import time
 from common import route, summarize, workload
 
 REVISION = "55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851"
+EXPECTED_SHA256 = {
+    "model.safetensors": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c",
+    "encoder/config.json": "bf3ab80598fdccf414855a2ce80f22859e4492d06ca8a62ddd1cfb63972f8979",
+    "rl_agent_config.json": "ae287b56bbcf5f8c4f4541ae9dfd00c914c4c48b940b8398c3058af37ba92bbd",
+    "tokenizer/tokenizer.json": "6c8aaa9a542084f2457eab775d4eeb51f92a70c0fd9de28d5edb0ddec3c08d30",
+    "tokenizer/tokenizer_config.json": "50044de60daaa73df97d262e15a40d4faf0160e7d742df64b377877a1320dd12"
+}
 
 
 def main():
@@ -37,11 +44,10 @@ def main():
     if args.questions:
         data["questions"] = json.loads(Path(args.questions).read_text())
     started = time.perf_counter()
-    manifest = json.loads((Path(__file__).parent / "checkpoint.json").read_text())
-    if args.revision != manifest["revision"]:
-        parser.error("This teaching experiment verifies one pinned revision; update checkpoint.json for another.")
+    if args.revision != REVISION:
+        parser.error("This teaching experiment verifies one pinned revision; update REVISION and EXPECTED_SHA256 together for another.")
     agent = laya.load(args.checkpoint, device="cuda", revision=args.revision,
-                      expected_sha256=manifest["sha256"])
+                      expected_sha256=EXPECTED_SHA256)
     load_seconds = time.perf_counter() - started
     if not str(agent.device).startswith("cuda"):
         raise RuntimeError("The model did not load on CUDA")
