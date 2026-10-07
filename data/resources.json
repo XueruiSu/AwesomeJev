@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-07",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -1033,6 +1033,170 @@
       "date_source_timestamp": "2026-10-05T06:24:07+00:00"
     },
     {
+      "id": "r184",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Q: Is Jev useful for voice agents? A: Let's benchmark it",
+      "description": "Veris compares a Jev turn gate with silence-based detection on 100 simulated voice tasks, three runs each. Reported interruptions fall from 52% to 11%, while median replies slow from 2.1 to 4.6 seconds and task completion barely changes; the two conditions also use different Pipecat versions.",
+      "status": "Article",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "label": "Blog",
+          "url": "https://veris.ai/blog/jev-turn-detection"
+        },
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=49982478"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "chat",
+      "date_kind": "published",
+      "date_source": "https://veris.ai/blog/jev-turn-detection",
+      "cataloged_on": "2026-10-07",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-05T09:00:00.000Z"
+    },
+    {
+      "id": "r185",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Decide with Jev: Three Questions in One Request with the Laravel AI SDK",
+      "description": "Harris Raftopoulos demonstrates versioned Boolean, choice, and score questions in one request, a shared PHP service, answer decoding, and application-side dependencies between decisions. Includes the episode and example repository.",
+      "status": "Article",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "Tutorial",
+          "url": "https://laravel-news.com/decide-with-jev-three-questions-in-one-request-with-the-laravel-ai-sdk"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/harris21/decide-with-jev"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "code",
+      "date_kind": "published",
+      "date_source": "https://laravel-news.com/decide-with-jev-three-questions-in-one-request-with-the-laravel-ai-sdk",
+      "cataloged_on": "2026-10-07",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-06T09:00:00-04:00"
+    },
+    {
+      "id": "r186",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Generate Jev Schemas from TypeScript Types",
+      "description": "Jeongho Nam shows how Typia generates question maps and answer decoders from TypeScript types and comments, using the direct Jev SDK or Vercel AI SDK. The MIT-licensed implementation includes a Boolean-to-Noul adapter; schema validation does not establish decision accuracy.",
+      "status": "Article",
+      "date": "2026-09-30",
+      "links": [
+        {
+          "label": "Blog",
+          "url": "https://typia.io/blog/jev/"
+        },
+        {
+          "label": "Guide",
+          "url": "https://typia.io/docs/utilization/jev"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/samchon/typia"
+        },
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=49981716"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "code",
+      "date_kind": "published",
+      "date_source": "https://typia.io/blog/jev/",
+      "cataloged_on": "2026-10-07",
+      "date_note": "The article displays September 30, 2026; its October 6 Hacker News submission is not the publication date."
+    },
+    {
+      "id": "r187",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "An Independent Evaluation of TypeSafe's Jev",
+      "description": "Vals evaluates twelve systems on 400 SEC-filing claim checks and a preregistered 396-question LegalBench slice. Jev matches several frontier models on claim verification but ranks last on this legal slice; its selective-automation test also exceeds the targeted error budget. Cost and latency findings are workload-specific.",
+      "status": "Article",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "Evaluation",
+          "url": "https://www.vals.ai/blogs/independent-evaluation-of-jev"
+        },
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=49984418"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "gauge",
+      "date_kind": "published",
+      "date_source": "https://www.vals.ai/blogs/independent-evaluation-of-jev",
+      "cataloged_on": "2026-10-07"
+    },
+    {
+      "id": "r188",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Is Jev the right model for your agents?",
+      "description": "Akhilesh Krishnan compares Jev, Haiku 4.5, GPT-5.4-mini, and Gemini 3.5 Flash on two balanced 200-item support-escalation and model-routing datasets. Discusses latency, separate judge costs, and threshold sensitivity; the small samples and exploratory threshold adjustment limit generalization.",
+      "status": "Article",
+      "date": "2026-09-22",
+      "links": [
+        {
+          "label": "Blog",
+          "url": "https://blog.oodle.ai/is-jev-the-right-model-for-your-use-case-a-walkthrough-comparing-haiku-4-5-gpt-5-4-mini-and-gemini-3-5-flash/"
+        },
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=49982760"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "scales",
+      "date_kind": "published",
+      "date_source": "https://blog.oodle.ai/is-jev-the-right-model-for-your-use-case-a-walkthrough-comparing-haiku-4-5-gpt-5-4-mini-and-gemini-3-5-flash/",
+      "cataloged_on": "2026-10-07",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-09-22T19:39:44.000Z",
+      "date_note": "First-party publication metadata predates the October 6 discussion submission."
+    },
+    {
+      "id": "r189",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Jev plays chess",
+      "description": "Byren Cheema reports 470 games and 1,000 held-out puzzles, with every legal move supplied as an option. The experiment separates fast, legal outputs from weak chess play and investigates attraction to moves described as checks; code and recorded results are linked.",
+      "status": "Article",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "label": "Blog",
+          "url": "https://byrencheema.com/writing/jev-plays-chess/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/byrencheema/jev-chess"
+        },
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=49983198"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "gamepad",
+      "date_kind": "published",
+      "date_source": "https://byrencheema.com/writing/jev-plays-chess/",
+      "cataloged_on": "2026-10-07"
+    },
+    {
       "id": "r035",
       "section": "2. Community discussion and writing",
       "category": "Reddit debates",
@@ -1580,6 +1744,33 @@
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-04T08:06:58Z",
       "date_note": "GitHub repository creation, not the first release date of a model or integration."
+    },
+    {
+      "id": "r190",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jevline",
+      "description": "Experimental incident reconstruction from a confirmed malicious seed and exported telemetry. Jev judges which connected entities belong to the incident, producing a timeline and evidence table. Relatedness scores are not maliciousness verdicts, and results require analyst review; no repository license was declared in GitHub metadata.",
+      "status": "Source available",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tsale/jevline"
+        },
+        {
+          "label": "Demo",
+          "url": "https://jev-incident-timeline.vercel.app/"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "shield",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/tsale/jevline",
+      "cataloged_on": "2026-10-07",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-06T01:01:03Z",
+      "date_note": "GitHub repository creation timestamp; not an independently verified first public release date."
     },
     {
       "id": "r055",
@@ -2153,6 +2344,83 @@
       "date_note": "Dates the earliest of the two checked model repositories, jiwo-0.8b. The jiwo-4b repository was created 2026-10-05T07:37:22.000Z. Neither timestamp establishes when its weights first became public."
     },
     {
+      "id": "r194",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Archai JEV Nesso 4B Ita",
+      "description": "Italian Jev-style decision model adapted from Nesso 4B, targeting single-token options for moderation, sentiment, and inference tasks. Public files include a QLoRA adapter and Q8 GGUF; the model card declares Apache-2.0. Accuracy and calibration figures are author-reported, not independent verification.",
+      "status": "Open weights",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/nickprock/archai-jev-nesso-4b-ita"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "globe",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/nickprock/archai-jev-nesso-4b-ita",
+      "cataloged_on": "2026-10-07",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-05T14:59:16.000Z",
+      "date_note": "Hugging Face repository creation timestamp; it does not establish when model weights first became public."
+    },
+    {
+      "id": "r195",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "JEVnovel 2.5 — Chinese prose revision detectors",
+      "description": "Independent Qwen3.5-based 0.8B and 4B decision models that locate formulaic spans in Chinese web fiction using prefix and clause heads, distilled from a 27B teacher. Both repositories publish weights and custom inference code under Apache-2.0. They assess stylistic impressions, not factual correctness; other writing domains are unvalidated.",
+      "status": "Open weights and code",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/aikexue170/jev-novel-2.5-0.8b-bf16"
+        },
+        {
+          "label": "4B weights",
+          "url": "https://huggingface.co/aikexue170/jev-novel-2.5-4b-bf16"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "book",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/aikexue170/jev-novel-2.5-0.8b-bf16",
+      "cataloged_on": "2026-10-07",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-06T08:45:30.000Z",
+      "date_note": "Hugging Face repository creation timestamp; it does not establish when model weights first became public."
+    },
+    {
+      "id": "r196",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Jev Recovery Router",
+      "description": "Independent Jev-inspired research bundle combining a Qwen3-1.7B adapter, decision head, calibrated retrieval, and a separate cost-conditioned recovery actor. Public Apache-2.0 code and adapter/head/actor weights support commit, expand, or handoff decisions. Requires upstream base weights and custom inference; BANKING77 transfer remains a disclosed failure case.",
+      "status": "Open weights and code",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/Quicksort-fr/jev-recovery-router"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Muradmustafayev-03/jev-recovery-router"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/Quicksort-fr/jev-recovery-router",
+      "cataloged_on": "2026-10-07",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-06T00:11:04.000Z",
+      "date_note": "Hugging Face repository creation timestamp; it does not establish when model weights first became public."
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -2371,11 +2639,42 @@
       "date_source": "https://api.github.com/repos/DaragonTech/LibLayaX"
     },
     {
+      "id": "r192",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "Browser Laya",
+      "description": "MIT-licensed browser library and playground for English Laya inference through ONNX Runtime Web, with WebGPU and WebAssembly paths. The linked Apache-2.0 ONNX weights are public; the default bundle is about 900 MB. The documented int8 export uses WebAssembly because of WebGPU correctness limitations.",
+      "status": "Open weights and code",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/wexare-ai/browser-laya"
+        },
+        {
+          "label": "Playground",
+          "url": "https://wexare-ai.github.io/browser-laya/"
+        },
+        {
+          "label": "Weights",
+          "url": "https://huggingface.co/wexare/laya-onnx"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "browser",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/wexare-ai/browser-laya",
+      "cataloged_on": "2026-10-07",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-05T05:02:36Z",
+      "date_note": "GitHub repository creation timestamp; not an independently verified first public release date."
+    },
+    {
       "id": "r078",
       "section": "3. Infrastructure, models, and applications",
       "category": "Benchmarks, calibration, and datasets",
       "title": "JevBench",
-      "description": "Independent multi-model benchmark with versioned scoring and results. Composite rankings depend on the published accuracy, calibration, latency, and cost methodology.",
+      "description": "Independent multi-model benchmark with versioned scoring and results. Its October 6 leaderboard split separates self-hosted open-weight systems from hosted API offerings; rankings depend on the published accuracy, calibration, latency, and cost methodology. Only aggregate results are published.",
       "status": "Open-source code",
       "date": "2026-09-19",
       "links": [
@@ -2386,9 +2685,13 @@
         {
           "label": "Leaderboard",
           "url": "https://www.benchmarkheaven.com/jev-models"
+        },
+        {
+          "label": "API leaderboard",
+          "url": "https://benchmarkheaven.com/jev-models/api"
         }
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-07",
       "icon": "gauge",
       "date_kind": "repository_created",
       "date_source": "https://api.github.com/repos/fstandhartinger/jevbench"
@@ -2688,6 +2991,33 @@
       "date_note": "Hugging Face repository creation, not the first publication of every contained evaluation run."
     },
     {
+      "id": "r193",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev confidence cascades",
+      "description": "MIT-licensed experiments on prefill-only decision models, comparing candidate-menu interventions, repeated passes, and escalation from a small model to a larger model for uncertain items. Includes analysis scripts and task-specific results; headline savings depend on the tested workload and cost model.",
+      "status": "Open-source code",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/rlisml/jev-cascade"
+        },
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2610.07716"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/rlisml/jev-cascade",
+      "cataloged_on": "2026-10-07",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-06T03:50:33Z",
+      "date_note": "GitHub repository creation timestamp; not an independently verified first public release date."
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -2850,6 +3180,29 @@
       "icon": "globe",
       "date_kind": "repository_created",
       "date_source": "https://api.github.com/repos/AsheeHuang/Jevboard"
+    },
+    {
+      "id": "r191",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "laya-opencv",
+      "description": "MIT-licensed local workbench combining OpenCV measurements, deterministic numeric rules, and Laya or hosted Jev decisions for agriculture and inspection examples. The model receives textual measurements rather than raw images; conflicting or low-confidence results are flagged for review.",
+      "status": "Open-source code",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/uu889/laya-opencv"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/uu889/laya-opencv",
+      "cataloged_on": "2026-10-07",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-05T10:22:14Z",
+      "date_note": "GitHub repository creation timestamp; not an independently verified first public release date."
     },
     {
       "id": "r092",
@@ -3092,6 +3445,40 @@
       ],
       "date_source_field": "published",
       "date_source_timestamp": "2026-10-02T18:47:00Z"
+    },
+    {
+      "id": "r202",
+      "section": "4. Research papers",
+      "category": "Surveys and broad evaluations",
+      "title": "GraphDecide: Benchmarking System One Models on Graph Tasks",
+      "description": "Introduces GraphDecide to compare fourteen model-interface configurations on structural graph queries, graph-text decisions, and sequential construction. Jev results illustrate that adjacency recognition, added context, and feasible completion do not guarantee broader structural accuracy or solution quality.",
+      "status": "Preprint",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.06354"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.06354"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/VictorYXL/JevGraphBench"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "network",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.06354",
+      "cataloged_on": "2026-10-07",
+      "arxiv_id": "2610.06354",
+      "authors": [
+        "Yang, Xianliang",
+        "Zhang, Yapu",
+        "Zhao, Li"
+      ]
     },
     {
       "id": "r096",
@@ -3407,6 +3794,35 @@
       "date_source_timestamp": "2026-10-02T14:36:46Z"
     },
     {
+      "id": "r203",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Probability Contracts: Accuracy, Coherence, and Decisions Across LLM Interfaces",
+      "description": "Uses finite-world probability contracts to separate posterior accuracy, interface coherence, valid-output coverage, and decision cost. Comparisons including Kev and Jev show that equivalent event and choice interfaces can induce different actions; averaging probabilities does not guarantee lower decision loss.",
+      "status": "Preprint",
+      "date": "2026-09-27",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.37470"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2609.37470"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "scales",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2609.37470",
+      "cataloged_on": "2026-10-07",
+      "arxiv_id": "2609.37470",
+      "authors": [
+        "Chen, Han",
+        "Li, Yingrui"
+      ]
+    },
+    {
       "id": "r101",
       "section": "4. Research papers",
       "category": "Robustness and security",
@@ -3557,6 +3973,43 @@
       ],
       "date_source_field": "published",
       "date_source_timestamp": "2026-09-27T09:30:13Z"
+    },
+    {
+      "id": "r204",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "Hidden Risks of Jev: An Empirical Study of Security, Privacy, and Dual Use",
+      "description": "Studies security, privacy, and dual-use implications of hosted Jev and a locally controllable NanoJev model. Examines decision manipulation, poisoned updates, and information inference despite typed outputs, distinguishing defensive applications from misuse scenarios.",
+      "status": "Preprint",
+      "date": "2026-10-04",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.04985"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.04985"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/shihe98/Security_Privacy_Jev"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.04985",
+      "cataloged_on": "2026-10-07",
+      "arxiv_id": "2610.04985",
+      "authors": [
+        "Wang, Shang",
+        "Zhu, Tianqing",
+        "Chen, Huajie",
+        "Li, Jiayang",
+        "Yang, Meng",
+        "Liu, Bo"
+      ]
     },
     {
       "id": "r104",
@@ -3800,6 +4253,34 @@
         "Tu, Fangbo",
         "Zhao, Junhua",
         "Chen, Xin"
+      ]
+    },
+    {
+      "id": "r197",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "When Plans Change Answers: Formalizing Cost-Accuracy Optimization for Semantic Queries",
+      "description": "Formalizes cost-versus-accuracy optimization for semantic queries using decision-model confidence, error propagation through joins, and output-level targets. Establishes complexity and plan-equivalence results with synthetic simulations; evaluation on real query engines remains future work.",
+      "status": "Preprint",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.08089"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.08089"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "database",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.08089",
+      "cataloged_on": "2026-10-07",
+      "arxiv_id": "2610.08089",
+      "authors": [
+        "Kim, Kyoungmin"
       ]
     },
     {
@@ -4050,6 +4531,39 @@
       ]
     },
     {
+      "id": "r200",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "Readout Stability in Prefill-Only Decision Models:Zero-Label Prediction and Inference-Time Compute Allocation",
+      "description": "Studies whether cached first-pass distributions predict accuracy after candidate-menu changes in prefill-only decision models. Compares seven model families across ten datasets and explores confidence cascades and menu curation as alternatives to repeated inference.",
+      "status": "Preprint",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.07716"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.07716"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/rlisml/jev-cascade"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "network",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.07716",
+      "cataloged_on": "2026-10-07",
+      "arxiv_id": "2610.07716",
+      "authors": [
+        "Li, Ran",
+        "Chen, Lei"
+      ]
+    },
+    {
       "id": "r115",
       "section": "4. Research papers",
       "category": "Networking and edge systems",
@@ -4228,6 +4742,39 @@
       ],
       "date_source_field": "published",
       "date_source_timestamp": "2026-10-03T07:13:46Z"
+    },
+    {
+      "id": "r201",
+      "section": "4. Research papers",
+      "category": "Networking and edge systems",
+      "title": "SoK: Semantic Decision Engines in Network Control Loops",
+      "description": "Systematizes 139 paper families on semantic decision engines in network control loops. Distinguishes valid decisions from deadline attainment, feasible actions, and verified execution, and proposes reporting requirements after finding limited matched timing evidence.",
+      "status": "Preprint",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.06425"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.06425"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "network",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.06425",
+      "cataloged_on": "2026-10-07",
+      "arxiv_id": "2610.06425",
+      "authors": [
+        "Li, Delong",
+        "Li, Chen",
+        "Wang, Xu",
+        "Gong, Haochen",
+        "Lang, Rui",
+        "Yu, Guangsheng"
+      ]
     },
     {
       "id": "r118",
@@ -4685,6 +5232,64 @@
       ],
       "date_source_field": "published",
       "date_source_timestamp": "2026-10-02T13:59:21Z"
+    },
+    {
+      "id": "r198",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Benchmarking System One Models in Online Moderation",
+      "description": "Evaluates Jev and Laya across five online-moderation benchmarks, separating written policies, retrieved precedents, and candidate restrictions. Reports more consistent retrieval gains for Jev, while confidence calibration and selective-review usefulness vary across settings.",
+      "status": "Preprint",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.07953"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.07953"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.07953",
+      "cataloged_on": "2026-10-07",
+      "arxiv_id": "2610.07953",
+      "authors": [
+        "Mazzoni, Federico",
+        "Failla, Andrea"
+      ]
+    },
+    {
+      "id": "r199",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "JEV versus LLMs: Accuracy, Cost and Calibration on Seven Political Science Replications",
+      "description": "Compares Jev with human annotations and language models across seven political-science replications. Reports broadly competitive task performance, no cost advantage over the tested OpenAI batch pricing, and calibration advantages that depend on the comparison model.",
+      "status": "Preprint",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.06625"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.06625"
+        }
+      ],
+      "checked_on": "2026-10-07",
+      "icon": "globe",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.06625",
+      "cataloged_on": "2026-10-07",
+      "arxiv_id": "2610.06625",
+      "authors": [
+        "Denney, Steven",
+        "DiGiuseppe, Matthew"
+      ]
     },
     {
       "id": "r126",
