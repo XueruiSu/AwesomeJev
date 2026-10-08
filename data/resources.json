@@ -1921,6 +1921,25 @@
       "date_note": "GitHub repository creation; not an independently verified first public release date."
     },
     {
+      "id": "r224",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "jev-max",
+      "description": "Jev-powered browser agent that pierces shadow DOM and iframes into one indexed action table, with a vision fallback for canvas, uploads, drag-and-drop, multi-tab control, and an MCP server for any agent host.",
+      "status": "Open-source code",
+      "date": "2026-10-08",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/saloni-garg/jev-max"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "icon": "browser",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/saloni-garg/jev-max"
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
