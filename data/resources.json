@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-07",
+  "last_updated": "2026-10-08",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -1197,6 +1197,131 @@
       "cataloged_on": "2026-10-07"
     },
     {
+      "id": "r205",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Jev isn't a better judge than Claude",
+      "description": "DoubtBench author compares Jev and three Claude models on 7,455 HelpSteer2-derived judgments, including agreement with human uncertainty. Reports similar composite scores and weak tracking of annotator disagreement despite different cost and latency. Claude probabilities are generated in JSON, and reasoning effort and dataset scope limit the comparison.",
+      "status": "Article",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://deeplearningguy.github.io/blog/jev-vs-claude-judge"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/deeplearningguy/doubtbench"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "scales",
+      "date_kind": "published",
+      "date_source": "https://deeplearningguy.github.io/blog/jev-vs-claude-judge"
+    },
+    {
+      "id": "r206",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Do Jev Decision Models work for mine operations?",
+      "description": "Hivekit founder explains how Jev could interpret shift notes alongside deterministic scheduling calculations and safety constraints. Describes an application architecture and early integration direction, without a quantitative evaluation of mine operations.",
+      "status": "Article",
+      "date": "2026-09-28",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://hivekit.io/blog/do-jev-decision-models-work-for-mine-operations/"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "compass",
+      "date_kind": "published",
+      "date_source": "https://hivekit.io/blog/",
+      "date_note": "The first-party blog index dates this article 28.09.2026; a September 30 author repost corroborates earlier availability. October 7 aggregation is not its publication date."
+    },
+    {
+      "id": "r207",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Build a Custom Jev Connector and Shared Pipelines in Maia",
+      "description": "First-party walkthrough of creating a TypeSafe connector, managing credentials through a secrets manager, and sharing batch, table, and answer-unpacking pipelines. Demonstrates a Snowflake-targeted integration with reusable examples; it is a vendor tutorial rather than an independent benchmark.",
+      "status": "Article",
+      "date": "2026-10-07",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://www.maia.ai/resources/blog/building-typesafe-jev-connector-shared-pipelines-maia"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "database",
+      "date_kind": "published",
+      "date_source": "https://www.maia.ai/resources/blog/building-typesafe-jev-connector-shared-pipelines-maia",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-07T16:08:12.168Z"
+    },
+    {
+      "id": "r208",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "What Is RSI-Jev? A Self-Improving Loop That Builds Jev-Style Decision Models",
+      "description": "Technical guide to RSI-Jev release history, adaptive-depth decision heads, serving, and evaluation caveats. Focuses on v6.0-VL while acknowledging v6.1-VL; performance figures come from the project, and the article explicitly says OrcaRouter does not host RSI-Jev.",
+      "status": "Article",
+      "date": "2026-10-07",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://www.orcarouter.ai/blog/what-is-rsi-jev"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Shanghua-Gao/RSI-Jev"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "brain",
+      "date_kind": "published",
+      "date_source": "https://www.orcarouter.ai/blog/what-is-rsi-jev"
+    },
+    {
+      "id": "r209",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "JEV-27B-VL: a decision model that learned to see without image training",
+      "description": "AutoTrust announces its independent multimodal decision model and explains reuse of a text-trained decision head with a vision-capable backbone. Reports a cover-image recommendation experiment on 200 users; these publisher-run findings do not establish general visual reliability.",
+      "status": "Article",
+      "date": "2026-09-30",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://huggingface.co/blog/autotrust/autotrustjev-27b-vl-a-decision-model-that-learned"
+        },
+        {
+          "label": "Weights",
+          "url": "https://huggingface.co/autotrust/JEV-27B-VL"
+        },
+        {
+          "label": "Demo code",
+          "url": "https://github.com/yuhai-china/JEV-27B-DEMO"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "eye",
+      "date_kind": "published",
+      "date_source": "https://huggingface.co/blog/autotrust/autotrustjev-27b-vl-a-decision-model-that-learned",
+      "attention": {
+        "platform": "Hugging Face",
+        "upvotes": 165,
+        "observed_on": "2026-10-08",
+        "source": "https://huggingface.co/blog/autotrust/autotrustjev-27b-vl-a-decision-model-that-learned"
+      }
+    },
+    {
       "id": "r035",
       "section": "2. Community discussion and writing",
       "category": "Reddit debates",
@@ -1773,6 +1898,29 @@
       "date_note": "GitHub repository creation timestamp; not an independently verified first public release date."
     },
     {
+      "id": "r210",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Orbs",
+      "description": "MIT-licensed multi-bot chat application with local Bun or Cloudflare hosting. Explicit mentions select bots; otherwise Jev scores who should reply. A local daemon executes turns through the separately installed Pi agent.",
+      "status": "Open-source code",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nikuscs/orbs"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "chat",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/nikuscs/orbs",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-06T18:29:18Z",
+      "date_note": "GitHub repository creation; not an independently verified first public release date."
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -1889,6 +2037,29 @@
       "icon": "database",
       "date_kind": "repository_created",
       "date_source": "https://api.github.com/repos/VectifyAI/jev-doc-search"
+    },
+    {
+      "id": "r211",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "TypeSafeSharp",
+      "description": "Unofficial MIT-licensed .NET client for the TypeSafe System One API, with typed Jev answers, retries, dependency injection, and OpenTelemetry support. Targets netstandard2.0 and net10.0; not endorsed by TypeSafe AI.",
+      "status": "Open-source code",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/sanamhub/typesafe-dotnet"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/sanamhub/typesafe-dotnet",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-06T02:57:25Z",
+      "date_note": "GitHub repository creation; not an independently verified first public release date."
     },
     {
       "id": "r060",
@@ -2421,6 +2592,133 @@
       "date_note": "Hugging Face repository creation timestamp; it does not establish when model weights first became public."
     },
     {
+      "id": "r213",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "RSI-Jev v6.1-VL",
+      "description": "Independent Qwen3.5-4B-based text-and-image decision model with adaptive exits at layers 16, 20, and 32, produced by averaging two fine-tunes. MIT code and declared Apache-2.0 weights are public. The card discloses restricted training-data terms and worse calibration than v6.0-VL despite author-reported accuracy gains.",
+      "status": "Open weights and code",
+      "date": "2026-10-07",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Shanghua-Gao/RSI-Jev"
+        },
+        {
+          "label": "Weights",
+          "url": "https://huggingface.co/shgao/rsi-jev-v6.1-vl-4b"
+        },
+        {
+          "label": "Release",
+          "url": "https://github.com/Shanghua-Gao/RSI-Jev/releases/tag/v6.1-VL"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "brain",
+      "date_kind": "published",
+      "date_source": "https://github.com/Shanghua-Gao/RSI-Jev/releases/tag/v6.1-VL",
+      "date_source_field": "published_at",
+      "date_source_timestamp": "2026-10-07T07:56:49Z"
+    },
+    {
+      "id": "r214",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "InnerJev-4B-Full",
+      "description": "Apache-2.0 complete BF16 weights with Apache-2.0 training and inference code. Distills reasoning-derived option distributions into a text-only decision readout with thinking disabled. The released full-rank adaptation covers selected language layers; reported BF16 scores are not quantized-inference results.",
+      "status": "Open weights and code",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/jylin001206/InnerJev-4B-Full"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/amazingljy1206/InnerJev"
+        },
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2610.03935"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/jylin001206/InnerJev-4B-Full",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-01T18:34:30.000Z",
+      "date_note": "Hugging Face repository creation, not the release date of every contained artifact."
+    },
+    {
+      "id": "r215",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "AutoTrust JEV-27B-VL",
+      "description": "Independent Qwen3.8-27B-based model combining text-and-image typed decisions with a separate generative path. Apache-2.0 weights, decision adapter, and serving code are public. The card documents custom vLLM serving constraints and limited visual calibration evidence; it is not TypeSafe Jev.",
+      "status": "Open weights and code",
+      "date": "2026-09-30",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/autotrust/JEV-27B-VL"
+        },
+        {
+          "label": "Announcement",
+          "url": "https://huggingface.co/blog/autotrust/autotrustjev-27b-vl-a-decision-model-that-learned"
+        },
+        {
+          "label": "Demo code",
+          "url": "https://github.com/yuhai-china/JEV-27B-DEMO"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "eye",
+      "date_kind": "published",
+      "date_source": "https://huggingface.co/blog/autotrust/autotrustjev-27b-vl-a-decision-model-that-learned",
+      "attention": {
+        "platform": "Hugging Face",
+        "likes": 1999,
+        "downloads_last_month": 1529210,
+        "observed_on": "2026-10-08",
+        "source": "https://huggingface.co/api/models/autotrust/JEV-27B-VL"
+      }
+    },
+    {
+      "id": "r216",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Together Tev1-4B-experimental",
+      "description": "Jev-inspired Qwen3.5-4B supervised fine-tune that generates one option letter, with a public MIT training recipe and downloadable weights. The model card says the fine-tuned weight license is still being finalized; development-set results and token logprobs are not independent accuracy or calibration guarantees.",
+      "status": "Public weights; license pending",
+      "date": "2026-09-23",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/togethercomputer/tev1"
+        },
+        {
+          "label": "Model card",
+          "url": "https://huggingface.co/togethercomputer/Tev1-4B-experimental"
+        },
+        {
+          "label": "Training tutorial",
+          "url": "https://www.together.ai/blog/how-to-train-your-own-jev"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/togethercomputer/tev1",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-09-23T17:39:43Z",
+      "date_note": "GitHub repository creation; not an independently verified first public release date."
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -2875,9 +3173,13 @@
         {
           "label": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49958040"
+        },
+        {
+          "label": "Author analysis",
+          "url": "https://deeplearningguy.github.io/blog/jev-vs-claude-judge"
         }
       ],
-      "checked_on": "2026-10-05",
+      "checked_on": "2026-10-08",
       "icon": "gauge",
       "date_kind": "repository_created",
       "date_source": "https://api.github.com/repos/deeplearningguy/doubtbench"
@@ -3016,6 +3318,64 @@
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-06T03:50:33Z",
       "date_note": "GitHub repository creation timestamp; not an independently verified first public release date."
+    },
+    {
+      "id": "r217",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "RSI-Jev benchmark runs",
+      "description": "Public Decision Index run records with versioned predictions, scores, environments, and retry provenance for RSI-Jev releases. Repository metadata declares MIT; these are project-run evaluations, and benchmark versions and hardware must be matched before comparing results.",
+      "status": "Public evaluation artifacts",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/datasets/shgao/rsi-jev-benchmarks"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Shanghua-Gao/RSI-Jev"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/datasets/shgao/rsi-jev-benchmarks",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-02T09:07:36.000Z",
+      "date_note": "Hugging Face repository creation, not the release date of every contained artifact."
+    },
+    {
+      "id": "r218",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "JEVal dataset",
+      "description": "Bilingual typed-decision benchmark accompanying General Decision Models: Benchmarking and Insights Beyond Jev. Publishes test rows and source identifiers for Choice, Noul, and Score evaluation. The card explicitly leaves upstream citations and licensing metadata incomplete and assigns no blanket third-party-data license.",
+      "status": "Public benchmark dataset",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/datasets/carlosxiang/JEVal"
+        },
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2610.03935"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/amazingljy1206/InnerJev"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/datasets/carlosxiang/JEVal",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-02T13:16:55.000Z",
+      "date_note": "Hugging Face repository creation, not the release date of every contained artifact."
     },
     {
       "id": "r086",
@@ -3203,6 +3563,29 @@
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-05T10:22:14Z",
       "date_note": "GitHub repository creation timestamp; not an independently verified first public release date."
+    },
+    {
+      "id": "r212",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "open-annie",
+      "description": "Apache-2.0 browser character demo separating voice conversation from Jev-selected expressions and gestures. Includes a recorded live session and a scripted local preview; live use requires hosted speech and Jev services. Reported timing comes from the author demo.",
+      "status": "Open-source code",
+      "date": "2026-10-07",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/rehan-remade/open-annie"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "video",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/rehan-remade/open-annie",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-07T09:41:08Z",
+      "date_note": "GitHub repository creation; not an independently verified first public release date."
     },
     {
       "id": "r092",
@@ -3424,9 +3807,17 @@
         {
           "label": "PDF",
           "url": "https://arxiv.org/pdf/2610.03935"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/amazingljy1206/InnerJev"
+        },
+        {
+          "label": "Dataset",
+          "url": "https://huggingface.co/datasets/carlosxiang/JEVal"
         }
       ],
-      "checked_on": "2026-10-06",
+      "checked_on": "2026-10-08",
       "cataloged_on": "2026-10-06",
       "icon": "compass",
       "date_kind": "submitted",
@@ -3478,6 +3869,38 @@
         "Yang, Xianliang",
         "Zhang, Yapu",
         "Zhao, Li"
+      ]
+    },
+    {
+      "id": "r222",
+      "section": "4. Research papers",
+      "category": "Surveys and broad evaluations",
+      "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+      "description": "Introduces BOTTLED to test whether agents can convert large unlabeled workloads into reusable programs or small models under fixed budgets. Compares amortized quality and cost with zero-shot systems, distillation baselines, and Jev; savings and retained quality vary sharply by model and task.",
+      "status": "Preprint",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.08775"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.08775"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "flask",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.08775",
+      "arxiv_id": "2610.08775",
+      "authors": [
+        "Sonthalia, Ankit",
+        "Puerto, Haritz",
+        "Rubinstein, Alexander",
+        "Gubri, Martin",
+        "Oh, Seong Joon"
       ]
     },
     {
@@ -3820,6 +4243,39 @@
       "authors": [
         "Chen, Han",
         "Li, Yingrui"
+      ]
+    },
+    {
+      "id": "r223",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Same-Number Citation Swaps: Stress-Testing Jev as a Financial Evidence Judge",
+      "description": "Tests Jev as a financial source-support judge by moving citations between same-number cells while holding arithmetic fixed. Separates numeric matching from correct financial-role attribution, finding a tradeoff between catching wrong-role evidence and retaining valid alternative citations.",
+      "status": "Preprint",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.08675"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.08675"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "coins",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.08675",
+      "arxiv_id": "2610.08675",
+      "authors": [
+        "Xu, Chuhong",
+        "Su, Bo",
+        "Chen, Ziyao",
+        "Xu, Ruiyang",
+        "Dai, Shimeng",
+        "Qiu, Xinyu"
       ]
     },
     {
@@ -4284,6 +4740,36 @@
       ]
     },
     {
+      "id": "r221",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "From Probabilities to Decisions: Search and Multi-Teacher Distillation with Jev",
+      "description": "Combines Jev-derived judgments with chess search and compact evaluators, then studies a fixed-labeling-budget tradeoff with Qwen as a second teacher. Also evaluates passage reranking. The strong chess bot includes Stockfish search, opening books, and tablebases; it is not standalone Jev play.",
+      "status": "Preprint",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.09188"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.09188"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "gamepad",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.09188",
+      "arxiv_id": "2610.09188",
+      "authors": [
+        "Sadoun, Mohamad Yazan",
+        "Sharif, Sarah",
+        "Banad, Yaser Mike"
+      ]
+    },
+    {
       "id": "r110",
       "section": "4. Research papers",
       "category": "Open and alternative decision-model methods",
@@ -4561,6 +5047,37 @@
       "authors": [
         "Li, Ran",
         "Chen, Lei"
+      ]
+    },
+    {
+      "id": "r220",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "Visual Jev Rewards: Reference-Bound Verification for Multi-Subject Image Generation",
+      "description": "Trains a Qwen3.5-4B verifier to judge requested attributes and relations jointly with reference-subject identity, then uses its probabilities as image-generator rewards. Initial GRPO runs improve an automated score, but offline human evaluation does not establish a significant advantage over direct scoring.",
+      "status": "Preprint",
+      "date": "2026-10-07",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.09328"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.09328"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "eye",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.09328",
+      "arxiv_id": "2610.09328",
+      "authors": [
+        "Li, Baoteng",
+        "Wu, Wenzhuo",
+        "Liang, Kongming",
+        "Ma, Zhanyu"
       ]
     },
     {
@@ -5289,6 +5806,34 @@
       "authors": [
         "Denney, Steven",
         "DiGiuseppe, Matthew"
+      ]
+    },
+    {
+      "id": "r219",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Where Can a Decision Model Diagnose HVAC Faults? Reasoning Demand, Physical Representation, and Robustness Under Shift",
+      "description": "Evaluates Jev, open language models, and a supervised baseline for HVAC fault diagnosis using raw data, physical features, or topology. Across 128 fault days and nine shift tests, success depends on the required reasoning and representation; probabilities still need correction and fault detection remains weak.",
+      "status": "Preprint",
+      "date": "2026-10-07",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.09937"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.09937"
+        }
+      ],
+      "checked_on": "2026-10-08",
+      "cataloged_on": "2026-10-08",
+      "icon": "gauge",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.09937",
+      "arxiv_id": "2610.09937",
+      "authors": [
+        "Jung, Wooyoung"
       ]
     },
     {

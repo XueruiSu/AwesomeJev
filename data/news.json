@@ -25,6 +25,20 @@
       "note": ""
     },
     {
+      "date": "2026-09-30",
+      "icon": "eye",
+      "headline": "AutoTrust releases JEV-27B-VL, an independent open-weight model for typed decisions over text and images.",
+      "url": "https://huggingface.co/blog/autotrust/autotrustjev-27b-vl-a-decision-model-that-learned",
+      "label": "Announcement",
+      "note": "[Apache-2.0 weights](https://huggingface.co/autotrust/JEV-27B-VL) and serving code are public. The author announcement has 165 Hugging Face upvotes, observed 2026-10-08. This is the September 30 release, added retrospectively.",
+      "attention": {
+        "platform": "Hugging Face",
+        "upvotes": 165,
+        "observed_on": "2026-10-08",
+        "source": "https://huggingface.co/blog/autotrust/autotrustjev-27b-vl-a-decision-model-that-learned"
+      }
+    },
+    {
       "date": "2026-09-29",
       "icon": "globe",
       "headline": "Chinese-Jev introduces Chinese-language decision training and CJ-Bench.",
