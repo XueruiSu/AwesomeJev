@@ -59,4 +59,4 @@ The `date_source` field identifies the supporting page or API in the published c
 
 ## Visual guide
 
-The landscape illustrates selected ecosystem themes, not a technical dependency graph or an exhaustive chronology. The logo and landscape were created with the built-in image generation tool; artwork prompts and design notes are retained locally. Small SVG icons identify topics such as models, memory, vision, calibration, and security; they are independent directory artwork, not official project logos.
+The landscape illustrates selected ecosystem themes, not a technical dependency graph or an exhaustive chronology. The logo, horizontal README banner, and landscape were created with the built-in image generation tool; artwork prompts and design notes are retained locally. The original square logo is preserved in `assets/awesomejev-logo.png`; the README uses `assets/awesomejev-banner.png`, with the robot emblem on the left and the AwesomeJev wordmark on the right. Small SVG icons identify topics such as models, memory, vision, calibration, and security; they are independent directory artwork, not official project logos.

@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/awesomejev-logo.png" width="160" alt="AwesomeJev robot and decision-crystal logo"></p>
+<p align="center"><img src="assets/awesomejev-banner.png" width="720" alt="AwesomeJev — robot and decision crystal on the left, AwesomeJev wordmark on the right"></p>
 
 # AwesomeJev
 
