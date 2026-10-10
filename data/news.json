@@ -2,6 +2,36 @@
   "title": "Big News",
   "events": [
     {
+      "date": "2026-10-09",
+      "icon": "rocket",
+      "headline": "TypeSafe announces an $870M Series A at a $7.5B valuation, led by a16z.",
+      "url": "https://typesafe.ai/blog/series-ai",
+      "label": "Official announcement",
+      "note": "Financing and company plans; no new Jev model version is announced.",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 265,
+        "comments": 206,
+        "observed_on": "2026-10-10",
+        "source": "https://hn.algolia.com/api/v1/search_by_date?query=typesafe&restrictSearchableAttributes=title,url&tags=story&hitsPerPage=100"
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "icon": "cloud",
+      "headline": "Microsoft launches Microsoft-Decision-1; Vercel adds TypeSafe-compatible access.",
+      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "label": "Microsoft announcement",
+      "note": "Independent hosted decision model; performance claims are vendor-reported. [Vercel integration](https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway).",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 140,
+        "comments": 53,
+        "observed_on": "2026-10-10",
+        "source": "https://hn.algolia.com/api/v1/search?query=Microsoft-Decision-1&tags=story&hitsPerPage=20"
+      }
+    },
+    {
       "date": "2026-10-01",
       "icon": "chip",
       "headline": "Cloudflare releases Clef and Clef-flash, open-weight multimodal decision models with Jev-compatible interfaces.",

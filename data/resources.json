@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-09",
+  "last_updated": "2026-10-10",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -254,6 +254,62 @@
       "date_source": "https://mrjev.com/changelog/",
       "cataloged_on": "2026-10-03",
       "date_note": "The September 23 cookbook-index entry explicitly describes llms.txt as an existing route to the cookbooks. This establishes availability by that date, not the index launch date."
+    },
+    {
+      "id": "r245",
+      "section": "1. Origins and official resources",
+      "category": "Launch and first-party references",
+      "title": "TypeSafe A raises Series AI",
+      "description": "TypeSafe announces an $870 million Series A at a $7.5 billion valuation, led by Andreessen Horowitz with Sequoia and DCVC participating, and Martin Casado joining the board. Outlines plans for more machine-native models and enterprise infrastructure; this is a financing announcement, not a new Jev model release.",
+      "status": "Official announcement",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "Announcement",
+          "url": "https://typesafe.ai/blog/series-ai"
+        },
+        {
+          "label": "Investor statement",
+          "url": "https://a16z.com/announcement/investing-in-typesafe-ai/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50023450"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "rocket",
+      "date_kind": "published",
+      "date_source": "https://typesafe.ai/blog/series-ai",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 265,
+        "comments": 206,
+        "observed_on": "2026-10-10",
+        "source": "https://hn.algolia.com/api/v1/search_by_date?query=typesafe&restrictSearchableAttributes=title,url&tags=story&hitsPerPage=100"
+      }
+    },
+    {
+      "id": "r246",
+      "section": "1. Origins and official resources",
+      "category": "Launch and first-party references",
+      "title": "How Jack & Jill Cut Candidate Screening Costs By 88% With Jev",
+      "description": "TypeSafe customer case study comparing Jev with Gemini 3.1 Flash Lite for initial candidate screening across 150 roles. Reports lower token cost and median completion time, with no statistically significant recall difference. Annual savings are projections; the outcome measures retention of hiring-manager selections rather than hiring fairness.",
+      "status": "Official case study",
+      "date": "2026-10-07",
+      "links": [
+        {
+          "label": "Case study",
+          "url": "https://typesafe.ai/blog/jack-jill-jev-case-study"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "gauge",
+      "date_kind": "published",
+      "date_source": "https://typesafe.ai/blog/jack-jill-jev-case-study",
+      "date_note": "The publisher page as retrieved by web search displays October 7, 2026. The current redesigned HTML omits the visible date; site build timestamps are not used as the publication date."
     },
     {
       "id": "r013",
@@ -1392,6 +1448,52 @@
       "date_source": "https://motherduck.com/videos/jev-for-analytics-use-cases/"
     },
     {
+      "id": "r247",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Investing in TypeSafe AI",
+      "description": "Andreessen Horowitz explains its investment thesis around Jev and decision models as software components. Offers the lead investor’s perspective on developer adoption and software economics; adoption, speed, and cost claims are investor statements rather than independent measurements.",
+      "status": "Investor announcement",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://a16z.com/announcement/investing-in-typesafe-ai/"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "coins",
+      "date_kind": "published",
+      "date_source": "https://a16z.com/announcement/investing-in-typesafe-ai/"
+    },
+    {
+      "id": "r248",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "What we learned building 38 projects with Jev in 12 hours",
+      "description": "GC AI reports hackathon experiments in clause screening, streaming citation checks, alert triage, and a Slack pet. Explains narrow question design, context cleanup, confidence-based routing, and failures on arithmetic and broad judgments. The findings come from small internal experiments, not a general benchmark.",
+      "status": "Engineering article",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://gc.ai/blog/what-we-learned-building-38-projects-with-jev-in-12-hours"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50026409"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "code",
+      "date_kind": "published",
+      "date_source": "https://gc.ai/blog/what-we-learned-building-38-projects-with-jev-in-12-hours",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-06T00:00:00.000Z"
+    },
+    {
       "id": "r035",
       "section": "2. Community discussion and writing",
       "category": "Reddit debates",
@@ -1754,6 +1856,45 @@
       "date_note": "Dates the vision feature announcement, not the earlier text preview or the creation of the playground."
     },
     {
+      "id": "r249",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Hosted access and framework guides",
+      "title": "Microsoft-Decision-1",
+      "description": "Independent hosted Qwen3.5-9B-based decision-scoring model introduced by Microsoft. Vercel documents access through a TypeSafe-compatible API. Supports fixed-option probabilities, ratings, and rubric grading; published speed, calibration, and robustness results are vendor evaluations. No downloadable weights were located in the launch materials.",
+      "status": "Hosted model",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "Announcement",
+          "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/"
+        },
+        {
+          "label": "Foundry model card",
+          "url": "https://ai.azure.com/catalog/models/Microsoft-Decision-1"
+        },
+        {
+          "label": "Vercel integration",
+          "url": "https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50024913"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "cloud",
+      "date_kind": "published",
+      "date_source": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 140,
+        "comments": 53,
+        "observed_on": "2026-10-10",
+        "source": "https://hn.algolia.com/api/v1/search?query=Microsoft-Decision-1&tags=story&hitsPerPage=20"
+      }
+    },
+    {
       "id": "r050",
       "section": "3. Infrastructure, models, and applications",
       "category": "Browser and agent infrastructure",
@@ -2010,6 +2151,75 @@
       "date_source": "https://api.github.com/repos/saloni-garg/jev-max"
     },
     {
+      "id": "r251",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev Agent Control",
+      "description": "MIT OpenCode V2 server plugin that uses Jev to choose primary agents and reassess unfinished work at execution boundaries. Follows configured agent models, supports confidence thresholds and manual overrides, and reports testing against OpenCode 2.0.24.",
+      "status": "Open-source code",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Krzysztof-Cieslak/jev-agent-control"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Krzysztof-Cieslak/jev-agent-control",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-09T18:41:55Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r252",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Codex Route Advisor",
+      "description": "MIT planning skill that decomposes development work and recommends model, reasoning-effort, and tool allocation. Optional Jev assessment has a fallback when unavailable or uncertain. It produces a dispatch plan; the host coordinator retains execution and validation responsibility, and it does not switch the main chat model.",
+      "status": "Open-source code",
+      "date": "2026-10-08",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/kenming/codex-route-advisor"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "compass",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/kenming/codex-route-advisor",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-08T08:30:46Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r253",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Competitor Monitor with Jev",
+      "description": "Apache-2.0 Mastra template that compares public competitor pages with stored snapshots, asks Jev to classify changes, and uses an LLM to explain source-linked evidence. Preserves before/after excerpts and review states; unchanged captures can skip classification.",
+      "status": "Open-source application",
+      "date": "2026-10-08",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mastra-ai/template-competitor-monitor-jev"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/mastra-ai/template-competitor-monitor-jev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-08T09:51:33Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -2211,6 +2421,29 @@
         "observed_on": "2026-10-09",
         "source": "https://api.github.com/repos/lalalune/jevector"
       }
+    },
+    {
+      "id": "r250",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "SystemOneClient — Elixir",
+      "description": "Apache-2.0 Elixir client for Jev, Clef, OpenRouter, and compatible self-hosted endpoints. Preserves full answer distributions and provides retry handling, telemetry, tagged errors, and a no-network test stub behind a shared interface.",
+      "status": "Open-source code",
+      "date": "2026-10-08",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/schainks/system_one_client"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/schainks/system_one_client",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-08T19:46:25Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
     },
     {
       "id": "r060",
@@ -2918,6 +3151,87 @@
       "date_source_field": "createdAt",
       "date_source_timestamp": "2026-10-07T18:51:48.000Z",
       "date_note": "Hugging Face repository creation timestamp, not a verified first public release date for the weights or dataset."
+    },
+    {
+      "id": "r257",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Dex 1B",
+      "description": "Independent Jev-compatible model combining an Ettin-1B encoder with a Laya-style typed decision head. Apache-2.0 code and weights are public. Author-run comparisons report gains over stock Laya on some tasks, with gaps to Jev, limited context and option coverage, and shared training/benchmark sources.",
+      "status": "Open weights and code",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/CanadaOrNaw/dex"
+        },
+        {
+          "label": "Weights",
+          "url": "https://huggingface.co/CanadaOrNaw/dex-1b"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/CanadaOrNaw/dex",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-09T12:36:55Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r258",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "MATILDA JEV v1.5",
+      "description": "Independent Qwen3.8-27B-based text decision model with a 255-option readout and merged weights. Apache-2.0 weights and custom runtime are public. Its Decision Index results are diagnostic: the card discloses benchmark-related training material and checkpoint selection using experimental scores; vision was not validated.",
+      "status": "Open weights and runtime",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/Maincode/matilda-jev-v1.5"
+        },
+        {
+          "label": "Evaluation records",
+          "url": "https://huggingface.co/datasets/Maincode/matilda-jev-decision-index"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "brain",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/Maincode/matilda-jev-v1.5",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-09T03:36:23.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
+      "id": "r259",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Haidass1.5-143M-Jev",
+      "description": "Research decision model using a frozen Haidass backbone, LoRA, and a Kev-style option pointer head. Publishes Apache-2.0 adapters, head, tokenizer, and experiment code; the backbone is a separate download. Reports development-set metrics only, with a single seed and substantial option-order sensitivity.",
+      "status": "Open adapters and code",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/HanWangTJU/haidass1.5-143m-jev"
+        },
+        {
+          "label": "Training data",
+          "url": "https://huggingface.co/datasets/HanWangTJU/haidass-jev-synthetic-v1"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/HanWangTJU/haidass1.5-143m-jev",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-09T03:22:21.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
     },
     {
       "id": "r070",
@@ -3735,6 +4049,79 @@
       "date_note": "Hugging Face repository creation timestamp, not a verified first public release date for the weights or dataset."
     },
     {
+      "id": "r255",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Order-blind decisions",
+      "description": "Studies response-position effects on 1,865 RewardBench 2 prompts using Jev and competing decision models. Jev meets the preregistered aggregate equivalence margin, while exact ties and exploratory math tests reveal position effects. Publishes MIT code and results; upstream data terms remain separate.",
+      "status": "Open-source evaluation",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dorkitude/order-blind-decisions"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "scales",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/dorkitude/order-blind-decisions",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-09T17:38:45Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r256",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Same Statement, Different Script",
+      "description": "Independent study of script-dependent probabilities for 28 paired Taiwan-related statements in Traditional Chinese, Simplified Chinese, and English. Compares Jev, OpenAI Decisions, and Clef with a chat-model control. Reports differences under the tested formulations, not a general political-bias score. Python code is MIT; paper and results use CC BY 4.0.",
+      "status": "Public study, code, and results",
+      "date": "2026-10-08",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/pirrer/taiwan-sovereignty-decision-models"
+        },
+        {
+          "label": "Paper",
+          "url": "https://github.com/pirrer/taiwan-sovereignty-decision-models/blob/main/paper/main.pdf"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "globe",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/pirrer/taiwan-sovereignty-decision-models",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-08T16:21:04Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r260",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Haidass-Jev Synthetic Decisions v1",
+      "description": "Apache-2.0 bilingual rule-generated supervision with 5,000 training and 800 development requests, each containing Choice, Noul, and Score questions. Includes counterfactual pairs, generator, and manifest. Both splits share rules and templates, so development results do not establish unseen-task generalization.",
+      "status": "Public synthetic dataset",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/datasets/HanWangTJU/haidass-jev-synthetic-v1"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/datasets/HanWangTJU/haidass-jev-synthetic-v1",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-09T03:24:22.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -3943,6 +4330,33 @@
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-07T09:41:08Z",
       "date_note": "GitHub repository creation; not an independently verified first public release date."
+    },
+    {
+      "id": "r254",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "HN Jev Sorter",
+      "description": "MIT Chromium extension that classifies Hacker News comments into editable buckets using Jev Choice questions. Includes parent-comment context, an Other option, probability displays, and a running token count. Classification sends comment content and thread context to TypeSafe.",
+      "status": "Open-source application",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ritza-co/hn-jev-sorter"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50026883"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "chat",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/ritza-co/hn-jev-sorter",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-09T21:30:23Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
     },
     {
       "id": "r092",
@@ -4258,6 +4672,41 @@
         "Rubinstein, Alexander",
         "Gubri, Martin",
         "Oh, Seong Joon"
+      ]
+    },
+    {
+      "id": "r262",
+      "section": "4. Research papers",
+      "category": "Surveys and broad evaluations",
+      "title": "Specialized Decision Models vs. General-Purpose LLMs: Benchmarking Jev Across Knowledge, Reasoning, and Multilingual Tasks",
+      "description": "Evaluates Jev against 19 language models on 13 multiple-choice benchmarks spanning knowledge, reasoning, and multilingual tasks. Reports competitive knowledge and commonsense results but a pronounced weakness on mathematical word problems, highlighting the distinction between knowledge-based choice and multi-step calculation.",
+      "status": "Preprint",
+      "date": "2026-10-08",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.11978"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.11978"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "book",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.11978",
+      "arxiv_id": "2610.11978",
+      "authors": [
+        "Li, Xing",
+        "Chang, Qingcheng",
+        "Ning, Jinzhong",
+        "Xu, Changfeng",
+        "Zhang, Shenlong",
+        "Zhang, Yijia",
+        "Luo, Ling",
+        "Lin, Hongfei"
       ]
     },
     {
@@ -6439,6 +6888,38 @@
       "authors": [
         "Rafe, Amir",
         "Das, Subasish"
+      ]
+    },
+    {
+      "id": "r261",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Can Decision Models Understand Stance? Evaluating Jev Against General-Purpose LLMs",
+      "description": "Compares Jev with general-purpose and fine-tuned models on English VAST and Chinese conversational ZS-CSD stance detection. Reports competitive English results but weaker Chinese conversational performance, especially for stance direction and reply relationships. The contrast is specific to these datasets and prompts.",
+      "status": "Preprint",
+      "date": "2026-10-08",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.11901"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.11901"
+        }
+      ],
+      "checked_on": "2026-10-10",
+      "cataloged_on": "2026-10-10",
+      "icon": "book",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.11901",
+      "arxiv_id": "2610.11901",
+      "authors": [
+        "Li, Xing",
+        "Ning, Jinzhong",
+        "Zhang, Yijia",
+        "Yang, Liang",
+        "Lin, Hongfei"
       ]
     },
     {
