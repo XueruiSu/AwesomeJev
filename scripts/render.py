@@ -59,13 +59,13 @@ sections = collections.defaultdict(lambda: collections.defaultdict(list))
 for resource in resources:
     sections[resource["section"]][resource["category"]].append(resource)
 
-papers = [r for r in resources if "arxiv_id" in r]
+papers = [r for r in resources if "arxiv_id" in r or "doi" in r]
 post_launch = sum(r["date"] >= data["scope_start"] for r in papers)
 earlier = len(papers) - post_launch
 for section, categories in sections.items():
     if section.startswith("4."):
         for entries in categories.values():
-            entries.sort(key=lambda r: (r["date"], r["arxiv_id"]))
+            entries.sort(key=lambda r: (r["date"], r.get("arxiv_id", r.get("doi", r["id"]))))
 
 lines = [
     '<p align="center"><img src="assets/awesomejev-banner.png" width="720" alt="AwesomeJev — robot and decision crystal on the left, AwesomeJev wordmark on the right"></p>',
@@ -97,7 +97,7 @@ coverage = [
     ("rocket", "Original announcement, documentation, and first-party references"),
     ("chat", "Popular threads, technical articles, debates, and discovery directories"),
     ("chip", "SDKs, integrations, open models, runtimes, benchmarks, and applications"),
-    ("book", f"{post_launch} post-launch preprints + {earlier} historical-context papers"),
+    ("book", f"{post_launch} post-launch preprints/working papers + {earlier} historical-context papers"),
 ]
 for (section, categories), (symbol, description) in zip(sections.items(), coverage):
     count = sum(len(entries) for entries in categories.values())
@@ -133,7 +133,7 @@ for section, categories in sections.items():
         ])
     if section.startswith("4."):
         lines.extend([
-            "Grouped by research topic; chronological within each group. Dates are first arXiv submission dates, while descriptions reflect the version accessed during this review. **Preprint** does not imply peer review. Summaries describe the authors’ work, not independently reproduced findings. Code/model links are included where located; absence of a link means it was not located, not that no artifact exists.",
+            "Grouped by research topic; chronological within each group. Dates identify first arXiv submission or the source-dated working paper; date evidence is recorded in the catalog. Descriptions reflect the version accessed during this review. **Preprint** and **Working paper** do not imply peer review. Summaries describe the authors’ work, not independently reproduced findings. Code/model links are included where located; absence of a link means it was not located, not that no artifact exists.",
             "",
         ])
     for category, entries in categories.items():
@@ -174,8 +174,19 @@ lines.extend([
 (ROOT / "README.md").write_text("\n".join(lines).rstrip() + "\n")
 
 bib = ["% Catalog updated on " + data["last_updated"] + "; source-check dates are recorded per entry in data/resources.json.", ""]
-for r in resources:
+for r in papers:
     if "arxiv_id" not in r:
+        bib.extend([
+            "@misc{" + r["id"] + ",",
+            "  title = {{" + r["title"].replace("&", r"\&") + "}},",
+            "  author = {" + " and ".join(r["authors"]) + "},",
+            "  year = {" + r["date"][:4] + "},",
+            "  doi = {" + r["doi"] + "},",
+            "  note = {" + r["status"] + "},",
+            "  url = {" + r["links"][0]["url"] + "}",
+            "}",
+            "",
+        ])
         continue
     bib.extend([
         "@misc{arxiv" + r["arxiv_id"].replace(".", "") + ",",
@@ -189,4 +200,4 @@ for r in resources:
         "",
     ])
 (ROOT / "references.bib").write_text("\n".join(bib))
-print(f"Rendered {len(resources)} entries and {sum('arxiv_id' in r for r in resources)} citations.")
+print(f"Rendered {len(resources)} entries and {len(papers)} citations.")

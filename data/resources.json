@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-10",
+  "last_updated": "2026-10-11",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -1494,6 +1494,111 @@
       "date_source_timestamp": "2026-10-06T00:00:00.000Z"
     },
     {
+      "id": "r263",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Introducing Clef-omni, a faster Clef, and a cheaper Clef-flash",
+      "description": "Cloudflare introduces an independent Jev-compatible model for text, images, audio, and video. The announcement also describes faster Clef serving and a Clef-flash hosted price reduction with a shorter hosted context window; existing Clef and Flash weights are unchanged. Performance comparisons are vendor evaluations.",
+      "status": "Provider announcement",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "Announcement",
+          "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/"
+        },
+        {
+          "label": "Clef-omni weights",
+          "url": "https://huggingface.co/Cloudflare/clef-omni"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50025236"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "video",
+      "date_kind": "published",
+      "date_source": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/"
+    },
+    {
+      "id": "r264",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "If LLMs Can Decide Without Fine-Tuning, Do We Still Need Models Like Jev?",
+      "description": "Local experiments compare answer-logit scoring from general models with Jeff, Laya, and other decision implementations on small fixed tasks. TypeSafe Jev itself was not tested. Model size, quantization, prompts, and runtime differ, so the results do not isolate the effect of decision-model training.",
+      "status": "Independent experiment",
+      "date": "2026-10-08",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://itsodeleo.github.io/posts/local-decision-workflow/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50032037"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "flask",
+      "date_kind": "published",
+      "date_source": "https://itsodeleo.github.io/posts/local-decision-workflow/",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-08T16:38:00.000Z"
+    },
+    {
+      "id": "r265",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Jev and the Return of Fuzziness",
+      "description": "Reflects on Jev as a way to expose graded judgments inside deterministic software, relating decision interfaces to fuzzy reasoning and routing. This is a conceptual essay; its illustrative API examples are not a verified SDK reference.",
+      "status": "Opinion essay",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://xiaofengyue.com/2026-10-06/jev"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50031776"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "brain",
+      "date_kind": "published",
+      "date_source": "https://xiaofengyue.com/2026-10-06/jev",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-06T00:00:00+00:00"
+    },
+    {
+      "id": "r266",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Using Jev in Domain Abuse Review: A Workflow Design",
+      "description": "ABTdomain describes a staged brand-protection prototype combining name classification, deterministic domain checks, and a narrowly framed use assessment. Tests use 100 Apple-containing names, including manual controls. Outputs support human review; the prototype is not a validated legal judgment system.",
+      "status": "Workflow case study",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://abtdomain.com/blog/2026/10/using-jev-in-domain-abuse-review-a-workflow-design/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50035784"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "shield",
+      "date_kind": "published",
+      "date_source": "https://abtdomain.com/blog/2026/10/using-jev-in-domain-abuse-review-a-workflow-design/",
+      "date_note": "Publisher displays October 9 publication and October 10 update. Publication date is retained; the October 10 HN submission is not the original date."
+    },
+    {
       "id": "r035",
       "section": "2. Community discussion and writing",
       "category": "Reddit debates",
@@ -2220,6 +2325,52 @@
       "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
     },
     {
+      "id": "r268",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "decisionkit",
+      "description": "MIT CLI, Claude Code plugin, and MCP server for typed decisions through Jev directly or via OpenRouter, OpenAI Decisions, or Claude. Preserves provider identity and errors. Claude returns self-reported probabilities; the included comparison uses 100 author-written tasks and does not establish a general accuracy ranking.",
+      "status": "Open-source code",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/adityajha2005/decisionkit"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "terminal",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/adityajha2005/decisionkit",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-10T06:16:44Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r271",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev Pilot",
+      "description": "Apache-2.0 experimental CLI proxy that asks Jev to recommend model capability and reasoning effort for Codex CLI and Claude Code. Supports allowed-model scopes and local usage reports. Long Codex sessions have had unresolved stream interruptions; task quality and subscription-quota savings remain unvalidated.",
+      "status": "Experimental open-source code",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/sunu-dev/jev-pilot"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/sunu-dev/jev-pilot",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-10T12:21:54Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -2443,6 +2594,52 @@
       "date_source": "https://api.github.com/repos/schainks/system_one_client",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-08T19:46:25Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r267",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "question-kit",
+      "description": "MIT TypeScript building blocks for Jev question design, classification, extraction, ordering, and service agents. Combines deterministic procedures with confidence-gated model readings and includes a pizza-shop demo. The API is alpha; reported internal evaluations are not public and live customer deployment is not established.",
+      "status": "Open-source code",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Engid/question-kit"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Engid/question-kit",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-06T15:25:42Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r270",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "LLM Context Optimizer",
+      "description": "MIT TypeScript SDK that selects explicitly supplied document context before native provider requests. Uses a local heuristic by default with an optional Jev scoring backend, protected documents, and budget checks. Initial source release; synthetic offline tests do not establish answer-quality preservation or net cost savings.",
+      "status": "Open-source code",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/enigma49/llm-context-optimizer"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/enigma49/llm-context-optimizer",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-10T18:45:14Z",
       "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
     },
     {
@@ -2720,7 +2917,7 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Open-weight decision models",
       "title": "Clef and Clef-flash",
-      "description": "Cloudflare releases independent multimodal decision models with Jev-compatible interfaces, using Qwen3.8-27B and Qwen3.5-9B backbones respectively. Weights and decision-head inference code are available under Apache-2.0.",
+      "description": "Cloudflare releases independent multimodal decision models with Jev-compatible interfaces, using Qwen3.8-27B and Qwen3.5-9B backbones respectively. Weights and decision-head inference code are available under Apache-2.0. An October 9 serving update lowers the hosted Flash price to $0.038/M input tokens and its context limit to 24k; existing weights are unchanged.",
       "status": "Open weights and code",
       "date": "2026-10-01",
       "links": [
@@ -2735,9 +2932,13 @@
         {
           "label": "Announcement",
           "url": "https://blog.cloudflare.com/clef-decision-models/"
+        },
+        {
+          "label": "Serving update",
+          "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/"
         }
       ],
-      "checked_on": "2026-10-04",
+      "checked_on": "2026-10-11",
       "icon": "chip",
       "date_kind": "published",
       "date_source": "https://blog.cloudflare.com/clef-decision-models/"
@@ -3234,6 +3435,97 @@
       "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
     },
     {
+      "id": "r273",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Clef-omni",
+      "description": "Cloudflare’s independent Qwen3-Omni-30B-A3B-based model adds typed decisions over text, images, audio, and video. Apache-2.0 weights, a joint decision head, and custom inference code are public. Uses the comprehension backbone; the card lists SGLang support as forthcoming.",
+      "status": "Open weights and code",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/Cloudflare/clef-omni"
+        },
+        {
+          "label": "Announcement",
+          "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "video",
+      "date_kind": "published",
+      "date_source": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+      "attention": {
+        "platform": "Hugging Face",
+        "likes": 73,
+        "downloads": 108,
+        "observed_on": "2026-10-11",
+        "source": "https://huggingface.co/api/models/Cloudflare/clef-omni",
+        "additional_signals": [
+          {
+            "platform": "Hacker News",
+            "points": 22,
+            "comments": 0,
+            "observed_on": "2026-10-11",
+            "source": "https://hn.algolia.com/api/v1/search?query=clef&tags=story&hitsPerPage=30",
+            "url": "https://news.ycombinator.com/item?id=50025236"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r274",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Jev-Darija Telecom Model",
+      "description": "Laya-based classifier for Moroccan Darija telecom messages across Arabic script, Arabizi, and French mixtures. Predicts category, intent, product, urgency, and human escalation using two-stage questions. Apache-2.0 weights and prediction code are public; reported evaluation uses a synthetic test set without native-speaker review.",
+      "status": "Open weights and inference code",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/mballouch/jev-darija-telecom-model"
+        },
+        {
+          "label": "Dataset",
+          "url": "https://huggingface.co/datasets/mballouch/jev-darija-telecom"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "globe",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/mballouch/jev-darija-telecom-model",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-10T22:00:25.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
+      "id": "r276",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "JEVnovel 3 — fragment-level Chinese prose revision",
+      "description": "Independent Qwen3.5-0.8B model with fragment-level quality and information-density heads to suggest deleting or rewriting Chinese prose. Apache-2.0 BF16 weights and custom inference code are public. Teacher-derived supervision and author-run human-preference evaluations support this narrow revision task, not general Jev compatibility.",
+      "status": "Open weights and inference code",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/aikexue170/jev-novel-3-0.8b-bf16"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "book",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/aikexue170/jev-novel-3-0.8b-bf16",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-10T17:38:13.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -3547,6 +3839,37 @@
         "observed_on": "2026-10-09",
         "source": "https://api.github.com/repos/gtokman/iKev"
       }
+    },
+    {
+      "id": "r275",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "JEV-9B with vision — Core ML",
+      "description": "Core ML conversion of AutoTrust’s independent JEV-9B, with merged decision adapters, an 8-bit decoder, and a vision tower for Apple silicon GPUs. Apache-2.0 artifacts and Swift runtime are available. Conversion parity was checked on only 36 decisions from 12 game frames; this does not validate general calibration.",
+      "status": "Open model conversion and runtime",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/FluidInference/jev-9b-coreml"
+        },
+        {
+          "label": "Swift runtime",
+          "url": "https://github.com/FluidInference/FluidUse"
+        },
+        {
+          "label": "Original model",
+          "url": "https://huggingface.co/autotrust/JEV-9B"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/FluidInference/jev-9b-coreml",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-10T21:13:14.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
     },
     {
       "id": "r078",
@@ -4122,6 +4445,102 @@
       "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
     },
     {
+      "id": "r272",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev and open decision-model benchmarks",
+      "description": "Independent supplied-rule and English/Portuguese comparisons of hosted Jev, Clef, and local decision models. Publishes frozen synthetic cases, response archives, calibration analysis, and deployment-specific timings. Cases lack independent human adjudication; local and hosted latency are not controlled hardware comparisons. No repository-wide code license was identified.",
+      "status": "Public evaluation repository",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/akitaonrails/jev-docs-benchmarks"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/akitaonrails/jev-docs-benchmarks",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-10T04:19:56Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r277",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Korean Jev Decision Index",
+      "description": "Korean-source adaptation of the Decision Index structure, with 44,482 typed questions across eleven benchmarks and five areas. Includes Parquet data and scoring code under source-dependent licenses. It is not a direct translation of the original suite; translated preference labels were not reannotated by Korean evaluators.",
+      "status": "Public evaluation dataset",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/datasets/bzantium/korean-jev-decision-index"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "globe",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/datasets/bzantium/korean-jev-decision-index",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-10T12:36:01.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
+      "id": "r278",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev-Darija Telecom dataset",
+      "description": "CC BY 4.0 synthetic Moroccan Darija telecom messages covering 12 categories and 75 intents, plus product, urgency, and human-escalation labels. Contains 18,350 training and 1,107 test messages across three script styles. Generated by language models and automatically deduplicated; native-speaker review is pending.",
+      "status": "Public synthetic dataset",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/datasets/mballouch/jev-darija-telecom"
+        },
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/mballouch/jev-darija-telecom-model"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/datasets/mballouch/jev-darija-telecom",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-10T12:36:51.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
+      "id": "r279",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Open-Jev typed decision datasets",
+      "description": "Independent collection of twelve mostly synthetic typed-decision configurations with train, calibration, validation, test, and OOD splits. Configurations overlap and their totals are not unique-example counts. Original generated records use CC0 and source code MIT, with third-party exceptions documented; public mixtures exclude Wikispeedia payloads. The card-linked GitHub project was unavailable when checked.",
+      "status": "Public synthetic datasets and code",
+      "date": "2026-09-20",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/datasets/ZefanCai/Open-Jev"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/datasets/ZefanCai/Open-Jev",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-09-20T20:13:01.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -4356,6 +4775,29 @@
       "date_source": "https://api.github.com/repos/ritza-co/hn-jev-sorter",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-09T21:30:23Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r269",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Nuxtathon Issues",
+      "description": "MIT read-only website and MCP server for finding Nuxtathon issues. Jev classifies a stored issue snapshot by expected effort and suitable contributors; a separate live-status layer filters newly closed or claimed work. Classifications are suggestions, and visitors do not trigger model calls or GitHub writes.",
+      "status": "Open-source application",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/HugoRCD/nuxtathon-triage"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "compass",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/HugoRCD/nuxtathon-triage",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-10T11:02:54Z",
       "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
     },
     {
@@ -6921,6 +7363,44 @@
         "Yang, Liang",
         "Lin, Hongfei"
       ]
+    },
+    {
+      "id": "r280",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "A Thermometer, Not an Analyst: Lawful Uses of a Text Judge in a Live Trading Lab",
+      "description": "Working paper on Jev 1.13.0 as a headline-reading instrument, examining label quality, simple baselines, memorization probes, repeatability, time windows, and forward validation. Includes a limited Claude comparison. Raw research logs are private, several checks remain incomplete, and no trading-profitability claim is made.",
+      "status": "Working paper",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "Author page",
+          "url": "https://alexvidovich.com/papers/text-judge"
+        },
+        {
+          "label": "PDF",
+          "url": "https://alexvidovich.com/paper/text-judge.pdf"
+        },
+        {
+          "label": "SSRN",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7589261"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.2139/ssrn.7589261"
+        }
+      ],
+      "checked_on": "2026-10-11",
+      "cataloged_on": "2026-10-11",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://alexvidovich.com/papers/text-judge",
+      "doi": "10.2139/ssrn.7589261",
+      "authors": [
+        "Alex Vidovich",
+        "Zivana Zerjal"
+      ],
+      "date_note": "Author page and the paper itself identify October 9, 2026 as the working-paper date; no separate SSRN submission date is asserted."
     },
     {
       "id": "r126",

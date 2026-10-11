@@ -32,6 +32,31 @@
       }
     },
     {
+      "date": "2026-10-09",
+      "icon": "video",
+      "headline": "Cloudflare releases Clef-omni for typed decisions over text, images, audio, and video.",
+      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+      "label": "Cloudflare announcement",
+      "note": "Apache-2.0 weights and inference code are public. The same announcement updates Clef serving and lowers the hosted Flash price and context limit without replacing its weights.",
+      "attention": {
+        "platform": "Hugging Face",
+        "likes": 73,
+        "downloads": 108,
+        "observed_on": "2026-10-11",
+        "source": "https://huggingface.co/api/models/Cloudflare/clef-omni",
+        "additional_signals": [
+          {
+            "platform": "Hacker News",
+            "points": 22,
+            "comments": 0,
+            "observed_on": "2026-10-11",
+            "source": "https://hn.algolia.com/api/v1/search?query=clef&tags=story&hitsPerPage=30",
+            "url": "https://news.ycombinator.com/item?id=50025236"
+          }
+        ]
+      }
+    },
+    {
       "date": "2026-10-01",
       "icon": "chip",
       "headline": "Cloudflare releases Clef and Clef-flash, open-weight multimodal decision models with Jev-compatible interfaces.",
