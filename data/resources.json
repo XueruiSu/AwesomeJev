@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-11",
+  "last_updated": "2026-10-12",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -1599,6 +1599,29 @@
       "date_note": "Publisher displays October 9 publication and October 10 update. Publication date is retained; the October 10 HN submission is not the original date."
     },
     {
+      "id": "r281",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "How developers see Jev: praise, skepticism, and Chinese-language experiments",
+      "description": "Traditional Chinese overview of launch debates, calibration concerns, and task-specific tests, including the author’s website-navigation experience. The page is dated October 11 but explicitly bases its community evidence on September 27; historical attention figures are not current measurements.",
+      "status": "Community retrospective",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://roamer-tech.com/jev-developer-community-reactions"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "chat",
+      "date_kind": "published",
+      "date_source": "https://roamer-tech.com/jev-developer-community-reactions",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-11T10:09:28+00:00",
+      "date_note": "Visible date and datePublished identify October 11. The body gives September 27 as its source-check cutoff, and dateModified predates datePublished; the displayed publication date is not treated as a new experiment date."
+    },
+    {
       "id": "r035",
       "section": "2. Community discussion and writing",
       "category": "Reddit debates",
@@ -1702,6 +1725,28 @@
       "icon": "compass",
       "date_kind": "repository_created",
       "date_source": "https://api.github.com/repos/Amal-David/awesome-jev"
+    },
+    {
+      "id": "r282",
+      "section": "2. Community discussion and writing",
+      "category": "Discovery directories",
+      "title": "VoltAgent Jev Ecosystem",
+      "description": "MIT community directory grouping Jev integrations, compatible models, clients, agent tools, and research. Useful for discovering upstream projects; its inclusion criteria, star counts, and capability descriptions are curator claims rather than independent verification.",
+      "status": "Community directory",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/VoltAgent/typesafe-jev-ecosystem"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "compass",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/VoltAgent/typesafe-jev-ecosystem",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-10T12:19:23Z"
     },
     {
       "id": "r040",
@@ -2368,6 +2413,98 @@
       "date_source": "https://api.github.com/repos/sunu-dev/jev-pilot",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-10T12:21:54Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r283",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "skimmer",
+      "description": "MIT Go CLI that asks Jev which chunks of pages, local files, or list items help a stated goal. Retains source line references and keeps chunks when judging fails. Filtering can reduce downstream context, but the examples do not establish general answer-quality improvements.",
+      "status": "Open-source code",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dorkitude/skimmer"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/dorkitude/skimmer",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-10T23:26:41Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r285",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev Harness — Apixly",
+      "description": "MIT Python runtime for Jev-selected tools and parameters drawn from fresh candidate sets. Separates observations, bounded execution, and independent completion checks, with browser and workspace examples. Historical live evidence uses small fixtures; the runtime is not a sandbox or an exactly-once execution service.",
+      "status": "Open-source code",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/apixly-ai/jev-harness"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/apixly-ai/jev-harness",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-10T16:43:37Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r286",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "DeciLabel",
+      "description": "MIT GitHub Action that uses Jev or other decision providers to add evidence-supported labels to issues and pull requests. Preserves existing labels, respects recorded human removals, and abstains on uncertain or malformed answers. Its Jev threshold evaluation is specific to one repository taxonomy.",
+      "status": "Open-source code",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/EvanProgramming/decilabel"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/EvanProgramming/decilabel",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-11T01:45:48Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r287",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Smart Find",
+      "description": "MIT Chrome extension that splits a page into passages, asks Jev which passages answer a question, and highlights matching source text. Sends page text to TypeSafe when a search is requested. Reported latency and answer coverage come from a small author-run test.",
+      "status": "Open-source application",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/eduardoalba00/smart-find"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "browser",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/eduardoalba00/smart-find",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-11T04:27:47Z",
       "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
     },
     {
@@ -3526,6 +3663,133 @@
       "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
     },
     {
+      "id": "r290",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "AutoTrust JEV-35B",
+      "description": "Independent Qwen3.5-35B-A3B decision model with merged typed readout, public Apache-2.0 weights, and serving code. Supports text and zero-shot image decisions. Author-run Decision Index results exclude private tests, and vision scores use a reconstructed suite; sequential game performance is weaker than the prior JEV-27B-VL.",
+      "status": "Open weights and code",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/autotrust/JEV-35B"
+        },
+        {
+          "label": "NVFP4 variant",
+          "url": "https://huggingface.co/autotrust/JEV-35B-NVFP4"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/autotrust/JEV-35B",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-11T01:22:03.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
+      "id": "r291",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "PhysicalEye-Decide-35B",
+      "description": "Independent Darwin/Qwen3.5-based vision model using Jev-style Choice, Noul, and Score interfaces. Publishes Apache-2.0 backbone weights, decision readout, and inference code. Small egg-inspection and science-diagram evaluations are author-reported; temperature scaling alone does not establish calibration across deployment tasks.",
+      "status": "Open weights and code",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/masterset-ai/PhysicalEye-Decide-35B"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/masterset-ai/PhysicalEye-Decide"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/masterset-ai/PhysicalEye-Decide-35B",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-10T03:22:49.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
+      "id": "r292",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "jev-vision-27b",
+      "description": "Apache-2.0 LoRA adapter for Qwen3.8-27B trained on text and image decision tasks, with merge and serving code. Uses option-label logits and rejects questions exceeding 62 options. The base weights are separate; reported vision results use the author’s reconstruction of public benchmarks rather than the official board.",
+      "status": "Open adapter and code",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/e12ex2/jev-vision-27b"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/e12ex2/jev-vision-27b",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-10T04:15:18.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
+      "id": "r293",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Workmagic Jev Decision",
+      "description": "Qwen3-4B model distilled with AnyJev for Slack customer-churn decisions. Apache-2.0 weights are public and inference uses the external AnyJev runtime. Training uses teacher-generated answers without human labels; the card does not provide an independent held-out evaluation.",
+      "status": "Open weights",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/workmagicio/workmagic-jev-decision"
+        },
+        {
+          "label": "AnyJev runtime",
+          "url": "https://github.com/nokia-applied-research/AnyJev"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "brain",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/workmagicio/workmagic-jev-decision",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-11T15:12:43.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
+      "id": "r294",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Archai Jev Zagreus 0.4B Italian",
+      "description": "Italian decision-model experiment with merged weights, LoRA adapters, and a GGUF conversion. Uses Decision Index-style option scoring. Version 2 reports in-distribution gains but no positive transfer to the tested unseen task groups. Downloadable artifacts are public; no explicit model license was found in the card or file listing.",
+      "status": "Public weights; license unspecified",
+      "date": "2026-10-03",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/nickprock/archai-jev-zagreus-0.4b-ita"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "globe",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/nickprock/archai-jev-zagreus-0.4b-ita",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-03T13:15:05.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -3869,6 +4133,52 @@
       "date_source": "https://huggingface.co/api/models/FluidInference/jev-9b-coreml",
       "date_source_field": "createdAt",
       "date_source_timestamp": "2026-10-10T21:13:14.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
+      "id": "r289",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "Laya MLX Jev Endpoint",
+      "description": "MIT FastAPI wrapper around laya-mlx on Apple silicon, exposing a System One-style endpoint for Choice, Score, and Noul requests. Supports structured states and a model catalog. It serves the independent Laya model; matching request shapes do not establish equivalent Jev behavior.",
+      "status": "Open-source code",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/rezhajulio/laya-mlx-jev-endpoint"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/rezhajulio/laya-mlx-jev-endpoint",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-11T08:21:34Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r295",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "Granite–Jev sampling and selective verification",
+      "description": "MIT inference runner that generates greedy and sampled answers with unchanged Granite 4.0-1B weights, then optionally asks hosted Jev to select between disagreements. Publishes code, not newly trained weights. Both generations incur work, and exploratory results do not establish superiority at equal compute or cost. The card-linked paper and larger code repositories were unavailable when checked.",
+      "status": "Open-source inference procedure",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/OVRLab/granite-jev-1b-sampling"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "flask",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/OVRLab/granite-jev-1b-sampling",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-11T23:05:48.000Z",
       "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
     },
     {
@@ -4798,6 +5108,52 @@
       "date_source": "https://api.github.com/repos/HugoRCD/nuxtathon-triage",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-10T11:02:54Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r284",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "jev-remix-cutter",
+      "description": "MIT agent skill and Python CLI combining shot analysis, Jev text judgments, constrained video assembly, and local review. Includes provenance and licensing reports. Initial CPU implementation: live automatic shot selection has not passed full acceptance, image-provider calls remain untested, and advanced composition is incomplete.",
+      "status": "Experimental open-source code",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/gnipbao/jev-remix-cutter"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "video",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/gnipbao/jev-remix-cutter",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-11T06:57:38Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r288",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Shortlist — rank pages and Gmail by a sentence",
+      "description": "Chrome extension combining item extraction with Jev pairwise judgments and Bradley–Terry ranking. Includes a Gmail view with read-only API access, although user-confirmed trash actions operate through Gmail’s interface. Page read-ahead uses OpenAI. Public source is available; no repository-wide license was identified.",
+      "status": "Public source application",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nickita-khylkouski/jev-gmail-sort"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "scales",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/nickita-khylkouski/jev-gmail-sort",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-11T19:44:44Z",
       "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
     },
     {
@@ -6166,6 +6522,37 @@
       "arxiv_id": "2610.10615",
       "authors": [
         "Yan, Yu"
+      ]
+    },
+    {
+      "id": "r296",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "When Faster Decisions Do Not Make Better Agents: An Empirical Study of Jev in Agent Workflows",
+      "description": "Studies 4,500 executions across five agents in ALFWorld and AndroidWorld. Jev reduces decision latency and cost, but task success and cost per successful outcome depend on the workflow. Auxiliary reasoning, extra interactions, failed recovery, and premature completion can absorb savings; observations and action interfaces are language-based and bounded.",
+      "status": "Preprint",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.13092"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.13092"
+        }
+      ],
+      "checked_on": "2026-10-12",
+      "cataloged_on": "2026-10-12",
+      "icon": "book",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.13092",
+      "arxiv_id": "2610.13092",
+      "authors": [
+        "Ling, Yuchen",
+        "Yu, Shengcheng",
+        "Chen, Zhenyu",
+        "Fang, Chunrong"
       ]
     },
     {
