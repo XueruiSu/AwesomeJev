@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-12",
+  "last_updated": "2026-10-13",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -1622,6 +1622,63 @@
       "date_note": "Visible date and datePublished identify October 11. The body gives September 27 as its source-check cutoff, and dateModified predates datePublished; the displayed publication date is not treated as a new experiment date."
     },
     {
+      "id": "r297",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Using Jev to make your agents write the code and design the app the way you do",
+      "description": "Atul describes scoped, testable review rules inspired by Jev, with a CLI that turns code diffs and screenshots into per-rule judgments. Filed actually uses Perplexity’s decider in production, including for images. Examples include illustrative numbers, and tuning rule wording on a few cases can overfit.",
+      "status": "Practitioner article",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://blog.a7ul.com/agents-code-your-way.html"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50063649"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "code",
+      "date_kind": "published",
+      "date_source": "https://blog.a7ul.com/agents-code-your-way.html",
+      "date_source_field": "Visible author and publication date",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 4,
+        "comments": 0,
+        "checked_on": "2026-10-13",
+        "source": "https://hn.algolia.com/api/v1/items/50063649"
+      }
+    },
+    {
+      "id": "r298",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Using Jev With LangChain: Model Routing and Guardrails",
+      "description": "Dinesh Gopal demonstrates TypeSafeClassifier composition, model routing, and experimental tool-call screening with loan-intake examples. The blocking middleware does not request human approval, and only listed tools are classified. Examples illustrate integration patterns rather than measured safety or cost guarantees.",
+      "status": "Community tutorial",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://aisocialjournal.com/blog/2026/10/12/jev-with-langchain"
+        },
+        {
+          "label": "Example code",
+          "url": "https://github.com/dineshgopal29/the-agentic-advantage/blob/main/jev_langchain/loan_triage_classifier.py"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "network",
+      "date_kind": "published",
+      "date_source": "https://aisocialjournal.com/blog/2026/10/12/jev-with-langchain",
+      "date_source_field": "Visible publication date"
+    },
+    {
       "id": "r035",
       "section": "2. Community discussion and writing",
       "category": "Reddit debates",
@@ -2508,6 +2565,75 @@
       "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
     },
     {
+      "id": "r301",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "PBI Orchestration with Jev",
+      "description": "MIT Claude Code skill that splits work into bounded items and routes them using deterministic facts plus Jev judgments of novelty, coupling, and ambiguity. Sends short task briefs and reports to Jev; verification commands decide completion. Includes capped rework loops and fallback routing, without a controlled end-to-end quality evaluation.",
+      "status": "Open-source code",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/reeschan/pbi-orchestration-jev"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/reeschan/pbi-orchestration-jev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-12T10:35:41Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r302",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev Skill Router",
+      "description": "MIT OpenCode plugin using two gated Jev calls to select at most one skill, with abstention and whole-document budget checks. Larger skill catalogs first use BM25 retrieval. Its reported 96% top-one result is an offline retrieval baseline on 30 requests with synthetic distractors, not a live Jev selector accuracy measurement.",
+      "status": "Open-source code",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/kelasdev/jev-skill-router"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "compass",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/kelasdev/jev-skill-router",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-11T06:31:40Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r303",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "JevReader",
+      "description": "Python MCP prototype combining local outlines, BM25 retrieval, and Jev judgments over code or document previews. Returns line-referenced chunks and skipped ranges; falls back to outlines or candidates when judging fails. Previews reach TypeSafe through a remote adapter. Public source is available, but no repository-wide license or controlled quality comparison was identified.",
+      "status": "Public source prototype",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Es00bac/JevReader"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "book",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Es00bac/JevReader",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-12T19:07:17Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -2777,6 +2903,29 @@
       "date_source": "https://api.github.com/repos/enigma49/llm-context-optimizer",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-10T18:45:14Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r304",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "jev — Rust decision CLI",
+      "description": "Rust CLI exposing structured typed questions across TypeSafe, compatible hosted services, and local providers, with OS-keychain credential storage. Code is dual MIT/Apache-2.0. Chat-logprob adapters have option and rubric limits; their entropy-based confidence should not be treated as validated task calibration.",
+      "status": "Open-source code",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/vilinski/jev"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "terminal",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/vilinski/jev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-11T20:44:20Z",
       "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
     },
     {
@@ -3790,6 +3939,102 @@
       "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
     },
     {
+      "id": "r308",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Jev-class 9B SFT",
+      "description": "Independent Qwen3.5-9B-Base decision model trained with Mapika decider’s supervised recipe. Apache-2.0 weights and experiment code are public. Reports regression tests and 231 public JevBench items, with weaknesses on long option lists, JSON-heavy states, and some games. The code also documents LoRA and reinforcement-learning follow-ups; these do not establish broad superiority.",
+      "status": "Open weights and code",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/Louiskq/jev-class-9b-sft"
+        },
+        {
+          "label": "Training and experiments",
+          "url": "https://github.com/Louiskq/jev-class-9b"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "brain",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/Louiskq/jev-class-9b-sft",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-11T15:29:47.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
+      "id": "r309",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Social Jev 0.6B v1",
+      "description": "Qwen3-0.6B classifier using a custom layout and the pretrained language-model head. Public weights and custom inference code are provided without an explicit model license. Trained for 100 optimizer steps on generated tasks; the reported 93.45% selects among validation checkpoints, excludes overlong examples, and is not a held-out test score.",
+      "status": "Public weights; license unspecified",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/social-jev/social-jev-0.6B-v1"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "brain",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/social-jev/social-jev-0.6B-v1",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-13T01:17:04.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
+      "id": "r310",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "On-Fly-Jev v2",
+      "description": "Experimental 96M spiking-network decision model with connectome-inspired components and a memory cache. Apache-2.0 weights and Python code are public. The author reports 41 correct answers on 100 fresh questions and weaker typed-decision accuracy than v1 despite further training; novelty of the architecture does not establish general Jev-equivalent capability.",
+      "status": "Open weights and code",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/Quazim0t0/On-Fly-Jev-v2"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "flask",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/Quazim0t0/On-Fly-Jev-v2",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-12T08:22:59.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
+      "id": "r311",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Jev-chess 1 small — 6.5M",
+      "description": "Independent chess policy network inspired by Jev’s typed-choice interface, returning probabilities over legal moves without tree search. Publishes CC0-1.0 weights and UCI inference code. The card reports Stockfish-labeled training, held-out move accuracy, calibration, and a 200-game rating estimate; these are author measurements, not TypeSafe weights or independent replication.",
+      "status": "Open weights and code",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/omerfaral/jev-chess-1-small-6.5M"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "gamepad",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/omerfaral/jev-chess-1-small-6.5M",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-12T13:32:58.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -4180,6 +4425,29 @@
       "date_source_field": "createdAt",
       "date_source_timestamp": "2026-10-11T23:05:48.000Z",
       "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
+      "id": "r306",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "nano_jev",
+      "description": "Zero-dependency Python service implementing a deterministic keyword-and-heuristic screening layer compatible with jev-arena request shapes. Provides Chinese/English label vocabularies and an OpenAI-style adapter. It runs no neural model and is explicitly limited on sarcasm, implicit meaning, and long text. Public source is available; no repository-wide license was identified.",
+      "status": "Public source heuristic implementation",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/JUNNYOfficial/nano_jev"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "terminal",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/JUNNYOfficial/nano_jev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-11T01:02:44Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
     },
     {
       "id": "r078",
@@ -4851,6 +5119,94 @@
       "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
     },
     {
+      "id": "r299",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "JevBench — LeanMCP",
+      "description": "MIT evaluation harness for typed decision services and local models, with source-pinned cases, predictions, option-order tests, ranking, and judging tasks. Distinct from Benchmark Heaven’s namesake. The live matrix covers more models than the accompanying paper; task coverage differs, and missing runs and rejected requests receive different treatment. Source datasets retain their own licenses.",
+      "status": "Open-source benchmark",
+      "date": "2026-09-26",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/leanmcp/jevbench"
+        },
+        {
+          "label": "Leaderboard",
+          "url": "https://leanmcp.github.io/jevbench/"
+        },
+        {
+          "label": "Dataset and predictions",
+          "url": "https://huggingface.co/datasets/Leanmcp/jevbench"
+        },
+        {
+          "label": "Paper",
+          "url": "https://www.preprints.org/manuscript/202610.0181"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/leanmcp/jevbench",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-09-26T10:40:53Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact.",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 3,
+        "comments": 1,
+        "checked_on": "2026-10-13",
+        "source": "https://hn.algolia.com/api/v1/items/50057048"
+      }
+    },
+    {
+      "id": "r300",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "MM-JevBench",
+      "description": "Multimodal typed-choice evaluation suite with 10,000 items from five datasets and grouped development/test splits. Evaluates Clef and AutoTrust decision models, not hosted Jev. GUI items score action categories rather than full coordinate-and-text execution; one-hot labels do not measure subjective uncertainty. Public manifests and rebuild code are available, while source media retain upstream terms and no repository-wide license was identified.",
+      "status": "Public benchmark code",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Hesene/MM-JevBench"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Hesene/MM-JevBench",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-11T18:04:42Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r305",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Business Classifier Benchmark",
+      "description": "Employee-attrition experiment comparing classical ML, Jev, Laya, and hybrids that pass ML scores and explanations into typed judgments. Includes train-only tuning, matched-row bootstrap comparisons, and failed-call accounting across two datasets. Results are task-specific research evidence, not a validated employment decision system. Public source is available; no repository-wide license was identified.",
+      "status": "Public evaluation repository",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/EduardoMoraga/business-classifier-benchmark"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/EduardoMoraga/business-classifier-benchmark",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-13T00:47:49Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -5154,6 +5510,29 @@
       "date_source": "https://api.github.com/repos/nickita-khylkouski/jev-gmail-sort",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-11T19:44:44Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r307",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Kronk Jev Game",
+      "description": "Go terminal runner pairing a human with the independent Jev-Style-0.8B model through Kronk and llama.cpp. Uses projected obstacle states, action thresholds, and stale-answer rejection. Its perfect thresholded table result reuses the tuning cases and is not held-out performance. Public source is available; no repository-wide license was identified.",
+      "status": "Public source game",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ekkinox/kronk-jev-game"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "gamepad",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/ekkinox/kronk-jev-game",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-12T08:01:16Z",
       "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
     },
     {
@@ -5506,6 +5885,41 @@
         "Luo, Ling",
         "Lin, Hongfei"
       ]
+    },
+    {
+      "id": "r312",
+      "section": "4. Research papers",
+      "category": "Surveys and broad evaluations",
+      "title": "JevBench: An Open Evaluation Framework for Typed Decision Models",
+      "description": "Evaluates typed decisions across medicine, examinations, banking intent, sentiment, and safety. The second version compares Jev, Liquid D1, djev, and Laya, reporting threshold effects and option-order sensitivity. Threshold tuning on scored cases is diagnostic rather than a held-out gain, and D1 comparisons lack paired uncertainty estimates. Released predictions and the later code matrix have different coverage.",
+      "status": "Preprint",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "label": "Preprints.org",
+          "url": "https://www.preprints.org/manuscript/202610.0181"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.20944/preprints202610.0181.v2"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/leanmcp/jevbench"
+        }
+      ],
+      "checked_on": "2026-10-13",
+      "cataloged_on": "2026-10-13",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://api.crossref.org/works/10.20944/preprints202610.0181.v1",
+      "doi": "10.20944/preprints202610.0181.v2",
+      "authors": [
+        "Dheeraj Mohandas Pai",
+        "Lu Xian"
+      ],
+      "date_source_field": "posted.date-parts",
+      "date_note": "First version posted October 5 according to Crossref. The inspected second version was submitted October 10 and posted October 12; its DOI is cited. This is not a peer-reviewed publication date."
     },
     {
       "id": "r096",
