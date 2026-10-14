@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-14",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -2102,6 +2102,71 @@
       }
     },
     {
+      "id": "r313",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Hosted access and framework guides",
+      "title": "SubQ Snap",
+      "description": "Subquadratic’s hosted public-preview decision model exposes a TypeSafe-compatible System One endpoint for Choice, Score, and Noul. Documents a 384K-token context and image input, with limited preview capacity. Comparisons against Jev, including chunked long-context baselines, are vendor-reported. No downloadable weights or training code are linked in the announcement.",
+      "status": "Independent hosted model",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "Announcement",
+          "url": "https://subq.ai/introducing-subq-snap"
+        },
+        {
+          "label": "Decisions API",
+          "url": "https://docs.subq.ai/endpoints/decisions-api/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50058833"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "cloud",
+      "date_kind": "published",
+      "date_source": "https://subq.ai/introducing-subq-snap",
+      "date_source_field": "Visible announcement date",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 7,
+        "comments": 1,
+        "observed_on": "2026-10-14",
+        "source": "https://hn.algolia.com/api/v1/items/50058833"
+      }
+    },
+    {
+      "id": "r314",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Hosted access and framework guides",
+      "title": "Langfuse System One-compatible evaluators",
+      "description": "Langfuse extends its TypeSafe evaluator connection with custom upstream URLs, including SubQ Snap and self-hosted Strands Decider. Stores typed answers, probabilities, and execution traces for online, batch, and experiment evaluations. Langfuse Cloud requires publicly reachable HTTPS endpoints for custom providers; local servers need self-hosted configuration.",
+      "status": "Framework integration",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "Changelog",
+          "url": "https://langfuse.com/changelog/2026-10-13-system-one-compatible-decision-models"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://langfuse.com/docs/evaluation/evaluation-methods/decision-models"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/langfuse/langfuse"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "gauge",
+      "date_kind": "published",
+      "date_source": "https://langfuse.com/changelog/2026-10-13-system-one-compatible-decision-models",
+      "date_source_field": "Visible changelog date"
+    },
+    {
       "id": "r050",
       "section": "3. Infrastructure, models, and applications",
       "category": "Browser and agent infrastructure",
@@ -2634,6 +2699,86 @@
       "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
     },
     {
+      "id": "r315",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "jevcrawl",
+      "description": "Apache-2.0 crawler and MCP server using Jev to score links and passages, returning verbatim excerpts with source offsets. Reports small WebWalkerQA experiments with a shared downstream answering model; accuracy differences are less certain than cost differences. It does not execute page JavaScript, and typed scoring alone does not establish prompt-injection immunity.",
+      "status": "Open-source code",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/RayenMlayeh/jevcrawl"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50080450"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "compass",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/RayenMlayeh/jevcrawl",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-11T17:06:36Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact.",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 4,
+        "comments": 0,
+        "observed_on": "2026-10-14",
+        "source": "https://hn.algolia.com/api/v1/items/50080450"
+      }
+    },
+    {
+      "id": "r316",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "brojev",
+      "description": "Independent Go browser agent and Claude Code plugin using Chrome DevTools Protocol and Jev-selected operations and targets. Keeps a browser daemon and profiles across calls, validates actionability, and returns control on uncertainty or repeated failures. Text generation may use a helper model. Main code is MIT, with Apache-2.0 Playwright-derived portions.",
+      "status": "Open-source code",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/barockok/brojev"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "browser",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/barockok/brojev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-12T09:58:49Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r317",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev Phone",
+      "description": "MIT Python SDK that binds numbered screenshot candidates to device-tree coordinates for Android, iOS, and HarmonyOS taps. Despite its name, the documented default uses OpenAI Decisions through OpenRouter, not TypeSafe Jev. The caller supplies each target; planning and business assertions remain outside the SDK. Published millisecond timings distinguish local work from model round trips and full steps.",
+      "status": "Independent decision-model SDK",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dongxinsuperman/jev-phone"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "phone",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/dongxinsuperman/jev-phone",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-12T11:49:25Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -2926,6 +3071,29 @@
       "date_source": "https://api.github.com/repos/vilinski/jev",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-11T20:44:20Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r323",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "@amatelic/jev",
+      "description": "MIT TypeScript interface for local Choice, Noul, and Score inference, with embedded and HTTP transports, model caching, and schema validation. Documents Kev/Open-Jev model aliases and automatic downloads. The README supplies integration examples but no independent calibration or task-quality evaluation; model artifacts retain their upstream terms.",
+      "status": "Open-source client",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/amatelic/jev"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/amatelic/jev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-13T03:51:55Z",
       "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
     },
     {
@@ -4035,6 +4203,79 @@
       "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
     },
     {
+      "id": "r325",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Workmagic Jev Churn — Qwen3-8B v1",
+      "description": "Apache-2.0 Qwen3-8B checkpoint self-distilled with AnyJev for Slack customer-churn decisions, distinct from the earlier 4B release. Publishes merged weights for single-forward readout. Training uses teacher answers without human labels; the inspected card does not report a held-out evaluation.",
+      "status": "Open weights",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/workmagicio/workmagic-jev-churn-distill-qwen3-8b-v1"
+        },
+        {
+          "label": "AnyJev runtime",
+          "url": "https://github.com/nokia-applied-research/AnyJev"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "brain",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/workmagicio/workmagic-jev-churn-distill-qwen3-8b-v1",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-13T13:37:43.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
+      "id": "r326",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Barcenas Jev 0.8B",
+      "description": "Mexican-Spanish contract-triage model based on Qwen3.5-0.8B, with public Apache-2.0 backbone weights, joint head, and custom model code. Predicts contract type, lawyer referral, risk, and urgency. Reported results use 100 synthetic test records; per-question accuracy differs from all-fields-correct record accuracy and does not establish real-contract legal reliability.",
+      "status": "Open weights and code",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/Danielbrdz/Barcenas-Jev-0.8b"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "scales",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/Danielbrdz/Barcenas-Jev-0.8b",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-13T14:54:26.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
+      "id": "r327",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Archai Jev Qwen 1.5B",
+      "description": "Qwen2.5-1.5B-Instruct fine-tune using option-key log-probabilities with Decision Index-compatible prompts. Publishes merged weights, LoRA, and GGUF, but no explicit model license was identified. Version 2 compares against the base on unseen tasks: near-family transfer is small and far-family transfer is flat, with regressions on some tasks.",
+      "status": "Public weights; license unspecified",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/nickprock/archai-jev-qwen-1.5b"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "brain",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/nickprock/archai-jev-qwen-1.5b",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-02T20:38:53.000Z",
+      "date_note": "Hugging Face repository creation timestamp; not asserted to be the first public release of weights or data."
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -4448,6 +4689,83 @@
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-11T01:02:44Z",
       "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r318",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "laya-java",
+      "description": "Apache-2.0 Java port of Laya with a standalone server, Spring Boot starter, Gradle integration, and Jev-compatible requests. Downloads separate Laya checkpoints; supports optional Apple Accelerate. Reference-fixture agreement does not establish general task accuracy. Image input and several upstream prediction helpers are unsupported.",
+      "status": "Open-source runtime",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/apscot/laya-java"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/apscot/laya-java",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-12T21:16:13Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r322",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "FuZev",
+      "description": "Apache-2.0 serving components sharing a frozen language-model backbone between generation and Jev-compatible decisions. Publishes a separate 2.9M-parameter Apache-2.0 head for Qwen3.8-Flash-Next. Quality results use pre-release builds; full-context quality is unmeasured, vision remains experimental, and probability repeatability varies across engines and cache states.",
+      "status": "Open-source runtime and decision head",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/PeisongXiao/fuzev"
+        },
+        {
+          "label": "Decision head",
+          "url": "https://huggingface.co/peisongxiao/Qwen3.8-Flash-Next-FuZev"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/PeisongXiao/fuzev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-13T09:20:50Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r328",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "Transformers decision pipeline proposal",
+      "description": "Open pull request adding Jev-like decision-model processing, readout heads, pipeline support, and System One serving changes to Transformers. A linked Apache-2.0 JEV-9B adapter/head package supplies converted decision files; the backbone remains separate. The pull request is unmerged as checked, so the proposal is not a released Transformers capability.",
+      "status": "Proposed framework support",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "GitHub pull request",
+          "url": "https://github.com/huggingface/transformers/pull/49566"
+        },
+        {
+          "label": "Decision files",
+          "url": "https://huggingface.co/ArthurZ/JEV-9B"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "code",
+      "date_kind": "submitted",
+      "date_source": "https://api.github.com/repos/huggingface/transformers/pulls/49566",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-13T11:30:24Z",
+      "date_note": "Pull request creation timestamp; not a merge or package release date."
     },
     {
       "id": "r078",
@@ -5207,6 +5525,29 @@
       "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
     },
     {
+      "id": "r320",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Decision-model benchmarks — CLEF-Flash, Jev, Laya, and CLM",
+      "description": "Paired comparison on five diagnostic suites covering triage, reranking, knowledge, routing, and function selection. Publishes prepared inputs, per-case outputs, and multiple-comparison-adjusted analyses. Subsets and fixed routing order limit generalization; local and hosted latency include different deployment overheads. Public source is available without an identified repository-wide license.",
+      "status": "Public benchmark code",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/di37/decision-model-benchmarks"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/di37/decision-model-benchmarks",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-12T05:30:40Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -5534,6 +5875,75 @@
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-12T08:01:16Z",
       "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r319",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Jev CAPTCHA detection with SeleniumBase",
+      "description": "MIT example that reduces browser HTML to CAPTCHA-related evidence and asks hosted Jev to identify presence and type. Detects rather than solves challenges. Its ordinal confidence score is not a calibrated probability, and an embedded integration may be detected without a visible challenge; dynamically added evidence can be missed.",
+      "status": "Open-source example",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mdmintz/jev-testing"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/mdmintz/jev-testing",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-13T21:26:49Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r321",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Callpoint",
+      "description": "MIT decision-support demo that asks Jev to judge options against goals, then ranks them with explicit weights and constraints. Shows near ties, sensitivity to changing judgments, and a dated decision receipt. The public site replays recorded scenarios; live judgments require a local server and the user’s TypeSafe account.",
+      "status": "Open-source application",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/rcmeadow/callpoint"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "scales",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/rcmeadow/callpoint",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-12T20:37:29Z",
+      "date_note": "GitHub repository creation date; not asserted to be the first public release of every included artifact."
+    },
+    {
+      "id": "r324",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "PaperRadar",
+      "description": "MIT local web application for browsing conference papers, applying research tags with Jev, and exporting selections to Zotero. Bundled records can be browsed without an API key; new tagging sends selected paper fields and criteria to TypeSafe. Saved probabilities support threshold changes without re-querying. The bundled paper dataset is excluded from the application’s MIT license.",
+      "status": "Open-source application",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/eyad-al-shami/PaperRadar"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "book",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/eyad-al-shami/PaperRadar",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-12T15:11:46Z",
+      "date_note": "Repository creation timestamp, not a claim about the first public release of every bundled artifact."
     },
     {
       "id": "r092",
