@@ -6154,7 +6154,7 @@
       "section": "4. Research papers",
       "category": "Surveys and broad evaluations",
       "title": "General Decision Models: Benchmarking and Insights Beyond Jev",
-      "description": "Introduces bilingual JEVal and evaluates decision models in isolated tasks, agent trajectories, and social simulation. Also proposes InnerJev self-distillation. Highlights how local speed gains can coexist with accumulated errors and biased aggregate estimates.",
+      "description": "Introduces bilingual JEVal and evaluates decision models in isolated tasks, agent trajectories, and social simulation. The revised paper proposes SII-Decision-4B and SII-Decision-27B using Reasoning-to-Readout Self-Distillation. Highlights how local speed gains can coexist with accumulated errors and biased aggregate estimates.",
       "status": "Preprint",
       "date": "2026-10-02",
       "links": [
@@ -6175,7 +6175,7 @@
           "url": "https://huggingface.co/datasets/carlosxiang/JEVal"
         }
       ],
-      "checked_on": "2026-10-08",
+      "checked_on": "2026-10-14",
       "cataloged_on": "2026-10-06",
       "icon": "compass",
       "date_kind": "submitted",
@@ -6199,7 +6199,7 @@
       "id": "r202",
       "section": "4. Research papers",
       "category": "Surveys and broad evaluations",
-      "title": "GraphDecide: Benchmarking System One Models on Graph Tasks",
+      "title": "GraphDecisionBench: Benchmarking System One Models on Graph Tasks",
       "description": "Introduces GraphDecide to compare fourteen model-interface configurations on structural graph queries, graph-text decisions, and sequential construction. Jev results illustrate that adjacency recognition, added context, and feasible completion do not guarantee broader structural accuracy or solution quality.",
       "status": "Preprint",
       "date": "2026-10-05",
@@ -6217,7 +6217,7 @@
           "url": "https://github.com/VictorYXL/JevGraphBench"
         }
       ],
-      "checked_on": "2026-10-07",
+      "checked_on": "2026-10-14",
       "icon": "network",
       "date_kind": "submitted",
       "date_source": "https://arxiv.org/abs/2610.06354",
@@ -6738,6 +6738,238 @@
       ]
     },
     {
+      "id": "r329",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments",
+      "description": "Studies why judges including Jev reject correct tool arguments when their supporting reference is absent. DeRef generates a candidate-independent reference from the full history; the authors report improved argument discrimination across three benchmarks, while controlled source relocation exposes dependence on visible reference values.",
+      "status": "Preprint",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.18497"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.18497"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/SarielMa/DeRef_release"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "scales",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.18497",
+      "arxiv_id": "2610.18497",
+      "authors": [
+        "Ma, Linhai",
+        "Wang, Yan",
+        "Qian, Lingfei",
+        "Cao, Yupeng",
+        "Basulto, Victor Gutierrez"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-13T14:52:59Z"
+    },
+    {
+      "id": "r330",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Recalibrating Many Questions with Few Labels: Minimax Rates and Identification Limits",
+      "description": "Develops a theory of recalibrating many related binary questions with few labels, motivated by Jev-style probability APIs. Derives minimax rates for pooled isotonic calibration and identification limits under random effects. This is a statistical analysis under stated assumptions, not an empirical Jev benchmark.",
+      "status": "Preprint",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.18488"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.18488"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "gauge",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.18488",
+      "arxiv_id": "2610.18488",
+      "authors": [
+        "Li, Xiaoyu",
+        "Yang, Chiwun"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-13T14:45:20Z"
+    },
+    {
+      "id": "r331",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "PRISM: Calibrating Black-Box Judges with Counterfactual Probes",
+      "description": "Introduces PRISM, which probes a judge with emphasized or de-emphasized attributes and fits a correction using human labels. Evaluations of Jev and Sol on SummEval and HANNA report improved agreement with human rankings; the method requires labeled calibration data and additional probe scores.",
+      "status": "Preprint",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.18389"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.18389"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "scales",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.18389",
+      "arxiv_id": "2610.18389",
+      "authors": [
+        "Yamamoto, Kakei",
+        "Kuroki, So"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-13T13:39:50Z"
+    },
+    {
+      "id": "r336",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "ProbabilityBench: Model Evaluation and Calibration with Exact Ground-Truth Uncertainty",
+      "description": "Introduces simulated text-based domains with analytically known class probabilities and Bayes error, enabling direct uncertainty evaluation. Compares sixteen models including Jev and studies calibration metrics themselves. Results describe synthetic environments; the author-linked benchmark repository returned HTTP 404 when checked.",
+      "status": "Preprint",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.17016"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.17016"
+        },
+        {
+          "label": "Author code link (404 at check)",
+          "url": "https://github.com/ishida-lab/ProbabilityBench"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "gauge",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.17016",
+      "arxiv_id": "2610.17016",
+      "authors": [
+        "Dai, Yuyang",
+        "Tang, Yuting",
+        "Futami, Futoshi",
+        "Ishida, Takashi"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-12T15:58:15Z"
+    },
+    {
+      "id": "r338",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Does a Hosted Decision Model Respect Irrelevant Alternatives? A Pre-Registered Test of Option-Set Dependence in Jev",
+      "description": "Tests option-set dependence in Jev-1.13.0 using 299,463 calls across intent and topic classification. Added alternatives change relative odds even when assigned little probability. Independent binary questions remove this dependence at an accuracy cost, while jointly requested questions show little interaction in the tested setup.",
+      "status": "Preprint",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.16655"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.16655"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "gauge",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.16655",
+      "arxiv_id": "2610.16655",
+      "authors": [
+        "Rajput, Dushyant",
+        "Chauhan, Nirdesh",
+        "Kosaraju, Siddharth"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-12T12:10:32Z"
+    },
+    {
+      "id": "r340",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Correct Choices, Failed Sequences: Choice2Seq Benchmarks Correctness Retention Across Output Interfaces",
+      "description": "Introduces Choice2Seq to compare selecting complete answers with constructing them through local decisions. Jev retains far fewer correct arithmetic and lexical answers under serial construction, while dialogue-state results differ. Separates task correctness, copying fidelity, and output compliance, with confidence and request-cost analyses.",
+      "status": "Preprint",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.16191"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.16191"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "scales",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.16191",
+      "arxiv_id": "2610.16191",
+      "authors": [
+        "Lai, Tianyou",
+        "Yue, Wentao",
+        "Deng, Zhiying",
+        "Li, Qilei"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-12T05:11:37Z"
+    },
+    {
+      "id": "r344",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "The Company a Question Keeps: Auditing Open Jev-Style Models for Retrieval",
+      "description": "Audits request independence in seven open Jev-style checkpoints on constructed TREC retrieval states. Separates changes to requested questions, evidence, and candidate eligibility. Attributes some flips to serialized schema fields or separator placement, and distinguishes numerical probability movement from actual decision changes.",
+      "status": "Preprint",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.14631"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.14631"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "scales",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.14631",
+      "arxiv_id": "2610.14631",
+      "authors": [
+        "Chen, Jianbo"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-10T06:29:27Z"
+    },
+    {
       "id": "r101",
       "section": "4. Research papers",
       "category": "Robustness and security",
@@ -6985,6 +7217,149 @@
       "authors": [
         "Besanson, Gaston"
       ]
+    },
+    {
+      "id": "r332",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "Jev-Guard: Fast Routing and Auditing Agent Actions over Editable Policy Trees",
+      "description": "Proposes an independent Qwen3.5-2B guardrail based on Open-Jev, combining policy-tree routing and safety classification. Evaluates editable policies and a Hermes permission gate, distinguishing classifier latency from the full audit pipeline. The hosted Jev model is an external baseline; this paper does not establish a public weight release.",
+      "status": "Preprint",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.18326"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.18326"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.18326",
+      "arxiv_id": "2610.18326",
+      "authors": [
+        "Hu, Wenbin",
+        "Jing, Huihao",
+        "Shi, Haochen",
+        "Liu, Yuxuan",
+        "Fan, Changxuan",
+        "Zhang, Sirui",
+        "Chung, Kawai",
+        "Yang, Hanyu",
+        "Wang, Zhenhuan",
+        "Chen, Ziyi",
+        "Li, Haoran",
+        "Song, Yangqiu"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-13T13:03:37Z"
+    },
+    {
+      "id": "r333",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "Same Attack, Different Judge: A First Controlled Adversarial Comparison of Jev, LLM Judges, and Purpose-Built Safety Classifiers",
+      "description": "Compares Jev, five generative judges, and two safety classifiers under matched policies and adversarial payloads across four tasks. Reports strong Jev resistance on rule-based moderation but weaker phishing detection and substantial false positives, showing that robustness depends on the task and attack family.",
+      "status": "Preprint",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.17820"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.17820"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.17820",
+      "arxiv_id": "2610.17820",
+      "authors": [
+        "Li, Xiang",
+        "Huang, Aichun",
+        "Zhang, Mingming",
+        "Liu, Zheli"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-13T06:43:29Z"
+    },
+    {
+      "id": "r343",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "Poisoned into Action: Context Attacks on Typed Decision Workflows",
+      "description": "Traces context poisoning from retrieval through Jev decisions to persisted actions in two synthetic workflows. Measures both security violations and legitimate automation lost to defenses. The authors label the findings exploratory because prespecified contrasts do not survive multiple-testing correction; code supports inspecting the execution protocol.",
+      "status": "Preprint",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.15537"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.15537"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/WuXixiong/jev-poisoning-bench"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.15537",
+      "arxiv_id": "2610.15537",
+      "authors": [
+        "Wu, Chenkai",
+        "Chang, Xing",
+        "Yan, Jun"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-11T11:19:01Z"
+    },
+    {
+      "id": "r346",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "DICE: Tilting the Odds through Interface Attackson System One Model",
+      "description": "Examines bounded substitutions in state extraction, question generation, and output interpretation around an authentic Jev API. Three synthetic pilots show how surrounding adapters can change final actions without altering the model response. Reports intervention-specific checks and clean-case costs, without estimating prevalence in deployed systems.",
+      "status": "Preprint",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.14404"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.14404"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.14404",
+      "arxiv_id": "2610.14404",
+      "authors": [
+        "Dong, Ben",
+        "Lu, Tianyi",
+        "Guo, Zhonghao",
+        "Wang, Qian"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-09T23:47:09Z"
     },
     {
       "id": "r104",
@@ -7380,6 +7755,174 @@
       ]
     },
     {
+      "id": "r337",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "Proactive Physical AI through Continuous Observation and Timely Intervention",
+      "description": "Introduces ProAgent, combining a Jev-style StreamingJev timing model with a response model for proactive physical assistance. Uses continuous observations and video-derived supervision to decide when intervention is warranted, with timing and real-robot evaluations. StreamingJev is an independent model, not a claimed new hosted Jev release.",
+      "status": "Preprint",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.16967"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.16967"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "eye",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.16967",
+      "arxiv_id": "2610.16967",
+      "authors": [
+        "Yang, Zhenhua",
+        "Liang, Jiafeng",
+        "Zhou, Xingyu",
+        "Jiang, Yi",
+        "Cao, Xiayu",
+        "Chen, Zui",
+        "Wang, Luqi",
+        "Sun, Haiyang",
+        "Xiang, Yufei",
+        "Li, Chang",
+        "Mu, Rongchuan",
+        "Chi, Bowen",
+        "Tong, Zihe",
+        "Li, Mingyu",
+        "Ma, Huijie",
+        "Yang, Yiqiao",
+        "Ren, Baoqi",
+        "Ma, Zhiming",
+        "Zhu, Zhihao",
+        "Ji, Jiahao",
+        "Wang, Zhuoyao",
+        "Wang, Qianyu",
+        "Liu, Xiangyu",
+        "Zixiang, Wang",
+        "Zhang, Shunliang",
+        "Liu, Ming",
+        "Feng, Xiaocheng",
+        "Tang, Duyu",
+        "Qin, Bing"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-12T15:33:34Z"
+    },
+    {
+      "id": "r339",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "Embodied Skill Bench: Benchmarking How Well Agents with Embodied Skills Perform on Physical Tasks",
+      "description": "Introduces EmbodiedSkillBench and compares native control, skill-only execution, and selective skill reuse on perturbed LIBERO-Pro tasks. Includes Jev as a skill for motion and gripper decisions. Reports a success-versus-cost tradeoff: skills can help weaker agents but constrain stronger agents when native controls are removed.",
+      "status": "Preprint",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.16238"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.16238"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/HanZhi306/EmbodiedSkill-Bench"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "compass",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.16238",
+      "arxiv_id": "2610.16238",
+      "authors": [
+        "Han, Zhi",
+        "Guo, Zihan",
+        "Zeng, Chenxi",
+        "Cui, Zicai",
+        "Xin, Yue",
+        "Zhou, Ming",
+        "Zhou, Dongzhan",
+        "Zhang, Weinan",
+        "Li, Yang"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-12T06:11:29Z"
+    },
+    {
+      "id": "r342",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "Suggested Is Not Superseded: A Pre-Registered Evaluation of a System-One Model as a Memory-Retirement Gate",
+      "description": "Evaluates Jev as a memory-retirement gate under a contract distinguishing established changes from suggestions. A three-way interface reduces premature retirement but misses the pre-registered detection budget; a development-selected reasoning cascade does not beat a simpler threshold on held-out data. Discusses annotation and small-sample selection effects.",
+      "status": "Preprint",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.15710"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.15710"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "database",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.15710",
+      "arxiv_id": "2610.15710",
+      "authors": [
+        "Chen, Xupeng",
+        "Le, Chenqian"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-11T15:48:16Z"
+    },
+    {
+      "id": "r345",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "Jevolution: A Framework for Studying Communication and Collective Dynamics in AI Agents",
+      "description": "Presents an instrumented predator-prey simulator with asynchronous remote decisions, communication signals, and inherited traits. A small Jev-controlled case study does not resolve the direction of the communication effect. Synthetic fixtures validate simulator behavior, rather than demonstrating emergent language, learned policies, or ecological realism.",
+      "status": "Preprint",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.14449"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.14449"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/utkarshg20-org/jevolution"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "network",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.14449",
+      "arxiv_id": "2610.14449",
+      "authors": [
+        "Huang, Xirui",
+        "Hooda, Nikhil",
+        "Gupta, Utkarsh"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-10T01:26:29Z",
+      "date_note": "First submission date in UTC from the original abstract page and its citation_date metadata; the search listing displayed the preceding calendar day."
+    },
+    {
       "id": "r110",
       "section": "4. Research papers",
       "category": "Open and alternative decision-model methods",
@@ -7724,6 +8267,84 @@
         "Ji, Jiayi",
         "Sun, Xiaoshuai"
       ]
+    },
+    {
+      "id": "r334",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "Releasing the Inner Jev: A Simple Recipe for Open Decision Models",
+      "description": "Studies zero-shot logit readout and LoRA training for open decision models, introduces OpenDecisions, and describes Jeff 1.0. Reports accuracy and calibration comparisons with Jev across several benchmarks. Serving code is public; the linked model collection and dataset returned HTTP 401 during this check, so their availability was not verified.",
+      "status": "Preprint",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.17205"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.17205"
+        },
+        {
+          "label": "Serving code",
+          "url": "https://github.com/j-geuter/jeff-serve"
+        },
+        {
+          "label": "Model collection (access unverified)",
+          "url": "https://huggingface.co/collections/jgeuter/jeff-10-6aca9c156b97a2fd63a73422"
+        },
+        {
+          "label": "Dataset (access unverified)",
+          "url": "https://huggingface.co/datasets/jgeuter/OpenDecisions"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "chip",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.17205",
+      "arxiv_id": "2610.17205",
+      "authors": [
+        "Geuter, Jonathan",
+        "Cheng, Andrew",
+        "Alvarez-Melis, David"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-12T17:59:37Z"
+    },
+    {
+      "id": "r335",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "FunDM: Cheap & Label-Free Decision Models from Frozen Language Models",
+      "description": "Introduces FunDM, training small decision heads to imitate a frozen language model without correct-answer training labels. Evaluates truncated Qwen3-8B backbones on multiple-choice benchmarks and coding-agent selection. Its efficiency results concern the tested local baselines; the author-linked code repository returned HTTP 404 when checked.",
+      "status": "Preprint",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.17175"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.17175"
+        },
+        {
+          "label": "Author code link (404 at check)",
+          "url": "https://github.com/Ujjawal-K-Panchal/FunDM"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "chip",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.17175",
+      "arxiv_id": "2610.17175",
+      "authors": [
+        "Panchal, Ujjawal K."
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-12T17:47:28Z"
     },
     {
       "id": "r115",
@@ -8612,6 +9233,155 @@
         "Zivana Zerjal"
       ],
       "date_note": "Author page and the paper itself identify October 9, 2026 as the working-paper date; no separate SSRN submission date is asserted."
+    },
+    {
+      "id": "r341",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "RSAJEV: Training-Free Abstaining Prototype Memory for Eliminating Silent Hallucination in JEV-Based Remote Sensing Classification",
+      "description": "Extends RSJEV-style remote-sensing classification with a prototype-based readout and abstention, replacing letter-token scoring while retaining multimodal representations. Reports cross-dataset and open-set improvements using reference images without gradient updates. The connection to Jev is through RSJEV; this is not a hosted Jev API evaluation.",
+      "status": "Preprint",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.15742"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.15742"
+        },
+        {
+          "label": "RSJEV paper",
+          "url": "https://arxiv.org/abs/2610.08539"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "eye",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.15742",
+      "arxiv_id": "2610.15742",
+      "authors": [
+        "Chen, Man",
+        "Chen, Antai",
+        "Xu, Shuai",
+        "Gu, Chengjie",
+        "Zhou, Huaping",
+        "Sun, Kelei",
+        "Wu, Tao",
+        "Huang, Yongjie"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-11T16:27:00Z"
+    },
+    {
+      "id": "r347",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Does System One Transfer? Calibrated Typed-Decision Models, Label Budgets, and Translation for Indonesian Regional Languages",
+      "description": "Evaluates Jev and Laya-multilingual on Indonesian regional-language sentiment and emotion tasks. Studies translation, annotation budgets, calibration, and confidence-based cascades, finding that stable calibration error can coexist with weaker error ranking. The author-linked code and predictions repository returned HTTP 404 when checked.",
+      "status": "Preprint",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.14112"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.14112"
+        },
+        {
+          "label": "Author code link (404 at check)",
+          "url": "https://github.com/tnromy/evaluating-system-one-models-for-indonesian-regional-languages"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "globe",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.14112",
+      "arxiv_id": "2610.14112",
+      "authors": [
+        "Fadli, Romi",
+        "Rusdah",
+        "Utami, Wahyu Ramadani Putri",
+        "Amana, Zulfa Malika"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-09T04:12:51Z"
+    },
+    {
+      "id": "r348",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Emo-Jev: Probabilistic Reasoning for Emotion Classification with Jev",
+      "description": "Introduces training-free emotion and sentiment classification through decomposed Jev judgments and aggregation across multiple judgment paths. Evaluates eight datasets spanning sentiment, emotion, sarcasm, and humor against direct Jev and generative baselines, examining the tradeoff between classification quality, observed latency, and cost.",
+      "status": "Preprint",
+      "date": "2026-09-27",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.08829"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.08829"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "heart",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.08829",
+      "arxiv_id": "2610.08829",
+      "authors": [
+        "Zhang, Yazhou",
+        "Yu, Junhao"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-09-27T01:35:32Z",
+      "date_note": "First submission date in UTC from the original abstract page and its citation_date metadata; the search listing displayed the preceding calendar day."
+    },
+    {
+      "id": "r349",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "RSJEV: Discriminative Remote Sensing Scene Classification with Multimodal Large Language Models",
+      "description": "Introduces RSJEV, an independent multimodal one-pass decider for remote-sensing scene classification, explicitly positioned against the TypeSafe decision interface. Scores candidate tokens from an answer-slot representation and evaluates three remote-sensing benchmarks. The linked repository is public; no code or weight license is inferred from the paper.",
+      "status": "Preprint",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.08539"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.08539"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Dongtcs/RSJEV"
+        }
+      ],
+      "checked_on": "2026-10-14",
+      "cataloged_on": "2026-10-14",
+      "icon": "eye",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.08539",
+      "arxiv_id": "2610.08539",
+      "authors": [
+        "Si, Dongchen",
+        "Wang, Di",
+        "Xu, Mingzhen",
+        "Zhang, Jing",
+        "Du, Bo",
+        "Zhang, Liangpei"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-06T15:28:36Z"
     },
     {
       "id": "r126",
