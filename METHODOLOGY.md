@@ -47,6 +47,12 @@ Independent Jev-like implementations reproduce interface ideas or pursue related
 
 Check dates document source inspection, not a guarantee that every URL is reachable from every network. Access failures such as timeouts, rate limits, and bot challenges should be distinguished from confirmed missing pages. Automated reachability snapshots and intermediate verification records are kept locally and excluded from Git.
 
+### Indirect artifact verification
+
+An unreachable Hugging Face page does not prevent inclusion when original publication records establish the exact artifact link. Author papers, repository release tables, project sites, serving configurations, and versioned manifests can corroborate a model or dataset’s identity and author-reported release. Such records use `artifact_verification.method = indirect_first_party`, with evidence links, a check date, licensing scope, and a statement of what was established. The README keeps ordinary model and dataset link labels rather than treating a network outage as an unverified identity.
+
+Indirect evidence does not claim a successful Hub download or inspection of weight contents. License assertions must identify whether they concern code, an adapter, full weights, or source datasets. Unresolved license details remain explicit. Mirrors and search indexes can help locate evidence, but an unrelated repost alone does not establish authorship or release.
+
 ## Dates and news
 
 Verified event dates display `[YYYY-MM-DD]` with an event label. `published` refers to a dated article or announcement; `submitted` refers to the first arXiv submission or the linked Hacker News submission. `repository_created` uses GitHub's UTC `created_at` or Hugging Face's `createdAt` metadata. It does **not** establish when a repository became public, when a model was trained, or when weights were released. `paper_submitted` dates a related paper rather than its model checkpoints. `updated` uses an explicit page-level `dateModified` and is displayed as **Page updated**, never as a first publication date. UTC timestamps are reduced to their UTC calendar day.

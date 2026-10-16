@@ -3190,8 +3190,8 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Browser and agent infrastructure",
       "title": "JevAgentHarness",
-      "description": "MIT-licensed local proxy and research harness that use decision-model judgments to route agent work between fast and strong generative models, with threshold fitting and per-step logs. The repository links AgentDecision adapters under CC BY-NC 4.0; direct weight availability could not be verified because Hugging Face access failed.",
-      "status": "Code available; weight links unverified",
+      "description": "MIT-licensed local proxy and research harness that use decision-model judgments to route agent work between fast and strong generative models, with threshold fitting and per-step logs. The author’s release table identifies AgentDecision-4B as a Qwen3-4B LoRA adapter under CC BY-NC 4.0. Its model link and release status are corroborated through the author’s documentation.",
+      "status": "Code and author-reported adapters",
       "date": "2026-10-15",
       "links": [
         {
@@ -3203,7 +3203,7 @@
           "url": "https://arxiv.org/abs/2610.21412"
         },
         {
-          "label": "Author-linked adapter (availability unverified)",
+          "label": "AgentDecision-4B adapter",
           "url": "https://huggingface.co/JevAgentHarness/AgentDecision-4B"
         }
       ],
@@ -3213,7 +3213,22 @@
       "date_kind": "repository_created",
       "date_source": "https://api.github.com/repos/JevAgentHarness/JevAgentHarness",
       "date_source_field": "created_at",
-      "date_source_timestamp": "2026-10-15T06:46:31Z"
+      "date_source_timestamp": "2026-10-15T06:46:31Z",
+      "artifact_verification": {
+        "method": "indirect_first_party",
+        "checked_on": "2026-10-16",
+        "verified_urls": [
+          "https://huggingface.co/JevAgentHarness/AgentDecision-4B"
+        ],
+        "sources": [
+          "https://github.com/JevAgentHarness/JevAgentHarness/blob/main/README.md#models-and-data",
+          "https://jevagentharness.github.io/"
+        ],
+        "finding": "The release table names the exact Hugging Face repository, adapter base, purpose and license, and gives local serving instructions.",
+        "license_note": "Code: MIT. AgentDecision-4B adapter: CC BY-NC 4.0 according to the author’s release table; not an unrestricted commercial license.",
+        "scope": "Confirms artifact identity and the author-reported release through original publication records. Live Hugging Face reachability, downloadable file contents, and file hashes were not tested.",
+        "source_tree": "f2932199e1ef1d9f089b51d39430c87be0f560b5"
+      }
     },
     {
       "id": "r388",
@@ -5485,8 +5500,8 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Local runtimes and alternative implementations",
       "title": "super-decider",
-      "description": "Apache-2.0 serving code for a DiffusionGemma-based decision model with parallel answer slots, optional adaptive thinking, and a Jev-compatible API. The README links NVFP4 weights, but their files and license could not be independently inspected because Hugging Face access failed; code licensing does not establish weight licensing.",
-      "status": "Code available; weights unverified",
+      "description": "Apache-2.0 serving code for a DiffusionGemma-based decision model with parallel answer slots, optional adaptive thinking, and a Jev-compatible API. The author’s README identifies an 18 GB NVFP4 weight release, and the runtime selects the same Hugging Face model ID. Release notes and download configuration corroborate the model link; consult the author’s licensing notices for weights and dependencies.",
+      "status": "Code and author-reported weights",
       "date": "2026-10-13",
       "links": [
         {
@@ -5494,8 +5509,12 @@
           "url": "https://github.com/Singularity-Compute/super-decider"
         },
         {
-          "label": "Author-linked model (availability and license unverified)",
+          "label": "Model weights",
           "url": "https://huggingface.co/Singularity-Compute/super-decider"
+        },
+        {
+          "label": "Licensing notices",
+          "url": "https://github.com/Singularity-Compute/super-decider/blob/main/NOTICE.md"
         }
       ],
       "checked_on": "2026-10-16",
@@ -5504,7 +5523,23 @@
       "date_kind": "repository_created",
       "date_source": "https://api.github.com/repos/Singularity-Compute/super-decider",
       "date_source_field": "created_at",
-      "date_source_timestamp": "2026-10-13T15:12:50Z"
+      "date_source_timestamp": "2026-10-13T15:12:50Z",
+      "artifact_verification": {
+        "method": "indirect_first_party",
+        "checked_on": "2026-10-16",
+        "verified_urls": [
+          "https://huggingface.co/Singularity-Compute/super-decider"
+        ],
+        "sources": [
+          "https://github.com/Singularity-Compute/super-decider/blob/main/README.md",
+          "https://github.com/Singularity-Compute/super-decider/blob/main/runtime/Dockerfile",
+          "https://github.com/Singularity-Compute/super-decider/blob/main/NOTICE.md"
+        ],
+        "finding": "The README names the weight repository, NVFP4 format and 18 GB size; the Dockerfile uses the same repository as MODEL_ID.",
+        "license_note": "Repository code is Apache-2.0. The author’s NOTICE declares Apache-2.0 for the project and names the base checkpoints under Apache-2.0; the separate Hub model-card license was not inspected.",
+        "scope": "Confirms artifact identity and the author-reported release through original publication records. Live Hugging Face reachability, downloadable file contents, and file hashes were not tested.",
+        "source_tree": "10bf7eddcbd3b5f6dddf27e868231b2e1140dfba"
+      }
     },
     {
       "id": "r078",
@@ -7167,7 +7202,7 @@
       "section": "4. Research papers",
       "category": "Surveys and broad evaluations",
       "title": "System1-Arena: Which Decisions Can Be Left to System 1?",
-      "description": "Introduces System1-Arena for probability-scored decisions and closed-loop agent environments, including live-time settings. Compares decision models and generative baselines under shared requests. Finds that strong static decision performance does not automatically translate into successful control; source datasets, model scale, and timing conditions matter.",
+      "description": "Introduces System1-Arena for probability-scored decisions and closed-loop agent environments, including live-time settings. Compares decision models and generative baselines under shared requests. Finds that strong static decision performance does not automatically translate into successful control; source datasets, model scale, and timing conditions matter. The author’s repository documents the public dataset and separates redistributable sources from restricted sources.",
       "status": "Preprint",
       "date": "2026-10-15",
       "links": [
@@ -7184,7 +7219,7 @@
           "url": "https://github.com/TianyuCodings/S1-Arena"
         },
         {
-          "label": "Author-linked dataset (availability unverified)",
+          "label": "Dataset",
           "url": "https://huggingface.co/datasets/C-Tianyu/S1-Arena"
         }
       ],
@@ -7202,7 +7237,22 @@
         "Zhou, Mingyuan"
       ],
       "date_source_field": "submission_history.v1",
-      "date_source_timestamp": "2026-10-15T04:40:47Z"
+      "date_source_timestamp": "2026-10-15T04:40:47Z",
+      "artifact_verification": {
+        "method": "indirect_first_party",
+        "checked_on": "2026-10-16",
+        "verified_urls": [
+          "https://huggingface.co/datasets/C-Tianyu/S1-Arena"
+        ],
+        "sources": [
+          "https://github.com/TianyuCodings/S1-Arena/blob/main/README.md",
+          "https://github.com/TianyuCodings/S1-Arena/blob/main/s1arena/hub.py"
+        ],
+        "finding": "The README links the exact dataset and describes its public subset; the loader documents source-level licensing metadata and separate restricted-source handling.",
+        "license_note": "Code: Apache-2.0. Generated requests: CC BY 4.0 according to the README; underlying sources retain their individual licenses.",
+        "scope": "Confirms artifact identity and the author-reported release through original publication records. Live Hugging Face reachability, downloadable file contents, and file hashes were not tested.",
+        "source_tree": "28e16b16cdf68800a4cba148c3c6ea036f75bda3"
+      }
     },
     {
       "id": "r096",
@@ -8373,11 +8423,15 @@
           "url": "https://yifan-lan.github.io/DecisionRobust/"
         },
         {
-          "label": "Code (license unspecified)",
+          "label": "Code (MIT)",
           "url": "https://github.com/Yifan-Lan/DecisionRobust"
+        },
+        {
+          "label": "Dataset and results",
+          "url": "https://huggingface.co/datasets/yflantmy/DecisionRobust"
         }
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-16",
       "cataloged_on": "2026-10-15",
       "icon": "shield",
       "date_kind": "submitted",
@@ -8393,7 +8447,24 @@
         "Chen, Jinghui"
       ],
       "date_source_field": "submission_history.v1",
-      "date_source_timestamp": "2026-10-13T19:52:14Z"
+      "date_source_timestamp": "2026-10-13T19:52:14Z",
+      "artifact_verification": {
+        "method": "indirect_first_party",
+        "checked_on": "2026-10-16",
+        "verified_urls": [
+          "https://huggingface.co/datasets/yflantmy/DecisionRobust"
+        ],
+        "sources": [
+          "https://github.com/Yifan-Lan/DecisionRobust/blob/main/README.md",
+          "https://github.com/Yifan-Lan/DecisionRobust/blob/main/src/decisionrobust/release.json",
+          "https://yifan-lan.github.io/DecisionRobust/",
+          "https://github.com/Yifan-Lan/DecisionRobust/blob/main/THIRD_PARTY_NOTICES.md"
+        ],
+        "finding": "The README and project website link the dataset; release.json identifies yflantmy/DecisionRobust version 1.2.0, data revision 8b6bac5de7ed66842b6c0c86c87f0944f6cf83b6 and results revision 2bd4c636148e321616a6479391cc8ac7a4c9c8fd.",
+        "license_note": "Original code: MIT, verified in LICENSE. Dataset text and images retain upstream terms; code licensing does not relicense them.",
+        "scope": "Confirms artifact identity and the author-reported release through original publication records. Live Hugging Face reachability, downloadable file contents, and file hashes were not tested.",
+        "source_tree": "c6d1ba25f157f344d568439eacf3c5fd7b838a52"
+      }
     },
     {
       "id": "r373",
@@ -9671,7 +9742,7 @@
       "section": "4. Research papers",
       "category": "Open and alternative decision-model methods",
       "title": "Releasing the Inner Jev: A Simple Recipe for Open Decision Models",
-      "description": "Studies zero-shot logit readout and LoRA training for open decision models, introduces OpenDecisions, and describes Jeff 1.0. Reports accuracy and calibration comparisons with Jev across several benchmarks. Serving code is public; the linked model collection and dataset returned HTTP 401 during this check, so their availability was not verified.",
+      "description": "Studies zero-shot logit readout and LoRA training for open decision models, introduces OpenDecisions, and describes Jeff 1.0. Reports accuracy and calibration comparisons with Jev across several benchmarks. The original paper links the model collection and dataset; the author’s serving repository lists four model IDs, download sizes, and tested revisions.",
       "status": "Preprint",
       "date": "2026-10-12",
       "links": [
@@ -9688,15 +9759,15 @@
           "url": "https://github.com/j-geuter/jeff-serve"
         },
         {
-          "label": "Model collection (access unverified)",
+          "label": "Model collection",
           "url": "https://huggingface.co/collections/jgeuter/jeff-10-6aca9c156b97a2fd63a73422"
         },
         {
-          "label": "Dataset (access unverified)",
+          "label": "OpenDecisions dataset",
           "url": "https://huggingface.co/datasets/jgeuter/OpenDecisions"
         }
       ],
-      "checked_on": "2026-10-14",
+      "checked_on": "2026-10-16",
       "cataloged_on": "2026-10-14",
       "icon": "chip",
       "date_kind": "submitted",
@@ -9708,7 +9779,23 @@
         "Alvarez-Melis, David"
       ],
       "date_source_field": "submission_history.v1",
-      "date_source_timestamp": "2026-10-12T17:59:37Z"
+      "date_source_timestamp": "2026-10-12T17:59:37Z",
+      "artifact_verification": {
+        "method": "indirect_first_party",
+        "checked_on": "2026-10-16",
+        "verified_urls": [
+          "https://huggingface.co/collections/jgeuter/jeff-10-6aca9c156b97a2fd63a73422",
+          "https://huggingface.co/datasets/jgeuter/OpenDecisions"
+        ],
+        "sources": [
+          "https://arxiv.org/html/2610.17205v1",
+          "https://github.com/j-geuter/jeff-serve/blob/main/README.md"
+        ],
+        "finding": "The paper declares release and links the exact collection and dataset. The serving README corroborates Jeff 1.0 model identities with tested revisions and download instructions.",
+        "license_note": "Serving code: Apache-2.0. The README explicitly assigns weight licensing to individual model cards; dataset and checkpoint licenses are not inferred from the code.",
+        "scope": "Confirms artifact identity and the author-reported release through original publication records. Live Hugging Face reachability, downloadable file contents, and file hashes were not tested.",
+        "source_tree": "30a0598d2a5b364bce8af120c60189264cc5d822"
+      }
     },
     {
       "id": "r335",
