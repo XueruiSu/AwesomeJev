@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-15",
+  "last_updated": "2026-10-16",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -498,6 +498,37 @@
       "date_source": "https://news.ycombinator.com/item?id=49783999"
     },
     {
+      "id": "r351",
+      "section": "2. Community discussion and writing",
+      "category": "Popular Hacker News discussions",
+      "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
+      "description": "Discussion of the 1.14 preview release, experimental visual localization, longer context, and the boundary between stable automation and prototypes. Scores are a dated snapshot; the official announcement defines the release and feature status.",
+      "status": "Discussion",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=50095353"
+        },
+        {
+          "label": "Announcement",
+          "url": "https://typesafe.ai/blog/jev-1-14"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-15",
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://hn.algolia.com/api/v1/items/50095353",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 329,
+        "comments": 116,
+        "observed_on": "2026-10-16",
+        "source": "https://hacker-news.firebaseio.com/v0/item/50095353.json"
+      }
+    },
+    {
       "id": "r018",
       "section": "2. Community discussion and writing",
       "category": "Popular Hacker News discussions",
@@ -526,6 +557,39 @@
       "icon": "chat",
       "date_kind": "submitted",
       "date_source": "https://news.ycombinator.com/item?id=49802161"
+    },
+    {
+      "id": "r382",
+      "section": "2. Community discussion and writing",
+      "category": "Popular Hacker News discussions",
+      "title": "Jev meets the Trolley Problem",
+      "description": "Discussion of Zach Landes’s trolley-problem experiment, prompt sensitivity, and the limits of interpreting hypothetical choices as evidence about model behavior. Links the original interactive analysis and its reproducibility materials.",
+      "status": "Discussion",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=50106023"
+        },
+        {
+          "label": "Original",
+          "url": "https://zachlandes.com/trolley-problem/"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://hn.algolia.com/api/v1/items/50106023",
+      "date_source_timestamp": "2026-10-15T16:24:52Z",
+      "date_source_field": "created_at",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 298,
+        "comments": 143,
+        "observed_on": "2026-10-16",
+        "source": "https://hn.algolia.com/api/v1/search_by_date?query=jev&restrictSearchableAttributes=title,url&tags=story&hitsPerPage=100"
+      }
     },
     {
       "id": "r019",
@@ -766,37 +830,6 @@
       "icon": "chat",
       "date_kind": "submitted",
       "date_source": "https://news.ycombinator.com/item?id=49816899"
-    },
-    {
-      "id": "r351",
-      "section": "2. Community discussion and writing",
-      "category": "Popular Hacker News discussions",
-      "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
-      "description": "Discussion of the 1.14 preview release, experimental visual localization, longer context, and the boundary between stable automation and prototypes. Scores are a dated snapshot; the official announcement defines the release and feature status.",
-      "status": "Discussion",
-      "date": "2026-10-14",
-      "links": [
-        {
-          "label": "Discussion",
-          "url": "https://news.ycombinator.com/item?id=50095353"
-        },
-        {
-          "label": "Announcement",
-          "url": "https://typesafe.ai/blog/jev-1-14"
-        }
-      ],
-      "checked_on": "2026-10-15",
-      "cataloged_on": "2026-10-15",
-      "icon": "chat",
-      "date_kind": "submitted",
-      "date_source": "https://hn.algolia.com/api/v1/items/50095353",
-      "attention": {
-        "platform": "Hacker News",
-        "points": 180,
-        "comments": 57,
-        "observed_on": "2026-10-15",
-        "source": "https://hn.algolia.com/api/v1/search_by_date?query=jev&restrictSearchableAttributes=title,url&tags=story&hitsPerPage=100"
-      }
     },
     {
       "id": "r027",
@@ -1831,6 +1864,131 @@
       "date_kind": "published",
       "date_source": "https://github.com/RINNECODER/jev-box-study",
       "date_note": "README explicitly dates the observations to October 14, 2026; later prompt revisions are included in the inspected report."
+    },
+    {
+      "id": "r377",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Are all System One models created equal?",
+      "description": "Parallel compares eight decision models on four human-labeled search-production tasks. Examines prompt tuning, reranking, page-change detection, and serving configurations. Its specialized reranker outperforms the general decision models in the reported test; cost and latency conclusions depend on the deployment setup.",
+      "status": "Article",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "label": "Blog",
+          "url": "https://parallel.ai/blog/are-all-system-one-models-created-equal"
+        },
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=50109686"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "gauge",
+      "date_kind": "published",
+      "date_source": "https://parallel.ai/blog/are-all-system-one-models-created-equal"
+    },
+    {
+      "id": "r378",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Jev Meets the Trolley Problem",
+      "description": "Interactive comparison of Jev and other decision models across trolley-problem variants, wordings, and description orders. Links recorded responses and analysis materials. Shows sensitivity to framing; these hypothetical judgments do not establish real-world intentions, moral competence, or calibrated deployment safety.",
+      "status": "Article / interactive experiment",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "label": "Article and interactive results",
+          "url": "https://zachlandes.com/trolley-problem/"
+        },
+        {
+          "label": "Code and results (license unspecified)",
+          "url": "https://github.com/zachlandes/trolley-bench"
+        },
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=50106023"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "scales",
+      "date_kind": "published",
+      "date_source": "https://zachlandes.com/trolley-problem/",
+      "date_source_field": "time.datetime",
+      "date_source_timestamp": "2026-10-14T00:00:00-07:00"
+    },
+    {
+      "id": "r379",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "How to build typed decisions with Jev",
+      "description": "Flavio Copes explains typed questions, SDK calls, parallel question batches, confidence gates, and practical integration patterns. The updated guide covers experimental images, Box, and longer context alongside limitations and proposed personal workflows; illustrative examples are not independent performance validation.",
+      "status": "Tutorial",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "Guide",
+          "url": "https://flaviocopes.com/jev/"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "book",
+      "date_kind": "updated",
+      "date_source": "https://flaviocopes.com/jev/",
+      "date_source_field": "dateModified",
+      "date_source_timestamp": "2026-10-15T00:00:00.000Z",
+      "date_note": "The page separately records datePublished as 2026-09-17T21:00:00.000Z; this entry dates the substantive updated guide."
+    },
+    {
+      "id": "r380",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "How to use Jev with Claude Code, Codex and Cursor",
+      "description": "Guide to giving coding agents the official TypeSafe skill and current API documentation, then reviewing the integrations they produce. Explains batching, candidate selection, and keeping deterministic arithmetic in code; the coding agent retains its generative model.",
+      "status": "Tutorial",
+      "date": "2026-10-08",
+      "links": [
+        {
+          "label": "Guide",
+          "url": "https://flaviocopes.com/jev-coding-agents/"
+        },
+        {
+          "label": "Official skill repository",
+          "url": "https://github.com/typesafe-ai/skills"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "code",
+      "date_kind": "published",
+      "date_source": "https://flaviocopes.com/jev-coding-agents/",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-08T07:00:00.000Z"
+    },
+    {
+      "id": "r381",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Jev gets experimental image input, and Jev 1.14 can locate objects in images",
+      "description": "Invide Labs explains image inputs, Box coordinates, model aliases, and experimental feature headers. Emphasizes that Box still returns coordinates when an object is absent, requiring a separate presence judgment. This is a technical walkthrough of the official release, not a benchmark.",
+      "status": "Article",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "Blog",
+          "url": "https://blog.invidelabs.com/jev-1-14-experimental-vision/"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "eye",
+      "date_kind": "published",
+      "date_source": "https://blog.invidelabs.com/jev-1-14-experimental-vision/",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-15T07:32:03.000Z"
     },
     {
       "id": "r035",
@@ -3004,6 +3162,124 @@
       "date_source": "https://api.github.com/repos/sebastianbugal/jev",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-09-18T22:05:50Z"
+    },
+    {
+      "id": "r383",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "jevreel",
+      "description": "MIT-licensed MCP tools and an agent skill for finding video moments using labeled contact sheets and Jev image judgments. Rechecks selected windows on full frames and supports caption-based searches. Operates on extracted still images rather than native video inference; demonstration timings are author-reported.",
+      "status": "Open-source code",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/DeepAleph/jevreel"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "video",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/DeepAleph/jevreel",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-15T12:00:03Z"
+    },
+    {
+      "id": "r384",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "JevAgentHarness",
+      "description": "MIT-licensed local proxy and research harness that use decision-model judgments to route agent work between fast and strong generative models, with threshold fitting and per-step logs. The repository links AgentDecision adapters under CC BY-NC 4.0; direct weight availability could not be verified because Hugging Face access failed.",
+      "status": "Code available; weight links unverified",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/JevAgentHarness/JevAgentHarness"
+        },
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2610.21412"
+        },
+        {
+          "label": "Author-linked adapter (availability unverified)",
+          "url": "https://huggingface.co/JevAgentHarness/AgentDecision-4B"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/JevAgentHarness/JevAgentHarness",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-15T06:46:31Z"
+    },
+    {
+      "id": "r388",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "pi-skimmer",
+      "description": "MIT-licensed Pi extension that asks Jev to retain relevant text chunks or selected JSON records. Documents explicit session consent, bounded requests, recovery files, and preservation of unjudged inputs. Field selection limits what the judge receives; it does not redact the retained records.",
+      "status": "Open-source code",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jon-devlapaz/pi-skimmer"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/jon-devlapaz/pi-skimmer",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-14T20:07:12Z"
+    },
+    {
+      "id": "r390",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Ailuros",
+      "description": "Early Apache-2.0 ingress decision service using Jev or compatible models to classify requests before proxy admission. Provides Envoy and forward-auth integrations, configurable thresholds, redaction, and failure behavior. Model latency and classification errors remain part of every inspected request path.",
+      "status": "Open-source code",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/0x4272616E646F6E/ailuros"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "shield",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/0x4272616E646F6E/ailuros",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-15T14:25:26Z"
+    },
+    {
+      "id": "r391",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Pointsman",
+      "description": "Apache-2.0 Jev routing client, evaluation tools, and usage dashboard for coding agents, formerly Jev Router. Connects bounded decisions to task dependencies and worker dispatch; advanced DAG experiments live on a research branch. Reported savings come from scoped comparisons rather than a general performance guarantee.",
+      "status": "Open-source code",
+      "date": "2026-10-08",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Kai-Leee/pointsman"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Kai-Leee/pointsman",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-08T10:23:10Z"
     },
     {
       "id": "r055",
@@ -4585,7 +4861,7 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Open-weight decision models",
       "title": "Bonsai-JEV",
-      "description": "Applies a Jev-style decision adapter to frozen ternary Bonsai 2 weights, with text and image scoring. Apache-2.0 adapter, head, and GGUF artifacts are public. The claimed 8 GB path was simulated by capping a larger GPU; broader decision benchmarks remain pending.",
+      "description": "Applies a Jev-style decision adapter to frozen ternary Bonsai 2 weights, with Apache-2.0 adapter, head, and GGUF artifacts. The updated card reports public vision Decision Index results but no text-suite run or leaderboard submission because latency exceeds its limits. The 8 GB path remains simulated by capping a larger GPU.",
       "status": "Open adapters and code",
       "date": "2026-10-14",
       "links": [
@@ -4598,7 +4874,7 @@
           "url": "https://huggingface.co/dakebakery/Bonsai-JEV"
         }
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-16",
       "cataloged_on": "2026-10-15",
       "icon": "chip",
       "date_kind": "repository_created",
@@ -4751,6 +5027,28 @@
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-05T01:09:41Z",
       "date_note": "GitHub repository creation, not the first release date of a model or integration."
+    },
+    {
+      "id": "r386",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Training pipelines and announced releases",
+      "title": "train-jev",
+      "description": "Apache-2.0 training framework implementing an independent JEV-style LoRA and 24-slot decision head on Qwen, with distillation, temperature fitting, evaluation, and System One serving. Reports stronger in-distribution imitation than transfer performance. Public training code does not by itself establish a released trained checkpoint.",
+      "status": "Training code",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/shibing624/train-jev"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "flask",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/shibing624/train-jev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-14T05:05:23Z"
     },
     {
       "id": "r071",
@@ -5181,6 +5479,32 @@
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-13T11:30:24Z",
       "date_note": "Pull request creation timestamp; not a merge or package release date."
+    },
+    {
+      "id": "r387",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "super-decider",
+      "description": "Apache-2.0 serving code for a DiffusionGemma-based decision model with parallel answer slots, optional adaptive thinking, and a Jev-compatible API. The README links NVFP4 weights, but their files and license could not be independently inspected because Hugging Face access failed; code licensing does not establish weight licensing.",
+      "status": "Code available; weights unverified",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Singularity-Compute/super-decider"
+        },
+        {
+          "label": "Author-linked model (availability and license unverified)",
+          "url": "https://huggingface.co/Singularity-Compute/super-decider"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Singularity-Compute/super-decider",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-13T15:12:50Z"
     },
     {
       "id": "r078",
@@ -6409,6 +6733,50 @@
       "date_source_timestamp": "2026-10-15T00:53:04Z"
     },
     {
+      "id": "r385",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "JEVsnap",
+      "description": "MIT-licensed screenshot-redaction application combining local OCR and deterministic detectors with optional Jev text and Box checks. Documents which text or masked images leave the device and distinguishes failure modes. Source was publicly readable at inspection despite a stale README sentence calling the repository private.",
+      "status": "Open-source code",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/brainstormity/JEVsnap"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "shield",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/brainstormity/JEVsnap",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-15T03:21:02Z"
+    },
+    {
+      "id": "r389",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "pdfjev",
+      "description": "Scanned-PDF search and highlighting demonstration using Jev image yes/no judgments, page rechecks, recursive crops, and edge probes. Also supports OpenAI Decisions. Published timing and precision refer to the included demonstration; source is readable, but no repository license was identified.",
+      "status": "Source available; license unspecified",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Empatixx/pdfjev"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Empatixx/pdfjev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-15T10:36:29Z"
+    },
+    {
       "id": "r092",
       "section": "4. Research papers",
       "category": "Surveys and broad evaluations",
@@ -6793,6 +7161,48 @@
       ],
       "date_source_field": "posted.date-parts",
       "date_note": "First version posted October 5 according to Crossref. The inspected second version was submitted October 10 and posted October 12; its DOI is cited. This is not a peer-reviewed publication date."
+    },
+    {
+      "id": "r398",
+      "section": "4. Research papers",
+      "category": "Surveys and broad evaluations",
+      "title": "System1-Arena: Which Decisions Can Be Left to System 1?",
+      "description": "Introduces System1-Arena for probability-scored decisions and closed-loop agent environments, including live-time settings. Compares decision models and generative baselines under shared requests. Finds that strong static decision performance does not automatically translate into successful control; source datasets, model scale, and timing conditions matter.",
+      "status": "Preprint",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.21244"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.21244"
+        },
+        {
+          "label": "Benchmark code",
+          "url": "https://github.com/TianyuCodings/S1-Arena"
+        },
+        {
+          "label": "Author-linked dataset (availability unverified)",
+          "url": "https://huggingface.co/datasets/C-Tianyu/S1-Arena"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "gauge",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.21244",
+      "arxiv_id": "2610.21244",
+      "authors": [
+        "Chen, Tianyu",
+        "Liu, Xinyang",
+        "An, Ruyi",
+        "Wang, Zhendong",
+        "Zhou, Mingyuan"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-15T04:40:47Z"
     },
     {
       "id": "r096",
@@ -7515,6 +7925,41 @@
       "date_source_timestamp": "2026-10-13T15:59:00Z"
     },
     {
+      "id": "r393",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Jev-as-a-Judge for RAG Claim Verification: Confidence-Gated Cascading Between a Non-Generative Verifier and a Frontier LLM",
+      "description": "Compares Jev and a frontier generative judge on 495 labeled RAG claims. Similar aggregate scores conceal different unsupported-claim acceptance rates. Examines confidence-gated escalation, paired uncertainty, and a matched random-routing control; the reported savings do not establish that confidence selects better cases than random escalation.",
+      "status": "Preprint",
+      "date": "2026-09-30",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.20634"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.20634"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/adorosario/jev-rag-claim-verification"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "scales",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.20634",
+      "arxiv_id": "2610.20634",
+      "authors": [
+        "Rosario, Alden Do",
+        "Atef, Kirollos"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-09-30T15:32:51Z"
+    },
+    {
       "id": "r101",
       "section": "4. Research papers",
       "category": "Robustness and security",
@@ -7989,6 +8434,73 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-10-13T15:59:31Z"
+    },
+    {
+      "id": "r392",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "Diagnose Before You Refine: Multi-Dimensional Judge Feedback for Query-Efficient Jailbreak Attacks",
+      "description": "Studies Jev-based multidimensional feedback for query-limited jailbreak evaluation and iterative attack refinement. Tests several target models and query budgets, and also examines output filtering. Reported attack success is specific to the evaluated harmful-request datasets and settings; this is a preprint, not an operational safety guarantee.",
+      "status": "Preprint",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.19971"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.19971"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.19971",
+      "arxiv_id": "2610.19971",
+      "authors": [
+        "Tan, Yixin",
+        "Hsu, Chia-Yi",
+        "Liu, Jiayang",
+        "Yu, Chia-Mu",
+        "Wen, Rui"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-14T10:55:17Z"
+    },
+    {
+      "id": "r396",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "From Detection to Decision: Calibration and Deferral for Prompt-Injection Detection",
+      "description": "Evaluates Jev, Prompt Guard classifiers, and an LLM judge on prompt-injection detection, calibration, and allow/block/defer policies. Uses held-out data and separate calibration splits. Finds that native probabilities do not consistently outperform post-hoc calibration, and stringent false-negative targets require extensive escalation.",
+      "status": "Preprint",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.20907"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.20907"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "shield",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.20907",
+      "arxiv_id": "2610.20907",
+      "authors": [
+        "Lan, Qianlong",
+        "Kaul, Anuj",
+        "Pandurangan, Vinothini",
+        "Sanyal, Indranil"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-14T20:34:51Z"
     },
     {
       "id": "r104",
@@ -8665,6 +9177,150 @@
       "date_source_timestamp": "2026-10-13T12:29:13Z"
     },
     {
+      "id": "r394",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "description": "Introduces RealtimeBench with games that keep running during model inference. A slow teacher studies failures between attempts and writes reusable instructions for a fast Jev student. Reports improvements after validated offline updates, showing why paused-game rankings and live-clock outcomes can differ.",
+      "status": "Preprint",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.20665"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.20665"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "gamepad",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.20665",
+      "arxiv_id": "2610.20665",
+      "authors": [
+        "Pan, Ningxin",
+        "Li, Hanyu",
+        "Shen, Yeqing",
+        "Ding, Ning",
+        "Tang, Yehui",
+        "Zhang, Wentao"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-14T09:35:54Z"
+    },
+    {
+      "id": "r397",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "Prune the Summary, Not the History: Source-Judged Compaction for Long-Horizon Agents",
+      "description": "Uses Jev to check whether individual context-summary entries are supported by environment outputs or prior summaries, removing unsupported entries before agent continuation. Reports improved cross-run reliability on AppWorld and OfficeBench with one additional judge request per compaction; it modifies summaries rather than deleting the underlying interaction history.",
+      "status": "Preprint",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.20927"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.20927"
+        },
+        {
+          "label": "Code (license unspecified)",
+          "url": "https://github.com/GuanghuiMin/sjc"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "database",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.20927",
+      "arxiv_id": "2610.20927",
+      "authors": [
+        "Min, Guanghui",
+        "Chen, Chen"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-14T20:57:32Z"
+    },
+    {
+      "id": "r399",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "Jev-LiteMAS: Separating Decisions from Generation in Multi-Agent Workflows",
+      "description": "Separates bounded coordination decisions from generation in multi-agent workflows. Jev routes experts and screens intermediate artifacts, while generative models execute tasks and provide corrective feedback. Reports token reductions with task-dependent quality and latency outcomes; substantive expert context is important for routing.",
+      "status": "Preprint",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.21411"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.21411"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "network",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.21411",
+      "arxiv_id": "2610.21411",
+      "authors": [
+        "Wang, Kaixiang",
+        "Zhou, Zhaijiacheng",
+        "Lou, Jiong",
+        "Li, Jie"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-15T07:26:26Z"
+    },
+    {
+      "id": "r400",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs",
+      "description": "Introduces AgentDecisionBench and a harness that fits delegation thresholds on agent trajectories, escalating uncertain choices to a generative model. Studies training on states reached after mistakes and distinguishes isolated decision accuracy from closed-loop success. Model and data release claims require separate artifact checks.",
+      "status": "Preprint",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.21412"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.21412"
+        },
+        {
+          "label": "Harness code",
+          "url": "https://github.com/JevAgentHarness/JevAgentHarness"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "network",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.21412",
+      "arxiv_id": "2610.21412",
+      "authors": [
+        "Zhu, Kunlun",
+        "Feng, Tao",
+        "Han, Xu",
+        "Wang, Heng",
+        "Yang, Ling",
+        "Tang, Xiangru",
+        "You, Jiaxuan",
+        "Ji, Heng"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-15T07:27:08Z"
+    },
+    {
       "id": "r110",
       "section": "4. Research papers",
       "category": "Open and alternative decision-model methods",
@@ -9087,6 +9743,41 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-10-12T17:47:28Z"
+    },
+    {
+      "id": "r395",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "Verdict: Encode Once, Decide Many",
+      "description": "Presents Verdict-MQ, a shared-state encoder for multiple typed questions with isolation and option-order invariance. Compares against Laya, matched fine-tuned baselines, and hosted Jev. Gains vary across tasks; the study explicitly separates agreement with soft teacher labels from broader task accuracy.",
+      "status": "Preprint",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.20778"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.20778"
+        },
+        {
+          "label": "Author code link (404 at check)",
+          "url": "https://github.com/LEC-AI/verdict"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "chip",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.20778",
+      "arxiv_id": "2610.20778",
+      "authors": [
+        "Chouhan, Avdhesh Singh",
+        "Perry, Jack"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-14T18:27:25Z"
     },
     {
       "id": "r115",
@@ -10196,6 +10887,43 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-10-13T15:15:46Z"
+    },
+    {
+      "id": "r401",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Qwen-Audio-Jev: A Unified Interface for Audio Decisions",
+      "description": "Adds typed choice, binary-judgment, and scoring heads to a Qwen audio model for audio screening, speaker verification, and quality assessment. Evaluates 18 labeled configurations and reports speed relative to its generative base. This is a Jev-style audio architecture, not evidence that hosted TypeSafe Jev accepts audio.",
+      "status": "Preprint",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.21614"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.21614"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "cataloged_on": "2026-10-16",
+      "icon": "phone",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.21614",
+      "arxiv_id": "2610.21614",
+      "authors": [
+        "Fang, Ying",
+        "Gao, Zhifu",
+        "Gu, Qing",
+        "He, Jiajun",
+        "Jing, Kangqi",
+        "Li, Xiangang",
+        "Pu, Yu",
+        "Wang, Wupeng"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-15T09:59:07Z"
     },
     {
       "id": "r126",

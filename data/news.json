@@ -10,10 +10,10 @@
       "note": "Opt-in features are not presented as production-ready. Images also work with Jev 1.13; Box requires 1.14. The announcement schedules the jev-latest alias change for a week later.",
       "attention": {
         "platform": "Hacker News",
-        "points": 180,
-        "comments": 57,
-        "observed_on": "2026-10-15",
-        "source": "https://hn.algolia.com/api/v1/search_by_date?query=jev&restrictSearchableAttributes=title,url&tags=story&hitsPerPage=100"
+        "points": 329,
+        "comments": 116,
+        "observed_on": "2026-10-16",
+        "source": "https://hacker-news.firebaseio.com/v0/item/50095353.json"
       }
     },
     {
