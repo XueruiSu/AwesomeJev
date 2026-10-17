@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-16",
+  "last_updated": "2026-10-17",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -408,6 +408,39 @@
       "date_source": "https://news.ycombinator.com/item?id=49812769"
     },
     {
+      "id": "r382",
+      "section": "2. Community discussion and writing",
+      "category": "Popular Hacker News discussions",
+      "title": "Jev meets the Trolley Problem",
+      "description": "Discussion of Zach Landes’s trolley-problem experiment, prompt sensitivity, and the limits of interpreting hypothetical choices as evidence about model behavior. Links the original interactive analysis and its reproducibility materials.",
+      "status": "Discussion",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=50106023"
+        },
+        {
+          "label": "Original",
+          "url": "https://zachlandes.com/trolley-problem/"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-16",
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://hn.algolia.com/api/v1/items/50106023",
+      "date_source_timestamp": "2026-10-15T16:24:52Z",
+      "date_source_field": "created_at",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 622,
+        "comments": 243,
+        "observed_on": "2026-10-17",
+        "source": "https://hn.algolia.com/api/v1/search_by_date?query=jev&restrictSearchableAttributes=title,url&tags=story&hitsPerPage=100"
+      }
+    },
+    {
       "id": "r015",
       "section": "2. Community discussion and writing",
       "category": "Popular Hacker News discussions",
@@ -515,17 +548,17 @@
           "url": "https://typesafe.ai/blog/jev-1-14"
         }
       ],
-      "checked_on": "2026-10-16",
+      "checked_on": "2026-10-17",
       "cataloged_on": "2026-10-15",
       "icon": "chat",
       "date_kind": "submitted",
       "date_source": "https://hn.algolia.com/api/v1/items/50095353",
       "attention": {
         "platform": "Hacker News",
-        "points": 329,
-        "comments": 116,
-        "observed_on": "2026-10-16",
-        "source": "https://hacker-news.firebaseio.com/v0/item/50095353.json"
+        "points": 330,
+        "comments": 121,
+        "observed_on": "2026-10-17",
+        "source": "https://hn.algolia.com/api/v1/search_by_date?query=jev&restrictSearchableAttributes=title,url&tags=story&hitsPerPage=100"
       }
     },
     {
@@ -557,39 +590,6 @@
       "icon": "chat",
       "date_kind": "submitted",
       "date_source": "https://news.ycombinator.com/item?id=49802161"
-    },
-    {
-      "id": "r382",
-      "section": "2. Community discussion and writing",
-      "category": "Popular Hacker News discussions",
-      "title": "Jev meets the Trolley Problem",
-      "description": "Discussion of Zach Landes’s trolley-problem experiment, prompt sensitivity, and the limits of interpreting hypothetical choices as evidence about model behavior. Links the original interactive analysis and its reproducibility materials.",
-      "status": "Discussion",
-      "date": "2026-10-15",
-      "links": [
-        {
-          "label": "Discussion",
-          "url": "https://news.ycombinator.com/item?id=50106023"
-        },
-        {
-          "label": "Original",
-          "url": "https://zachlandes.com/trolley-problem/"
-        }
-      ],
-      "checked_on": "2026-10-16",
-      "cataloged_on": "2026-10-16",
-      "icon": "chat",
-      "date_kind": "submitted",
-      "date_source": "https://hn.algolia.com/api/v1/items/50106023",
-      "date_source_timestamp": "2026-10-15T16:24:52Z",
-      "date_source_field": "created_at",
-      "attention": {
-        "platform": "Hacker News",
-        "points": 298,
-        "comments": 143,
-        "observed_on": "2026-10-16",
-        "source": "https://hn.algolia.com/api/v1/search_by_date?query=jev&restrictSearchableAttributes=title,url&tags=story&hitsPerPage=100"
-      }
     },
     {
       "id": "r019",
@@ -1991,6 +1991,147 @@
       "date_source_timestamp": "2026-10-15T07:32:03.000Z"
     },
     {
+      "id": "r402",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Jev is NOT a state-of-the-art reranker (but it's close)",
+      "description": "Kapa evaluates Jev 1.13 and 1.14 against specialized rerankers on 1,000 company-knowledge cases, ranking the same 50 candidates and scoring the top ten. Jev 1.14 comes close to Voyage rerank-3, which leads the reported quality, cost, and latency comparison. Results depend on the dataset and serving setup.",
+      "status": "Article / evaluation",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "Blog",
+          "url": "https://www.kapa.ai/blog/jev-reranker-benchmark"
+        },
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=50115347"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "gauge",
+      "date_kind": "published",
+      "date_source": "https://www.kapa.ai/blog/jev-reranker-benchmark",
+      "date_source_field": "visible publication date",
+      "date_note": "The original page displays Oct 15, 2026; the Hacker News submission on Oct 16 is a separate event."
+    },
+    {
+      "id": "r403",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "JEV as a Hallucination Filter: Let the LLM Write, Let JEV Check",
+      "description": "Python tutorial that checks candidate answers against source evidence with Jev and escalates uncertain cases to a stronger model. In eight illustrative cases, it blocks 16 planted errors but also 13 of 40 acceptable drafts; best-of-five adds no benefit over the first draft. Includes code and baseline comparisons, not a general reliability guarantee.",
+      "status": "Tutorial",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "label": "Tutorial",
+          "url": "https://www.analyticsvidhya.com/blog/2026/10/rag-hallucination-filter-using-jev/"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "shield",
+      "date_kind": "updated",
+      "date_source": "https://www.analyticsvidhya.com/blog/2026/10/rag-hallucination-filter-using-jev/",
+      "date_source_field": "visible Last Updated date",
+      "date_note": "Original page explicitly says Last Updated: 16 Oct, 2026; this is not asserted to be the first publication date. Web reader succeeded while direct curl returned HTTP 403."
+    },
+    {
+      "id": "r404",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "What Is Jev? TypeSafe's Decision Model Explained for Developers",
+      "description": "OpenRouter guide to Choice, Score, Noul, and experimental Box questions, with recorded API examples and explanations of probability distributions and confidence. The October update covers Jev 1.14 image input, context behavior, and gateway access; typed outputs still require task-specific validation.",
+      "status": "Guide",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "label": "Guide",
+          "url": "https://openrouter.ai/blog/insights/what-is-jev/"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "book",
+      "date_kind": "updated",
+      "date_source": "https://openrouter.ai/blog/insights/what-is-jev/",
+      "date_source_field": "dateModified",
+      "date_source_timestamp": "2026-10-16T00:00:00.000Z",
+      "date_note": "The page separately records datePublished as 2026-09-21T00:00:00.000Z."
+    },
+    {
+      "id": "r405",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Semantic assertions: Using Jev to make rigid tests flex",
+      "description": "QA Wolf explains Jev-backed semantic assertions and bounded navigation for Playwright flows. Jev judges permitted variation in wording or navigation, while deterministic checks verify saved records and other required effects. Uncertain judgments and evaluator errors fail assertions; examples describe the vendor integration rather than an independent benchmark.",
+      "status": "Technical article",
+      "date": "2026-09-25",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://www.qawolf.com/blog/semantic-assertions-using-jev"
+        },
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=50083881"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "code",
+      "date_kind": "published",
+      "date_source": "https://www.qawolf.com/blog/semantic-assertions-using-jev",
+      "date_source_field": "visible author byline",
+      "date_note": "The original article displays September 25, 2026; rediscovered through an October 14 Hacker News submission."
+    },
+    {
+      "id": "r406",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Build an Automatic AI Accountant With Muse, Unsiloed, and Jev",
+      "description": "Worked bookkeeping workflow: Unsiloed extracts document fields with citations, deterministic code checks totals and candidate matches, Jev makes typed categorization judgments, and Muse coordinates review. Demonstrates how extraction uncertainty and unresolved questions reach the owner; one example month does not validate autonomous accounting accuracy.",
+      "status": "Tutorial",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "Tutorial",
+          "url": "https://www.unsiloed.ai/blog/build-automatic-ai-accountant-muse-unsiloed-jev"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "coins",
+      "date_kind": "published",
+      "date_source": "https://www.unsiloed.ai/blog/build-automatic-ai-accountant-muse-unsiloed-jev",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "id": "r407",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "What is Jev good for? — Sayora",
+      "description": "Plain-language guide with an author-run receptionist retrieval experiment on 168 questions across four business websites. Compares selecting page descriptions with embedding retrieval, including questions the sites cannot answer. Discusses missed details, description quality, and fallback; the vendor experiment is limited to its sampled sites and questions.",
+      "status": "Article / application study",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://sayora.ai/many-hands/what-is-jev-good-for/"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://sayora.ai/many-hands/what-is-jev-good-for/",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-12T12:44:39.642Z"
+    },
+    {
       "id": "r035",
       "section": "2. Community discussion and writing",
       "category": "Reddit debates",
@@ -2498,6 +2639,50 @@
       "date_kind": "published",
       "date_source": "https://openrouter.ai/scaledown/classify-1",
       "date_note": "The original provider page explicitly lists October 13, 2026 as the release date; an older search snippet disagreed and was not used."
+    },
+    {
+      "id": "r408",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Hosted access and framework guides",
+      "title": "Magpie Free Gateways",
+      "description": "MIT-licensed Magpie plugin that discovers free models from gateway catalogs and exposes Jev as a native System One classifier through OpenCode Zen. Keeps decision calls separate from chat routes. Availability and pricing depend on the live upstream catalogs; the repository is not a model-weight release.",
+      "status": "Open-source code",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lesnolie/magpie-free-gateways"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "cloud",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/lesnolie/magpie-free-gateways",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-16T03:40:36Z"
+    },
+    {
+      "id": "r414",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Hosted access and framework guides",
+      "title": "ComfyUI Jev Decision",
+      "description": "MIT-licensed semantic-judgment node for ComfyUI with Noul, Choice, and Score outputs, typed context inputs, workflow examples, and prompt-preservation checks. The repository includes small labeled evaluations and integration evidence; those examples do not establish broad judgment reliability.",
+      "status": "Open-source code",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/2426269/ComfyUI-Jev-Decision"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/2426269/ComfyUI-Jev-Decision",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-16T09:11:07Z"
     },
     {
       "id": "r050",
@@ -3297,6 +3482,59 @@
       "date_source_timestamp": "2026-10-08T10:23:10Z"
     },
     {
+      "id": "r412",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "agent-reflex",
+      "description": "Apache-2.0 OpenCode plugin using Jev or compatible local decision models for history compaction, reasoning-effort selection, syntax checks, and shell-command screening. Documents provider-specific request handling and optional classifier fallback. These model-based checks are fallible workflow components.",
+      "status": "Open-source code",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/psygreg/agent-reflex"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "shield",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/psygreg/agent-reflex",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-16T05:29:43Z"
+    },
+    {
+      "id": "r419",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "OpenRouter Armor",
+      "description": "Beta tool-call classifier that uses Jev to assess proposed actions against natural-language rules and conversation context. Supports hard-deny, soft-deny, and allow policies, plus Claude Code-compatible auto permissions through Ori. It is a hosted integration; its policy judgments remain probabilistic.",
+      "status": "Hosted beta",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "Documentation",
+          "url": "https://openrouter.ai/docs/guides/features/plugins/armor"
+        },
+        {
+          "label": "Launch announcement",
+          "url": "https://x.com/OpenRouter/status/2110838205654470840"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "shield",
+      "date_kind": "published",
+      "date_source": "https://x.com/OpenRouter/status/2110838205654470840",
+      "date_source_field": "dated official announcement embedded in coverage",
+      "date_note": "The official OpenRouter launch post is embedded verbatim with an October 15 date in GIGAZINE coverage. Official documentation confirms the beta functionality. Direct X and its embed endpoints failed during this check.",
+      "date_evidence_urls": [
+        "https://gigazine.net/news/20261016-openrouter-armor/",
+        "https://www.ai-primer.com/engineer/stories/openrouter-armor",
+        "https://openrouter.ai/docs/guides/features/plugins/armor"
+      ]
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -3657,6 +3895,28 @@
       "date_source": "https://api.github.com/repos/gordonbrander/jevgate",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-14T17:36:16Z"
+    },
+    {
+      "id": "r413",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "Jevers",
+      "description": "MIT-licensed Node client for Jev and other decision providers, normalizing typed answers and supporting ordered fallback, retries, cancellation, and modality-aware routing. Images and audio are accepted only by the configured provider routes that support them; the client does not add modalities to a model.",
+      "status": "Open-source code",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/clasen/Jevers"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/clasen/Jevers",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-15T17:25:06Z"
     },
     {
       "id": "r060",
@@ -4980,6 +5240,98 @@
       "date_source_field": "createdAt",
       "date_source_timestamp": "2026-10-13T13:08:46.000Z",
       "date_note": "Hugging Face repository creation timestamp; not a claim about first public model release."
+    },
+    {
+      "id": "r417",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Span-02",
+      "description": "Respan decision model with text and image inputs, choice, yes/no, score, and numeric outputs, plus deadline-controlled reasoning. The official announcement links weights and a System One-compatible hosted endpoint. Comparisons against Jev are vendor-reported; the inspected announcement does not specify the weight license.",
+      "status": "Hosted API / author-reported weights",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "Announcement",
+          "url": "https://www.respan.ai/blog/introducing-span-2"
+        },
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/respanai/span-02"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://www.respan.ai/docs/documentation/span-02/concept"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "chip",
+      "date_kind": "published",
+      "date_source": "https://www.respan.ai/blog/introducing-span-2",
+      "date_source_field": "datePublished",
+      "artifact_verification": {
+        "method": "indirect_first_party",
+        "checked_on": "2026-10-17",
+        "verified_urls": [
+          "https://huggingface.co/respanai/span-02"
+        ],
+        "sources": [
+          "https://www.respan.ai/blog/introducing-span-2"
+        ],
+        "finding": "The Respan release page links this exact Hugging Face repository from both Open weights and Weights on Hugging Face, and says it can be self-hosted.",
+        "license_note": "No explicit weight license was found in the inspected release page or concept documentation. A license for unrelated Respan SDK code is not evidence for these weights.",
+        "scope": "Confirms the artifact identity and author-reported weight release. Hugging Face file contents, live downloads, and hashes were not inspected."
+      }
+    },
+    {
+      "id": "r418",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Intern-Decision models and tooling",
+      "description": "Apache-2.0 training and inference code for compact Qwen-based multimodal decision models, with benchmark scoring, temperature calibration, and a browser demo. The authors link a separate weight collection; training data and weights are not included in the code repository. Weight terms must be checked separately.",
+      "status": "Open-source code / author-reported weights",
+      "date": "2026-09-24",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/InternLM/Intern-Decision"
+        },
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2610.22131"
+        },
+        {
+          "label": "Model collection",
+          "url": "https://huggingface.co/collections/internlm/intern-decision"
+        },
+        {
+          "label": "Hosted demo",
+          "url": "https://huggingface.co/spaces/internlm/intern-decision"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/InternLM/Intern-Decision",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-09-24T23:37:44Z",
+      "artifact_verification": {
+        "method": "indirect_first_party",
+        "checked_on": "2026-10-17",
+        "verified_urls": [
+          "https://huggingface.co/collections/internlm/intern-decision",
+          "https://huggingface.co/spaces/internlm/intern-decision"
+        ],
+        "sources": [
+          "https://github.com/InternLM/Intern-Decision/blob/3572c8a68b5df5dafe02d0e093989ba8ec0183bc/README.md",
+          "https://arxiv.org/html/2610.22131v1"
+        ],
+        "finding": "The author README explicitly links the model collection and hosted demo; the paper also links the same collection. These are separate from the public source distribution.",
+        "license_note": "GitHub license endpoint identifies the code license as Apache-2.0. The README says Qwen model terms apply to weights; individual model-card licenses were not inspected.",
+        "scope": "Confirms author-linked artifact identities and release statements, not successful downloads or live demo execution."
+      },
+      "date_note": "GitHub repository creation date, not the first public release date of the model weights."
     },
     {
       "id": "r070",
@@ -6348,6 +6700,32 @@
       "date_source_timestamp": "2026-10-14T06:52:05Z"
     },
     {
+      "id": "r416",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Brussle calibration evaluation v1.1",
+      "description": "Evaluates Jev 1.14, a gateway-served Jev alias, SubQ Snap, and GPT-6 Luna on 1,500 labeled binary, multiclass, and ordinal questions. Reports question-type-specific calibration, uncertainty intervals, and held-out correction results. Questions are not public, and being calibrated on this sample does not establish calibration on other workloads.",
+      "status": "Evaluation report",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "Evaluation",
+          "url": "https://brussle.com/evals/calibration/"
+        },
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=50104020"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "gauge",
+      "date_kind": "published",
+      "date_source": "https://brussle.com/evals/calibration/",
+      "date_source_field": "visible release date",
+      "date_note": "The page explicitly displays Released 15 October 2026; model evaluations on October 14 and 15 are separately described."
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -6810,6 +7188,102 @@
       "date_source": "https://api.github.com/repos/Empatixx/pdfjev",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-15T10:36:29Z"
+    },
+    {
+      "id": "r409",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Decision Models Lab",
+      "description": "MIT-licensed learning lab comparing Jev and Microsoft Decision-1 for support-ticket routing, with Claude escalation, draft checks, replayable examples, and an interactive website. Its 48-ticket study includes calibration and wording sensitivity; escalation does not improve routing on every case.",
+      "status": "Open-source code / learning project",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/shashikantdev3/decision-models-lab"
+        },
+        {
+          "label": "Interactive lab",
+          "url": "https://shashikantdev3.github.io/decision-models-lab/"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "book",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/shashikantdev3/decision-models-lab",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-15T17:21:25Z"
+    },
+    {
+      "id": "r410",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Inbox Jev",
+      "description": "MIT-licensed Gmail triage application using Jev for category and action judgments, configurable thresholds, sender rules, and an audit database. Supports dry-run, labeling, and action modes; low-confidence items remain for review. Email classification and unsubscribe behavior are application policies, not guarantees of correct decisions.",
+      "status": "Open-source code",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hellolitebox/litebox-inbox-jev"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "chat",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/hellolitebox/litebox-inbox-jev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-15T21:47:35Z"
+    },
+    {
+      "id": "r411",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "jev-box-tracking",
+      "description": "Apache-2.0 object-tracking library combining periodic Jev Box localization with optical flow and a Kalman filter. Replays buffered state when delayed API results arrive and includes a webcam demo. Fast tracking between model calls is performed by local vision algorithms.",
+      "status": "Open-source code",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/BenCaunt/jev-box-tracking"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/BenCaunt/jev-box-tracking",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-16T18:01:47Z"
+    },
+    {
+      "id": "r415",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Jev plays Factorio",
+      "description": "Windows game-control experiment that uses Jev screenshot judgments to choose Factorio keyboard and mouse actions. Records decisions and videos, pauses on focus loss, and targets crafting ten red science packs. A linked successful run is a demonstration; source is public but no repository license was identified.",
+      "status": "Source available; license unspecified",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/kgaspard/jev-factorio"
+        },
+        {
+          "label": "Demonstration video",
+          "url": "https://youtu.be/8x3GphnIgWk"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "gamepad",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/kgaspard/jev-factorio",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-15T12:08:35Z"
     },
     {
       "id": "r092",
@@ -9865,6 +10339,53 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-10-14T18:27:25Z"
+    },
+    {
+      "id": "r420",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "Intern-Decision: Efficient Multimodal Decision Making with Autoregressive Masked Language Modeling",
+      "description": "Introduces 0.8B, 2B, and 4B multimodal models that evaluate decision placeholders in a JSON skeleton using one causal forward pass. Compares with Jev on seven suites, studies temperature calibration on a 96-case pilot, and evaluates confidence-based handoff on 111 Jevbench-Hard items. Latency and calibration findings depend on the stated hardware, request, and test distributions.",
+      "status": "Preprint",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.22131"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.22131"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/InternLM/Intern-Decision"
+        },
+        {
+          "label": "Model collection",
+          "url": "https://huggingface.co/collections/internlm/intern-decision"
+        }
+      ],
+      "checked_on": "2026-10-17",
+      "cataloged_on": "2026-10-17",
+      "icon": "chip",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.22131",
+      "arxiv_id": "2610.22131",
+      "authors": [
+        "Zhu, Tong",
+        "Xu, Zhe",
+        "He, Zefeng",
+        "Chai, Yunkai",
+        "Hu, Xuyang",
+        "Zheng, Dehong",
+        "Luo, Yun",
+        "Li, Yafu",
+        "Zhang, Qi",
+        "Cheng, Yu"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-15T16:05:48Z"
     },
     {
       "id": "r115",

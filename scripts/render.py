@@ -123,7 +123,7 @@ for section, categories in sections.items():
     lines.extend(["", f"## {section}", ""])
     if section.startswith("2."):
         lines.extend([
-            "Hacker News threads are ordered by observed points within the retrieved candidates. Counts are a **2026-10-03 snapshot**, not live metrics or a quality ranking. The [catalog](data/resources.json) records per-entry attention metrics and sources; see the [methodology](METHODOLOGY.md#popularity) for the collection method. Blogs and Reddit threads are selected for their relevance; no cross-platform popularity claim is made.",
+            "Hacker News threads are ordered by observed points within the retrieved candidates. Counts are dated snapshots, not live metrics or a quality ranking. Measurement dates can differ between threads. The [catalog](data/resources.json) records per-entry attention metrics and sources; see the [methodology](METHODOLOGY.md#popularity) for the collection method. Blogs and Reddit threads are selected for their relevance; no cross-platform popularity claim is made.",
             "",
         ])
     if section.startswith("3."):

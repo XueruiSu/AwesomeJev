@@ -2,6 +2,26 @@
   "title": "Big News",
   "events": [
     {
+      "date": "2026-10-15",
+      "icon": "shield",
+      "headline": "OpenRouter launches Armor beta, using Jev to screen agent tool calls against policy.",
+      "url": "https://openrouter.ai/docs/guides/features/plugins/armor",
+      "label": "Official documentation",
+      "note": "Hosted integration with natural-language rules and Claude Code-compatible auto permissions through Ori. [Launch post](https://x.com/OpenRouter/status/2110838205654470840); beta behavior and classifier errors remain relevant.",
+      "attention": {
+        "platform": "Media coverage",
+        "articles": 2,
+        "observed_on": "2026-10-17",
+        "source": "https://gigazine.net/news/20261016-openrouter-armor/",
+        "additional_sources": [
+          "https://www.ai-primer.com/engineer/stories/openrouter-armor"
+        ],
+        "note": "Two separately hosted reports inspected. This records observable coverage, not X engagement counts; the X endpoints were unavailable."
+      },
+      "date_source": "https://x.com/OpenRouter/status/2110838205654470840",
+      "date_note": "October 15 launch date from the official post embedded in GIGAZINE, corroborated by AI Primer; documentation confirms the beta."
+    },
+    {
       "date": "2026-10-14",
       "icon": "eye",
       "headline": "TypeSafe releases Jev 1.14 preview with experimental images, Box localization, and longer context.",
@@ -10,10 +30,10 @@
       "note": "Opt-in features are not presented as production-ready. Images also work with Jev 1.13; Box requires 1.14. The announcement schedules the jev-latest alias change for a week later.",
       "attention": {
         "platform": "Hacker News",
-        "points": 329,
-        "comments": 116,
-        "observed_on": "2026-10-16",
-        "source": "https://hacker-news.firebaseio.com/v0/item/50095353.json"
+        "points": 330,
+        "comments": 121,
+        "observed_on": "2026-10-17",
+        "source": "https://hn.algolia.com/api/v1/search_by_date?query=jev&restrictSearchableAttributes=title,url&tags=story&hitsPerPage=100"
       }
     },
     {
