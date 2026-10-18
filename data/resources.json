@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-17",
+  "last_updated": "2026-10-18",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -2132,6 +2132,50 @@
       "date_source_timestamp": "2026-10-12T12:44:39.642Z"
     },
     {
+      "id": "r421",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Running a Small Decision Model (Jev) in Production",
+      "description": "Production account of pinned Jev 1.13 checking source support and comparing editorial pages, with Claude handling writing and escalation. Distinguishes teacher agreement from factual accuracy and reports frequent claim-check fallbacks. Jev API charges alone exclude total pipeline cost, latency, repeatability, and the cost of human review or errors.",
+      "status": "Production report",
+      "date": "2026-10-17",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://xtrusio.com/blog/running-small-decision-model-jev-production"
+        }
+      ],
+      "checked_on": "2026-10-18",
+      "cataloged_on": "2026-10-18",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://xtrusio.com/blog/running-small-decision-model-jev-production",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-17T12:24:31.727Z"
+    },
+    {
+      "id": "r422",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "TypeSafe Jev: 444x Claimed, 8.6x to 580x Measured",
+      "description": "Cost analysis comparing vendor claims with workload-specific outside tests and the effect of escalation on total spending. Highlights different comparators, input sizes, and answer keys. Its blended-cost examples assume each abstention triggers one successful fallback call; the illustrated abstention rate is not transferable to every workload.",
+      "status": "Analysis",
+      "date": "2026-10-17",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://capitalandcompute.net/blog/typesafe-jev-system-one-models-cost-use-cases/"
+        }
+      ],
+      "checked_on": "2026-10-18",
+      "cataloged_on": "2026-10-18",
+      "icon": "coins",
+      "date_kind": "updated",
+      "date_source": "https://capitalandcompute.net/blog/typesafe-jev-system-one-models-cost-use-cases/",
+      "date_source_field": "visible Updated date",
+      "date_note": "The page displays September 18, 2026 and Updated October 17, 2026. This records the update, not first publication; no time of day was supplied. Web reader succeeded while direct curl returned HTTP 403."
+    },
+    {
       "id": "r035",
       "section": "2. Community discussion and writing",
       "category": "Reddit debates",
@@ -2683,6 +2727,28 @@
       "date_source": "https://api.github.com/repos/2426269/ComfyUI-Jev-Decision",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-16T09:11:07Z"
+    },
+    {
+      "id": "r423",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Hosted access and framework guides",
+      "title": "MotherDuck prompt_jev() image support",
+      "description": "Hosted SQL integration extends prompt_jev() to image BLOBs for yes/no, choice, score, and box questions, including joins and grouped image analysis. MotherDuck demonstrates food classification, confidence-based filtering, and artwork exploration. The vendor examples illustrate workload-specific accuracy and throughput, with optional fallback for uncertain cases.",
+      "status": "Hosted integration",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "label": "Announcement",
+          "url": "https://motherduck.com/blog/motherduck-announce-jev-image/"
+        }
+      ],
+      "checked_on": "2026-10-18",
+      "cataloged_on": "2026-10-18",
+      "icon": "eye",
+      "date_kind": "published",
+      "date_source": "https://motherduck.com/blog/motherduck-announce-jev-image/",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-16"
     },
     {
       "id": "r050",
@@ -3533,6 +3599,28 @@
         "https://www.ai-primer.com/engineer/stories/openrouter-armor",
         "https://openrouter.ai/docs/guides/features/plugins/armor"
       ]
+    },
+    {
+      "id": "r427",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "twosystems",
+      "description": "Early Apache-2.0 project designing agent-loop detection and context-recovery suggestions through deterministic rules and optional Jev or other decision models. Describes a proposed randomized evaluation of intervention savings. The README explicitly says development is early and nothing is published; package and marketplace availability are not established.",
+      "status": "Early development / design",
+      "date": "2026-10-17",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/shashikantdev3/twosystems"
+        }
+      ],
+      "checked_on": "2026-10-18",
+      "cataloged_on": "2026-10-18",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/shashikantdev3/twosystems",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-17T19:12:54Z"
     },
     {
       "id": "r055",
@@ -5246,8 +5334,8 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Open-weight decision models",
       "title": "Span-02",
-      "description": "Respan decision model with text and image inputs, choice, yes/no, score, and numeric outputs, plus deadline-controlled reasoning. The official announcement links weights and a System One-compatible hosted endpoint. Comparisons against Jev are vendor-reported; the inspected announcement does not specify the weight license.",
-      "status": "Hosted API / author-reported weights",
+      "description": "Respan text-and-image decision model with typed outputs and deadline-controlled reasoning. The model card declares Apache-2.0 for weights and the bundled Rust/CUDA engine. Self-hosting requires that custom engine and documented GPU support; it is not a standard Transformers or vLLM checkpoint. Comparisons with Jev remain vendor-reported.",
+      "status": "Open weights / hosted API",
       "date": "2026-10-15",
       "links": [
         {
@@ -5263,24 +5351,26 @@
           "url": "https://www.respan.ai/docs/documentation/span-02/concept"
         }
       ],
-      "checked_on": "2026-10-17",
+      "checked_on": "2026-10-18",
       "cataloged_on": "2026-10-17",
       "icon": "chip",
       "date_kind": "published",
       "date_source": "https://www.respan.ai/blog/introducing-span-2",
       "date_source_field": "datePublished",
       "artifact_verification": {
-        "method": "indirect_first_party",
-        "checked_on": "2026-10-17",
+        "method": "first_party_web",
+        "checked_on": "2026-10-18",
         "verified_urls": [
           "https://huggingface.co/respanai/span-02"
         ],
         "sources": [
-          "https://www.respan.ai/blog/introducing-span-2"
+          "https://www.respan.ai/blog/introducing-span-2",
+          "https://huggingface.co/respanai/span-02",
+          "https://huggingface.co/respanai/span-02/tree/main"
         ],
-        "finding": "The Respan release page links this exact Hugging Face repository from both Open weights and Weights on Hugging Face, and says it can be self-hosted.",
-        "license_note": "No explicit weight license was found in the inspected release page or concept documentation. A license for unrelated Respan SDK code is not evidence for these weights.",
-        "scope": "Confirms the artifact identity and author-reported weight release. Hugging Face file contents, live downloads, and hashes were not inspected."
+        "finding": "The public file listing at revision 63cbdd7 includes model.safetensors (16.4 GB), engine sources, launch scripts, Dockerfile, and NOTICE. The model card describes required custom-engine serving and Blackwell GPU configurations.",
+        "license_note": "The model card explicitly declares weights and engine Apache-2.0, with upstream attribution and engine credits in NOTICE. This supersedes the earlier announcement-only license check.",
+        "scope": "Inspected model card and public file listing through the web reader. No weight download, hash validation, or inference run; direct local network requests to Hugging Face still timed out."
       }
     },
     {
@@ -5288,8 +5378,8 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Open-weight decision models",
       "title": "Intern-Decision models and tooling",
-      "description": "Apache-2.0 training and inference code for compact Qwen-based multimodal decision models, with benchmark scoring, temperature calibration, and a browser demo. The authors link a separate weight collection; training data and weights are not included in the code repository. Weight terms must be checked separately.",
-      "status": "Open-source code / author-reported weights",
+      "description": "Apache-2.0 training and inference code for compact Qwen-based multimodal decision models, with benchmark scoring, temperature calibration, and a browser demo. Separate 0.8B, 2B, and 4B model cards declare Apache-2.0 and require retention of upstream Qwen licenses and notices. Public weight files were inspected for 0.8B and 4B.",
+      "status": "Open-source code and weights",
       "date": "2026-09-24",
       "links": [
         {
@@ -5307,9 +5397,21 @@
         {
           "label": "Hosted demo",
           "url": "https://huggingface.co/spaces/internlm/intern-decision"
+        },
+        {
+          "label": "0.8B model",
+          "url": "https://huggingface.co/internlm/Intern-Decision-0.8B"
+        },
+        {
+          "label": "2B model",
+          "url": "https://huggingface.co/internlm/Intern-Decision-2B"
+        },
+        {
+          "label": "4B model",
+          "url": "https://huggingface.co/internlm/Intern-Decision-4B"
         }
       ],
-      "checked_on": "2026-10-17",
+      "checked_on": "2026-10-18",
       "cataloged_on": "2026-10-17",
       "icon": "chip",
       "date_kind": "repository_created",
@@ -5317,21 +5419,79 @@
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-09-24T23:37:44Z",
       "artifact_verification": {
-        "method": "indirect_first_party",
-        "checked_on": "2026-10-17",
+        "method": "first_party_web",
+        "checked_on": "2026-10-18",
         "verified_urls": [
           "https://huggingface.co/collections/internlm/intern-decision",
-          "https://huggingface.co/spaces/internlm/intern-decision"
+          "https://huggingface.co/spaces/internlm/intern-decision",
+          "https://huggingface.co/internlm/Intern-Decision-0.8B",
+          "https://huggingface.co/internlm/Intern-Decision-2B",
+          "https://huggingface.co/internlm/Intern-Decision-4B"
         ],
         "sources": [
           "https://github.com/InternLM/Intern-Decision/blob/3572c8a68b5df5dafe02d0e093989ba8ec0183bc/README.md",
-          "https://arxiv.org/html/2610.22131v1"
+          "https://arxiv.org/html/2610.22131v1",
+          "https://huggingface.co/internlm/Intern-Decision-0.8B",
+          "https://huggingface.co/internlm/Intern-Decision-2B",
+          "https://huggingface.co/internlm/Intern-Decision-4B",
+          "https://huggingface.co/internlm/Intern-Decision-0.8B/tree/main",
+          "https://huggingface.co/internlm/Intern-Decision-4B/tree/main"
         ],
-        "finding": "The author README explicitly links the model collection and hosted demo; the paper also links the same collection. These are separate from the public source distribution.",
-        "license_note": "GitHub license endpoint identifies the code license as Apache-2.0. The README says Qwen model terms apply to weights; individual model-card licenses were not inspected.",
-        "scope": "Confirms author-linked artifact identities and release statements, not successful downloads or live demo execution."
+        "finding": "All three author-linked model cards were readable and identify the corresponding Qwen-derived decision models. Public safetensors listings were inspected for 0.8B (revision 85a0cc5, 1.73 GB) and 4B (revision 1e65a98, 9.11 GB). The 2B file-list request failed in the web reader; its model card remained readable.",
+        "license_note": "Code is Apache-2.0. Each inspected model card declares Apache-2.0 and instructs redistributors to preserve LICENSE-QWEN and applicable upstream notices.",
+        "scope": "Model-card and selected file-list inspection, not successful weight downloads, hash validation, or live demo execution. A web-reader error for the 2B file listing and local network timeouts are access failures, not evidence of a removed repository."
       },
       "date_note": "GitHub repository creation date, not the first public release date of the model weights."
+    },
+    {
+      "id": "r431",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Jeva-4B model and implementation",
+      "description": "Jeva implementation independently encodes state and candidates, supporting option caching, permutation-equivariant decisions, and an explicit coverage estimator for null outcomes. Apache-2.0 code links a public model repository with backbone, adapter, and prediction-head files. The inspected model card and root file listing do not declare a separate weight license.",
+      "status": "Public weights / Apache-2.0 code",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/LiQiiiii/Jeva"
+        },
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/LIQIIIII/Jeva-4B"
+        },
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2610.18773"
+        },
+        {
+          "label": "Project",
+          "url": "https://liqiiiii.github.io/Jeva/"
+        }
+      ],
+      "checked_on": "2026-10-18",
+      "cataloged_on": "2026-10-18",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/LiQiiiii/Jeva",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-12T17:54:34Z",
+      "date_note": "GitHub repository creation date, not the first public release date of the model weights.",
+      "artifact_verification": {
+        "method": "first_party_web",
+        "checked_on": "2026-10-18",
+        "verified_urls": [
+          "https://huggingface.co/LIQIIIII/Jeva-4B"
+        ],
+        "sources": [
+          "https://github.com/LiQiiiii/Jeva",
+          "https://huggingface.co/LIQIIIII/Jeva-4B",
+          "https://huggingface.co/LIQIIIII/Jeva-4B/tree/main"
+        ],
+        "finding": "The author README links this exact model repository. Its public file listing includes backbone and adapter directories and head.pt, totaling 9.94 GB at revision 50078fc.",
+        "license_note": "Code README and GitHub metadata identify Apache-2.0 for code. The README preserves separate terms for weights and datasets; no explicit weight license was found in the inspected model card or root listing.",
+        "scope": "Model-card and file-list inspection only; no model download, hash verification, or inference execution."
+      }
     },
     {
       "id": "r070",
@@ -6726,6 +6886,50 @@
       "date_note": "The page explicitly displays Released 15 October 2026; model evaluations on October 14 and 15 are separately described."
     },
     {
+      "id": "r428",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev warehouse triage benchmark",
+      "description": "MIT-licensed Spring Boot and Spring AI study comparing Java rules, Jev 1.13, and a chat model on warehouse goods-receipt remarks. Uses 100 held-out cases with repeated category, blocking, and severity judgments. Prompt wording and deterministic master-data rules materially affect results; the reported accuracy is specific to this test set.",
+      "status": "Open-source code / evaluation",
+      "date": "2026-10-17",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mohammedahmadi1990/jev-triage"
+        }
+      ],
+      "checked_on": "2026-10-18",
+      "cataloged_on": "2026-10-18",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/mohammedahmadi1990/jev-triage",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-17T11:49:42Z"
+    },
+    {
+      "id": "r429",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev Gibbs experiments",
+      "description": "MIT-licensed experiments using Jev conditional judgments in a Large Language Gibbs-style procedure, with zero-shot, context-only, no-verdict, and iterative controls. Includes TruthfulQA, arithmetic, kinship, and entity tasks. Related context explains many gains, while feedback from earlier model verdicts can increase overconfidence; iteration is not consistently beneficial.",
+      "status": "Open-source code / experiments",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/eumemic/jev-gibbs"
+        }
+      ],
+      "checked_on": "2026-10-18",
+      "cataloged_on": "2026-10-18",
+      "icon": "flask",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/eumemic/jev-gibbs",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-16T16:29:58Z"
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -7284,6 +7488,94 @@
       "date_source": "https://api.github.com/repos/kgaspard/jev-factorio",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-15T12:08:35Z"
+    },
+    {
+      "id": "r424",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Onion or Not",
+      "description": "MIT-licensed headline-classification demo comparing TypeSafe Jev, AnyJev L0 with Qwen3-8B, and raw Qwen3-8B. Includes option-order checks and a local llama.cpp route alongside the hosted API. It predicts satire versus real-news labels; it does not establish whether a headline is factually true.",
+      "status": "Open-source code",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/andrisgauracs/onion-or-not"
+        }
+      ],
+      "checked_on": "2026-10-18",
+      "cataloged_on": "2026-10-18",
+      "icon": "chat",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/andrisgauracs/onion-or-not",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-16T15:36:04Z"
+    },
+    {
+      "id": "r425",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Jevrunner",
+      "description": "MIT-licensed endless-runner demo controlled by local H2O Lightning 4B decisions, with typed lane and movement choices plus displayed probabilities and latency. Provides vLLM and llama.cpp setup paths. Structured game state is the default input; image input is optional. Reported speed is specific to the serving setup.",
+      "status": "Open-source code",
+      "date": "2026-10-17",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/SolvAI/Jevrunner"
+        }
+      ],
+      "checked_on": "2026-10-18",
+      "cataloged_on": "2026-10-18",
+      "icon": "gamepad",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/SolvAI/Jevrunner",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-17T11:31:09Z"
+    },
+    {
+      "id": "r426",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "System One arcade",
+      "description": "MIT-licensed Bun workspace combining a typed decision-provider API with a React arcade. Includes Jev native and gateway adapters, real-time and lockstep modes, and request, cost, and latency logs. Provider-dependent modalities and sampling settings make this an exploration environment rather than a standardized benchmark.",
+      "status": "Open-source code",
+      "date": "2026-10-17",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/desplega-ai/system-one"
+        }
+      ],
+      "checked_on": "2026-10-18",
+      "cataloged_on": "2026-10-18",
+      "icon": "gamepad",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/desplega-ai/system-one",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-17T00:35:33Z"
+    },
+    {
+      "id": "r430",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Jevassic Park",
+      "description": "MIT-licensed theme-park simulation in which Jev chooses actions for individual guests through a hosted gateway. Code constrains legal actions, supplies a deterministic fallback, and distinguishes decision-controlled visitors from background crowds. A game demonstration of bounded choices rather than a general agent-performance evaluation.",
+      "status": "Open-source code",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/orshemtov/jevassic-park"
+        }
+      ],
+      "checked_on": "2026-10-18",
+      "cataloged_on": "2026-10-18",
+      "icon": "gamepad",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/orshemtov/jevassic-park",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-16T15:21:48Z"
     },
     {
       "id": "r092",
@@ -10386,6 +10678,45 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-10-15T16:05:48Z"
+    },
+    {
+      "id": "r432",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "Jeva: System One Models from First Principles",
+      "description": "Derives a decision-model architecture with separate state and option encoding, immutable option memory, and a coverage estimator for null outcomes. Evaluates accuracy, option permutations, candidate-set scaling, and cross-request option caching against Jev and other baselines. Reported cache speedups exclude cache priming and depend on the candidate sets and hardware.",
+      "status": "Preprint",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.18773"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.18773"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/LiQiiiii/Jeva"
+        },
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/LIQIIIII/Jeva-4B"
+        }
+      ],
+      "checked_on": "2026-10-18",
+      "cataloged_on": "2026-10-18",
+      "icon": "chip",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.18773",
+      "arxiv_id": "2610.18773",
+      "authors": [
+        "Li, Qi",
+        "Wang, Xinchao"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-13T17:31:09Z"
     },
     {
       "id": "r115",
