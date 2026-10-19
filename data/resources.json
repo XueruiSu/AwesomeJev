@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-18",
+  "last_updated": "2026-10-19",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -2176,6 +2176,112 @@
       "date_note": "The page displays September 18, 2026 and Updated October 17, 2026. This records the update, not first publication; no time of day was supplied. Web reader succeeded while direct curl returned HTTP 403."
     },
     {
+      "id": "r433",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Make Your Own Interlinear with Jev",
+      "description": "OpenBible demonstrates aligning an English Bible translation with Greek or Hebrew tokens using 179 focused policies, with manual corrections and JSON export. The author reports 80% token agreement with an existing ASV alignment, not independently established correctness. Includes a browser tool and batch code; the author recommends reviewing the first-pass output.",
+      "status": "Article / application",
+      "date": "2026-10-17",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://openbible.info/blog/2026/10/make-your-own-interlinear-with-jev/"
+        },
+        {
+          "label": "Interactive aligner",
+          "url": "https://www.openbible.info/labs/make-your-own-interlinear/"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/openbibleinfo/American-Standard-Version-Bible-Alignment-Data/tree/main/jev"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://openbible.info/blog/2026/10/make-your-own-interlinear-with-jev/",
+      "date_source_field": "visible publication date"
+    },
+    {
+      "id": "r434",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Jev can see now: typed decisions over images",
+      "description": "Gateway-provider walkthrough of Jev 1.14 image questions using a product photo with matching and mismatching listing text. Demonstrates typed judgments and bounding boxes, including a box returned for an absent object. Explains why presence checks, workload-specific evaluation, and the experimental image API limitations matter.",
+      "status": "Technical article",
+      "date": "2026-10-17",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://ottoport.ai/blog/jev-image-decisions"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "eye",
+      "date_kind": "published",
+      "date_source": "https://ottoport.ai/blog/jev-image-decisions",
+      "date_source_field": "visible publication date"
+    },
+    {
+      "id": "r435",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Can AI set the focal point of a photo?",
+      "description": "Author-run comparison of focal-point selection methods on 19 Pexels photos, three prompt lengths, and repeated runs. Measures distance from one editor's chosen point and whether crops retain it. Jev boxes trade some localization quality for lower reported cost and latency; the small, subjectively labeled set limits generalization.",
+      "status": "Article / evaluation",
+      "date": "2026-10-18",
+      "links": [
+        {
+          "label": "Evaluation",
+          "url": "https://workflows-of-ai.com/blog/can-ai-set-the-focal-point-of-a-photo"
+        },
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=50139703"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "eye",
+      "date_kind": "published",
+      "date_source": "https://workflows-of-ai.com/blog/can-ai-set-the-focal-point-of-a-photo",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-18T10:06:11+02:00"
+    },
+    {
+      "id": "r436",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Building Clinical AI Agents with LangChain and Jev Decision: Healthcare Trustworthy AI Lab v2",
+      "description": "Illustrative LangGraph medical-scribe workflow separating specialty routing, note generation, and escalation, with Jev as an alternative decision component. Links runnable teaching code and discusses the author's operational cost and latency observations. These observations do not establish clinical correctness or make model judgments deterministic.",
+      "status": "Tutorial / experience report",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://medium.com/@gbenga-awodokun/building-clinical-ai-agents-with-langchain-and-jev-decision-healthcare-trustworthy-ai-lab-v2-1b81e271f1c9"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/newadays/scribe-health-ai-agent"
+        },
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=50142310"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://medium.com/@gbenga-awodokun/building-clinical-ai-agents-with-langchain-and-jev-decision-healthcare-trustworthy-ai-lab-v2-1b81e271f1c9",
+      "date_source_field": "visible publication date",
+      "date_note": "The original article displays Oct 10, 2026; rediscovered through a later Hacker News submission. Its discussion title is not treated as proof of deterministic predictions."
+    },
+    {
       "id": "r035",
       "section": "2. Community discussion and writing",
       "category": "Reddit debates",
@@ -3623,6 +3729,50 @@
       "date_source_timestamp": "2026-10-17T19:12:54Z"
     },
     {
+      "id": "r438",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "KiraAI Jev reply trigger",
+      "description": "KiraAI 3 plugin that asks Jev whether an incoming message merits a reply, using the active persona and bounded session history. Validates the probability before applying a configurable threshold; another chat component writes the response. Source is public, but no repository license was identified.",
+      "status": "Source available; license unspecified",
+      "date": "2026-10-17",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/xxynet/kira-ai-plugin-jev"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "chat",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/xxynet/kira-ai-plugin-jev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-17T06:19:42Z"
+    },
+    {
+      "id": "r443",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "JevArchive",
+      "description": "RisuAI memory plugin combining embeddings with Jev relevance scores to retrieve original conversation sentences instead of generated summaries. Tracks characters, relationships, promises, and optional scene cues. Its small author-run memory scenario is not a general retention benchmark. Source is public; no repository license was identified.",
+      "status": "Source available; license unspecified",
+      "date": "2026-10-18",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/happydesk213124/JevArchive"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "brain",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/happydesk213124/JevArchive",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-18T12:34:32Z"
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -4005,6 +4155,50 @@
       "date_source": "https://api.github.com/repos/clasen/Jevers",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-15T17:25:06Z"
+    },
+    {
+      "id": "r440",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "vd-jev",
+      "description": "GPL-3.0 VisiData plugin that turns text-column cells into typed labels, probabilities, or ordinal scores through Jev or another OpenRouter decision model. Includes tabular-analysis examples and uncertainty inspection. Evaluated cell contents are sent to the configured hosted service; the plugin itself does not run a local model.",
+      "status": "Open-source code",
+      "date": "2026-10-18",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ondata/vd-jev"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/ondata/vd-jev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-18T10:07:13Z"
+    },
+    {
+      "id": "r441",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "tsjev for DuckDB",
+      "description": "MIT-licensed DuckDB extension exposing Jev classification, filtering, scoring, tagging, and raw questions as SQL functions. Deduplicates inputs, caches answers in memory and on disk, and controls concurrent requests. The README still describes community-registry installation as pending; building from source is the documented current route.",
+      "status": "Open-source code; registry listing pending",
+      "date": "2026-10-18",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Querio-App/duckdb-jev"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Querio-App/duckdb-jev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-18T14:41:05Z"
     },
     {
       "id": "r060",
@@ -5494,6 +5688,45 @@
       }
     },
     {
+      "id": "r447",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Wolf Defender Jev",
+      "description": "Independent 151M-parameter mmBERT-based security decision model with caller-defined options and CPU/ONNX inference. The author declares MIT for the release. External-benchmark performance differs from in-distribution results; documented failure cases include benign actions flagged as risky and missed exfiltration. Its scores are evidence for policy enforcement, not a security boundary.",
+      "status": "Author-reported open weights",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "label": "Model and inference code",
+          "url": "https://huggingface.co/patronus-studio/wolf-defender-jev"
+        },
+        {
+          "label": "Author announcement",
+          "url": "https://www.reddit.com/r/OpenSourceAI/comments/1x4tg6n/wolf_defender_jev_open_weights_and_a_small/"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "shield",
+      "date_kind": "available_by",
+      "date_source": "https://www.reddit.com/r/OpenSourceAI/comments/1x4tg6n/wolf_defender_jev_open_weights_and_a_small/",
+      "date_note": "The indexed author announcement is dated October 13, 2026 and says weights were already published. This is an availability bound, not a verified first-release timestamp. The original post and model card were read; Reddit JSON and Hugging Face creation/history endpoints were unavailable.",
+      "artifact_verification": {
+        "method": "first_party_model_card",
+        "checked_on": "2026-10-19",
+        "verified_urls": [
+          "https://huggingface.co/patronus-studio/wolf-defender-jev"
+        ],
+        "sources": [
+          "https://huggingface.co/patronus-studio/wolf-defender-jev",
+          "https://www.reddit.com/r/OpenSourceAI/comments/1x4tg6n/wolf_defender_jev_open_weights_and_a_small/"
+        ],
+        "finding": "Author announcement links this exact model. The readable model card lists fp32 weights, Python inference, ONNX variants, and evaluation files.",
+        "license_note": "Model card declares MIT for the release and its mmBERT-small encoder.",
+        "scope": "Read author release statement and model card. Public file-tree request failed; no file download, hash check, or inference test. Access failure does not establish a removed artifact."
+      }
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -5576,6 +5809,74 @@
       "date_source": "https://api.github.com/repos/shibing624/train-jev",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-14T05:05:23Z"
+    },
+    {
+      "id": "r442",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Training pipelines and announced releases",
+      "title": "TimesJev",
+      "description": "Apache-2.0 research code training a value-token encoder for compact time-series representations while freezing Decider-2B or Decider-4B. Provides feature selection, configurations, and evaluation scripts for anomaly detection, activity classification, and question answering. TSQA data is separately gated; the repository is not a release of TypeSafe Jev weights.",
+      "status": "Open-source research code",
+      "date": "2026-10-17",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/coenliu/TimesJev"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "flask",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/coenliu/TimesJev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-17T15:25:08Z"
+    },
+    {
+      "id": "r446",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Training pipelines and announced releases",
+      "title": "JevForge training and inference toolkit",
+      "description": "Independent pipeline for decision-data synthesis, candidate-scoring training, calibration, evaluation, and Jev-compatible serving, with author-linked Qwen-based weights and Mind2Web-derived data. The model card declares Apache-2.0; code is labeled MIT but the inspected license file contains only a short notice. GitHub and model-card results refer to different checkpoint recipes.",
+      "status": "Public code / author-reported weights",
+      "date": "2026-09-19",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/zwliJay/jev-forge"
+        },
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/AndeyTait/JevForge-0.8B"
+        },
+        {
+          "label": "Dataset",
+          "url": "https://huggingface.co/datasets/AndeyTait/JevForge-Mind2Web"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "flask",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/zwliJay/jev-forge",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-09-19T05:44:41Z",
+      "date_note": "GitHub repository creation date; this is not asserted to be the weight release. The September 23 initial-commit README already links the model and dataset.",
+      "artifact_verification": {
+        "method": "mixed_first_party",
+        "checked_on": "2026-10-19",
+        "verified_urls": [
+          "https://huggingface.co/AndeyTait/JevForge-0.8B",
+          "https://huggingface.co/datasets/AndeyTait/JevForge-Mind2Web"
+        ],
+        "sources": [
+          "https://github.com/zwliJay/jev-forge/blob/6cf0dfe3b811d623331c0cc8b1c00ff13614772e/README.md",
+          "https://huggingface.co/AndeyTait/JevForge-0.8B"
+        ],
+        "finding": "Versioned author README corroborates both artifact IDs. The current model card describes a 36,000-decision checkpoint and published integrity hashes; the current GitHub README describes an earlier 8,000-decision update. Their measurements must not be conflated.",
+        "license_note": "Weight card declares Apache-2.0; source datasets retain their upstream terms. Code README labels MIT, but the inspected LICENSE is only an abbreviated notice and GitHub classifies it as NOASSERTION.",
+        "scope": "Model-card inspection and indirect dataset verification. Hugging Face API, history and tree requests were unavailable; no weight or dataset download or hash validation was performed."
+      }
     },
     {
       "id": "r071",
@@ -6051,6 +6352,69 @@
         "license_note": "Repository code is Apache-2.0. The author’s NOTICE declares Apache-2.0 for the project and names the base checkpoints under Apache-2.0; the separate Hub model-card license was not inspected.",
         "scope": "Confirms artifact identity and the author-reported release through original publication records. Live Hugging Face reachability, downloadable file contents, and file hashes were not tested.",
         "source_tree": "10bf7eddcbd3b5f6dddf27e868231b2e1140dfba"
+      }
+    },
+    {
+      "id": "r444",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "jev-local",
+      "description": "MIT-licensed Rust prototype providing one System One HTTP interface for configured decision-model servers, hosted gateways, and deterministic simulations. Supports backend selection and comparison metrics while distinguishing simulated responses. Actual inference services and their weights run separately; calibration and resource requirements remain backend-specific.",
+      "status": "Open-source prototype",
+      "date": "2026-10-17",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/orthagonal/jev-local"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "cloud",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/orthagonal/jev-local",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-17T19:35:53Z"
+    },
+    {
+      "id": "r445",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "Laya for Node.js and TypeScript",
+      "description": "MIT-licensed ONNX Runtime package for the independent Laya decision model, with typed Choice, Score, and Noul outputs. Its author-linked ONNX weights are labeled Apache-2.0. Documents 512-token state truncation, option-token limits, and a deliberate temperature change for larger choice sets, so probabilities can differ from the upstream implementation.",
+      "status": "Open-source runtime / author-reported weights",
+      "date": "2026-09-19",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/receptron/laya"
+        },
+        {
+          "label": "ONNX model",
+          "url": "https://huggingface.co/receptron/laya-onnx"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/receptron/laya",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-09-19T15:30:52Z",
+      "date_note": "GitHub repository creation date, not the package publication or model-weight release date.",
+      "artifact_verification": {
+        "method": "first_party_model_card",
+        "checked_on": "2026-10-19",
+        "verified_urls": [
+          "https://huggingface.co/receptron/laya-onnx"
+        ],
+        "sources": [
+          "https://github.com/receptron/laya",
+          "https://huggingface.co/receptron/laya-onnx"
+        ],
+        "finding": "Author README and model card cross-link the runtime and exact ONNX artifact; the card describes the graph, external weight data, configuration, and tokenizer.",
+        "license_note": "Runtime and export code MIT; the ONNX model card explicitly retains Apache-2.0 for Convai Innovations weights.",
+        "scope": "Read model card and author code documentation; did not download weights or run inference."
       }
     },
     {
@@ -7576,6 +7940,50 @@
       "date_source": "https://api.github.com/repos/orshemtov/jevassic-park",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-16T15:21:48Z"
+    },
+    {
+      "id": "r437",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Jev Workshop",
+      "description": "MIT-licensed teaching collection with notebooks, a slide deck, and application walkthroughs covering typed questions, probability versus confidence, routing, image boxes, and failure cases. Saved API outputs support inspection without running calls. Demonstrated measurements are author-reported examples rather than general accuracy or latency guarantees.",
+      "status": "Open-source code / teaching materials",
+      "date": "2026-10-17",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/fnusatvik07/jev-workshop"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "book",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/fnusatvik07/jev-workshop",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-17T13:47:34Z"
+    },
+    {
+      "id": "r439",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "YapSketch",
+      "description": "Apache-2.0 macOS application pairing spoken bug reports with screen annotations and selected frames. Jev associates transcript points with visual evidence; local speech recognition and a CLI expose the recording context for coding agents. Cloud processing depends on enabled providers, while the original recordings remain local.",
+      "status": "Open-source code",
+      "date": "2026-10-18",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/farouqaldori/yapsketch"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/farouqaldori/yapsketch",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-18T15:21:31Z"
     },
     {
       "id": "r092",
@@ -10158,6 +10566,40 @@
       "date_source_timestamp": "2026-10-15T07:27:08Z"
     },
     {
+      "id": "r448",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "SAG2: Embedding-Free Multi-Hop Retrieval with BM25 and JEV",
+      "description": "Combines a local SQLite/BM25 index with hosted Jev decisions for iterative multi-hop evidence retrieval, avoiding offline embedding and entity extraction. Evaluates three 1,000-question subsets and a larger synthetic enterprise corpus. Development-set reuse, lexical-access failures, and dependence on a proprietary hosted decision service limit the conclusions.",
+      "status": "Preprint",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.22588"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.22588"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/Zleap-AI/SAG-Benchmark"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "network",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.22588",
+      "arxiv_id": "2610.22588",
+      "authors": [
+        "Wu, Yuchao"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-15T19:37:48Z"
+    },
+    {
       "id": "r110",
       "section": "4. Research papers",
       "category": "Open and alternative decision-model methods",
@@ -11863,6 +12305,42 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-10-15T09:59:07Z"
+    },
+    {
+      "id": "r449",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Towards Adaptive and Real-Survey-Aligned Simulated Urban Mobility Behaviour of Generative Agents",
+      "description": "Compares fifteen travel-mode decision configurations against a Toulouse household survey, including Jev 1.13 with minimal and tuned prompts. Separates population modal-share alignment from individual trip prediction and studies responses to an unforeseen event. Strong aggregate results do not establish accurate individual behavior or transfer to other cities.",
+      "status": "Preprint",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.22407"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.22407"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/Ytlse/generative-agents-urban-mobility"
+        }
+      ],
+      "checked_on": "2026-10-19",
+      "cataloged_on": "2026-10-19",
+      "icon": "network",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.22407",
+      "arxiv_id": "2610.22407",
+      "authors": [
+        "Bru, Yves",
+        "Oberoi, Kamaldeep Singh",
+        "Gaudou, Benoit"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-14T14:22:26Z"
     },
     {
       "id": "r126",
