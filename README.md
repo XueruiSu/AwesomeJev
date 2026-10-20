@@ -2,6 +2,8 @@
 
 # AwesomeJev
 
+[![Content license: CC BY 4.0](https://img.shields.io/badge/Content-CC_BY_4.0-lightgrey.svg)](LICENSE)
+
 ![Jev ecosystem landscape: TypeSafe and System One origins; Laya, Kev, Jeff and Jeeves; tools and agents; evaluation and debate.](assets/jev-landscape.png)
 
 A curated, English-language directory of **TypeSafe AI’s Jev** and the emerging ecosystem of typed decision models: original releases, community discussions, open infrastructure, model weights, datasets, and research.
@@ -72,6 +74,7 @@ Jev evaluates supplied state against typed questions and returns choices, scores
   - [Networking and edge systems](#networking-and-edge-systems)
   - [Domain applications and multilingual models](#domain-applications-and-multilingual-models)
   - [Historical context cited in community debate](#historical-context-cited-in-community-debate)
+- [License](#license)
 - [Citation](#citation)
 
 ## 1. Origins and official resources
@@ -627,6 +630,18 @@ Grouped by research topic; chronological within each group. Dates identify first
 
 - <img src="assets/icons/history.svg" width="22" height="22" alt=""> **[2025-03-30]** · Submitted · **[SalesRLAgent: A Reinforcement Learning Approach for Real-Time Sales Conversion Prediction and Optimization](https://arxiv.org/abs/2503.23303)** — `Earlier preprint`. Earlier domain-specific reinforcement-learning probability prediction cited in the Laya author’s discussion. It predates Jev and does not document Jev’s proprietary architecture. [PDF](https://arxiv.org/pdf/2503.23303).
 - <img src="assets/icons/history.svg" width="22" height="22" alt=""> **[2025-09-23]** · Submitted · **[Confidence-Aware Routing for Large Language Model Reliability Enhancement: A Multi-Signal Approach to Pre-Generation Hallucination Mitigation](https://arxiv.org/abs/2510.01237)** — `Earlier preprint`. Earlier confidence-based routing work cited in the community debate. Included as historical context, not as a Jev evaluation or evidence of architectural identity. [PDF](https://arxiv.org/pdf/2510.01237).
+
+## License
+
+Copyright © 2026 Xuerui Su. Original non-code content in this repository, including the curated collection, descriptions, documentation, and artwork, is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE), to the extent we hold the applicable rights. You may share and adapt it, including commercially. When sharing it or an adaptation, credit **Xuerui Su**, link to this repository and the license, retain supplied copyright and license notices, and indicate any changes. The material is provided without warranties, as described in the license.
+
+Example attribution (replace the changes field as appropriate):
+
+> Based on [AwesomeJev](https://github.com/XueruiSu/AwesomeJev) by Xuerui Su, © 2026, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), without warranties. Changes: [describe your changes, or state that none were made].
+
+Original Python source files (`*.py`), including scripts and tutorial code, are licensed under the [MIT License](LICENSE-CODE); retain its copyright and permission notice when redistributing copies or substantial portions. Third-party papers, models, datasets, software, and other linked or attributed works retain their own licenses. These licenses do not grant rights in those works.
+
+The BibTeX entry below is a recommended academic citation format. Citation in this exact format and starring the repository are appreciated, but are not additional license conditions.
 
 ## Citation
 

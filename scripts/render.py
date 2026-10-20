@@ -72,6 +72,8 @@ lines = [
     "",
     "# AwesomeJev",
     "",
+    "[![Content license: CC BY 4.0](https://img.shields.io/badge/Content-CC_BY_4.0-lightgrey.svg)](LICENSE)",
+    "",
     "![Jev ecosystem landscape: TypeSafe and System One origins; Laya, Kev, Jeff and Jeeves; tools and agents; evaluation and debate.](assets/jev-landscape.png)",
     "",
     "A curated, English-language directory of **TypeSafe AI’s Jev** and the emerging ecosystem of typed decision models: original releases, community discussions, open infrastructure, model weights, datasets, and research.",
@@ -117,6 +119,7 @@ for section, categories in sections.items():
     lines.append(f"- [{section}](#{anchor(section)})")
     for category in categories:
         lines.append(f"  - [{category}](#{anchor(category)})")
+lines.append("- [License](#license)")
 lines.append("- [Citation](#citation)")
 
 for section, categories in sections.items():
@@ -154,6 +157,18 @@ for section, categories in sections.items():
         lines.append("")
 
 lines.extend([
+    "## License",
+    "",
+    "Copyright © 2026 Xuerui Su. Original non-code content in this repository, including the curated collection, descriptions, documentation, and artwork, is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE), to the extent we hold the applicable rights. You may share and adapt it, including commercially. When sharing it or an adaptation, credit **Xuerui Su**, link to this repository and the license, retain supplied copyright and license notices, and indicate any changes. The material is provided without warranties, as described in the license.",
+    "",
+    "Example attribution (replace the changes field as appropriate):",
+    "",
+    "> Based on [AwesomeJev](https://github.com/XueruiSu/AwesomeJev) by Xuerui Su, © 2026, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), without warranties. Changes: [describe your changes, or state that none were made].",
+    "",
+    "Original Python source files (`*.py`), including scripts and tutorial code, are licensed under the [MIT License](LICENSE-CODE); retain its copyright and permission notice when redistributing copies or substantial portions. Third-party papers, models, datasets, software, and other linked or attributed works retain their own licenses. These licenses do not grant rights in those works.",
+    "",
+    "The BibTeX entry below is a recommended academic citation format. Citation in this exact format and starring the repository are appreciated, but are not additional license conditions.",
+    "",
     "## Citation",
     "",
     "> [!NOTE]",

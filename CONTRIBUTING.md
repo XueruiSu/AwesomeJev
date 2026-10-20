@@ -2,6 +2,8 @@
 
 Additions, corrections, updated release links, and broken-link reports are welcome.
 
+By submitting original contributions for inclusion, you agree to license non-code content under [CC BY 4.0](LICENSE) and Python source files (`*.py`) under the [MIT License](LICENSE-CODE), following the [repository's license scope](README.md#license). Only contribute material you have the right to license, and preserve applicable third-party attribution and license notices.
+
 1. Check `data/resources.json` for an existing entry. Prefer a project's canonical URL over mirrors and reposts.
 2. Add the resource under the appropriate section and category. Preserve the order: origins → community → infrastructure/models → research.
 3. Write a concise English description explaining the actual connection to Jev. Include original blog, discussion, repository, model, dataset, and paper links where available.
