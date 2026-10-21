@@ -2,6 +2,23 @@
   "title": "Big News",
   "events": [
     {
+      "date": "2026-10-19",
+      "icon": "cloud",
+      "headline": "Cloudflare previews Clairic, extending Jev-inspired System One models to typed extraction and estimation.",
+      "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+      "label": "Official announcement",
+      "note": "Available as a hosted Workers AI preview. Open weights are planned, not a verified release; model outputs still require task-specific evaluation.",
+      "date_source": "https://blog.cloudflare.com/clairic-extraction-model/",
+      "date_note": "Official datePublished: 2026-10-19T17:48:26.614Z.",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 71,
+        "comments": 7,
+        "observed_on": "2026-10-21",
+        "source": "https://news.ycombinator.com/item?id=50155907"
+      }
+    },
+    {
       "date": "2026-10-15",
       "icon": "shield",
       "headline": "OpenRouter launches Armor beta, using Jev to screen agent tool calls against policy.",
