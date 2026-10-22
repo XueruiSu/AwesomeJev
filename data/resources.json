@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-22",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -2411,6 +2411,75 @@
       "date_source_timestamp": "2026-10-14T00:00:00+00:00"
     },
     {
+      "id": "r505",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Jev vs structured outputs: when to use each",
+      "description": "Flavio Copes compares JSON validity, schema constraints, and typed decision probabilities through a support-inbox example. Covers explicit routing policies, abstention, calibration, coverage, and end-to-end evaluation. The example responses and thresholds are illustrative, not measured performance or recommended production settings.",
+      "status": "Technical tutorial",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://flaviocopes.com/jev-structured-outputs/"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "code",
+      "date_kind": "published",
+      "date_source": "https://flaviocopes.com/jev-structured-outputs/",
+      "date_source_field": "visible publication date"
+    },
+    {
+      "id": "r506",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "The rise and fall of Jev",
+      "description": "Alex Ewerlöf uses Jev as a case study in AI marketing, hype cycles, and the distinction between typed output and correct judgment. An opinion essay, not a new controlled evaluation. Its claim that Jev cannot see is outdated relative to the official October 14 image-preview announcement.",
+      "status": "Critical commentary",
+      "date": "2026-10-19",
+      "links": [
+        {
+          "label": "Essay",
+          "url": "https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm"
+        },
+        {
+          "label": "Official image-preview announcement",
+          "url": "https://typesafe.ai/blog/jev-1-14"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "scales",
+      "date_kind": "published",
+      "date_source": "https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-19T10:54:01+00:00"
+    },
+    {
+      "id": "r507",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Jev: Bounded semantic judgments for messy text",
+      "description": "Red Hat tutorial separating semantic classification, deterministic business rules, and generated text through a coffee-shop workflow. Explains Choice, Noul, Score, review thresholds, and the hosted deployment boundary. Its sample answers are invented illustrations; running a client beside vLLM does not make the proprietary Jev model locally available.",
+      "status": "Technical tutorial",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://developers.redhat.com/articles/2026/10/20/jev-bounded-semantic-judgments-messy-text"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://developers.redhat.com/articles/2026/10/20/jev-bounded-semantic-judgments-messy-text",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-20T13:02:39+00:00"
+    },
+    {
       "id": "r035",
       "section": "2. Community discussion and writing",
       "category": "Reddit debates",
@@ -4105,6 +4174,109 @@
       "date_source_timestamp": "2026-10-19T16:47:14Z"
     },
     {
+      "id": "r509",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Keepsake",
+      "description": "MIT-licensed Chrome extension and local Node/SQLite library for X likes and bookmarks, exposed through a CLI and MCP server. Jev classifies saved text and ranks it for semantic queries; keyword search remains available without a key. Imports are partial, and classification sends post text and fetched excerpts to TypeSafe.",
+      "status": "Open-source application",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/brianbolze/keepsake"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/brianbolze/keepsake",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-21T15:30:02Z"
+    },
+    {
+      "id": "r514",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Genkit flows on Kubernetes, routed by a decision model",
+      "description": "MIT-licensed Go example using Genkit flows as Kubernetes pod steps orchestrated by senro. Gemini drafts replies; Jev triages tickets and checks drafts against a playbook. A second run receives the first decision as parameters, and rejected drafts skip the send step. A workflow demonstration, not a validated customer-support benchmark.",
+      "status": "Open-source workflow example",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/xavidop/genkit-k8s-flows-jev"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/xavidop/genkit-k8s-flows-jev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-20T22:18:59Z"
+    },
+    {
+      "id": "r516",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "jev-effort-router",
+      "description": "MIT-licensed Claude Code plugin that uses Jev to select reasoning effort from prompt difficulty and risk while retaining the chosen model. Uncertain decisions favor more effort, with a keyword fallback when credentials are absent. Depends on early-access Claude Code mods; claimed savings are not a controlled quality-cost evaluation.",
+      "status": "Open-source plugin",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hasanzaman22/jev-effort-router"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "coins",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/hasanzaman22/jev-effort-router",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-21T06:54:24Z"
+    },
+    {
+      "id": "r517",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev Browser Skill",
+      "description": "MIT-licensed browser-control reference implementation with recorded traces and an interactive explainer. Enumerates page controls, asks Jev to choose operations and targets, and validates the returned keys. It supplies text externally and limits visible controls; the short recorded demo does not establish general browser-task reliability.",
+      "status": "Open-source reference skill",
+      "date": "2026-09-19",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/zurfyx/jev-browser-skill"
+        },
+        {
+          "label": "Interactive explainer",
+          "url": "https://jev-browser.rovira.sh"
+        },
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=50181149"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "compass",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/zurfyx/jev-browser-skill",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-09-19T22:05:25Z",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 4,
+        "comments": 0,
+        "observed_on": "2026-10-22",
+        "source": "https://news.ycombinator.com/item?id=50181149"
+      }
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -4597,6 +4769,54 @@
       "date_source": "https://api.github.com/repos/Lypt1x/rbxts-jev",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-20T10:35:21Z"
+    },
+    {
+      "id": "r511",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "DuckDB Jev (Laya) Spatial",
+      "description": "Apache-2.0 DuckDB extension combining exact spatial SQL with Jev-style text judgments from a local Laya model through Rust and ONNX Runtime. Includes North Sea examples and a restricted English-to-SQL planner. The documented build targets DuckDB 1.5.6 on macOS arm64; unsigned binaries and model files must be built or obtained separately.",
+      "status": "Open-source local integration",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mraad/duckdb-jev-spatial"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/mraad/duckdb-jev-spatial",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-20T10:40:23Z"
+    },
+    {
+      "id": "r513",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "System One for Delphi",
+      "description": "Apache-2.0, RTL-only Delphi client exposing typed Choice, Noul, and Score through System One endpoints and an OpenAI-compatible chat adapter. The author reports fake-server tests and live local tev1 checks. The actual hosted Jev endpoint and several named providers have not yet been tested.",
+      "status": "Open-source client",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/danieleteti/systemone-delphi"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://www.danieleteti.it/systemone-delphi/"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/danieleteti/systemone-delphi",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-20T09:22:52Z"
     },
     {
       "id": "r060",
@@ -6347,6 +6567,248 @@
       }
     },
     {
+      "id": "r519",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Xevn-4B",
+      "description": "Korean-focused Qwen3.5 decision model with Choice, Noul, and Score readouts, Apache-2.0 weights, and an Apache-2.0 code repository. Includes Transformers weights and author-linked MLX variants. Reported Korean and English comparisons use specific precision and runtime settings; the decision helper is text-only despite retained vision tensors.",
+      "status": "Open weights and source",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/quevirus/Xevn-4B"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/Nhahan/Xevn"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "globe",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/quevirus/Xevn-4B",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-21T01:08:52.000Z",
+      "date_note": "Hugging Face repository creation timestamp, not a verified first public release date.",
+      "artifact_verification": {
+        "method": "first_party_card_and_api",
+        "checked_on": "2026-10-22",
+        "verified_urls": [
+          "https://huggingface.co/quevirus/Xevn-4B"
+        ],
+        "sources": [
+          "https://huggingface.co/quevirus/Xevn-4B",
+          "https://huggingface.co/api/models/quevirus/Xevn-4B"
+        ],
+        "finding": "Original card read; public API lists released files.",
+        "license_note": "Model card and code license both specify Apache-2.0; upstream terms remain applicable.",
+        "scope": "Documentation and file metadata only; no weights or data downloaded and no evaluation run."
+      }
+    },
+    {
+      "id": "r520",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Imajev-4B",
+      "description": "Qwen3.5 vision-language decision adapter with Jev-compatible requests, explicit unknown probabilities, and abstention. Apache-2.0 adapters and code support MLX and CUDA. The author reports weaker two-image comparisons and multistep reasoning, with overconfidence without shipped calibration. Historical leaderboard screenshots are versioned results, not current rankings.",
+      "status": "Open adapter and source",
+      "date": "2026-09-24",
+      "links": [
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/mohit67890/imajev-4b"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mohit67890/imajev"
+        },
+        {
+          "label": "Technical report",
+          "url": "https://mohit67890.github.io/imajev/report/"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/mohit67890/imajev-4b",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-09-24T04:06:19.000Z",
+      "date_note": "Hugging Face repository creation timestamp, not a verified first public release date.",
+      "artifact_verification": {
+        "method": "first_party_card_and_api",
+        "checked_on": "2026-10-22",
+        "verified_urls": [
+          "https://huggingface.co/mohit67890/imajev-4b"
+        ],
+        "sources": [
+          "https://huggingface.co/mohit67890/imajev-4b",
+          "https://huggingface.co/api/models/mohit67890/imajev-4b"
+        ],
+        "finding": "Original card read; public API lists released files.",
+        "license_note": "Apache-2.0 adapter and code; base obtained separately.",
+        "scope": "Documentation and file metadata only; no weights or data downloaded and no evaluation run."
+      }
+    },
+    {
+      "id": "r521",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Jevhakim-0.8B",
+      "description": "Arabic and dialect decision adapter continuing Kev-0.8B with public labeled sources and English replay. Uses the Kev pointer head and a fitted temperature. Author tests improve aggregate accuracy and coverage, but ECE worsens and transfer to new task kinds is smaller. Released under CC BY-NC-SA 4.0 for noncommercial use.",
+      "status": "Public noncommercial adapter",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/TigreGotico/jevhakim-0.8b"
+        },
+        {
+          "label": "Serving code",
+          "url": "https://github.com/jaredpalmer/kev"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "globe",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/TigreGotico/jevhakim-0.8b",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-21T21:40:54.000Z",
+      "date_note": "Hugging Face repository creation timestamp, not a verified first public release date.",
+      "artifact_verification": {
+        "method": "first_party_card_and_api",
+        "checked_on": "2026-10-22",
+        "verified_urls": [
+          "https://huggingface.co/TigreGotico/jevhakim-0.8b"
+        ],
+        "sources": [
+          "https://huggingface.co/TigreGotico/jevhakim-0.8b",
+          "https://huggingface.co/api/models/TigreGotico/jevhakim-0.8b"
+        ],
+        "finding": "Original card read; public API lists released files.",
+        "license_note": "CC BY-NC-SA 4.0 release; Kev runtime and Qwen backbone have separate terms.",
+        "scope": "Documentation and file metadata only; no weights or data downloaded and no evaluation run."
+      }
+    },
+    {
+      "id": "r522",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Kieve-JeV v0.4",
+      "description": "ModernBERT decision checkpoint with LoRA, cross-attention scoring, and additional neural-operator branches for Choice and Noul. Its public-task evaluation remains near chance on several sets, and training includes JevBench text slices. Apache-2.0 weights/configuration are public; the card does not establish an installable source for the referenced Kieve runtime.",
+      "status": "Public checkpoint; runtime source unverified",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/scairesearch/kieve-jev-v0.4"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/scairesearch/kieve-jev-v0.4",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-21T22:01:04.000Z",
+      "date_note": "Hugging Face repository creation timestamp, not a verified first public release date.",
+      "artifact_verification": {
+        "method": "first_party_card_and_api",
+        "checked_on": "2026-10-22",
+        "verified_urls": [
+          "https://huggingface.co/scairesearch/kieve-jev-v0.4"
+        ],
+        "sources": [
+          "https://huggingface.co/scairesearch/kieve-jev-v0.4",
+          "https://huggingface.co/api/models/scairesearch/kieve-jev-v0.4"
+        ],
+        "finding": "Original card read; public API lists released files.",
+        "license_note": "Apache-2.0 checkpoint according to card; backbone retains its terms.",
+        "scope": "Documentation and file metadata only; no weights or data downloaded and no evaluation run."
+      }
+    },
+    {
+      "id": "r523",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "JEVision",
+      "description": "Image-and-text decision adapter and pointer head derived from Qwen3.5 and Kev, with bundled inference scripts. Internal accuracy uses a mixed evaluation containing silver labels; reported warm latency excludes loading, network, and queues. The model contribution is CC BY-NC-SA 4.0, with separate commercial terms; no hosted endpoint is available.",
+      "status": "Public noncommercial adapter and runtime files",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/heack/JEVision"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/heack/JEVision",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-21T14:42:00.000Z",
+      "date_note": "Hugging Face repository creation timestamp, not a verified first public release date.",
+      "artifact_verification": {
+        "method": "first_party_card_and_api",
+        "checked_on": "2026-10-22",
+        "verified_urls": [
+          "https://huggingface.co/heack/JEVision"
+        ],
+        "sources": [
+          "https://huggingface.co/heack/JEVision",
+          "https://huggingface.co/api/models/heack/JEVision"
+        ],
+        "finding": "Original card read; public API lists released files.",
+        "license_note": "CC BY-NC-SA 4.0 model contribution; separate commercial licensing offered. Upstream Apache-2.0 rights and notices remain intact.",
+        "scope": "Documentation and file metadata only; no weights or data downloaded and no evaluation run."
+      }
+    },
+    {
+      "id": "r524",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Audio Jev Qwen supervised decision head",
+      "description": "Pre-RL research checkpoint that scores supplied action labels from audio using separately obtained frozen Qwen audio and text encoders. The released head is about 3 million parameters, not a standalone 8B model. Its card reports weak conversation decisions and poor calibration; weights are Apache-2.0, while the referenced SDK repository was inaccessible.",
+      "status": "Public research head; SDK access unverified",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/on1onmangoes/audio-jev-qwen-v1"
+        },
+        {
+          "label": "Author-linked SDK (access unverified)",
+          "url": "https://github.com/samliu/audio-jev"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/on1onmangoes/audio-jev-qwen-v1",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-21T15:10:59.000Z",
+      "date_note": "Hugging Face repository creation timestamp, not a verified first public release date.",
+      "artifact_verification": {
+        "method": "first_party_card_and_api",
+        "checked_on": "2026-10-22",
+        "verified_urls": [
+          "https://huggingface.co/on1onmangoes/audio-jev-qwen-v1"
+        ],
+        "sources": [
+          "https://huggingface.co/on1onmangoes/audio-jev-qwen-v1",
+          "https://huggingface.co/api/models/on1onmangoes/audio-jev-qwen-v1"
+        ],
+        "finding": "Original card read; public API lists released files.",
+        "license_note": "Apache-2.0 head and original package files. Separate backbones and SDK retain their own terms.",
+        "scope": "Documentation and file metadata only; no weights or data downloaded and no evaluation run."
+      }
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -6523,6 +6985,33 @@
       "date_source": "https://api.github.com/repos/Shauryagulati/mini-jev",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-19T17:09:58Z"
+    },
+    {
+      "id": "r518",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Training pipelines and announced releases",
+      "title": "Jev-Scanner",
+      "description": "Project describing a shared scorer for context admission and neighboring-evidence expansion in conversational memory. Reports LoCoMo improvements, but main results include conversations used to construct supervision and token counts exclude scanner/judge calls. Multitask training remains ongoing; weights are not verified, and the linked under-review manuscript could not be independently accessed.",
+      "status": "Research project; release unverified",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/LongShine-AI-Research/Jev-Scanner"
+        },
+        {
+          "label": "Author-linked manuscript (verification required)",
+          "url": "https://openreview.net/forum?id=f78jBZe1oQ"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "brain",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/LongShine-AI-Research/Jev-Scanner",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-21T02:20:39Z",
+      "date_note": "GitHub repository creation date, not a verified manuscript submission or model release date. OpenReview returned a challenge-required response; no publication venue or acceptance is asserted."
     },
     {
       "id": "r071",
@@ -7221,6 +7710,74 @@
         "license_note": "Apache-2.0 engine, CC BY-NC 4.0 derived weights.",
         "scope": "Read documentation and public file metadata; no weight download or inference."
       }
+    },
+    {
+      "id": "r510",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "SelfJev",
+      "description": "Self-hosted Qwen-based decision stack with a Python SDK, System One-compatible server, training tools, and text/image adapters. Code is Apache-2.0; the linked vision adapter is public but its card does not specify a weight license. Author comparisons reuse development suites with AI-authored labels and need independent holdout confirmation.",
+      "status": "Open-source code; weight license unspecified",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jwuthri-cloud/SelfJev"
+        },
+        {
+          "label": "Vision adapter",
+          "url": "https://huggingface.co/Jwuthrich/selfjev-4b-vision"
+        },
+        {
+          "label": "Project website",
+          "url": "https://www.selfjev.dev/"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/jwuthri-cloud/SelfJev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-21T20:45:18Z",
+      "date_note": "Creation of the inspected GitHub repository, not the first model release. The vision card describes an earlier September 30 default-model change and links a different, currently inaccessible GitHub path.",
+      "artifact_verification": {
+        "method": "first_party_readme_card_and_api",
+        "checked_on": "2026-10-22",
+        "verified_urls": [
+          "https://huggingface.co/Jwuthrich/selfjev-4b-vision"
+        ],
+        "sources": [
+          "https://github.com/jwuthri-cloud/SelfJev",
+          "https://huggingface.co/Jwuthrich/selfjev-4b-vision",
+          "https://huggingface.co/api/models/Jwuthrich/selfjev-4b-vision"
+        ],
+        "finding": "Repository README links the exact public adapter; API lists adapter_model.safetensors. The older Jwuthri/SelfJev code path in the model card was inaccessible.",
+        "license_note": "Apache-2.0 applies to inspected code. No explicit vision-adapter weight license found in the model card or public file list.",
+        "scope": "Documentation and metadata checked; no weight download or inference."
+      }
+    },
+    {
+      "id": "r512",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "Jev standalone decision runtime",
+      "description": "Apache-2.0 runtime for explicit token-logit backends and native System One proxies, with bounded admission, caching, deadlines, and metrics. Token mode requires every candidate in upstream logprobs; native mode preserves upstream semantics. GPU behavior is unvalidated, and token-mode entropy confidence is not a calibrated probability guarantee.",
+      "status": "Open-source runtime",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/AliceSama1/light-jevllm"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/AliceSama1/light-jevllm",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-21T01:32:29Z"
     },
     {
       "id": "r078",
@@ -8314,6 +8871,65 @@
       }
     },
     {
+      "id": "r515",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jevtool CLI",
+      "description": "MIT-licensed Node CLI for labeled Jev evaluations, model-version and option-order comparisons, semantic filtering, and agent-delivery checks tied to test results. Reports errors, coverage, latency, and empirical confidence cutoffs. Bundled examples are handwritten smoke tests; suggested cutoffs require validation on separate representative cases.",
+      "status": "Open-source evaluation tool",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jevtool/jevtool"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/jevtool/jevtool",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-21T06:52:42Z"
+    },
+    {
+      "id": "r525",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev Skills benchmark",
+      "description": "10,168 typed decisions spanning agents, rules, games/spatial tasks, safety, and judging, with accuracy, Brier, and calibration metrics. Combines generated gold labels with public test sources. Licenses are recorded per row, including ShareAlike obligations; overlapping views and transformed public tasks should not be treated as independent private holdouts.",
+      "status": "Public evaluation dataset; mixed licenses",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "label": "Dataset",
+          "url": "https://huggingface.co/datasets/labqoat/jev-skills"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/datasets/labqoat/jev-skills",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-20T14:38:53.000Z",
+      "date_note": "Hugging Face repository creation timestamp, not a verified first public release date.",
+      "artifact_verification": {
+        "method": "first_party_card_and_api",
+        "checked_on": "2026-10-22",
+        "verified_urls": [
+          "https://huggingface.co/datasets/labqoat/jev-skills"
+        ],
+        "sources": [
+          "https://huggingface.co/datasets/labqoat/jev-skills",
+          "https://huggingface.co/api/datasets/labqoat/jev-skills"
+        ],
+        "finding": "Original card read; public API lists released files.",
+        "license_note": "Per-row licenses; generated items CC0, imported data retain listed upstream obligations.",
+        "scope": "Documentation and file metadata only; no weights or data downloaded and no evaluation run."
+      }
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -9093,6 +9709,28 @@
       "date_source": "https://api.github.com/repos/jaimebuelta/jev-webinar",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-19T18:04:00Z"
+    },
+    {
+      "id": "r508",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "FrameFind",
+      "description": "MIT-licensed local Python and FFmpeg application that searches sampled video frames with hosted Jev image questions and exports matching snippets. Includes cached judgments and a spending guard. It analyzes visible content rather than audio; frame sampling can miss short events, and its normalized relevance cutoff is not a probability of correctness.",
+      "status": "Open-source application",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Lyadalachanchu/framefind"
+        }
+      ],
+      "checked_on": "2026-10-22",
+      "cataloged_on": "2026-10-22",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Lyadalachanchu/framefind",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-20T21:09:01Z"
     },
     {
       "id": "r092",
