@@ -2,6 +2,41 @@
   "title": "Big News",
   "events": [
     {
+      "date": "2026-10-21",
+      "icon": "chip",
+      "headline": "Baseten releases mammoth-1 and elephant-1, open-weight decision models compatible with the System One interface.",
+      "url": "https://www.baseten.co/blog/the-best-decision-models-in-the-world-mammoth-1-and-elephant-1/",
+      "label": "Official announcement",
+      "note": "MIT-licensed 27B and 9B weights, bundled serving files, and a technical report are public. Benchmark ranks are dated vendor claims; report and model cards differ on image-training provenance.",
+      "date_source": "https://www.baseten.co/blog/the-best-decision-models-in-the-world-mammoth-1-and-elephant-1/",
+      "date_note": "Official announcement visibly dated October 21; October 19 model repository creation is not used as the public release date.",
+      "attention": {
+        "platform": "Hugging Face",
+        "likes": 46,
+        "downloads": 99,
+        "observed_on": "2026-10-23",
+        "source": "https://huggingface.co/api/models/baselabs/mammoth-1",
+        "additional_signals": [
+          {
+            "platform": "Hugging Face",
+            "likes": 34,
+            "downloads": 85,
+            "observed_on": "2026-10-23",
+            "source": "https://huggingface.co/api/models/baselabs/elephant-1"
+          },
+          {
+            "platform": "Hacker News",
+            "points": 11,
+            "comments": 0,
+            "observed_on": "2026-10-23",
+            "source": "https://hn.algolia.com/api/v1/search?query=mammoth-1&tags=story&hitsPerPage=30",
+            "url": "https://news.ycombinator.com/item?id=50184557"
+          }
+        ],
+        "note": "Observable model-page interest and launch discussion, not a claim of viral popularity. Included for a documented two-model open-weight release and accompanying methods report."
+      }
+    },
+    {
       "date": "2026-10-19",
       "icon": "cloud",
       "headline": "Cloudflare previews Clairic, extending Jev-inspired System One models to typed extraction and estimation.",
