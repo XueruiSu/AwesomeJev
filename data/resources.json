@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-23",
+  "last_updated": "2026-10-24",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -2579,6 +2579,31 @@
       "date_source_field": "visible publication date"
     },
     {
+      "id": "r550",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Building a cheaper review loop for coding agents using Jev",
+      "description": "Magnus Ekdahl describes bounded repair reviews in Parallix: Jev cleared 41 of 114 re-reviews, with general-model fallback, human approval, and downstream gates retained. One confirmed defect passed Jev. The 29% review-work and 35% API-cost savings are projections from unmatched cohorts, not measured general improvements.",
+      "status": "Practitioner report",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://oxtan-maker.github.io/parallix/articles/jev-review-evidence/"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/oxtan-maker/parallix"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "code",
+      "date_kind": "published",
+      "date_source": "https://oxtan-maker.github.io/parallix/articles/jev-review-evidence/",
+      "date_source_field": "visible publication date"
+    },
+    {
       "id": "r035",
       "section": "2. Community discussion and writing",
       "category": "Reddit debates",
@@ -3245,6 +3270,40 @@
       "date_kind": "available_by",
       "date_source": "https://www.marktechpost.com/2026/10/19/nace-ai-drex-max-multimodal-decision-model/",
       "date_note": "October 19 dated coverage identifies Drex Max and its API; the current original product page and guide confirm the model. No dated first-party launch record was found. This is an availability bound, not a claimed exact first release or weight-publication date."
+    },
+    {
+      "id": "r551",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Hosted access and framework guides",
+      "title": "OpenAI Decisions API: general availability",
+      "description": "Hosted GPT-6 Luna alternative in the typed-decision ecosystem, returning predicate, choice, and score answers. The October 22 general release adds shared-context caching, native JSON, question-level images, GPT-Live integration, and up to 400 questions per request. This is a proprietary service; vendor latency comparisons are workload-specific.",
+      "status": "Proprietary hosted API",
+      "date": "2026-10-22",
+      "links": [
+        {
+          "label": "Announcement",
+          "url": "https://openai.com/index/decisions-api/"
+        },
+        {
+          "label": "Developer guide",
+          "url": "https://developers.openai.com/api/docs/guides/decisions"
+        },
+        {
+          "label": "Changelog",
+          "url": "https://developers.openai.com/api/docs/changelog"
+        },
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=50210765"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "cloud",
+      "date_kind": "published",
+      "date_source": "https://openai.com/index/decisions-api/",
+      "date_source_field": "visible publication date",
+      "date_note": "General availability announcement, not the September 29 preview or October 6 public beta."
     },
     {
       "id": "r050",
@@ -4450,6 +4509,50 @@
       "date_source_timestamp": "2026-10-22T03:37:46Z"
     },
     {
+      "id": "r555",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev DevTools",
+      "description": "Experimental MIT-licensed React inspector and Node adapter showing captured Choice, Score, Noul, and Box requests, retries, and explicitly defined flows. History is bounded and process-local; diagrams do not expose hidden reasoning. The documented verification uses fixtures, with live inference unverified and no distributed or edge-runtime aggregation.",
+      "status": "Open-source developer tool",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/diegoag64/jev-devtools"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/diegoag64/jev-devtools",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-23T04:33:44Z"
+    },
+    {
+      "id": "r560",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "DSH automatic reasoning-effort routing",
+      "description": "MIT-licensed DeepSeek Harness plugin using hosted Jev via OpenRouter to classify turn difficulty and adjust the selected model's reasoning effort. The main provider and model stay fixed; a separate helper recommends subagent settings. API failures disable automatic mode, and demonstrations/tests use mock responses rather than measured live savings.",
+      "status": "Open-source agent integration",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/prgrmrwy/dsh-auto-model-routing"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/prgrmrwy/dsh-auto-model-routing",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-23T16:05:24Z"
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -5038,6 +5141,72 @@
       "date_source": "https://api.github.com/repos/hpietukhin/jevpipe",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-22T05:54:45Z"
+    },
+    {
+      "id": "r556",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "JevCells for Google Sheets",
+      "description": "MIT-licensed Apps Script add-on for row classification, multilabel tagging, weighted ranking, candidate extraction, and fuzzy lookup through hosted Jev. Candidate selection returns existing cell values; weighted ranking is computed in code. Requires manual installation, sends referenced cell text to TypeSafe, and is subject to Sheets execution limits; marketplace listing is pending.",
+      "status": "Open-source spreadsheet integration",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/saembit/jevcells"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/saembit/jevcells",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-23T20:34:39Z"
+    },
+    {
+      "id": "r557",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "JevQuery: typed natural-language query plans",
+      "description": "MIT-licensed TypeScript planner asking Jev to select schema fields, operators, values, and ordering, then translating a validated plan through Drizzle, Prisma, or parameterized SQL. Supports external validators and reports incomplete filters. Currently limited to a single filter without joins or relative-date resolution; application authorization remains separate.",
+      "status": "Open-source data integration",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/saembit/jevquery"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "database",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/saembit/jevquery",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-23T19:13:56Z"
+    },
+    {
+      "id": "r561",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "Stalwart Jev spam-classification adapter",
+      "description": "MIT-licensed service translating Stalwart spam-classifier requests into Jev Choice questions over email subject and body. Includes Helm deployment and telemetry. Requires Stalwart Enterprise and configured scoring rules; failures deliver messages untagged. Returned probability thresholds are configuration choices, not an independently calibrated spam benchmark.",
+      "status": "Open-source mail integration",
+      "date": "2026-10-22",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mikluko/stalwart-jev"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "shield",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/mikluko/stalwart-jev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-22T15:02:54Z"
     },
     {
       "id": "r060",
@@ -7300,6 +7469,50 @@
       }
     },
     {
+      "id": "r553",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "PathJev-P: histopathology decision model",
+      "description": "MedGemma-derived pathology model using adapters and a decision head over task-specific candidates. Apache-2.0 code is public; the author links weights restricted to non-commercial research under MedGemma terms and a precomputed demo. Fine-grained whole-slide examples remain limited, source datasets are not redistributed, and the paper link is pending.",
+      "status": "Public research weights; open-source code",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/CosmoIknosLab/PathJev"
+        },
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/Cristiandieti/PathJev-P"
+        },
+        {
+          "label": "Precomputed demo",
+          "url": "https://huggingface.co/spaces/Cristiandieti/PathJev-P-demo"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "heart",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/CosmoIknosLab/PathJev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-23T09:57:31Z",
+      "artifact_verification": {
+        "method": "indirect_first_party_readme",
+        "checked_on": "2026-10-24",
+        "verified_urls": [
+          "https://huggingface.co/Cristiandieti/PathJev-P",
+          "https://huggingface.co/spaces/Cristiandieti/PathJev-P-demo"
+        ],
+        "sources": [
+          "https://github.com/CosmoIknosLab/PathJev"
+        ],
+        "finding": "Author README links the exact artifact repository and describes its use.",
+        "license_note": "Author distinguishes Apache-2.0 code from non-commercial research weights under MedGemma HAI-DEF terms. Hosted terms were not independently inspected.",
+        "scope": "Identity and author release statements corroborated indirectly. Hugging Face DNS resolution failed; files, model card, downloads, and inference were not inspected."
+      }
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -8295,6 +8508,45 @@
       "date_source": "https://api.github.com/repos/microsoft/amplifier-module-provider-local-decisions",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-22T03:37:40Z"
+    },
+    {
+      "id": "r552",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "Decido: local Gemma decision model",
+      "description": "Apache-2.0 code for a Gemma-4-26B-A4B decision model served through llama.cpp, with state caching and option-permutation averaging. The author links GGUF weights. Comparisons use published Jev reference scores, not paired live calls; removing benchmark training splits lowers reported performance. Laptop CPU latency and hosted API latency are not matched conditions.",
+      "status": "Open-source runtime; author-linked weights",
+      "date": "2026-10-22",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/decido-ai/decido"
+        },
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/decido-ai/decido-26b-a4b"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/decido-ai/decido",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-22T06:46:12Z",
+      "artifact_verification": {
+        "method": "indirect_first_party_readme",
+        "checked_on": "2026-10-24",
+        "verified_urls": [
+          "https://huggingface.co/decido-ai/decido-26b-a4b"
+        ],
+        "sources": [
+          "https://github.com/decido-ai/decido"
+        ],
+        "finding": "Author README links the exact artifact repository and describes its use.",
+        "license_note": "Repository code Apache-2.0; the separately hosted weight license was not independently inspected.",
+        "scope": "Identity and author release statements corroborated indirectly. Hugging Face DNS resolution failed; files, model card, downloads, and inference were not inspected."
+      }
     },
     {
       "id": "r078",
@@ -9496,6 +9748,50 @@
       "repository_created_at": "2026-10-22T07:27:44.000Z"
     },
     {
+      "id": "r554",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Open MedJev: medical evaluation of OpenJev Flash",
+      "description": "MIT-licensed evaluation framework running OpenJev Flash 9B locally through Apple MLX on ten medical tasks, with paired encoder, classifier, and language-model baselines. Supports calibration and MIMIC-derived outcome evaluations. This is an evaluation of an existing model, not new MedJev weights; restricted clinical data are not distributed and clinical deployment is not validated.",
+      "status": "Open-source evaluation framework",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Simonlee711/MedJev"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "heart",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Simonlee711/MedJev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-23T03:27:40Z"
+    },
+    {
+      "id": "r559",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev calibration and selective-prediction study",
+      "description": "Public experiment scaffolding comparing Jev with SetFit and ModernBERT under label budgets, using fixed manifests, temperature scaling, and paired metrics. October 24 results are single-seed development pilots; calibration and official-test comparisons remain pending. Raw snapshots and trained weights stay local, and no code license was identified.",
+      "status": "Work in progress; license unspecified",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Poojithcodes/jev-calibration-study"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Poojithcodes/jev-calibration-study",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-23T13:22:46Z"
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -10345,6 +10641,28 @@
       "date_source": "https://api.github.com/repos/lijiawei255/jev-tune",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-21T11:17:21Z"
+    },
+    {
+      "id": "r558",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Godot Jev Actions",
+      "description": "MIT-licensed Godot 4 designer layer for choosing authored NPC actions, closed-set arguments, and dialogue alternatives with hosted Jev. Supports abstention, thresholds, and fake-client tests. It selects candidates rather than executing actions itself; a production proxy and image-state support remain planned.",
+      "status": "Open-source game integration",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/saembit/godot-jev-actions"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "gamepad",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/saembit/godot-jev-actions",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-23T20:42:00Z"
     },
     {
       "id": "r092",
@@ -13431,6 +13749,39 @@
       "date_source_timestamp": "2026-10-20T22:11:07Z"
     },
     {
+      "id": "r562",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "Jev-DLC: Decision-Level Continual Learning from Typed Feedback",
+      "description": "Jev-DLC adds bounded typed-feedback memory to a frozen decision scorer without runtime backpropagation or another scorer call. Reports a 2.43-point user-macro gain over a recent-history baseline on TCPA-Repeat, concentrated in recurring actions. Immediate feedback, finite candidates, and changing-item recommendation limit transfer of the result.",
+      "status": "Preprint",
+      "date": "2026-10-22",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.31521"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.31521"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "brain",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.31521",
+      "arxiv_id": "2610.31521",
+      "authors": [
+        "Feng, Yangyang",
+        "Gan, Jianle",
+        "Feng, Zhuoyan",
+        "Qin, Chengwei"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-22T16:33:30Z"
+    },
+    {
       "id": "r110",
       "section": "4. Research papers",
       "category": "Open and alternative decision-model methods",
@@ -15661,6 +16012,136 @@
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-09-28T11:50:35Z",
       "date_note": "September 28 first paper submission, discovered during October 23 follow-up on the newly public code repository. GitHub created_at: 2026-10-22T05:02:53Z; not a new October paper."
+    },
+    {
+      "id": "r563",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "How Well Do Decision Models Transfer to Vietnamese? An Empirical Study of Text Classification",
+      "description": "Evaluates four decision/extraction models across thirteen settings from twelve Vietnamese datasets, varying option-description language and text noise. Jev leads eleven settings with English descriptions, but bilingual wording is not uniformly better and removing diacritics degrades performance. Findings depend on the selected datasets, model versions, and wording.",
+      "status": "Preprint",
+      "date": "2026-10-22",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.31422"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.31422"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "globe",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.31422",
+      "arxiv_id": "2610.31422",
+      "authors": [
+        "Ha, Phat Huu",
+        "Phuc, Nguyen Xuan",
+        "Quy, Nong Nhut",
+        "Tran, Trinh Tran",
+        "Triet, Nguyen Minh",
+        "Van Thin, Dang"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-22T15:24:16Z"
+    },
+    {
+      "id": "r564",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "RetiJev: Fast and Source-Grounded Ophthalmic Decision Models",
+      "description": "RetiJev trains Qwen3.5-derived ophthalmic decision heads at 0.8B, 2B, and 9B using source-grounded clinical and grading data, comparing with Jev 1.13 and a 27B generative model. Public Apache-2.0 code includes a small data sample and author-linked adapters. Synthetic labels lack physician review, timing is hardware-specific, and clinical validation remains absent.",
+      "status": "Preprint",
+      "date": "2026-10-22",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.30947"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.30947"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/Awenbocc/RetiJev"
+        },
+        {
+          "label": "Models",
+          "url": "https://huggingface.co/BoKelvin/RetiJev"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "heart",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.30947",
+      "arxiv_id": "2610.30947",
+      "authors": [
+        "Liu, Bo",
+        "Wang, Lianyu",
+        "Wang, Meng",
+        "Cheng, Ching-Yu",
+        "Fu, Huazhu"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-22T08:59:47Z",
+      "artifact_verification": {
+        "method": "indirect_first_party_readme",
+        "checked_on": "2026-10-24",
+        "verified_urls": [
+          "https://huggingface.co/BoKelvin/RetiJev"
+        ],
+        "sources": [
+          "https://github.com/Awenbocc/RetiJev"
+        ],
+        "finding": "Author README links the exact artifact repository and describes its use.",
+        "license_note": "Apache-2.0 applies to code; the separately hosted adapter-weight license was not established.",
+        "scope": "Identity and author release statements corroborated indirectly. Hugging Face DNS resolution failed; files, model card, downloads, and inference were not inspected.",
+        "release_date_note": "README claims a first public release on October 5, while the inspected GitHub repository was created at 2026-10-23T22:41:20Z. Earlier artifact availability was not independently established; neither date replaces the paper submission date."
+      }
+    },
+    {
+      "id": "r565",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "One Pretrained Decision Model Is Enough for Training-Free Generalist Graph Anomaly Detection",
+      "description": "Jev-GAD represents graph evidence as semantic decision states, reads a frozen Qwen3-4B model, and fuses its scores with four statistical anomaly scorers. Reports results on seven graph benchmarks without target-task training. It does not call hosted Jev; statistical preprocessing remains part of inference. The author repository currently promises code after acceptance.",
+      "status": "Preprint",
+      "date": "2026-10-22",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.30777"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.30777"
+        },
+        {
+          "label": "Author repository; code pending",
+          "url": "https://github.com/zhaoxinyu2002/Jev-GAD"
+        }
+      ],
+      "checked_on": "2026-10-24",
+      "cataloged_on": "2026-10-24",
+      "icon": "network",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.30777",
+      "arxiv_id": "2610.30777",
+      "authors": [
+        "Zhao, Xinyu",
+        "Sun, Qingyun",
+        "Zhang, Ziwei",
+        "Zhu, Tianchen",
+        "Li, Daqing",
+        "Li, Jianxin"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-22T05:56:54Z"
     },
     {
       "id": "r126",

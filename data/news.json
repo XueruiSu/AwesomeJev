@@ -2,6 +2,37 @@
   "title": "Big News",
   "events": [
     {
+      "date": "2026-10-22",
+      "icon": "cloud",
+      "headline": "OpenAI makes its Decisions API generally available, expanding the hosted typed-decision ecosystem.",
+      "url": "https://openai.com/index/decisions-api/",
+      "label": "Official announcement",
+      "note": "GPT-6 Luna supports predicate, choice, and score answers, with caching, native JSON, question-level images, GPT-Live integration, and up to 400 questions per request. This is a proprietary hosted service.",
+      "date_source": "https://openai.com/index/decisions-api/",
+      "date_note": "Official general availability announcement dated October 22; separate from the September preview and October 6 public beta.",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 3,
+        "comments": 0,
+        "observed_on": "2026-10-24",
+        "source": "https://hn.algolia.com/api/v1/search?query=Decisions%20API&tags=story&hitsPerPage=30",
+        "url": "https://news.ycombinator.com/item?id=50210765",
+        "additional_signals": [
+          {
+            "platform": "Hacker News",
+            "event": "Earlier public beta, not the general availability announcement",
+            "event_date": "2026-10-06",
+            "points": 393,
+            "comments": 233,
+            "observed_on": "2026-10-24",
+            "url": "https://news.ycombinator.com/item?id=49984025",
+            "source": "https://hn.algolia.com/api/v1/search?query=Decisions%20API&tags=story&hitsPerPage=30"
+          }
+        ],
+        "note": "Included for a major hosted alternative reaching general availability. The new announcement has modest observed attention; the larger earlier beta discussion is context only, not evidence of current launch popularity."
+      }
+    },
+    {
       "date": "2026-10-21",
       "icon": "chip",
       "headline": "Baseten releases mammoth-1 and elephant-1, open-weight decision models compatible with the System One interface.",
