@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-24",
+  "last_updated": "2026-10-25",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -152,22 +152,23 @@
       "section": "1. Origins and official resources",
       "category": "Launch and first-party references",
       "title": "Model reference",
-      "description": "Version identifiers, supported inputs, limits, and current service specifications. The October 14 update lists Jev 1.14 and distinguishes the preview alias, pinned versions, and opt-in experimental capabilities.",
+      "description": "Official version identifiers, inputs, limits, and model aliases. The inspected page maps both jev-latest and jev-preview to Jev 1.14.0, with no separate preview build. Pinned model IDs avoid silent alias changes; experimental capabilities retain their documented opt-in requirements.",
       "status": "Official",
-      "date": "2026-10-14",
+      "date": "2026-10-23",
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/models"
         }
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-25",
       "icon": "chip",
       "date_kind": "updated",
       "date_source": "https://docs.typesafe.ai/models",
       "cataloged_on": "2026-10-03",
       "date_source_field": "dateModified",
-      "date_source_timestamp": "2026-10-14T21:29:53.743Z"
+      "date_source_timestamp": "2026-10-23T22:20:51.725Z",
+      "date_note": "Page dateModified, not the exact time the aliases changed. The current mapping was directly verified on October 25; Jev 1.14 first appeared on October 14."
     },
     {
       "id": "r009",
@@ -316,7 +317,7 @@
       "section": "1. Origins and official resources",
       "category": "Launch and first-party references",
       "title": "Jev: For the builders AND dreamers (Jev 1.14)",
-      "description": "Announces Jev 1.14.0 on jev-preview, with multilingual improvements and opt-in experimental images, Box outputs, and longer context. Images also work with 1.13; Box requires 1.14. The announcement schedules the jev-latest switch for a week later and cautions that the experimental features are not production-ready.",
+      "description": "Announces Jev 1.14.0 on jev-preview, with multilingual improvements and opt-in experimental images, Box outputs, and longer context. Images also work with 1.13; Box requires 1.14. The announcement schedules the jev-latest switch for a week later and cautions that the experimental features are not production-ready. By the October 25 check, the official model reference maps both jev-latest and jev-preview to 1.14.0; the exact alias-switch time is not established.",
       "status": "Official",
       "date": "2026-10-14",
       "links": [
@@ -341,7 +342,7 @@
           "url": "https://news.ycombinator.com/item?id=50095353"
         }
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-25",
       "cataloged_on": "2026-10-15",
       "icon": "rocket",
       "date_kind": "published",
@@ -800,6 +801,39 @@
       "icon": "chat",
       "date_kind": "submitted",
       "date_source": "https://news.ycombinator.com/item?id=49800574"
+    },
+    {
+      "id": "r566",
+      "section": "2. Community discussion and writing",
+      "category": "Popular Hacker News discussions",
+      "title": "The rise and fall of Jev hype: community debate",
+      "description": "Discussion of Alex Ewerlof's October 19 essay, with disagreement over marketing, practical adoption, classifier economics, and the distinction between typed outputs and correctness. Commenters challenge the claim that reduced social attention implies product failure. This is community opinion rather than a controlled evaluation.",
+      "status": "Discussion",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "label": "Discussion",
+          "url": "https://news.ycombinator.com/item?id=50206361"
+        },
+        {
+          "label": "Original essay",
+          "url": "https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "chat",
+      "date_kind": "submitted",
+      "date_source": "https://news.ycombinator.com/item?id=50206361",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-23T09:21:00Z",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 91,
+        "comments": 65,
+        "observed_on": "2026-10-25",
+        "source": "https://hn.algolia.com/api/v1/search_by_date?query=%22Jev%22&typoTolerance=false&tags=story&hitsPerPage=100"
+      }
     },
     {
       "id": "r026",
@@ -2435,7 +2469,7 @@
       "id": "r506",
       "section": "2. Community discussion and writing",
       "category": "Technical blogs and tutorials",
-      "title": "The rise and fall of Jev",
+      "title": "The rise and fall of Jev hype",
       "description": "Alex Ewerlöf uses Jev as a case study in AI marketing, hype cycles, and the distinction between typed output and correct judgment. An opinion essay, not a new controlled evaluation. Its claim that Jev cannot see is outdated relative to the official October 14 image-preview announcement.",
       "status": "Critical commentary",
       "date": "2026-10-19",
@@ -2447,9 +2481,13 @@
         {
           "label": "Official image-preview announcement",
           "url": "https://typesafe.ai/blog/jev-1-14"
+        },
+        {
+          "label": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50206361"
         }
       ],
-      "checked_on": "2026-10-22",
+      "checked_on": "2026-10-25",
       "cataloged_on": "2026-10-22",
       "icon": "scales",
       "date_kind": "published",
@@ -2729,6 +2767,40 @@
       "date_source": "https://api.github.com/repos/VoltAgent/typesafe-jev-ecosystem",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-10T12:19:23Z"
+    },
+    {
+      "id": "r583",
+      "section": "2. Community discussion and writing",
+      "category": "Social posts and commentary",
+      "title": "The Noul-output leak joke",
+      "description": "Diogo Almeida posts a mock disclosure linking to a Gist containing only 101 evenly spaced numbers from 0.00 to 1.00. Direct inspection finds no customer records or identifiers in that file. The numeric list supports reading the post as a joke about bounded outputs, not evidence of a customer-data breach.",
+      "status": "Community satire",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "label": "Original post",
+          "url": "https://x.com/CompleteSkeptic/status/2113810106177773587"
+        },
+        {
+          "label": "Numeric-list Gist",
+          "url": "https://gist.github.com/diogo149/810037374943dae22ff251941346b4e8"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "chat",
+      "date_kind": "published",
+      "date_source": "https://x.com/CompleteSkeptic/status/2113810106177773587",
+      "date_source_field": "X created_at",
+      "date_source_timestamp": "2026-10-24T01:49:36.000Z",
+      "attention": {
+        "platform": "X",
+        "likes": 5566,
+        "comments": 428,
+        "observed_on": "2026-10-25",
+        "source": "https://cdn.syndication.twimg.com/tweet-result?id=2113810106177773587&lang=en&token=0"
+      },
+      "verification_note": "GitHub Gist API confirms owner diogo149 and a single outputs.json file containing the 101 numeric values. The interpretation as parody follows the content; no claim is made about wider security conditions."
     },
     {
       "id": "r040",
@@ -4553,6 +4625,135 @@
       "date_source_timestamp": "2026-10-23T16:05:24Z"
     },
     {
+      "id": "r571",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "DSH injectable Jev service",
+      "description": "MIT-licensed DeepSeek Harness plugin exposing a typed-question service, a jev_ask tool, and standalone Node helpers. Centralizes endpoint settings, credential resolution, and cancellation, with an optional browser settings bridge. The default provider is Command Code; routing helpers and provider availability are not evidence of task-specific calibration.",
+      "status": "Open-source integration",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/gjy1992/dsh-jev"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/gjy1992/dsh-jev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-24T08:52:50Z"
+    },
+    {
+      "id": "r574",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "JevVoice and SayOpen",
+      "description": "macOS voice-control prototype using on-device transcription, hosted Jev clause routing, and a Claude fallback whose proposed shell command requires approval. Includes fixed capability menus and small author-run command benchmarks. Transcript text leaves the device; speech errors, early actions, and lack of undo remain limitations. No code license was identified.",
+      "status": "Public prototype source; license unspecified",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/manikv723-jpg/JevVoice"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "chat",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/manikv723-jpg/JevVoice",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-24T10:55:20Z"
+    },
+    {
+      "id": "r576",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jauvex voice-controlled coding-agent desktop",
+      "description": "Apache-2.0 Electron client combining Claude Code, Codex, and Grok sessions with optional hosted Jev judgments for voice intent, interruptions, and bounded agent actions. Uses local speech recognition and provider-specific coding sessions; a small voice model handles decisions when Jev is absent. Desktop orchestration does not establish benchmarked coding gains.",
+      "status": "Open-source desktop application",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/reindent/jauvex"
+        },
+        {
+          "label": "Website",
+          "url": "https://jauvex.ai"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "terminal",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/reindent/jauvex",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-23T22:59:37Z"
+    },
+    {
+      "id": "r580",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Composio Firewall",
+      "description": "Hosted experimental runtime checks combining Jev and Composio-specific small models to screen tool actions and returned content. Documentation describes natural-language conditions, injection checks, and paid-plan access. After-execution checks cannot undo actions, meta tools are excluded, and zero-data-retention sessions lose historical context. This is not a guarantee against prompt injection.",
+      "status": "Hosted experimental integration",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "label": "Announcement",
+          "url": "https://landing.composio.dev/blog/introducing-composio-firewall"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://docs.composio.dev/docs/firewall"
+        },
+        {
+          "label": "Product",
+          "url": "https://composio.dev/firewall"
+        },
+        {
+          "label": "Founder post",
+          "url": "https://x.com/KaranVaidya6/status/2113290621821784557"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "shield",
+      "date_kind": "published",
+      "date_source": "https://landing.composio.dev/blog/introducing-composio-firewall",
+      "date_source_field": "visible publication date",
+      "date_note": "Official blog visibly dated October 21. The founder X post is dated October 22; these are separate dated records, not a claim that the blog appeared on October 22."
+    },
+    {
+      "id": "r582",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Modem smart triggers",
+      "description": "Hosted integration evaluating incoming customer events with Jev against user-written conditions before starting a full agent run. Supports source filters and automations created in-app, from Slack or Discord, or through MCP clients. The October 23 announcement states availability to all users; quoted cost and latency are vendor claims without an independent benchmark.",
+      "status": "Hosted integration",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "label": "Official announcement",
+          "url": "https://modem.ai/blog/smart-triggers"
+        },
+        {
+          "label": "Product",
+          "url": "https://modem.ai"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "bolt",
+      "date_kind": "published",
+      "date_source": "https://modem.ai/blog/smart-triggers",
+      "date_source_field": "visible publication date"
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -5207,6 +5408,28 @@
       "date_source": "https://api.github.com/repos/mikluko/stalwart-jev",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-22T15:02:54Z"
+    },
+    {
+      "id": "r573",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "arXiv Jev Digest",
+      "description": "MIT-licensed daily literature workflow using Jev for title/abstract screening, DeepSeek for summaries, and GitHub Actions with per-recipient delivery state. Includes bounded budgets, retries, provenance, and duplicate suppression. Screening scores are not paper-quality judgments, combined scores are not calibrated probabilities, and title/abstract-only reading can miss relevant work.",
+      "status": "Open-source literature workflow",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Monkeypox966/arxiv-jev-digest"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "book",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Monkeypox966/arxiv-jev-digest",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-24T06:35:32Z"
     },
     {
       "id": "r060",
@@ -7513,6 +7736,145 @@
       }
     },
     {
+      "id": "r568",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Fovea-4B visual decision model",
+      "description": "Image decision model with a System One-compatible server and author-declared Apache-2.0 code and weights. Its 2,360-question evaluation compares four models under their respective serving settings, not the ImageJevBench leaderboard. The reported margin over H2O-Lightning includes zero in its interval; unscorable questions return uniform probabilities.",
+      "status": "Open weights and server, per author",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Sivasuthan9/fovea"
+        },
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/Sivasuthan/fovea-4b"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Sivasuthan9/fovea",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-24T03:35:47Z",
+      "artifact_verification": {
+        "method": "indirect_first_party",
+        "checked_on": "2026-10-25",
+        "verified_urls": [
+          "https://huggingface.co/Sivasuthan/fovea-4b"
+        ],
+        "sources": [
+          "https://github.com/Sivasuthan9/fovea"
+        ],
+        "finding": "Original author documentation names these exact repositories and describes released artifacts.",
+        "license_note": "README explicitly declares Apache-2.0 for weights and repository code; hosted license files not independently inspected.",
+        "scope": "Artifact identity and author statements only. Direct Hugging Face access failed; model cards, file listings, downloads and inference were not inspected."
+      }
+    },
+    {
+      "id": "r578",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "RoboJev-27B: robot task-completion judge",
+      "description": "Josef Chen's JEV-27B-VL-derived model judges task completion from sampled video frames. The author links weights, code, evaluation data, and an unsubmitted manuscript. Comparisons use unequal frame counts; base JEV slightly leads on the unseen-lab AUROC. The released checkpoint has not regraded the full dataset catalogue, and artifact licenses remain unverified.",
+      "status": "Author-released artifacts; licenses unverified",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "label": "Project",
+          "url": "https://robo-jev.com/"
+        },
+        {
+          "label": "Model and code",
+          "url": "https://huggingface.co/josefchen/RoboJev-27B"
+        },
+        {
+          "label": "Evaluation dataset",
+          "url": "https://huggingface.co/datasets/josefchen/RoboJev-evals"
+        },
+        {
+          "label": "Manuscript",
+          "url": "https://robo-jev.com/paper"
+        },
+        {
+          "label": "Results and protocols",
+          "url": "https://robo-jev.com/data"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "eye",
+      "date_kind": "available_by",
+      "date_source": "https://news.ycombinator.com/item?id=50226125",
+      "date_note": "Dated Hacker News submission links the live project on October 24; author pages were directly read on October 25. This is an availability upper bound, not an established first weight-release date. The manuscript states October 2026 and has no arXiv ID or DOI.",
+      "date_source_field": "Hacker News created_at",
+      "date_source_timestamp": "2026-10-24T22:36:04Z",
+      "artifact_verification": {
+        "method": "indirect_first_party",
+        "checked_on": "2026-10-25",
+        "verified_urls": [
+          "https://huggingface.co/josefchen/RoboJev-27B",
+          "https://huggingface.co/datasets/josefchen/RoboJev-evals"
+        ],
+        "sources": [
+          "https://robo-jev.com/",
+          "https://robo-jev.com/paper",
+          "https://robo-jev.com/data"
+        ],
+        "finding": "Original author documentation names these exact repositories and describes released artifacts.",
+        "license_note": "Author pages describe public downloads but did not establish separate code, weight, and dataset license texts.",
+        "scope": "Artifact identity and author statements only. Direct Hugging Face access failed; model cards, file listings, downloads and inference were not inspected."
+      }
+    },
+    {
+      "id": "r579",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "JevAny-Robotics-4B",
+      "description": "Author-announced robotics specialization of JevAny, linked directly to a named LoRA checkpoint in the October 23 post. The framework supports typed decisions with local serving. This entry records the artifact identity; the truncated official post and inaccessible model card do not establish its full evaluation protocol, weight license, or original release date.",
+      "status": "Author-linked checkpoint; license unverified",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/SimpleJev/JevAny-Robotics-4B-LoRA"
+        },
+        {
+          "label": "Author announcement",
+          "url": "https://x.com/HuanxinShe5254/status/2113711925104394513"
+        },
+        {
+          "label": "Framework",
+          "url": "https://github.com/SimpleJev/JevAny"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "chip",
+      "date_kind": "available_by",
+      "date_source": "https://x.com/HuanxinShe5254/status/2113711925104394513",
+      "date_note": "Earliest exact dated first-party link verified in this check is the October 23 author post, retrieved through X syndication. Search discovery suggests earlier model activity but supplies no reliable exact event date. This is not treated as first publication or as the date of a repository rename.",
+      "date_source_field": "X created_at",
+      "date_source_timestamp": "2026-10-23T19:19:28.000Z",
+      "artifact_verification": {
+        "method": "indirect_first_party",
+        "checked_on": "2026-10-25",
+        "verified_urls": [
+          "https://huggingface.co/SimpleJev/JevAny-Robotics-4B-LoRA"
+        ],
+        "sources": [
+          "https://x.com/HuanxinShe5254/status/2113711925104394513",
+          "https://cdn.syndication.twimg.com/tweet-result?id=2113711925104394513&lang=en&token=0"
+        ],
+        "finding": "Official X syndication response expands the author's model link to the exact Hugging Face repository.",
+        "license_note": "Framework code Apache-2.0; separate checkpoint license unverified.",
+        "scope": "Artifact identity and author statements only. Direct Hugging Face access failed; model cards, file listings, downloads and inference were not inspected."
+      }
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -7716,6 +8078,74 @@
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-21T02:20:39Z",
       "date_note": "GitHub repository creation date, not a verified manuscript submission or model release date. OpenReview returned a challenge-required response; no publication venue or acceptance is asserted."
+    },
+    {
+      "id": "r577",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Training pipelines and announced releases",
+      "title": "JevAny training, evaluation, and deployment infrastructure",
+      "description": "Apache-2.0 tooling for adapting language and vision backbones to typed decisions, with SFT, experimental calibration-reward training, evaluation, and local serving. The author links five LoRA releases. Public benchmark comparisons are diagnostic, and archived robot/game replays use earlier checkpoints rather than the current default. Base models and data retain separate terms.",
+      "status": "Open-source framework; author-linked adapters",
+      "date": "2026-09-22",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/SimpleJev/JevAny"
+        },
+        {
+          "label": "Website",
+          "url": "https://simplejev.org/JevAny/index.html"
+        },
+        {
+          "label": "Technical report",
+          "url": "https://simplejev.org/JevAny/files/reports/JevAny_Tech_Report.pdf"
+        },
+        {
+          "label": "JevAny-Gemma-4B-LoRA",
+          "url": "https://huggingface.co/SimpleJev/JevAny-Gemma-4B-LoRA"
+        },
+        {
+          "label": "JevAny-Qwen3.5-4B-LoRA",
+          "url": "https://huggingface.co/SimpleJev/JevAny-Qwen3.5-4B-LoRA"
+        },
+        {
+          "label": "JevAny-Qwen3.5-4B-Direct-Token-LoRA",
+          "url": "https://huggingface.co/SimpleJev/JevAny-Qwen3.5-4B-Direct-Token-LoRA"
+        },
+        {
+          "label": "JevAny-Qwen3.8-27B-LoRA",
+          "url": "https://huggingface.co/SimpleJev/JevAny-Qwen3.8-27B-LoRA"
+        },
+        {
+          "label": "JevAny-Muse-Glimmer-30B-LoRA",
+          "url": "https://huggingface.co/SimpleJev/JevAny-Muse-Glimmer-30B-LoRA"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "flask",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/SimpleJev/JevAny",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-09-22T18:28:27Z",
+      "date_note": "GitHub repository creation, not the release date of its later adapter family. Older infrastructure discovered while following the October 23 robotics announcement.",
+      "artifact_verification": {
+        "method": "indirect_first_party",
+        "checked_on": "2026-10-25",
+        "verified_urls": [
+          "https://huggingface.co/SimpleJev/JevAny-Gemma-4B-LoRA",
+          "https://huggingface.co/SimpleJev/JevAny-Qwen3.5-4B-LoRA",
+          "https://huggingface.co/SimpleJev/JevAny-Qwen3.5-4B-Direct-Token-LoRA",
+          "https://huggingface.co/SimpleJev/JevAny-Qwen3.8-27B-LoRA",
+          "https://huggingface.co/SimpleJev/JevAny-Muse-Glimmer-30B-LoRA"
+        ],
+        "sources": [
+          "https://github.com/SimpleJev/JevAny"
+        ],
+        "finding": "Original author documentation names these exact repositories and describes released artifacts.",
+        "license_note": "Code and starter data Apache-2.0; individual adapter license cards were not inspected, and base-model/upstream data terms remain separate.",
+        "scope": "Artifact identity and author statements only. Direct Hugging Face access failed; model cards, file listings, downloads and inference were not inspected."
+      }
     },
     {
       "id": "r071",
@@ -8547,6 +8977,36 @@
         "license_note": "Repository code Apache-2.0; the separately hosted weight license was not independently inspected.",
         "scope": "Identity and author release statements corroborated indirectly. Hugging Face DNS resolution failed; files, model card, downloads, and inference were not inspected."
       }
+    },
+    {
+      "id": "r567",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "Flide: decision inference with shared-state forking",
+      "description": "Apache-2.0 inference server that reuses state computation across typed questions through a System One-compatible endpoint. Supports several decision-model families, session caching, and optional batch-invariant execution. Exactness is defined against the same model/readout; reported speed and numerical comparisons use specified GPU workloads and do not establish universal gains.",
+      "status": "Open-source inference runtime",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/OmniJev/Flide"
+        },
+        {
+          "label": "Website",
+          "url": "https://flide.org"
+        },
+        {
+          "label": "Package",
+          "url": "https://pypi.org/project/flide/"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "bolt",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/OmniJev/Flide",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-24T12:34:07Z"
     },
     {
       "id": "r078",
@@ -9792,6 +10252,50 @@
       "date_source_timestamp": "2026-10-23T13:22:46Z"
     },
     {
+      "id": "r569",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev open calibration experiments",
+      "description": "MIT-licensed scikit-learn implementation of typed decision interfaces, with BANKING77 experiments and 6,540 saved Jev responses. Compares temperature scaling, confidence-gated cascades, option wording, and out-of-schema inputs. Calibration and automation coverage differ by task and backend; saved 77-intent results can vary with scikit-learn versions. Data retain CC BY 4.0.",
+      "status": "Open-source evaluation and teaching code",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ankur287/jev-open-calibration"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/ankur287/jev-open-calibration",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-24T19:44:45Z"
+    },
+    {
+      "id": "r581",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Can you trick an AI shopper?",
+      "description": "Independent synthetic-shopping study using Jev to strip manipulative listing text and route between Claude models. The initial shield removed 99.6% of planted tricks but also 8.3% of original text, exceeding its preregistered limit. An exploratory threshold reduces false removal while lowering overall trick recall. Router agreement with Opus is not ground-truth accuracy. Code is MIT; data and charts are CC BY 4.0.",
+      "status": "Open-source experiment and data",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/frostyhand/can-you-trick-an-ai-shopper"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/frostyhand/can-you-trick-an-ai-shopper",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-23T18:04:46Z"
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -10663,6 +11167,72 @@
       "date_source": "https://api.github.com/repos/saembit/godot-jev-actions",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-23T20:42:00Z"
+    },
+    {
+      "id": "r570",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Build with Jev: a spam-filter workshop",
+      "description": "One-hour workshop using the SpamAssassin public corpus to build batched Noul email judgments, measure a baseline, revise the question, and check held-out emails. Includes message preprocessing, metrics, and tests. Requires hosted TypeSafe access; the repository does not establish production spam-filter performance and no code license was identified.",
+      "status": "Public workshop source; license unspecified",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jovaneyck/jev-spamassassin"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "book",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/jovaneyck/jev-spamassassin",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-24T11:32:01Z"
+    },
+    {
+      "id": "r572",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Jev and json-render support-desk demo",
+      "description": "MIT-licensed demonstration in which Jev selects configured console panels and judges synthetic support tickets with Noul, Choice, and Score. Code validates the layout and applies speculative answers only when matching flags fire. Threshold and priority changes reuse stored probabilities; Jev does not generate replies or arbitrary UI properties.",
+      "status": "Open-source demonstration",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/sethdavis512/json-render-jev-demo"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "browser",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/sethdavis512/json-render-jev-demo",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-23T15:23:36Z"
+    },
+    {
+      "id": "r575",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Jev Live camera localization dashboard",
+      "description": "Local/private dashboard sending sampled images to Jev 1.14 with paired Noul presence checks and Box localization. Bounds requests, expires stale boxes, and keeps credentials server-side. A small author test uses a repeated public cat photo; camera accuracy and arbitrary-object tracking are not established. No code license was identified.",
+      "status": "Public experimental source; license unspecified",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mu1ze/jev-live"
+        }
+      ],
+      "checked_on": "2026-10-25",
+      "cataloged_on": "2026-10-25",
+      "icon": "eye",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/mu1ze/jev-live",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-24T22:16:04Z"
     },
     {
       "id": "r092",

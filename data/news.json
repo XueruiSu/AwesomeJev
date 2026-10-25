@@ -68,6 +68,26 @@
       }
     },
     {
+      "date": "2026-10-21",
+      "icon": "shield",
+      "headline": "Composio announces Firewall, using Jev and specialized small models to check agent tool actions and returned content.",
+      "url": "https://landing.composio.dev/blog/introducing-composio-firewall",
+      "label": "Official announcement",
+      "note": "The hosted feature is marked experimental in its documentation. Checks after execution cannot reverse an action, and classifier failures remain possible.",
+      "date_source": "https://landing.composio.dev/blog/introducing-composio-firewall",
+      "date_note": "Official blog date October 21; the founder announcement on X followed on October 22.",
+      "attention": {
+        "platform": "X",
+        "likes": 113,
+        "comments": 28,
+        "observed_on": "2026-10-25",
+        "source": "https://cdn.syndication.twimg.com/tweet-result?id=2113290621821784557&lang=en&token=0",
+        "url": "https://x.com/KaranVaidya6/status/2113290621821784557",
+        "event_date": "2026-10-22",
+        "note": "Counts from the official X syndication response for the founder launch post. These describe launch engagement, not security effectiveness."
+      }
+    },
+    {
       "date": "2026-10-19",
       "icon": "cloud",
       "headline": "Cloudflare previews Clairic, extending Jev-inspired System One models to typed extraction and estimation.",
@@ -110,13 +130,19 @@
       "headline": "TypeSafe releases Jev 1.14 preview with experimental images, Box localization, and longer context.",
       "url": "https://typesafe.ai/blog/jev-1-14",
       "label": "Official announcement",
-      "note": "Opt-in features are not presented as production-ready. Images also work with Jev 1.13; Box requires 1.14. The announcement schedules the jev-latest alias change for a week later.",
+      "note": "Opt-in features are not presented as production-ready. Images also work with Jev 1.13; Box requires 1.14. The announcement schedules the jev-latest alias change for a week later. As checked on October 25, the official model reference maps both jev-latest and jev-preview to 1.14.0; the exact alias-switch date is unverified.",
       "attention": {
         "platform": "Hacker News",
         "points": 330,
         "comments": 121,
         "observed_on": "2026-10-17",
         "source": "https://hn.algolia.com/api/v1/search_by_date?query=jev&restrictSearchableAttributes=title,url&tags=story&hitsPerPage=100"
+      },
+      "followup": {
+        "checked_on": "2026-10-25",
+        "source": "https://docs.typesafe.ai/models",
+        "finding": "Both aliases point to jev-1.14.0; there is currently no separate preview build.",
+        "page_modified_at": "2026-10-23T22:20:51.725Z"
       }
     },
     {
