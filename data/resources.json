@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-26",
+  "last_updated": "2026-10-27",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -2642,6 +2642,43 @@
       "date_source_field": "visible publication date"
     },
     {
+      "id": "r603",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Jev and the Art of Truth Maintenance",
+      "description": "Daniel du Plessis explains how narrow Jev judgments can populate an explicit rule system with traceable evidence and revisable conclusions. Introduces the motivation for Factbag and distinguishes inspectable inference rules from the accuracy of model-supplied facts. Published October 18; its October 26 Hacker News submission is a later discussion, not the article date.",
+      "status": "Independent technical essay",
+      "date": "2026-10-18",
+      "links": [
+        {
+          "label": "Author article",
+          "url": "https://daniel.du-pless.is/jev-and-the-art-of-truth-maintenance"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50249197"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/factbag/factbag"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "book",
+      "date_kind": "published",
+      "date_source": "https://daniel.du-pless.is/jev-and-the-art-of-truth-maintenance",
+      "date_source_field": "BlogPosting.datePublished",
+      "date_source_timestamp": "2026-10-18T00:00:00.000-04:00",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 2,
+        "comments": 0,
+        "checked_on": "2026-10-27",
+        "source": "https://hn.algolia.com/api/v1/items/50249197"
+      }
+    },
+    {
       "id": "r035",
       "section": "2. Community discussion and writing",
       "category": "Reddit debates",
@@ -4850,6 +4887,164 @@
       "date_source_timestamp": "2026-10-25T18:55:23Z"
     },
     {
+      "id": "r604",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Factbag evidence and rule engine",
+      "description": "Apache-2.0 TypeScript library combining Jev passage classifications with explicit knowledge-base rules. Retains source references and distinguishes true, false, conflicted, and unknown conclusions, allowing evidence to be corrected and rules queried again. Early alpha with changing APIs; proof trees expose inference dependencies without guaranteeing that model judgments are correct.",
+      "status": "Open-source tool",
+      "date": "2026-09-27",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/factbag/factbag"
+        },
+        {
+          "label": "Author walkthrough",
+          "url": "https://daniel.du-pless.is/introducing-factbag"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "network",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/factbag/factbag",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-09-27T21:04:31Z"
+    },
+    {
+      "id": "r607",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "vigilant-heron decision-model reverse proxy",
+      "description": "MIT Rust reverse proxy combining fixed request filters with Jev, Clef or Strands Decider judgments. Supports shadow mode, request limits and configurable error handling; the default model-error policy allows traffic through. The author explicitly states that it is early development and has not been validated on real traffic.",
+      "status": "Open-source tool",
+      "date": "2026-10-25",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/coo-quack/vigilant-heron"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "shield",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/coo-quack/vigilant-heron",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-25T06:29:59Z"
+    },
+    {
+      "id": "r608",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev Assistant desktop preview",
+      "description": "MIT desktop assistant pairing LiveKit voice interaction and a reasoning model with Jev judgments, saved tasks, and Chrome/Mac or cloud-browser control. The author documents an unsigned Apple Silicon macOS preview, separate provider accounts, and optional Orgo/Composio integrations. iPhone access is a proposed next step, not part of the desktop release.",
+      "status": "Open-source tool",
+      "date": "2026-10-26",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jbellsolutions/jev-assistant"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "phone",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/jbellsolutions/jev-assistant",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-26T19:34:48Z"
+    },
+    {
+      "id": "r609",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev X Blocker",
+      "description": "MIT Chrome extension derived from elons-job, extending Jev-based filtering to X posts and comments. Uses natural-language rules, cached judgments, reversible hiding and a service-worker API client. Classification sends selected text to TypeSafe; API failures leave content visible. Published tests include mocked browser flows, which do not establish live classification accuracy.",
+      "status": "Open-source tool",
+      "date": "2026-10-26",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/bit-cook/Jev-X-Blocker"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "shield",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/bit-cook/Jev-X-Blocker",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-26T08:43:00Z"
+    },
+    {
+      "id": "r610",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev ToS Checker",
+      "description": "MIT Chrome extension splitting terms pages into contextual clauses and checking eight categories with Jev. Links flagged results back to the original passage and supports direct API access or a Cloudflare Worker. The author presents it as a reading aid, not a legal determination; the optional analysis server currently has no access control.",
+      "status": "Open-source tool",
+      "date": "2026-10-26",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/shohei81/jev-tos-checker"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "scales",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/shohei81/jev-tos-checker",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-26T12:46:17Z"
+    },
+    {
+      "id": "r611",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "jev-triage agent skill and CLI",
+      "description": "MIT Python standard-library tool for asking Jev typed questions over JSON, JSONL or text and returning compact filtered results to coding agents. Supports concurrent item evaluation, retry handling, thresholds and model pinning. Keeps bulk content out of the main agent context, but still sends that content to TypeSafe for classification.",
+      "status": "Open-source tool",
+      "date": "2026-10-25",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/wordsbyvaclav-boop/jev-triage"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "terminal",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/wordsbyvaclav-boop/jev-triage",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-25T15:14:14Z"
+    },
+    {
+      "id": "r618",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Toolscout MCP routing plugin",
+      "description": "MIT Claude Code plugin compacting MCP tool catalogs and using Jev to suggest relevant tool groups for each message. Uses Haiku-generated group definitions and test messages to tune routing, with registry reuse for unchanged groups. Prompts and output are Italian; its reported initial calibration cost grows with the number of tool groups.",
+      "status": "Open-source tool",
+      "date": "2026-10-26",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/adapt-to-it/toolscout"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "compass",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/adapt-to-it/toolscout",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-26T11:10:39Z"
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -5552,6 +5747,54 @@
       "date_source": "https://api.github.com/repos/senthilsweb/jev-pii",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-25T18:27:19Z"
+    },
+    {
+      "id": "r606",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "JevDSL for Elixir",
+      "description": "Elixir macros define Noul, Choice and Score contracts for SystemOneSDK, validate them at compile time, and cache prepared requests and results. Includes ETS plus pluggable persistent caching, confidence-dependent expiry and offline replay. The license file is labeled MIT but contains altered grant wording; GitHub classifies it as NOASSERTION.",
+      "status": "Public library; modified MIT text",
+      "date": "2026-10-26",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/boxxxie/jev_dsl"
+        },
+        {
+          "label": "License text",
+          "url": "https://github.com/boxxxie/jev_dsl/blob/main/LICENSE"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "code",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/boxxxie/jev_dsl",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-26T05:15:31Z"
+    },
+    {
+      "id": "r616",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "OpenRouter Decisions plugin for LLM",
+      "description": "Apache-2.0 plugin exposing OpenRouter decision models through Simon Willison's LLM command-line tool. Supports typed questions, batch processing, structured states and image inputs, including Jev 1.14 bounding boxes. Derived from llm-typesafe; model capabilities vary, rolling aliases can change, and thresholds need task-specific validation. Audio/video attachments are not implemented.",
+      "status": "Open-source tool",
+      "date": "2026-10-25",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/aborruso/llm-openrouter-decisions"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "terminal",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/aborruso/llm-openrouter-decisions",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-25T14:36:44Z"
     },
     {
       "id": "r060",
@@ -8270,6 +8513,49 @@
       }
     },
     {
+      "id": "r614",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Nirnay CPU decision model",
+      "description": "Independent English decision model with a Jev/Laya-compatible API, shared state encoding and separately scored options. The author links v2 and fast v1 weights and declares code and weights Apache-2.0, while noting restrictive upstream training-data terms. Calibration is fitted on its training mixture; hosted Jev figures are borrowed comparisons rather than matched reruns.",
+      "status": "Author-reported open weights",
+      "date": "2026-10-25",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nandukmelath/nirnay"
+        },
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/nandukmelath/nirnay"
+        },
+        {
+          "label": "Benchmark report",
+          "url": "https://github.com/nandukmelath/nirnay/blob/main/REPORT.md"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "chip",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/nandukmelath/nirnay",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-25T14:39:33Z",
+      "date_note": "GitHub repository creation, not the first public release date of either weight version.",
+      "artifact_verification": {
+        "checked_on": "2026-10-27",
+        "method": "indirect_first_party",
+        "sources": [
+          "https://github.com/nandukmelath/nirnay/blob/main/README.md",
+          "https://github.com/nandukmelath/nirnay/blob/main/LICENSE"
+        ],
+        "artifact_urls": [
+          "https://huggingface.co/nandukmelath/nirnay"
+        ],
+        "scope": "The author README identifies the exact Hub ID, v2 default and v1 fast/ paths, load command and Apache-2.0 code/weight declaration. Repository code license inspected directly. Hugging Face discovery API failed DNS resolution twice and its model page was unavailable through web retrieval; weight files, Hub metadata and downloads were not inspected. Upstream training-data terms remain separate."
+      }
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -8541,6 +8827,32 @@
         "license_note": "Code and starter data Apache-2.0; individual adapter license cards were not inspected, and base-model/upstream data terms remain separate.",
         "scope": "Artifact identity and author statements only. Direct Hugging Face access failed; model cards, file listings, downloads and inference were not inspected."
       }
+    },
+    {
+      "id": "r613",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Training pipelines and announced releases",
+      "title": "diffusion-jev training toolkit",
+      "description": "Apache-2.0 toolkit exploring typed decisions with shared denoising workspaces, ModernBERT/visual connectors and Gemma adapters. Code and saved comparisons are public; trained weights remain announced, not released. The reported JEV comparator is AutoTrust JEV-27B-VL, not hosted TypeSafe Jev. The author discloses unresolved prediction differences between runs of identical Gemma adapter bytes.",
+      "status": "Open-source training code; weights pending",
+      "date": "2026-10-25",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Shaurya026/diffusion-jev"
+        },
+        {
+          "label": "Results and limitations",
+          "url": "https://github.com/Shaurya026/diffusion-jev/blob/main/docs/RESULTS.md"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "flask",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Shaurya026/diffusion-jev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-25T17:34:51Z"
     },
     {
       "id": "r071",
@@ -10899,6 +11211,88 @@
       "date_source_timestamp": "2026-10-25T01:36:28Z"
     },
     {
+      "id": "r605",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Classification without fine-tuning: Jev vs. BERT vs. LLMs",
+      "description": "MIT code and saved results comparing six methods on Croatian retail products. On 5,938 held-out products, the author reports 93.8% accuracy for zero-shot Jev 1.14 versus 96.7% for supervised TF-IDF; the ranking changes on unseen brands. Includes grouped splits, confidence intervals and learning curves. Product-data redistribution permission is stated separately from the code license.",
+      "status": "Open-source benchmark",
+      "date": "2026-10-26",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/senko/classification-demo"
+        },
+        {
+          "label": "Experiment report",
+          "url": "https://github.com/senko/classification-demo/blob/main/results/report/report.md"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/senko/classification-demo",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-26T21:46:24Z"
+    },
+    {
+      "id": "r615",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "CRAG Gate Benchmark: Jev vs. GPT-4.1 Mini",
+      "description": "MIT benchmark code comparing Jev and GPT-4.1 Mini after shared BGE reranking on Amazon ESCI. Uses 800 calibration queries and 2,000 held-out queries. Jev improves retained-item precision and reduces measured gate latency/cost, but exact-match retention fails the stated non-inferiority acceptance test. Published timing excludes retrieval, reranking and answer generation; ESCI data retain upstream terms.",
+      "status": "Open-source benchmark",
+      "date": "2026-10-26",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Tue2day/crag-gate-benchmark"
+        },
+        {
+          "label": "Experiment report",
+          "url": "https://github.com/Tue2day/crag-gate-benchmark/blob/main/docs/EXPERIMENT_REPORT.md"
+        },
+        {
+          "label": "Recorded metrics",
+          "url": "https://github.com/Tue2day/crag-gate-benchmark/blob/main/benchmarks/v5/metrics.json"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Tue2day/crag-gate-benchmark",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-26T07:27:44Z"
+    },
+    {
+      "id": "r617",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Vehicle insurance fraud: decision features with XGBoost",
+      "description": "Finic vendor experiment adding eight decision-model judgments to XGBoost on 1,782 Oracle CLAIMS records, comparing its Grayson model with Jev. Publishes cached responses and repeated cross-validation results; Jev features did not improve average ROC-AUC in this setup. Annual savings are scenario extrapolations, not observed deployment outcomes. No repository license was identified.",
+      "status": "Public vendor benchmark; license unverified",
+      "date": "2026-10-26",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/finic-ai/fraud-benchmark-vehicle-claims"
+        },
+        {
+          "label": "Vendor write-up",
+          "url": "https://finic.ai/blog/decision-models-xgboost-insurance-fraud"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "gauge",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/finic-ai/fraud-benchmark-vehicle-claims",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-26T17:24:24Z"
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -11836,6 +12230,28 @@
       "date_source": "https://api.github.com/repos/mu1ze/jev-live",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-24T22:16:04Z"
+    },
+    {
+      "id": "r612",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Jev Ants",
+      "description": "MIT interactive simulation in which Jev chooses ant movement and settling decisions to form words or images. Packs many ant questions into requests, adds an optional image overseer, and tracks spend and time caps. Includes a local greedy-rule comparison. Reported formation timings and costs are author demo observations, not a general multi-agent benchmark.",
+      "status": "Open-source tool",
+      "date": "2026-10-25",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/scalefreegan/jev-ants"
+        }
+      ],
+      "checked_on": "2026-10-27",
+      "cataloged_on": "2026-10-27",
+      "icon": "gamepad",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/scalefreegan/jev-ants",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-25T23:54:14Z"
     },
     {
       "id": "r092",
