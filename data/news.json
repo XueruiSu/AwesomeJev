@@ -2,6 +2,35 @@
   "title": "Big News",
   "events": [
     {
+      "date": "2026-10-27",
+      "icon": "eye",
+      "headline": "vLLM Semantic Router announces d3-ultra, a 27B open-weight multimodal decision model.",
+      "url": "https://huggingface.co/vllm-sr/d3-ultra",
+      "label": "Model and runtime",
+      "note": "Apache-2.0 weights support shared-state choices, scores, visual boxes, and video tracking. SR-Text and SR-Box comparisons are private vendor evaluations.",
+      "date_source": "https://x.com/XunzhuoLiu/status/2114915380926017591",
+      "date_source_timestamp": "2026-10-27T03:01:34.000Z",
+      "date_note": "Author announcement verified through X syndication. Hub creation on October 24 and artifact commits on October 26 are separate events.",
+      "attention": {
+        "platform": "X",
+        "likes": 126,
+        "comments": 16,
+        "observed_on": "2026-10-28",
+        "source": "https://cdn.syndication.twimg.com/tweet-result?id=2114915380926017591&lang=en&token=1",
+        "url": "https://x.com/XunzhuoLiu/status/2114915380926017591",
+        "additional_signals": [
+          {
+            "platform": "Hugging Face",
+            "likes": 37,
+            "downloads": 203,
+            "observed_on": "2026-10-28",
+            "source": "https://huggingface.co/api/models/vllm-sr/d3-ultra"
+          }
+        ],
+        "note": "Included for a documented multimodal open-weight release with observable announcement and model-page interest; no claim of independent benchmark superiority."
+      }
+    },
+    {
       "date": "2026-10-22",
       "icon": "cloud",
       "headline": "OpenAI makes its Decisions API generally available, expanding the hosted typed-decision ecosystem.",
