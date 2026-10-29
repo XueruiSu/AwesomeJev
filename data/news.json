@@ -31,6 +31,36 @@
       }
     },
     {
+      "date": "2026-10-27",
+      "icon": "network",
+      "headline": "AI/ML API announces Jev Router for Agentic Tools through a hosted MCP connector.",
+      "url": "https://aimlapi.com/mcp",
+      "label": "Product and connector",
+      "note": "The provider describes Jev selecting from a large tool/model catalog; TypeSafe highlights the integration. Advertised savings have not been independently reproduced.",
+      "date_source": "https://x.com/aimlapi/status/2115204368244818293",
+      "date_source_timestamp": "2026-10-27T22:09:54.000Z",
+      "date_note": "Provider announcement timestamp in UTC, separate from the older chat-model router and its pricing snapshot.",
+      "attention": {
+        "platform": "X",
+        "likes": 186,
+        "comments": 143,
+        "observed_on": "2026-10-29",
+        "source": "https://cdn.syndication.twimg.com/tweet-result?id=2115206780515192929&lang=en&token=1",
+        "url": "https://x.com/aimlapi/status/2115204368244818293",
+        "additional_signals": [
+          {
+            "platform": "X",
+            "likes": 544,
+            "comments": 10,
+            "observed_on": "2026-10-29",
+            "source": "https://cdn.syndication.twimg.com/tweet-result?id=2115206780515192929&lang=en&token=1",
+            "url": "https://x.com/typesafeai/status/2115206780515192929"
+          }
+        ],
+        "note": "Observable provider and TypeSafe announcement interest. The provider offers a promotion to early commenters, so reply counts are not treated as organic adoption or quality evidence."
+      }
+    },
+    {
       "date": "2026-10-22",
       "icon": "cloud",
       "headline": "OpenAI makes its Decisions API generally available, expanding the hosted typed-decision ecosystem.",
