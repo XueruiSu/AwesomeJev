@@ -2,6 +2,26 @@
   "title": "Big News",
   "events": [
     {
+      "date": "2026-10-29",
+      "icon": "chip",
+      "headline": "Base Labs releases joey-1, a compact multimodal decision model with open weights.",
+      "url": "https://www.baseten.co/blog/decisions-for-a-penny-introducing-joey-1/",
+      "label": "Official announcement",
+      "note": "The Qwen3.5-2B adaptation supports typed text/image decisions and hosted access. MIT is declared on the model card; latency and benchmark rankings are vendor measurements.",
+      "date_source": "https://www.baseten.co/blog/decisions-for-a-penny-introducing-joey-1/",
+      "date_source_field": "Published",
+      "date_note": "Official launch date, separate from October 27 Hub repository creation.",
+      "attention": {
+        "platform": "Hugging Face",
+        "likes": 7,
+        "downloads": 4,
+        "observed_on": "2026-10-30",
+        "source": "https://huggingface.co/api/models/baselabs/joey-1",
+        "url": "https://huggingface.co/baselabs/joey-1",
+        "note": "Included for a first-party open-weight release extending the Base Labs family to 2B, with modest observable early model-page interest. These counts do not establish broad adoption or independent superiority."
+      }
+    },
+    {
       "date": "2026-10-27",
       "icon": "eye",
       "headline": "vLLM Semantic Router announces d3-ultra, a 27B open-weight multimodal decision model.",
