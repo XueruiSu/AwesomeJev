@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-10-31",
+  "last_updated": "2026-11-01",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -5593,6 +5593,146 @@
       }
     },
     {
+      "id": "r719",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev Mobile Pilot for iOS simulators and Android",
+      "description": "MCP task loop selecting device actions from compact accessibility trees through Jev, with budgets and confirmation stops. Uses AXe for iOS Simulator and ADB for Android; real Android devices require opt-in and real iPhones are unsupported. Screen text is sent to TypeSafe, and model-declared completion still needs observable verification.",
+      "status": "Open source · MIT",
+      "icon": "phone",
+      "date": "2026-10-31",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/heyk1njo/jev-mobile-pilot",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-31T09:25:05Z",
+      "date_note": "GitHub repository creation; not the date of current features, evaluations, or model releases.",
+      "checked_on": "2026-11-01",
+      "cataloged_on": "2026-11-01",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/heyk1njo/jev-mobile-pilot"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-01",
+        "sources": [
+          "https://github.com/heyk1njo/jev-mobile-pilot",
+          "https://raw.githubusercontent.com/heyk1njo/jev-mobile-pilot/HEAD/LICENSE"
+        ],
+        "finding": "Original README and license inspected.",
+        "license_note": "MIT",
+        "scope": "Documentation inspected; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r722",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Document-access gate with optional local Laya decisions",
+      "description": "macOS hackathon prototype combining document redaction, policy checks, human approval, and audit records through a daemon and CLI. Uses a keyword mock by default and can connect to a team-fine-tuned Laya checkpoint. It is not a FUSE mount; access enforcement depends on external sandbox configuration, and private checkpoints are not established as public releases.",
+      "status": "Public code · license unverified",
+      "icon": "shield",
+      "date": "2026-10-31",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Plant-Hackathon-2026/fuse-jev-gate",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-31T08:11:01Z",
+      "date_note": "GitHub repository creation; not the date of current features, evaluations, or model releases.",
+      "checked_on": "2026-11-01",
+      "cataloged_on": "2026-11-01",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Plant-Hackathon-2026/fuse-jev-gate"
+        },
+        {
+          "label": "Upstream Laya",
+          "url": "https://huggingface.co/convaiinnovations/laya"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-01",
+        "sources": [
+          "https://github.com/Plant-Hackathon-2026/fuse-jev-gate",
+          "https://raw.githubusercontent.com/Plant-Hackathon-2026/fuse-jev-gate/HEAD/LICENSE"
+        ],
+        "finding": "Original README inspected; root LICENSE returned HTTP 404, so no repository-wide license was established.",
+        "license_note": "unverified",
+        "scope": "Documentation inspected; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r723",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "JevRouter: typed action routing with explicit authorization",
+      "description": "Agent runtime using Jev for action, risk, confirmation, and reasoning decisions, with separate policy authorization and a bounded execution/verification loop. Includes SQLite traces and a comparison on 53 repeatedly tuned cases. Web search and email tools are local mocks; the evaluation does not establish general autonomous-agent safety.",
+      "status": "Open source · MIT",
+      "icon": "compass",
+      "date": "2026-10-31",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/HangChi/JevRouter",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-31T14:45:16Z",
+      "date_note": "GitHub repository creation; not the date of current features, evaluations, or model releases.",
+      "checked_on": "2026-11-01",
+      "cataloged_on": "2026-11-01",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/HangChi/JevRouter"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-01",
+        "sources": [
+          "https://github.com/HangChi/JevRouter",
+          "https://raw.githubusercontent.com/HangChi/JevRouter/HEAD/LICENSE"
+        ],
+        "finding": "Original README and license inspected.",
+        "license_note": "MIT",
+        "scope": "Documentation inspected; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r726",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev Embodied Agent in a persistent RoboCasa kitchen",
+      "description": "Combines Jev planning, LLM fallback, SmolVLA manipulation, and simulator success checks across chained skills. Reports six runs per mode in one scene; planning timings exclude skill execution. Fixture state persists but task objects do not, and real-robot operation is untested.",
+      "status": "Public code · license unverified",
+      "icon": "compass",
+      "date": "2026-10-30",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/tourmii/jev-embodied-agent",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-30T12:27:08Z",
+      "date_note": "GitHub repository creation; not the date of current features, evaluations, or model releases.",
+      "checked_on": "2026-11-01",
+      "cataloged_on": "2026-11-01",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tourmii/jev-embodied-agent"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-01",
+        "sources": [
+          "https://github.com/tourmii/jev-embodied-agent",
+          "https://raw.githubusercontent.com/tourmii/jev-embodied-agent/HEAD/LICENSE"
+        ],
+        "finding": "Original README inspected; root LICENSE returned HTTP 404, so no repository-wide license was established.",
+        "license_note": "unverified",
+        "scope": "Documentation inspected; no external code or model inference executed."
+      }
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -6580,6 +6720,40 @@
         "finding": "Original repository README inspected.",
         "license_note": "Apache-2.0 license text inspected; upstream model and dataset terms remain separate.",
         "scope": "Documentation only; external source code was not executed and reported experiments were not reproduced."
+      }
+    },
+    {
+      "id": "r718",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "DSH Jev MCP client and tools",
+      "description": "Node.js client and stdio MCP server exposing check, route, score, and mixed-question evaluation tools over shared state. Includes response validation, retry handling, and credential redaction. Default yes/no/unsure thresholds are policy choices rather than task-calibrated guarantees; tests use a mock HTTP service.",
+      "status": "Open source · MIT",
+      "icon": "code",
+      "date": "2026-10-31",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/bojansandhaus/dsh-jev-mcp",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-31T11:49:46Z",
+      "date_note": "GitHub repository creation; not the date of current features, evaluations, or model releases.",
+      "checked_on": "2026-11-01",
+      "cataloged_on": "2026-11-01",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/bojansandhaus/dsh-jev-mcp"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-01",
+        "sources": [
+          "https://github.com/bojansandhaus/dsh-jev-mcp",
+          "https://raw.githubusercontent.com/bojansandhaus/dsh-jev-mcp/HEAD/LICENSE"
+        ],
+        "finding": "Original README and license inspected.",
+        "license_note": "MIT",
+        "scope": "Documentation inspected; no external code or model inference executed."
       }
     },
     {
@@ -10217,6 +10391,92 @@
         "finding": "Original card and file metadata inspected; artifact files are listed.",
         "license_note": "Weights declare Apache-2.0 and repository code has an inspected Apache-2.0 license; CC BY-SA and synthetic-label training sources retain their terms.",
         "scope": "No weight binaries downloaded, no inference performed, and no external code executed."
+      }
+    },
+    {
+      "id": "r727",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "jevresearch 1.7B v2 decision adapters and pointer head",
+      "description": "Qwen3-1.7B LoRA and a pointer head for candidate decisions, with temperature fitted on a training holdout. Reports five task-distribution benchmarks and tiny block-retrieval tests. The per-task table does not support the headline claim of beating Jev on every accuracy measure; required custom inference code has no explicit repository link in the card.",
+      "status": "Public adapters · Apache-2.0 declared",
+      "icon": "chip",
+      "date": "2026-10-31",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/georgep4181/jevresearch-1.7b-v2",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-31T22:40:42.000Z",
+      "date_note": "Hub repository creation, not a proven initial public release date.",
+      "checked_on": "2026-11-01",
+      "cataloged_on": "2026-11-01",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/georgep4181/jevresearch-1.7b-v2"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_card_and_public_file_metadata",
+        "checked_on": "2026-11-01",
+        "sources": [
+          "https://huggingface.co/georgep4181/jevresearch-1.7b-v2",
+          "https://huggingface.co/georgep4181/jevresearch-1.7b-v2/raw/main/README.md",
+          "https://huggingface.co/api/models/georgep4181/jevresearch-1.7b-v2"
+        ],
+        "verified_urls": [
+          "https://huggingface.co/georgep4181/jevresearch-1.7b-v2"
+        ],
+        "finding": "Original model card and public file metadata inspected; adapter and model/head artifacts are listed.",
+        "license_note": "Card declares Apache-2.0; base-model and dataset terms remain separate. Public files include adapters and head.pt, but the referenced custom runtime was not located in the card or Hub file listing.",
+        "scope": "No weight binaries downloaded, inference performed, or external code executed."
+      }
+    },
+    {
+      "id": "r728",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "MeTask Rain 31B trained decision service",
+      "description": "Gemma 4 31B base plus decision LoRA with a public serving package. Different service versions use identical weights, and some decisions take a second reasoning pass. Public JevBench items were used for service-parameter fitting; reported complete-service scores are not independent generalization evidence for those items.",
+      "status": "Open weights",
+      "icon": "chip",
+      "date": "2026-10-11",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/MeTask-Rain/metask-jev-rain-31B-trained",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-11T16:39:58.000Z",
+      "date_note": "Hub repository creation, not a proven initial public release date.",
+      "checked_on": "2026-11-01",
+      "cataloged_on": "2026-11-01",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/MeTask-Rain/metask-jev-rain-31B-trained"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/chenyuwang166-oss/metask-jev-rain-31B-trained"
+        },
+        {
+          "label": "Service disclosure",
+          "url": "https://github.com/chenyuwang166-oss/metask-jev-rain-31B-trained/blob/main/DISCLOSURE.md"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_card_and_public_file_metadata",
+        "checked_on": "2026-11-01",
+        "sources": [
+          "https://huggingface.co/MeTask-Rain/metask-jev-rain-31B-trained",
+          "https://huggingface.co/MeTask-Rain/metask-jev-rain-31B-trained/raw/main/README.md",
+          "https://huggingface.co/api/models/MeTask-Rain/metask-jev-rain-31B-trained",
+          "https://github.com/chenyuwang166-oss/metask-jev-rain-31B-trained",
+          "https://raw.githubusercontent.com/chenyuwang166-oss/metask-jev-rain-31B-trained/HEAD/LICENSE"
+        ],
+        "verified_urls": [
+          "https://huggingface.co/MeTask-Rain/metask-jev-rain-31B-trained"
+        ],
+        "finding": "Original model card and public file metadata inspected; adapter and model/head artifacts are listed.",
+        "license_note": "Model card declares Apache-2.0 and links the base-model license. GitHub service code has an inspected MIT license that explicitly excludes model weights; retain separate base/adapter attribution and terms.",
+        "scope": "No weight binaries downloaded, inference performed, or external code executed."
       }
     },
     {
@@ -13860,6 +14120,146 @@
       }
     },
     {
+      "id": "r716",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "jev-shadow: compare a local judge alongside an existing LLM",
+      "description": "Go library running local Jev-Style 2B judgments asynchronously alongside an existing LLM judge, with bounded concurrency and verdict logging. Only successful judgments are currently recorded; agreement with the reference judge is not gold-label accuracy, and comparative evidence is still being collected.",
+      "status": "Open source · MIT",
+      "icon": "gauge",
+      "date": "2026-10-31",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/ironsweet/jev-shadow",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-31T09:42:24Z",
+      "date_note": "GitHub repository creation; not the date of current features, evaluations, or model releases.",
+      "checked_on": "2026-11-01",
+      "cataloged_on": "2026-11-01",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ironsweet/jev-shadow"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-01",
+        "sources": [
+          "https://github.com/ironsweet/jev-shadow",
+          "https://raw.githubusercontent.com/ironsweet/jev-shadow/HEAD/LICENSE"
+        ],
+        "finding": "Original README and license inspected.",
+        "license_note": "MIT",
+        "scope": "Documentation inspected; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r717",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "skill-tester: skill evaluations with Jev and human review",
+      "description": "Runs coding-agent skills and combines deterministic checks with Jev judge packs for writing, code, workflow, and design. Stores answers for rescoring and supports blind human review and labeled anchors. The Cursor adapter is not live-tested, and directory isolation is a convention rather than an enforced sandbox.",
+      "status": "Open source · MIT",
+      "icon": "scales",
+      "date": "2026-10-31",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/milesroxas/skill-tester",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-31T15:15:32Z",
+      "date_note": "GitHub repository creation; not the date of current features, evaluations, or model releases.",
+      "checked_on": "2026-11-01",
+      "cataloged_on": "2026-11-01",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/milesroxas/skill-tester"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-01",
+        "sources": [
+          "https://github.com/milesroxas/skill-tester",
+          "https://raw.githubusercontent.com/milesroxas/skill-tester/HEAD/LICENSE"
+        ],
+        "finding": "Original README and license inspected.",
+        "license_note": "MIT",
+        "scope": "Documentation inspected; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r720",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev testing ground: paired text and image injection experiments",
+      "description": "Sequential harness comparing clean and injected states across Choice, Score, and Noul questions. Preserves model identifiers, dataset hashes, errors, probabilities, and paired denominators. Proposed tool calls are never executed; bundled fixtures and mock tests are not live security-performance evidence.",
+      "status": "Public code · license unverified",
+      "icon": "shield",
+      "date": "2026-10-31",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/jonathanj321/jev-testing-ground",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-31T21:51:55Z",
+      "date_note": "GitHub repository creation; not the date of current features, evaluations, or model releases.",
+      "checked_on": "2026-11-01",
+      "cataloged_on": "2026-11-01",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jonathanj321/jev-testing-ground"
+        },
+        {
+          "label": "Harness documentation",
+          "url": "https://github.com/jonathanj321/jev-testing-ground/blob/HEAD/jev-harness/README.md"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-01",
+        "sources": [
+          "https://github.com/jonathanj321/jev-testing-ground",
+          "https://raw.githubusercontent.com/jonathanj321/jev-testing-ground/HEAD/LICENSE"
+        ],
+        "finding": "Original README inspected; root LICENSE returned HTTP 404, so no repository-wide license was established.",
+        "license_note": "unverified",
+        "scope": "Documentation inspected; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r721",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev versus Claude for software-requirement classification",
+      "description": "Notebook study design for functional/nonfunctional requirements, with separate tuning and test splits, synthetic messy cases, repeated calls, and paired significance tests. Final results are pending. Claude is asked for a brief rationale while Jev returns a label, so latency comparisons use different output conditions.",
+      "status": "Open source · MIT",
+      "icon": "gauge",
+      "date": "2026-10-31",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/akshathaprabhu22/Faster-cheaper-classification-is-a-decision-model-good-enough-Jev-vs-Claude",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-31T17:23:46Z",
+      "date_note": "GitHub repository creation; not the date of current features, evaluations, or model releases.",
+      "checked_on": "2026-11-01",
+      "cataloged_on": "2026-11-01",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/akshathaprabhu22/Faster-cheaper-classification-is-a-decision-model-good-enough-Jev-vs-Claude"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-01",
+        "sources": [
+          "https://github.com/akshathaprabhu22/Faster-cheaper-classification-is-a-decision-model-good-enough-Jev-vs-Claude",
+          "https://raw.githubusercontent.com/akshathaprabhu22/Faster-cheaper-classification-is-a-decision-model-good-enough-Jev-vs-Claude/HEAD/LICENSE"
+        ],
+        "finding": "Original README and license inspected.",
+        "license_note": "MIT",
+        "scope": "Documentation inspected; no external code or model inference executed."
+      }
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -15092,6 +15492,74 @@
         "finding": "Original README and license text inspected.",
         "license_note": "MIT",
         "scope": "Documentation only; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r724",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Jev-guided CRANE+ simulation and ACT data collection",
+      "description": "ROS 2/Gazebo prototype using Jev for high-level phases and routes, MoveIt 2 for motion, and LeRobot for ACT training data. Scripted demonstrations succeeded, but the learned full ACT policy failed the complete pick-and-place task. Limited post-hoc phase tests do not establish a general success rate; data and checkpoints are excluded.",
+      "status": "Open source · Apache-2.0",
+      "icon": "flask",
+      "date": "2026-11-01",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/uhiron55/physical-ai-2026-advanced-1-final-assignment",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-01T00:40:12Z",
+      "date_note": "GitHub repository creation; not the date of current features, evaluations, or model releases.",
+      "checked_on": "2026-11-01",
+      "cataloged_on": "2026-11-01",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/uhiron55/physical-ai-2026-advanced-1-final-assignment"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-01",
+        "sources": [
+          "https://github.com/uhiron55/physical-ai-2026-advanced-1-final-assignment",
+          "https://raw.githubusercontent.com/uhiron55/physical-ai-2026-advanced-1-final-assignment/HEAD/LICENSE"
+        ],
+        "finding": "Original README and license inspected.",
+        "license_note": "Apache-2.0",
+        "scope": "Documentation inspected; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r725",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Local typed-decision examples with Ollama",
+      "description": "Three Python standard-library examples for local Choice, Noul, and Score outputs through Ollama. Includes small CPU timing fixtures and explicit model selection. These alternative local models are distinct from hosted TypeSafe Jev; four classification cases do not constitute a general quality or speed benchmark.",
+      "status": "Open source · MIT",
+      "icon": "terminal",
+      "date": "2026-10-31",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/acbharath14/ollama-jev-decision-demo",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-10-31T23:48:18Z",
+      "date_note": "GitHub repository creation; not the date of current features, evaluations, or model releases.",
+      "checked_on": "2026-11-01",
+      "cataloged_on": "2026-11-01",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/acbharath14/ollama-jev-decision-demo"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-01",
+        "sources": [
+          "https://github.com/acbharath14/ollama-jev-decision-demo",
+          "https://raw.githubusercontent.com/acbharath14/ollama-jev-decision-demo/HEAD/LICENSE"
+        ],
+        "finding": "Original README and license inspected.",
+        "license_note": "MIT",
+        "scope": "Documentation inspected; no external code or model inference executed."
       }
     },
     {
