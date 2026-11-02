@@ -225,6 +225,35 @@
       }
     },
     {
+      "date": "2026-10-14",
+      "icon": "eye",
+      "headline": "Nace introduces Drex Max, a 27B multimodal decision model.",
+      "url": "https://github.com/nace-ai/drex-decision-models",
+      "label": "Dated project announcement",
+      "note": "Public bf16 weights and text-only GGUF/MLX paths verified on November 2. Model weights use the restricted Nace.AI Open RAIL-M license; code uses Apache-2.0. Reported benchmark comparisons are vendor measurements.",
+      "date_source": "https://github.com/nace-ai/drex-decision-models",
+      "date_source_field": "README announcement: Oct 14, 2026",
+      "date_note": "Historical milestone backfilled on November 2. The dated project announcement identifies October 14; Hub creation on October 13 and later media coverage are separate events. Historical commits do not establish the initial public-visibility date.",
+      "attention": {
+        "platform": "Hugging Face",
+        "likes": 22,
+        "downloads": 192,
+        "observed_on": "2026-11-02",
+        "source": "https://huggingface.co/api/models/nace-ai/drex-max-v1",
+        "additional_signals": [
+          {
+            "platform": "GitHub",
+            "stars": 64,
+            "forks": 7,
+            "observed_on": "2026-11-02",
+            "source": "https://api.github.com/repos/nace-ai/drex-decision-models",
+            "note": "Repository covers the Drex family, not exclusively Drex Max."
+          }
+        ],
+        "note": "Included for a documented 27B multimodal decision-model milestone with public artifacts and observable model/repository interest; no claim of independent superiority."
+      }
+    },
+    {
       "date": "2026-10-09",
       "icon": "rocket",
       "headline": "TypeSafe announces an $870M Series A at a $7.5B valuation, led by a16z.",

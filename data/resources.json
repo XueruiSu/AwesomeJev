@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-01",
+  "last_updated": "2026-11-02",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -3593,9 +3593,9 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Hosted access and framework guides",
       "title": "Nace Drex Max",
-      "description": "Hosted multimodal decision model with System One-compatible typed questions and probabilities, aimed at screenshot and browser-agent decisions. Nace reports public Decision Index comparisons against Jev 1.14, with both gains and losses across tasks. These are vendor measurements; this Max entry does not inherit the separate Drex 2.0 weight-release or license claims.",
-      "status": "Hosted model; Max weights not verified",
-      "date": "2026-10-19",
+      "description": "Hosted multimodal decision model with System One-compatible questions and probabilities. Nace publishes comparisons with Jev; these remain vendor measurements. Drex Max-specific public weights and local runtimes are now verified, under a restricted model license distinct from the code license.",
+      "status": "Hosted model; public weights also verified",
+      "date": "2026-10-14",
       "links": [
         {
           "label": "Product and evaluation",
@@ -3608,14 +3608,37 @@
         {
           "label": "Dated coverage",
           "url": "https://www.marktechpost.com/2026/10/19/nace-ai-drex-max-multimodal-decision-model/"
+        },
+        {
+          "label": "Public weights",
+          "url": "https://huggingface.co/nace-ai/drex-max-v1"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nace-ai/drex-decision-models"
         }
       ],
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-11-02",
       "cataloged_on": "2026-10-21",
       "icon": "eye",
-      "date_kind": "available_by",
-      "date_source": "https://www.marktechpost.com/2026/10/19/nace-ai-drex-max-multimodal-decision-model/",
-      "date_note": "October 19 dated coverage identifies Drex Max and its API; the current original product page and guide confirm the model. No dated first-party launch record was found. This is an availability bound, not a claimed exact first release or weight-publication date."
+      "date_kind": "published",
+      "date_source": "https://github.com/nace-ai/drex-decision-models",
+      "date_note": "Original project README explicitly dates the Drex Max announcement October 14, earlier than the previously recorded October 19 coverage. This is not a claim that public weight visibility began that day; files were verified on November 2.",
+      "date_source_field": "Dated Drex Max announcement in README",
+      "artifact_verification": {
+        "method": "first_party_card_license_and_file_metadata",
+        "checked_on": "2026-11-02",
+        "sources": [
+          "https://huggingface.co/nace-ai/drex-max-v1",
+          "https://github.com/nace-ai/drex-decision-models",
+          "https://huggingface.co/nace-ai/drex-max-v1-Q8_0",
+          "https://huggingface.co/nace-ai/drex-max-v1-affine-q4",
+          "https://huggingface.co/nace-ai/drex-max-v1/blob/main/LICENSE"
+        ],
+        "finding": "Drex Max model card, file listing, release README, model license, and code license inspected.",
+        "license_note": "Inspected Nace.AI Open RAIL-M model license includes commercial revenue/funding, competitive-use, and other restrictions. Inspected GitHub root license is Apache-2.0 for code; it does not replace model terms.",
+        "scope": "Documentation and metadata only; no inference or binary downloads."
+      }
     },
     {
       "id": "r551",
@@ -5730,6 +5753,176 @@
         "finding": "Original README inspected; root LICENSE returned HTTP 404, so no repository-wide license was established.",
         "license_note": "unverified",
         "scope": "Documentation inspected; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r732",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Pi computer use through AT-SPI and Jev",
+      "description": "Linux/Hyprland extension using Jev to select accessible targets and operations, with dry-run actions, confirmation gates, verification, and bounded multi-step tasks. Execution uses AT-SPI references rather than guessed coordinates; terminal UIs and inaccessible canvas views are unsupported. Policy thresholds are not proof of calibrated safety.",
+      "status": "Open source · MIT",
+      "icon": "browser",
+      "date": "2026-11-01",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Paul-Yuchao-Dong/pi-omarchy-cu",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-01T15:29:13Z",
+      "date_note": "GitHub repository creation; not the date of current features, experiments, or model releases.",
+      "checked_on": "2026-11-02",
+      "cataloged_on": "2026-11-02",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Paul-Yuchao-Dong/pi-omarchy-cu"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-02",
+        "sources": [
+          "https://github.com/Paul-Yuchao-Dong/pi-omarchy-cu",
+          "https://raw.githubusercontent.com/Paul-Yuchao-Dong/pi-omarchy-cu/HEAD/LICENSE"
+        ],
+        "finding": "Original README and license inspected.",
+        "license_note": "MIT",
+        "scope": "Documentation only; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r733",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev Router: constrained model selection and fallback",
+      "description": "OpenAI-compatible gateway filtering candidate models by capabilities before Jev scores fit, complexity, and routing questions. Adds provider fallbacks, heuristic routing when Jev is unavailable, and trace analytics. Its reported tier-selection result covers 30 prompts and does not establish downstream answer quality or general savings.",
+      "status": "Open source · MIT",
+      "icon": "compass",
+      "date": "2026-11-01",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/AIAnytime/Jev-Router",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-01T20:52:21Z",
+      "date_note": "GitHub repository creation; not the date of current features, experiments, or model releases.",
+      "checked_on": "2026-11-02",
+      "cataloged_on": "2026-11-02",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/AIAnytime/Jev-Router"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-02",
+        "sources": [
+          "https://github.com/AIAnytime/Jev-Router",
+          "https://raw.githubusercontent.com/AIAnytime/Jev-Router/HEAD/LICENSE"
+        ],
+        "finding": "Original README and license inspected.",
+        "license_note": "MIT",
+        "scope": "Documentation only; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r734",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Topic Gate: Jev-guided conversation handoffs",
+      "description": "Claude Code/Hermes skill classifying messages as same topic, subtopic, or new topic. Clear changes trigger a handoff and a reset recommendation; short acknowledgments are skipped. The author reports a few live checks, but no broad topic-drift benchmark or measured token-savings study.",
+      "status": "Open source · MIT",
+      "icon": "chat",
+      "date": "2026-11-01",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/tauseefau/topic-gate",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-01T05:07:39Z",
+      "date_note": "GitHub repository creation; not the date of current features, experiments, or model releases.",
+      "checked_on": "2026-11-02",
+      "cataloged_on": "2026-11-02",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tauseefau/topic-gate"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-02",
+        "sources": [
+          "https://github.com/tauseefau/topic-gate",
+          "https://raw.githubusercontent.com/tauseefau/topic-gate/HEAD/LICENSE"
+        ],
+        "finding": "Original README and license inspected.",
+        "license_note": "MIT",
+        "scope": "Documentation only; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r735",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jevellan skills and a persistent development coordinator",
+      "description": "Claude Code skills and a runtime using Jev to choose models, effort, and providers for workflow steps, with worktrees and a SQLite session ledger. Also evaluates branch-landing policy and supports owner overrides. Placement requires Jev availability; the repository does not establish general software-quality or cost improvements.",
+      "status": "Open source · MIT",
+      "icon": "network",
+      "date": "2026-11-01",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/gongiskhan/jevellan-skills",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-01T13:00:50Z",
+      "date_note": "GitHub repository creation; not the date of current features, experiments, or model releases.",
+      "checked_on": "2026-11-02",
+      "cataloged_on": "2026-11-02",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/gongiskhan/jevellan-skills"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-02",
+        "sources": [
+          "https://github.com/gongiskhan/jevellan-skills",
+          "https://raw.githubusercontent.com/gongiskhan/jevellan-skills/HEAD/LICENSE"
+        ],
+        "finding": "Original README and license inspected.",
+        "license_note": "MIT",
+        "scope": "Documentation only; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r736",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev RPA customer-service prototype for Windows",
+      "description": "Combines Clicknium, visual chat transcription, and hierarchical Jev Choice calls selecting reviewed fixed replies, with SQLite audit trails and pre/post-send checks. Xianyu in Edge has adaptation history; 1688 remains a target. Offline mocks do not establish live reliability, and a visible reply bubble is not a delivery receipt.",
+      "status": "Open source · MIT",
+      "icon": "browser",
+      "date": "2026-11-01",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/ChanghaoLiao/jev-rpa-assistant",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-01T22:39:24Z",
+      "date_note": "GitHub repository creation; not the date of current features, experiments, or model releases.",
+      "checked_on": "2026-11-02",
+      "cataloged_on": "2026-11-02",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ChanghaoLiao/jev-rpa-assistant"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-02",
+        "sources": [
+          "https://github.com/ChanghaoLiao/jev-rpa-assistant",
+          "https://raw.githubusercontent.com/ChanghaoLiao/jev-rpa-assistant/HEAD/LICENSE"
+        ],
+        "finding": "Original README and license inspected.",
+        "license_note": "MIT",
+        "scope": "Documentation only; no external code or model inference executed."
       }
     },
     {
@@ -8894,7 +9087,7 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Open-weight decision models",
       "title": "Jev-Vision 2B and 0.8B",
-      "description": "Qwen3.5-based visual decision checkpoints scoring supplied options for text and up to four images. Both weights are public under mixed-source research terms. Results are internal holdouts; BEV test and Mind2Web-derived rows entered training, so these sources cannot support uncontaminated generalization claims. Commercial and redistribution rights require checking upstream data terms.",
+      "description": "Qwen3.5-based visual decision checkpoints scoring supplied options for text and up to four images. Both weights are public under mixed-source research terms. Results are internal holdouts; BEV test and Mind2Web-derived rows entered training, so these sources cannot support uncontaminated generalization claims. Commercial and redistribution rights require checking upstream data terms. Community GGUFs with separate vision projectors are now linked; quantized accuracy and calibration are unverified.",
       "status": "Public research checkpoints; mixed licenses",
       "date": "2026-10-22",
       "links": [
@@ -8905,9 +9098,17 @@
         {
           "label": "0.8B model",
           "url": "https://huggingface.co/IntelligenceLab/Jev-Vision-0.8B"
+        },
+        {
+          "label": "Community 2B GGUF",
+          "url": "https://huggingface.co/nikolaus714/Jev-Vision-2B-GGUF"
+        },
+        {
+          "label": "Community 0.8B GGUF",
+          "url": "https://huggingface.co/nikolaus714/jev-vision-0.8b-GGUF"
         }
       ],
-      "checked_on": "2026-10-23",
+      "checked_on": "2026-11-02",
       "cataloged_on": "2026-10-23",
       "icon": "eye",
       "date_kind": "repository_created",
@@ -8917,18 +9118,26 @@
       "date_note": "Creation date of both inspected model repositories, not a verified public release date. The 0.8B repository was created at 2026-10-22T19:49:24.000Z.",
       "artifact_verification": {
         "method": "first_party_card_and_api",
-        "checked_on": "2026-10-23",
+        "checked_on": "2026-11-02",
         "verified_urls": [
           "https://huggingface.co/IntelligenceLab/Jev-Vision-2B",
-          "https://huggingface.co/IntelligenceLab/Jev-Vision-0.8B"
+          "https://huggingface.co/IntelligenceLab/Jev-Vision-0.8B",
+          "https://huggingface.co/nikolaus714/Jev-Vision-2B-GGUF",
+          "https://huggingface.co/nikolaus714/jev-vision-0.8b-GGUF"
         ],
         "sources": [
           "https://huggingface.co/IntelligenceLab/Jev-Vision-2B",
           "https://huggingface.co/api/models/IntelligenceLab/Jev-Vision-2B",
           "https://huggingface.co/IntelligenceLab/Jev-Vision-0.8B",
-          "https://huggingface.co/api/models/IntelligenceLab/Jev-Vision-0.8B"
+          "https://huggingface.co/api/models/IntelligenceLab/Jev-Vision-0.8B",
+          "https://huggingface.co/nikolaus714/Jev-Vision-2B-GGUF",
+          "https://huggingface.co/nikolaus714/Jev-Vision-2B-GGUF/raw/main/README.md",
+          "https://huggingface.co/api/models/nikolaus714/Jev-Vision-2B-GGUF",
+          "https://huggingface.co/nikolaus714/jev-vision-0.8b-GGUF",
+          "https://huggingface.co/nikolaus714/jev-vision-0.8b-GGUF/raw/main/README.md",
+          "https://huggingface.co/api/models/nikolaus714/jev-vision-0.8b-GGUF"
         ],
-        "finding": "Original card read; public API lists released files.",
+        "finding": "Original card read; public API lists released files. Converter cards and public file metadata verify language GGUFs and separate vision projectors for both sizes. No independent conversion accuracy/calibration evaluation or new standalone license was established; upstream mixed-source restrictions remain relevant.",
         "license_note": "Cards specify other / mixed-source-research, not a permissive open-source license. Training-source licenses are mixed or unspecified.",
         "scope": "Documentation and file metadata only; no weights or datasets downloaded and no inference run."
       }
@@ -9690,7 +9899,7 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Open-weight decision models",
       "title": "Jev-Style 2B v4: text and image decisions",
-      "description": "Independent Qwen3.5-based 2.21B model with shared-state Choice, Noul, and Score questions and a 32,768-token context. The PyTorch build accepts images; companion GGUF/MLX builds are text-only. Public-index scores are author self-runs. Weights and runtime declare Apache-2.0; training-data terms remain separate.",
+      "description": "Independent Qwen3.5-based 2.21B model with shared-state typed questions and a 32,768-token context. PyTorch accepts images; linked GGUF/MLX builds are text-only. Training partly uses Jev 1.14 soft labels. Public-index results are author self-runs, while conversion parity checks do not establish broad calibration.",
       "status": "Open weights",
       "date": "2026-10-27",
       "links": [
@@ -9701,9 +9910,17 @@
         {
           "label": "GitHub",
           "url": "https://github.com/lawrence3699/jev-style"
+        },
+        {
+          "label": "GGUF",
+          "url": "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4-GGUF"
+        },
+        {
+          "label": "MLX",
+          "url": "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4-MLX"
         }
       ],
-      "checked_on": "2026-10-28",
+      "checked_on": "2026-11-02",
       "cataloged_on": "2026-10-28",
       "icon": "chip",
       "date_kind": "repository_created",
@@ -9713,16 +9930,24 @@
       "date_note": "Hugging Face repository creation, not the first public weight release.",
       "artifact_verification": {
         "method": "first_party_card_and_api",
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-11-02",
         "verified_urls": [
-          "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4"
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4-GGUF",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4-MLX"
         ],
         "sources": [
           "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4",
           "https://huggingface.co/api/models/chaoliangUNSW/Jev-Style-2B-Decision-v4",
-          "https://github.com/lawrence3699/jev-style/blob/main/LICENSE"
+          "https://github.com/lawrence3699/jev-style/blob/main/LICENSE",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4-GGUF",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4-GGUF/raw/main/README.md",
+          "https://huggingface.co/api/models/chaoliangUNSW/Jev-Style-2B-Decision-v4-GGUF",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4-MLX",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4-MLX/raw/main/README.md",
+          "https://huggingface.co/api/models/chaoliangUNSW/Jev-Style-2B-Decision-v4-MLX"
         ],
-        "finding": "Original card and public file metadata inspected; released artifact files are listed.",
+        "finding": "Original card and public file metadata inspected; released artifact files are listed. GGUF and MLX cards/files verified. Builds are text-only; their format-parity checks are not fresh full benchmark runs. Cards now explicitly disclose partial training on TypeSafe Jev 1.14 soft labels.",
         "license_note": "The model card declares Apache-2.0 for the checkpoint. Upstream model and data terms remain separate; no dataset-wide license is inferred.",
         "scope": "Documentation and file metadata only; no model binaries or dataset records downloaded and no inference or evaluation executed."
       }
@@ -9982,9 +10207,17 @@
         {
           "label": "GitHub",
           "url": "https://github.com/lawrence3699/jev-style"
+        },
+        {
+          "label": "GGUF",
+          "url": "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-GGUF"
+        },
+        {
+          "label": "MLX",
+          "url": "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-MLX"
         }
       ],
-      "checked_on": "2026-10-30",
+      "checked_on": "2026-11-02",
       "cataloged_on": "2026-10-30",
       "icon": "chip",
       "date_kind": "repository_created",
@@ -9994,16 +10227,24 @@
       "date_note": "Hugging Face repository creation, not a first public artifact release date.",
       "artifact_verification": {
         "method": "first_party_card_and_public_file_metadata",
-        "checked_on": "2026-10-30",
+        "checked_on": "2026-11-02",
         "verified_urls": [
-          "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3"
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-GGUF",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-MLX"
         ],
         "sources": [
           "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3",
           "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3/raw/main/README.md",
-          "https://huggingface.co/api/models/chaoliangUNSW/Jev-Style-0.8B-Decision-v3"
+          "https://huggingface.co/api/models/chaoliangUNSW/Jev-Style-0.8B-Decision-v3",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-GGUF",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-GGUF/raw/main/README.md",
+          "https://huggingface.co/api/models/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-GGUF",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-MLX",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-MLX/raw/main/README.md",
+          "https://huggingface.co/api/models/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-MLX"
         ],
-        "finding": "Original card and public file list inspected; artifact files are listed.",
+        "finding": "Original card and public file list inspected; artifact files are listed. GGUF and MLX cards/files verified. The MLX parity fixture uses 240 training-pool rows and six long prompts; matching decisions is not independent accuracy evidence.",
         "license_note": "Model card declares Apache-2.0 but explicitly discloses training sources with restrictive or unclear terms; the weight license does not resolve all source-data permissions.",
         "scope": "No weight binaries or dataset records downloaded; no inference or external code executed."
       }
@@ -10476,6 +10717,150 @@
         ],
         "finding": "Original model card and public file metadata inspected; adapter and model/head artifacts are listed.",
         "license_note": "Model card declares Apache-2.0 and links the base-model license. GitHub service code has an inspected MIT license that explicitly excludes model weights; retain separate base/adapter attribution and terms.",
+        "scope": "No weight binaries downloaded, inference performed, or external code executed."
+      }
+    },
+    {
+      "id": "r738",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Ru-Jev: Russian-first encoder decisions",
+      "description": "307M mmBERT adaptation scoring supplied options with a separate head and temperature. Trained on human-labeled Russian datasets rather than Jev outputs. Reported development metrics are dominated by the largest task; coreference and reasoning tasks are weaker, and the supplied inference example truncates to 256 tokens.",
+      "status": "Open weights",
+      "icon": "chip",
+      "date": "2026-11-01",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/besktech/ru-jev",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-11-01T18:22:15.000Z",
+      "date_note": "Hub repository creation, not a proven initial public release date.",
+      "checked_on": "2026-11-02",
+      "cataloged_on": "2026-11-02",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/besktech/ru-jev"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_card_and_public_file_metadata",
+        "checked_on": "2026-11-02",
+        "sources": [
+          "https://huggingface.co/besktech/ru-jev",
+          "https://huggingface.co/besktech/ru-jev/raw/main/README.md",
+          "https://huggingface.co/api/models/besktech/ru-jev"
+        ],
+        "verified_urls": [
+          "https://huggingface.co/besktech/ru-jev"
+        ],
+        "finding": "Original card and public file list inspected; model artifacts are listed.",
+        "license_note": "Model card declares MIT; no standalone LICENSE is listed. Upstream backbone and dataset terms remain separate.",
+        "scope": "No weight binaries downloaded, inference performed, or external code executed."
+      }
+    },
+    {
+      "id": "r739",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Workmagic Qwen3 8B decision SFT v1 and v2",
+      "description": "AnyJev-compatible option-letter readouts trained on public task splits. Stage 2 adds retrieval and tool-selection data with v1 replay; both checkpoint files are public. Cards describe training and loading but provide no independent evaluation or explicit checkpoint license.",
+      "status": "Public checkpoints · license unspecified",
+      "icon": "chip",
+      "date": "2026-11-01",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/workmagicio/workmagic-jev-decision-qwen3-8b-sft-v2",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-11-01T19:20:56.000Z",
+      "date_note": "Hub repository creation, not a proven initial public release date. Date refers to stage 2; stage 1 repository was created on 2026-11-01T02:39:25.000Z.",
+      "checked_on": "2026-11-02",
+      "cataloged_on": "2026-11-02",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/workmagicio/workmagic-jev-decision-qwen3-8b-sft-v2"
+        },
+        {
+          "label": "Stage 1",
+          "url": "https://huggingface.co/workmagicio/workmagic-jev-decision-qwen3-8b-sft-v1"
+        },
+        {
+          "label": "AnyJev runtime",
+          "url": "https://github.com/nokia-applied-research/AnyJev"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_card_and_public_file_metadata",
+        "checked_on": "2026-11-02",
+        "sources": [
+          "https://huggingface.co/workmagicio/workmagic-jev-decision-qwen3-8b-sft-v2",
+          "https://huggingface.co/workmagicio/workmagic-jev-decision-qwen3-8b-sft-v2/raw/main/README.md",
+          "https://huggingface.co/api/models/workmagicio/workmagic-jev-decision-qwen3-8b-sft-v2",
+          "https://huggingface.co/workmagicio/workmagic-jev-decision-qwen3-8b-sft-v1",
+          "https://huggingface.co/api/models/workmagicio/workmagic-jev-decision-qwen3-8b-sft-v1"
+        ],
+        "verified_urls": [
+          "https://huggingface.co/workmagicio/workmagic-jev-decision-qwen3-8b-sft-v2"
+        ],
+        "finding": "Original card and public file list inspected; model artifacts are listed.",
+        "license_note": "Neither inspected card declares a checkpoint license and neither file list includes LICENSE. Do not inherit the earlier 4B release license or the external runtime license.",
+        "scope": "No weight binaries downloaded, inference performed, or external code executed."
+      }
+    },
+    {
+      "id": "r740",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Drex Max v1: public weights and local decision runners",
+      "description": "Dense 27B multimodal decision model with a 255-way readout and non-causal full-attention layers. Python supports images; GGUF and affine-Q4 Mac paths are text-only. Bundled runtimes are required to reproduce the decision path. Model weights use a restricted Nace.AI license, distinct from Apache-2.0 code.",
+      "status": "Public weights · Nace.AI Open RAIL-M",
+      "icon": "chip",
+      "date": "2026-10-13",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/nace-ai/drex-max-v1",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-13T23:16:25.000Z",
+      "date_note": "Hub repository creation, not a proven initial public release date.",
+      "checked_on": "2026-11-02",
+      "cataloged_on": "2026-11-02",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/nace-ai/drex-max-v1"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nace-ai/drex-decision-models"
+        },
+        {
+          "label": "Q8_0 GGUF",
+          "url": "https://huggingface.co/nace-ai/drex-max-v1-Q8_0"
+        },
+        {
+          "label": "Affine Q4",
+          "url": "https://huggingface.co/nace-ai/drex-max-v1-affine-q4"
+        },
+        {
+          "label": "Model license",
+          "url": "https://huggingface.co/nace-ai/drex-max-v1/blob/main/LICENSE"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_card_and_public_file_metadata",
+        "checked_on": "2026-11-02",
+        "sources": [
+          "https://huggingface.co/nace-ai/drex-max-v1",
+          "https://huggingface.co/nace-ai/drex-max-v1/raw/main/README.md",
+          "https://huggingface.co/api/models/nace-ai/drex-max-v1",
+          "https://github.com/nace-ai/drex-decision-models",
+          "https://huggingface.co/nace-ai/drex-max-v1-Q8_0",
+          "https://huggingface.co/nace-ai/drex-max-v1-affine-q4",
+          "https://huggingface.co/nace-ai/drex-max-v1/blob/main/LICENSE"
+        ],
+        "verified_urls": [
+          "https://huggingface.co/nace-ai/drex-max-v1"
+        ],
+        "finding": "Original card and public file list inspected; model artifacts are listed. Original GitHub README dates the Drex Max announcement October 14; commit history and model files were checked. Repository creation and historical commits do not prove when repository visibility changed.",
+        "license_note": "Inspected Nace.AI Open RAIL-M model license includes commercial revenue/funding, competitive-use, and other restrictions. Inspected GitHub root license is Apache-2.0 for code; it does not replace model terms.",
         "scope": "No weight binaries downloaded, inference performed, or external code executed."
       }
     },
@@ -11796,6 +12181,40 @@
           "https://raw.githubusercontent.com/cafe3310/decision-cli/HEAD/LICENSE"
         ],
         "finding": "Original README and license text inspected.",
+        "license_note": "Apache-2.0",
+        "scope": "Documentation only; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r731",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "laya-serve: pinned offline CPU containers",
+      "description": "Container build for Laya over the Jev-compatible systemone protocol, with hash-locked dependencies, pinned model revisions, build-time file verification, and offline runtime loading. English-only images cannot serve the multilingual route. Build scripts use Apache-2.0; model and dependency terms remain separate.",
+      "status": "Open source · Apache-2.0",
+      "icon": "terminal",
+      "date": "2026-11-01",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/tuvl-io/laya-serve",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-01T19:35:01Z",
+      "date_note": "GitHub repository creation; not the date of current features, experiments, or model releases.",
+      "checked_on": "2026-11-02",
+      "cataloged_on": "2026-11-02",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tuvl-io/laya-serve"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-02",
+        "sources": [
+          "https://github.com/tuvl-io/laya-serve",
+          "https://raw.githubusercontent.com/tuvl-io/laya-serve/HEAD/LICENSE"
+        ],
+        "finding": "Original README and license inspected.",
         "license_note": "Apache-2.0",
         "scope": "Documentation only; no external code or model inference executed."
       }
@@ -14257,6 +14676,108 @@
         "finding": "Original README and license inspected.",
         "license_note": "MIT",
         "scope": "Documentation inspected; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r729",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev calibration lab against human-labeled datasets",
+      "description": "Evaluation harness comparing typed decisions, stated LLM probabilities, and logistic regression on five datasets, with recalibration, selective prediction, and paired uncertainty estimates. Only the TF-IDF baseline has real results; published Jev and Claude panels are synthetic dry runs, and the live comparison remains pending.",
+      "status": "Open source · MIT",
+      "icon": "scales",
+      "date": "2026-11-01",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/veermshah/jev-calibration-lab",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-01T17:28:24Z",
+      "date_note": "GitHub repository creation; not the date of current features, experiments, or model releases.",
+      "checked_on": "2026-11-02",
+      "cataloged_on": "2026-11-02",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/veermshah/jev-calibration-lab"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-02",
+        "sources": [
+          "https://github.com/veermshah/jev-calibration-lab",
+          "https://raw.githubusercontent.com/veermshah/jev-calibration-lab/HEAD/LICENSE"
+        ],
+        "finding": "Original README and license inspected.",
+        "license_note": "MIT",
+        "scope": "Documentation only; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r730",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev versus rerankers on MIRACL and JQaRA",
+      "description": "Compares listwise Choice and batched pointwise Noul ranking against dedicated rerankers on 252 multilingual and 1,667 Japanese queries. Includes paired bootstrap analysis and raw rankings. Outcomes vary by dataset and scoring form; early timings include queueing and cannot be compared directly with later corrected timings.",
+      "status": "Public code · license unverified",
+      "icon": "gauge",
+      "date": "2026-11-01",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/vkehfdl1/jev-reranker",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-01T16:29:45Z",
+      "date_note": "GitHub repository creation; not the date of current features, experiments, or model releases.",
+      "checked_on": "2026-11-02",
+      "cataloged_on": "2026-11-02",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/vkehfdl1/jev-reranker"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-02",
+        "sources": [
+          "https://github.com/vkehfdl1/jev-reranker",
+          "https://raw.githubusercontent.com/vkehfdl1/jev-reranker/HEAD/LICENSE"
+        ],
+        "finding": "Original README inspected; root LICENSE returned HTTP 404, so no repository-wide license was established.",
+        "license_note": "unverified",
+        "scope": "Documentation only; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r737",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Structured-evidence conflict experimental archive",
+      "description": "Curated scores, scripts, preregistrations, and manifests for kev-4B and SecJev-0.8B conflict experiments. Some records are redacted or withheld; large hidden-state captures and original checkpoints are absent. Available score files may support reanalysis, but the archive does not guarantee complete model re-execution or grant third-party artifact rights.",
+      "status": "Public archive · license unspecified",
+      "icon": "database",
+      "date": "2026-11-01",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/dddd2024/jev-structured-evidence-conflict-data",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-01T12:00:40Z",
+      "date_note": "GitHub repository creation; not the date of current features, experiments, or model releases.",
+      "checked_on": "2026-11-02",
+      "cataloged_on": "2026-11-02",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dddd2024/jev-structured-evidence-conflict-data"
+        }
+      ],
+      "artifact_verification": {
+        "method": "first_party_readme_and_license",
+        "checked_on": "2026-11-02",
+        "sources": [
+          "https://github.com/dddd2024/jev-structured-evidence-conflict-data",
+          "https://raw.githubusercontent.com/dddd2024/jev-structured-evidence-conflict-data/HEAD/LICENSE"
+        ],
+        "finding": "Original README inspected; root LICENSE returned HTTP 404, so no repository-wide license was established.",
+        "license_note": "unverified",
+        "scope": "Documentation only; no external code or model inference executed."
       }
     },
     {
