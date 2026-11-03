@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-03",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -197,22 +197,38 @@
       "section": "1. Origins and official resources",
       "category": "Launch and first-party references",
       "title": "Patterns and cookbooks",
-      "description": "Implementation guides for routing, scoring, fan-out, classification, search, and other bounded decisions.",
+      "description": "TypeSafe’s recipes cover routing, confidence-based classification, citation checks, and image decisions. The companion repository syncs examples from the documentation and includes per-folder notices for third-party data.",
       "status": "Official",
       "date": "2026-09-22",
       "links": [
         {
           "label": "Source",
           "url": "https://docs.typesafe.ai/cookbooks"
+        },
+        {
+          "label": "Official example code and data",
+          "url": "https://github.com/typesafe-ai/typesafe-public-examples"
         }
       ],
-      "checked_on": "2026-10-05",
+      "checked_on": "2026-11-03",
       "icon": "book",
       "date_kind": "updated",
       "date_source": "https://docs.typesafe.ai/cookbooks",
       "cataloged_on": "2026-10-03",
       "date_source_field": "dateModified",
-      "date_source_timestamp": "2026-09-22T05:54:44.189Z"
+      "date_source_timestamp": "2026-09-22T05:54:44.189Z",
+      "artifact_verification": {
+        "method": "first_party_repository_and_commit_history",
+        "checked_on": "2026-11-03",
+        "sources": [
+          "https://github.com/typesafe-ai/typesafe-public-examples",
+          "https://github.com/typesafe-ai/typesafe-public-examples/blob/HEAD/LICENSE",
+          "https://github.com/typesafe-ai/typesafe-public-examples/commit/2adcf827c99e07e099608820b411f99f12e80757",
+          "https://github.com/typesafe-ai/typesafe-public-examples/commit/371b926cdf7f839d6efe9a12205d71c29b15fdf1"
+        ],
+        "finding": "November 2 cookbook synchronization and November 3 entity-alignment update inspected.",
+        "license_note": "MIT covers project code and TypeSafe-owned data. Third-party data have folder-specific notices."
+      }
     },
     {
       "id": "r011",
@@ -2880,6 +2896,74 @@
       ],
       "date_source_field": "datePublished",
       "date_source_timestamp": "2026-10-28T12:00:00.000Z"
+    },
+    {
+      "id": "r741",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "I used Jev to build an off-topic detector for meetings",
+      "description": "Max Harrison describes prototyping a meeting-topic detector with Jev, transcribing speech in the browser and choosing how much prior conversation to send. The deployed demo uses Clef-Flash.",
+      "status": "Author article",
+      "icon": "phone",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://maxharrison.me/posts/offtrackometer/"
+        },
+        {
+          "label": "Demo",
+          "url": "https://offtrackometer.maxharrison.me"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50342630"
+        }
+      ],
+      "date": "2026-11-02",
+      "date_kind": "published",
+      "date_source": "https://maxharrison.me/posts/offtrackometer/",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "date_source_field": "Visible article date",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 5,
+        "comments": 1,
+        "source": "https://hn.algolia.com/api/v1/items/50342630",
+        "observed_on": "2026-11-03"
+      }
+    },
+    {
+      "id": "r742",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "How to Build a Decision Model Like Jev",
+      "description": "Antonello Fratepietro walks through option-letter scoring, dedicated readout tokens, temperature scaling, and sharing a prompt across questions. The implementation discussion draws on public local models and distinguishes design choices from inferences about hosted Jev.",
+      "status": "Author article",
+      "icon": "code",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://www.fratepietro.com/2026/how-to-build-a-decision-model-like-jev/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50336359"
+        }
+      ],
+      "date": "2026-10-20",
+      "date_kind": "published",
+      "date_source": "https://www.fratepietro.com/2026/how-to-build-a-decision-model-like-jev/",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "date_source_field": "Visible article date",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 2,
+        "comments": 0,
+        "source": "https://hn.algolia.com/api/v1/items/50336359",
+        "observed_on": "2026-11-03"
+      }
     },
     {
       "id": "r035",
@@ -5923,6 +6007,39 @@
         "finding": "Original README and license inspected.",
         "license_note": "MIT",
         "scope": "Documentation only; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r744",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Sluice workflow judge",
+      "description": "Python agent harness that gives the worker access to tools and lets a separate Jev or chat-model judge choose workflow transitions. A declared state machine constrains which transitions may execute. The repository includes an offline demonstration with a mock judge.",
+      "status": "Open source · MIT",
+      "icon": "network",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Potterluo/sluice"
+        }
+      ],
+      "date": "2026-11-02",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Potterluo/sluice",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-02T11:06:54Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-03",
+        "sources": [
+          "https://github.com/Potterluo/sluice",
+          "https://raw.githubusercontent.com/Potterluo/sluice/HEAD/LICENSE"
+        ],
+        "license_note": "MIT for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
       }
     },
     {
@@ -10734,27 +10851,33 @@
       "date_source_field": "createdAt",
       "date_source_timestamp": "2026-11-01T18:22:15.000Z",
       "date_note": "Hub repository creation, not a proven initial public release date.",
-      "checked_on": "2026-11-02",
+      "checked_on": "2026-11-03",
       "cataloged_on": "2026-11-02",
       "links": [
         {
           "label": "Hugging Face",
           "url": "https://huggingface.co/besktech/ru-jev"
+        },
+        {
+          "label": "Training and serving code",
+          "url": "https://github.com/beskvladimir-create/ru-jev"
         }
       ],
       "artifact_verification": {
         "method": "first_party_card_and_public_file_metadata",
-        "checked_on": "2026-11-02",
+        "checked_on": "2026-11-03",
         "sources": [
           "https://huggingface.co/besktech/ru-jev",
           "https://huggingface.co/besktech/ru-jev/raw/main/README.md",
-          "https://huggingface.co/api/models/besktech/ru-jev"
+          "https://huggingface.co/api/models/besktech/ru-jev",
+          "https://github.com/beskvladimir-create/ru-jev",
+          "https://github.com/beskvladimir-create/ru-jev/blob/HEAD/LICENSE"
         ],
         "verified_urls": [
           "https://huggingface.co/besktech/ru-jev"
         ],
         "finding": "Original card and public file list inspected; model artifacts are listed.",
-        "license_note": "Model card declares MIT; no standalone LICENSE is listed. Upstream backbone and dataset terms remain separate.",
+        "license_note": "Model card declares MIT; no standalone LICENSE is listed. Upstream backbone and dataset terms remain separate. The public training and serving repository has an MIT license.",
         "scope": "No weight binaries downloaded, inference performed, or external code executed."
       }
     },
@@ -10862,6 +10985,180 @@
         "finding": "Original card and public file list inspected; model artifacts are listed. Original GitHub README dates the Drex Max announcement October 14; commit history and model files were checked. Repository creation and historical commits do not prove when repository visibility changed.",
         "license_note": "Inspected Nace.AI Open RAIL-M model license includes commercial revenue/funding, competitive-use, and other restrictions. Inspected GitHub root license is Apache-2.0 for code; it does not replace model terms.",
         "scope": "No weight binaries downloaded, inference performed, or external code executed."
+      }
+    },
+    {
+      "id": "r748",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "RSI-JEV-27b visual decision model",
+      "description": "Combines a Qwen3.8-27B backbone, two active LoRA adapters, and a frozen decision head. The authors publish predictions for all 12,210 public Decision Index Vision 0.3 items, including option probabilities. The reported result covers that vision suite.",
+      "status": "Public weights · Apache-2.0 declared",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/k2021211255/RSI-JEV-27b"
+        },
+        {
+          "label": "Inference code",
+          "url": "https://github.com/buzhenggg/RSI-JEV-27b"
+        },
+        {
+          "label": "Evaluation results",
+          "url": "https://huggingface.co/datasets/k2021211255/RSI-JEV-27b-Results"
+        }
+      ],
+      "date": "2026-11-02",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/k2021211255/RSI-JEV-27b",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "date_source_timestamp": "2026-11-02T11:44:27.000Z",
+      "date_source_field": "createdAt",
+      "date_note": "Hub repository creation. The initial public availability of the weights may differ.",
+      "artifact_verification": {
+        "method": "original_card_and_public_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/models/k2021211255/RSI-JEV-27b",
+          "https://huggingface.co/k2021211255/RSI-JEV-27b/raw/main/README.md",
+          "https://github.com/buzhenggg/RSI-JEV-27b/blob/HEAD/LICENSE",
+          "https://huggingface.co/api/datasets/k2021211255/RSI-JEV-27b-Results"
+        ],
+        "verified_urls": [
+          "https://huggingface.co/k2021211255/RSI-JEV-27b"
+        ],
+        "checked_on": "2026-11-03",
+        "finding": "Inspected the model card and public file listing. The model listing includes the base, adapters and readout. The companion archive contains per-request scores and run metadata.",
+        "license_note": "Model card declares Apache-2.0 and the GitHub code license was inspected. Benchmark prompts in the results archive retain upstream terms.",
+        "scope": "File metadata and documentation checked. No inference or weight downloads."
+      }
+    },
+    {
+      "id": "r749",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Medical Jev 4B adapter and full fine-tune",
+      "description": "Two Qwen3.5-4B variants score candidate answers to medical questions. In the authors’ external evaluation, the LoRA adapter outscored the full fine-tune across 1,514 questions, counting 100 unsupported items as errors. The separate 1,620-item sealed test was pending at review.",
+      "status": "Public medical research weights",
+      "icon": "heart",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/JuneYao/medical-jev-4b"
+        },
+        {
+          "label": "Full fine-tune",
+          "url": "https://huggingface.co/JuneYao/medical-jev-4b-full"
+        },
+        {
+          "label": "Evaluation",
+          "url": "https://huggingface.co/JuneYao/medical-jev-4b-full/blob/main/EVALUATION.md"
+        }
+      ],
+      "date": "2026-11-02",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/JuneYao/medical-jev-4b",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "date_source_timestamp": "2026-11-02T03:06:43.000Z",
+      "date_source_field": "createdAt",
+      "date_note": "Hub repository creation. The initial public availability of the weights may differ.",
+      "artifact_verification": {
+        "method": "original_card_and_public_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/models/JuneYao/medical-jev-4b",
+          "https://huggingface.co/JuneYao/medical-jev-4b/raw/main/README.md",
+          "https://huggingface.co/api/models/JuneYao/medical-jev-4b-full",
+          "https://huggingface.co/JuneYao/medical-jev-4b/raw/main/LICENSE",
+          "https://huggingface.co/JuneYao/medical-jev-4b-full/raw/main/CODE_LICENSE",
+          "https://huggingface.co/JuneYao/medical-jev-4b-full/raw/main/LICENSE"
+        ],
+        "verified_urls": [
+          "https://huggingface.co/JuneYao/medical-jev-4b"
+        ],
+        "checked_on": "2026-11-03",
+        "finding": "Inspected the model card and public file listing. Both releases list weights and inference files. The separately cited training repository could not be verified through GitHub.",
+        "license_note": "The adapter and bundled inference code use MIT. The full checkpoint and upstream backbone use Apache-2.0. Source datasets retain their own terms.",
+        "scope": "File metadata and documentation checked. No inference or weight downloads."
+      }
+    },
+    {
+      "id": "r750",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "VoiceMem-Jev for routing voice turns",
+      "description": "A small bilingual encoder selects ordinary or deep processing from the transcript, recent turns, and optional timing signals. Includes ONNX and PyTorch runtimes. Evaluation uses related, machine-labeled development examples, with low recall on context-dependent follow-ups in the authors’ diagnostic.",
+      "status": "Public weights · Apache-2.0",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/Sorbett/VoiceMem-Jev"
+        }
+      ],
+      "date": "2026-10-27",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/Sorbett/VoiceMem-Jev",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "date_source_timestamp": "2026-10-27T11:51:54.000Z",
+      "date_source_field": "createdAt",
+      "date_note": "Hub repository creation. The initial public availability of the weights may differ.",
+      "artifact_verification": {
+        "method": "original_card_and_public_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/models/Sorbett/VoiceMem-Jev",
+          "https://huggingface.co/Sorbett/VoiceMem-Jev/raw/main/README.md"
+        ],
+        "verified_urls": [
+          "https://huggingface.co/Sorbett/VoiceMem-Jev"
+        ],
+        "checked_on": "2026-11-03",
+        "finding": "Inspected the model card and public file listing.",
+        "license_note": "The release supplies an Apache-2.0 license. The card identifies the upstream mmBERT backbone as MIT.",
+        "scope": "File metadata and documentation checked. No inference or weight downloads."
+      }
+    },
+    {
+      "id": "r751",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "EDU-Jev 0.8B assessment checkpoint",
+      "description": "Education-specific decision model scoring explicit assessment options with a pointer head. The public package contains FP32 weights, tokenizer, chat template, and custom Transformers code. The linked study evaluates this size alongside larger variants.",
+      "status": "Research weights · CC BY-NC 4.0",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/jiazhengli/edu_jev-0.8B"
+        },
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2610.41079"
+        }
+      ],
+      "date": "2026-10-29",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/jiazhengli/edu_jev-0.8B",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "date_source_timestamp": "2026-10-29T19:39:12.000Z",
+      "date_source_field": "createdAt",
+      "date_note": "Hub repository creation. The initial public availability of the weights may differ.",
+      "artifact_verification": {
+        "method": "original_card_and_public_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/models/jiazhengli/edu_jev-0.8B",
+          "https://huggingface.co/jiazhengli/edu_jev-0.8B/raw/main/README.md"
+        ],
+        "verified_urls": [
+          "https://huggingface.co/jiazhengli/edu_jev-0.8B"
+        ],
+        "checked_on": "2026-11-03",
+        "finding": "Inspected the model card and public file listing.",
+        "license_note": "Card declares CC BY-NC 4.0 for the model and identifies separate upstream backbone terms. No separate permissive license for the bundled custom code was established.",
+        "scope": "File metadata and documentation checked. No inference or weight downloads."
       }
     },
     {
@@ -11228,6 +11525,44 @@
         "finding": "Original README and license text inspected.",
         "license_note": "Apache-2.0",
         "scope": "Documentation only; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r746",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Training pipelines and announced releases",
+      "title": "EO-Jev for Earth observation",
+      "description": "Training and evaluation code adapts d3-flash with LoRA across 23 Earth-observation benchmarks. The authors report gains on held-out EO settings alongside lower accuracy on general decisions. The repository provides scripts for training and export and links a results explorer.",
+      "status": "Open source · MIT",
+      "icon": "globe",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mbzuai-oryx/EO-Jev"
+        },
+        {
+          "label": "Project and results",
+          "url": "https://mbzuai-oryx.github.io/EO-Jev/"
+        }
+      ],
+      "date": "2026-11-02",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/mbzuai-oryx/EO-Jev",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-02T14:23:19Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-03",
+        "sources": [
+          "https://github.com/mbzuai-oryx/EO-Jev",
+          "https://raw.githubusercontent.com/mbzuai-oryx/EO-Jev/HEAD/LICENSE"
+        ],
+        "license_note": "MIT for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run.",
+        "finding": "The README says data and weights are kept outside this repository. No public EO-Jev checkpoint was verified."
       }
     },
     {
@@ -12081,15 +12416,28 @@
         {
           "label": "Package",
           "url": "https://pypi.org/project/flide/"
+        },
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2610.42148"
         }
       ],
-      "checked_on": "2026-10-25",
+      "checked_on": "2026-11-03",
       "cataloged_on": "2026-10-25",
       "icon": "bolt",
       "date_kind": "repository_created",
       "date_source": "https://api.github.com/repos/OmniJev/Flide",
       "date_source_field": "created_at",
-      "date_source_timestamp": "2026-10-24T12:34:07Z"
+      "date_source_timestamp": "2026-10-24T12:34:07Z",
+      "artifact_verification": {
+        "method": "project_announcement_and_preprint",
+        "checked_on": "2026-11-03",
+        "sources": [
+          "https://github.com/OmniJev/Flide",
+          "https://arxiv.org/abs/2610.42148"
+        ],
+        "finding": "The project announced the paper on November 2. The paper reports the v1 submission date separately."
+      }
     },
     {
       "id": "r590",
@@ -12217,6 +12565,39 @@
         "finding": "Original README and license inspected.",
         "license_note": "Apache-2.0",
         "scope": "Documentation only; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r743",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "Understudy local proxy for repeated decisions",
+      "description": "Learns a small CPU classifier for each recurring question from the upstream model’s decisions. The proxy audits local answers and can return a question to the upstream model after drift. Its synthetic replay measures coverage and agreement with the teacher.",
+      "status": "Open source · MIT",
+      "icon": "terminal",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Endgame-Labs/understudy"
+        }
+      ],
+      "date": "2026-11-02",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Endgame-Labs/understudy",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-02T19:58:54Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-03",
+        "sources": [
+          "https://github.com/Endgame-Labs/understudy",
+          "https://raw.githubusercontent.com/Endgame-Labs/understudy/HEAD/LICENSE"
+        ],
+        "license_note": "MIT for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
       }
     },
     {
@@ -14778,6 +15159,81 @@
         "finding": "Original README inspected; root LICENSE returned HTTP 404, so no repository-wide license was established.",
         "license_note": "unverified",
         "scope": "Documentation only; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r745",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Frozen-head and zero-shot baselines for Tev1",
+      "description": "Tests Qwen3.5-4B with the Tev1 decision prompt on 1,000 evaluation items, then studies how the size of a validation set affects selection of a frozen-backbone classification head. The selected head underperformed the prompt-only baseline in the reported experiment.",
+      "status": "Open source · MIT",
+      "icon": "gauge",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Joshhuang123/jev-rsi"
+        }
+      ],
+      "date": "2026-11-02",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Joshhuang123/jev-rsi",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-02T14:36:01Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-03",
+        "sources": [
+          "https://github.com/Joshhuang123/jev-rsi",
+          "https://raw.githubusercontent.com/Joshhuang123/jev-rsi/HEAD/LICENSE"
+        ],
+        "license_note": "MIT for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
+      "id": "r747",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "VerdictAD for few-shot industrial anomaly detection",
+      "description": "Refines anomaly maps using global and regional visual decisions against normal references. The published pipeline uses Clef-Flash 9B. Cached decisions and reference lists let readers rerun the evaluation for the authors’ detector configurations.",
+      "status": "Open source · Apache-2.0",
+      "icon": "eye",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/sgstq0811/VerdictAD-Jev-AD"
+        },
+        {
+          "label": "Manuscript",
+          "url": "https://github.com/sgstq0811/VerdictAD-Jev-AD/blob/HEAD/VerdictAD.pdf"
+        },
+        {
+          "label": "Decision cache",
+          "url": "https://huggingface.co/datasets/sunsean/VerdictAD"
+        }
+      ],
+      "date": "2026-11-02",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/sgstq0811/VerdictAD-Jev-AD",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-02T06:22:43Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-03",
+        "sources": [
+          "https://github.com/sgstq0811/VerdictAD-Jev-AD",
+          "https://raw.githubusercontent.com/sgstq0811/VerdictAD-Jev-AD/HEAD/LICENSE",
+          "https://huggingface.co/api/datasets/sunsean/VerdictAD"
+        ],
+        "license_note": "Apache-2.0 for the repository code. The cache card declares Apache-2.0. Original inspection datasets and model weights retain their own terms.",
+        "scope": "Documentation reviewed. Third-party code was not run."
       }
     },
     {
@@ -17732,6 +18188,41 @@
       ]
     },
     {
+      "id": "r756",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "CausalGrade: Evidence-Guided Causal Graph Scoring with Jev",
+      "description": "Uses Jev to combine statistical evidence and foundation-model edge probabilities when ranking candidate causal graphs. The authors compare graph selection on synthetic data and examine real systems. The reported 54.4% best-candidate hit rate applies to 500 synthetic selection tasks.",
+      "status": "Preprint",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40692"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.40692"
+        }
+      ],
+      "date": "2026-10-28",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.40692",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "arxiv_id": "2610.40692",
+      "authors": [
+        "Zhong, Jiangming",
+        "Zhu, Jiawei",
+        "Wu, Guanting",
+        "Cai, Qiaoxi",
+        "Chen, Wanyi",
+        "Li, Jiale"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-28T07:33:20Z"
+    },
+    {
       "id": "r101",
       "section": "4. Research papers",
       "category": "Robustness and security",
@@ -20468,6 +20959,48 @@
       "date_source_timestamp": "2026-10-26T16:02:25Z"
     },
     {
+      "id": "r752",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+      "description": "Flide forks a shared state across question branches in attention and recurrent layers. In exact arithmetic, each branch matches isolated evaluation. The authors measure throughput and numerical error on public models using an H200. Speedups depend on the workload and baseline.",
+      "status": "Preprint",
+      "icon": "bolt",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.42148"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.42148"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/OmniJev/Flide"
+        },
+        {
+          "label": "Project",
+          "url": "https://flide.org"
+        }
+      ],
+      "date": "2026-10-30",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.42148",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "arxiv_id": "2610.42148",
+      "authors": [
+        "Li, Bobo",
+        "Song, Jiajia",
+        "Fei, Hao",
+        "Hsu, Wynne",
+        "Lee, Mong Li"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-30T17:59:38Z"
+    },
+    {
       "id": "r115",
       "section": "4. Research papers",
       "category": "Networking and edge systems",
@@ -22440,6 +22973,115 @@
         "finding": "Zenodo record confirms public exam materials with CC BY 4.0 metadata. The paper says diagnostic-vignette materials require an author request.",
         "scope": "Metadata and paper inspected; clinical records were not requested and experiments were not reproduced."
       }
+    },
+    {
+      "id": "r753",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Beyond CLIP: Calibrated (Few-Shot) Defect Detection With System One Decision Models",
+      "description": "Compares Jev and Clef-Flash with CLIP across five manufacturing inspection cases using as few as two reference images per class. Tests description refinement and probability calibration. The images were collected under stable conditions, leaving performance under production drift open.",
+      "status": "Preprint",
+      "icon": "eye",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.41199"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.41199"
+        },
+        {
+          "label": "Replication code",
+          "url": "https://github.com/fmegahed/decision-models-for-industrial-image-qc"
+        },
+        {
+          "label": "Replication materials",
+          "url": "https://fmegahed.github.io/decision-models-for-industrial-image-qc/"
+        },
+        {
+          "label": "Demo",
+          "url": "https://huggingface.co/spaces/fmegahed/decisions"
+        }
+      ],
+      "date": "2026-10-30",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.41199",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "arxiv_id": "2610.41199",
+      "authors": [
+        "Megahed, Fadel M.",
+        "Chen, Ying-Ju"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-30T03:21:02Z"
+    },
+    {
+      "id": "r754",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "When Disclosure Is Compulsory: Evaluating Ride-Hailing Rebalancing Policies with Self-Interested LLM Driver Agents",
+      "description": "Models driver relocation choices with Jev and Claude to study disclosure of ride-hailing dispatch rules. Jev 1.13 selects among predefined moves in the Manhattan simulation. Estimated changes in compliance, profit, and income depend on simulated driver behavior and the rebalancing policy.",
+      "status": "Preprint",
+      "icon": "compass",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.41132"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.41132"
+        }
+      ],
+      "date": "2026-10-30",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.41132",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "arxiv_id": "2610.41132",
+      "authors": [
+        "Wang, Xinyu",
+        "Fielbaum, Andres"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-30T01:37:16Z"
+    },
+    {
+      "id": "r755",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "EDU-Jev Training System-One Decision Models for Education",
+      "description": "Studies 0.8B, 2B, and 4B pointer-head models for rubric scores, marking criteria, and error localization. The 4B model performs best on familiar education task families. Agreement and calibration weaken on unseen assessments, including essays with new prompts.",
+      "status": "Preprint",
+      "icon": "book",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.41079"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.41079"
+        },
+        {
+          "label": "0.8B checkpoint",
+          "url": "https://huggingface.co/jiazhengli/edu_jev-0.8B"
+        }
+      ],
+      "date": "2026-10-29",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2610.41079",
+      "checked_on": "2026-11-03",
+      "cataloged_on": "2026-11-03",
+      "arxiv_id": "2610.41079",
+      "authors": [
+        "Li, Jiazheng",
+        "He, Yulan"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-10-29T23:48:27Z"
     },
     {
       "id": "r126",
