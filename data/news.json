@@ -2,6 +2,26 @@
   "title": "Big News",
   "events": [
     {
+      "date": "2026-11-03",
+      "icon": "chip",
+      "headline": "Sarvam releases Prism, a 105B-based decision model with public FP8 weights and inference code.",
+      "url": "https://www.sarvam.ai/blogs/sarvam-prism",
+      "label": "Official announcement",
+      "note": "Apache-2.0 release with typed text decisions and hosted API access. The reported 44 ms median is a vendor measurement on one B200, not an independently reproduced result.",
+      "date_source": "https://www.sarvam.ai/blogs/sarvam-prism",
+      "date_source_field": "datePublished",
+      "date_note": "Official launch date, separate from November 2 Hub repository creation.",
+      "attention": {
+        "platform": "Hugging Face",
+        "likes": 18,
+        "downloads": 0,
+        "observed_on": "2026-11-04",
+        "source": "https://huggingface.co/api/models/sarvamai/prism",
+        "url": "https://huggingface.co/sarvamai/prism",
+        "note": "A major new independently developed decision-model release with modest early model-page interest. Likes do not establish adoption or benchmark superiority."
+      }
+    },
+    {
       "date": "2026-10-29",
       "icon": "chip",
       "headline": "Base Labs releases joey-1, a compact multimodal decision model with open weights.",
