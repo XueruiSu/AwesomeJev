@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-04",
+  "last_updated": "2026-11-05",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -366,6 +366,38 @@
       "icon": "rocket",
       "date_kind": "published",
       "date_source": "https://typesafe.ai/blog/jev-1-14"
+    },
+    {
+      "id": "r779",
+      "section": "1. Origins and official resources",
+      "category": "Launch and first-party references",
+      "title": "Don’t Call It a Decision Model",
+      "description": "Allie Laabs explains why TypeSafe calls Jev a System One model. In a refund workflow, Jev judges what the customer is asking for, while application code checks eligibility, amounts, and escalation rules.",
+      "status": "Official article",
+      "icon": "compass",
+      "links": [
+        {
+          "label": "TypeSafe article",
+          "url": "https://typesafe.ai/blog/dont-call-it-a-decision-model"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50371890"
+        }
+      ],
+      "date": "2026-11-03",
+      "date_kind": "published",
+      "date_source": "https://typesafe.ai/blog/dont-call-it-a-decision-model",
+      "checked_on": "2026-11-05",
+      "cataloged_on": "2026-11-05",
+      "date_source_field": "Visible article date",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 10,
+        "comments": 2,
+        "source": "https://hn.algolia.com/api/v1/items/50371890",
+        "observed_on": "2026-11-05"
+      }
     },
     {
       "id": "r013",
@@ -3058,6 +3090,43 @@
       "date_source_field": "datePublished"
     },
     {
+      "id": "r780",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Building Barista—Part 1: Postgres, Embeddings, and Jev",
+      "description": "Teiva Harsanyi describes a reading service that retrieves articles with embeddings and uses Jev to rank each candidate against a reader’s interests. He explains why grading articles together made scores sensitive to the neighboring candidates.",
+      "status": "Author article",
+      "icon": "database",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://read.thecoder.cafe/p/barista-1"
+        },
+        {
+          "label": "Barista",
+          "url": "https://barista.thecoder.cafe/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50372564"
+        }
+      ],
+      "date": "2026-11-04",
+      "date_kind": "published",
+      "date_source": "https://read.thecoder.cafe/p/barista-1",
+      "checked_on": "2026-11-05",
+      "cataloged_on": "2026-11-05",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-11-04T15:30:35+00:00",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 3,
+        "comments": 0,
+        "source": "https://hn.algolia.com/api/v1/items/50372564",
+        "observed_on": "2026-11-05"
+      }
+    },
+    {
       "id": "r035",
       "section": "2. Community discussion and writing",
       "category": "Reddit debates",
@@ -3251,6 +3320,32 @@
         "source": "https://cdn.syndication.twimg.com/tweet-result?id=2113810106177773587&lang=en&token=0"
       },
       "verification_note": "GitHub Gist API confirms owner diogo149 and a single outputs.json file containing the 101 numeric values. The interpretation as parody follows the content; no claim is made about wider security conditions."
+    },
+    {
+      "id": "r781",
+      "section": "2. Community discussion and writing",
+      "category": "Social posts and commentary",
+      "title": "Behind Latent Space: Kill My SaaS, Jev & AI in 2026",
+      "description": "Latent Space links its AI Engineer Shanghai interview on Jev and the broader AI ecosystem. The accompanying newsletter covers other industry stories; the interview is the Jev resource.",
+      "status": "Publisher interview",
+      "icon": "video",
+      "links": [
+        {
+          "label": "Publisher page",
+          "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/"
+        },
+        {
+          "label": "Interview",
+          "url": "https://www.youtube.com/watch?v=QmDLDy3ZSNE"
+        }
+      ],
+      "date": "2026-11-04",
+      "date_kind": "published",
+      "date_source": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+      "checked_on": "2026-11-05",
+      "cataloged_on": "2026-11-05",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-11-04T19:17:30.000Z"
     },
     {
       "id": "r040",
@@ -6201,6 +6296,70 @@
       }
     },
     {
+      "id": "r783",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "webhand browser agent",
+      "description": "Claude plans a task from service notes or a recorded workflow, and hosted Jev selects browser actions from the plan and page state. The plugin can reuse learned runbooks and ask Claude to replan when a goal is missed.",
+      "status": "Open source · MIT",
+      "icon": "browser",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/sakamoto66/webhand"
+        }
+      ],
+      "date": "2026-11-03",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/sakamoto66/webhand",
+      "checked_on": "2026-11-05",
+      "cataloged_on": "2026-11-05",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-03T14:54:06Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-05",
+        "sources": [
+          "https://github.com/sakamoto66/webhand",
+          "https://raw.githubusercontent.com/sakamoto66/webhand/HEAD/LICENSE"
+        ],
+        "license_note": "MIT for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
+      "id": "r784",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Local Decision Framework",
+      "description": "Independent Jev-inspired CLI and MCP server that checks a claim against a supplied evidence packet and returns a cited verdict. It uses an OpenAI-compatible endpoint. Insufficient evidence and operational failures are separate outcomes.",
+      "status": "Public code · license not specified",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/phillui-37/local-decision-framework"
+        }
+      ],
+      "date": "2026-11-03",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/phillui-37/local-decision-framework",
+      "checked_on": "2026-11-05",
+      "cataloged_on": "2026-11-05",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-03T03:14:16Z",
+      "artifact_verification": {
+        "method": "repository_metadata_readme_and_file_tree",
+        "checked_on": "2026-11-05",
+        "sources": [
+          "https://api.github.com/repos/phillui-37/local-decision-framework",
+          "https://github.com/phillui-37/local-decision-framework/blob/HEAD/README.md"
+        ],
+        "finding": "Public implementation files were listed. No repository license was identified in the tree or GitHub metadata. Code was not executed."
+      }
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -7255,6 +7414,37 @@
         ],
         "license_note": "MIT for the repository code.",
         "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
+      "id": "r785",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "Jev SQL schema-linking experiments",
+      "description": "Uses a generative model to extract mentions from a question, then Jev to rank candidate tables and score columns against a database schema. Includes YAML configurations, evaluation, and error analysis for BIRD-style tasks.",
+      "status": "Public code · license not specified",
+      "icon": "database",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tenghaha/jev-sql"
+        }
+      ],
+      "date": "2026-11-04",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/tenghaha/jev-sql",
+      "checked_on": "2026-11-05",
+      "cataloged_on": "2026-11-05",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-04T08:11:13Z",
+      "artifact_verification": {
+        "method": "repository_metadata_readme_and_file_tree",
+        "checked_on": "2026-11-05",
+        "sources": [
+          "https://api.github.com/repos/tenghaha/jev-sql",
+          "https://github.com/tenghaha/jev-sql/blob/HEAD/README.md"
+        ],
+        "finding": "Public implementation files were listed. No repository license was identified in the tree or GitHub metadata. Code was not executed."
       }
     },
     {
@@ -9395,7 +9585,7 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Open-weight decision models",
       "title": "Jev-Vision 2B and 0.8B",
-      "description": "Qwen3.5-based visual decision checkpoints scoring supplied options for text and up to four images. Both weights are public under mixed-source research terms. Results are internal holdouts; BEV test and Mind2Web-derived rows entered training, so these sources cannot support uncontaminated generalization claims. Commercial and redistribution rights require checking upstream data terms. Community GGUFs with separate vision projectors are now linked; quantized accuracy and calibration are unverified.",
+      "description": "Qwen3.5-based visual decision checkpoints scoring supplied options for text and up to four images. Both weights are public under mixed-source research terms. Results are internal holdouts; BEV test and Mind2Web-derived rows entered training, so these sources cannot support uncontaminated generalization claims. Commercial and redistribution rights require checking upstream data terms. Community GGUFs with separate vision projectors are now linked; quantized accuracy and calibration are unverified. The public GUI training preview includes repeated decision references; source-image rights remain mixed.",
       "status": "Public research checkpoints; mixed licenses",
       "date": "2026-10-22",
       "links": [
@@ -9414,9 +9604,13 @@
         {
           "label": "Community 0.8B GGUF",
           "url": "https://huggingface.co/nikolaus714/jev-vision-0.8b-GGUF"
+        },
+        {
+          "label": "GUI training preview",
+          "url": "https://huggingface.co/datasets/IntelligenceLab/Jev-GUI-Training-Preview"
         }
       ],
-      "checked_on": "2026-11-02",
+      "checked_on": "2026-11-05",
       "cataloged_on": "2026-10-23",
       "icon": "eye",
       "date_kind": "repository_created",
@@ -9426,7 +9620,7 @@
       "date_note": "Creation date of both inspected model repositories, not a verified public release date. The 0.8B repository was created at 2026-10-22T19:49:24.000Z.",
       "artifact_verification": {
         "method": "first_party_card_and_api",
-        "checked_on": "2026-11-02",
+        "checked_on": "2026-11-05",
         "verified_urls": [
           "https://huggingface.co/IntelligenceLab/Jev-Vision-2B",
           "https://huggingface.co/IntelligenceLab/Jev-Vision-0.8B",
@@ -9443,11 +9637,14 @@
           "https://huggingface.co/api/models/nikolaus714/Jev-Vision-2B-GGUF",
           "https://huggingface.co/nikolaus714/jev-vision-0.8b-GGUF",
           "https://huggingface.co/nikolaus714/jev-vision-0.8b-GGUF/raw/main/README.md",
-          "https://huggingface.co/api/models/nikolaus714/jev-vision-0.8b-GGUF"
+          "https://huggingface.co/api/models/nikolaus714/jev-vision-0.8b-GGUF",
+          "https://huggingface.co/datasets/IntelligenceLab/Jev-GUI-Training-Preview/raw/main/README.md",
+          "https://huggingface.co/api/datasets/IntelligenceLab/Jev-GUI-Training-Preview"
         ],
         "finding": "Original card read; public API lists released files. Converter cards and public file metadata verify language GGUFs and separate vision projectors for both sizes. No independent conversion accuracy/calibration evaluation or new standalone license was established; upstream mixed-source restrictions remain relevant.",
         "license_note": "Cards specify other / mixed-source-research, not a permissive open-source license. Training-source licenses are mixed or unspecified.",
-        "scope": "Documentation and file metadata only; no weights or datasets downloaded and no inference run."
+        "scope": "Documentation and file metadata only; no weights or datasets downloaded and no inference run.",
+        "linked_artifact_note": "The public GUI training preview includes repeated decision references; source-image rights remain mixed. Only documentation and file metadata were inspected."
       }
     },
     {
@@ -9455,7 +9652,7 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Open-weight decision models",
       "title": "WeMM-JEV",
-      "description": "Multimodal model exposing Choice, Noul, and Score for text and images, with bundled Python and HTTP inference files. The card declares Apache-2.0 weights, with MIT-licensed inference code, and reports public Decision Index 0.3 text and vision results. Its brief documentation does not establish training provenance or independent private-test performance.",
+      "description": "Multimodal model exposing Choice, Noul, and Score for text and images, with bundled Python and HTTP inference files. The card declares Apache-2.0 weights, with MIT-licensed inference code, and reports public Decision Index 0.3 text and vision results. Its brief documentation does not establish training provenance or independent private-test performance. A third-party Zils repack changes tensor names and shard layout and omits lm_head and mtp tensors.",
       "status": "Public weights and inference files",
       "date": "2026-10-22",
       "links": [
@@ -9466,9 +9663,13 @@
         {
           "label": "Author evaluation results",
           "url": "https://huggingface.co/datasets/Rover00/WeMM-JEV-Results"
+        },
+        {
+          "label": "Zils language-weight repack",
+          "url": "https://huggingface.co/k-cascade/zils-z3-wemm-jev-27b"
         }
       ],
-      "checked_on": "2026-10-23",
+      "checked_on": "2026-11-05",
       "cataloged_on": "2026-10-23",
       "icon": "eye",
       "date_kind": "repository_created",
@@ -9478,18 +9679,21 @@
       "date_note": "Hugging Face repository creation timestamp, not a verified first public release date.",
       "artifact_verification": {
         "method": "first_party_card_and_api",
-        "checked_on": "2026-10-23",
+        "checked_on": "2026-11-05",
         "verified_urls": [
           "https://huggingface.co/Rover00/WeMM-JEV"
         ],
         "sources": [
           "https://huggingface.co/Rover00/WeMM-JEV",
           "https://huggingface.co/api/models/Rover00/WeMM-JEV",
-          "https://huggingface.co/Rover00/WeMM-JEV/blob/main/inference/LICENSE"
+          "https://huggingface.co/Rover00/WeMM-JEV/blob/main/inference/LICENSE",
+          "https://huggingface.co/k-cascade/zils-z3-wemm-jev-27b/raw/main/README.md",
+          "https://huggingface.co/api/models/k-cascade/zils-z3-wemm-jev-27b"
         ],
         "finding": "Original card read; public API lists released files.",
         "license_note": "Model card declares Apache-2.0 for the release; inspected inference/LICENSE is MIT (Apolinário Passos). Other upstream dependencies retain separate terms.",
-        "scope": "Documentation and file metadata only; no weights or datasets downloaded and no inference run."
+        "scope": "Documentation and file metadata only; no weights or datasets downloaded and no inference run.",
+        "linked_artifact_note": "A third-party Zils repack changes tensor names and shard layout and omits lm_head and mtp tensors. Only documentation and file metadata were inspected. The repack card declares Apache-2.0 for weights and includes an MIT software license; it is not a standalone new decision model."
       }
     },
     {
@@ -10207,7 +10411,7 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Open-weight decision models",
       "title": "Jev-Style 2B v4: text and image decisions",
-      "description": "Independent Qwen3.5-based 2.21B model with shared-state typed questions and a 32,768-token context. PyTorch accepts images; linked GGUF/MLX builds are text-only. Training partly uses Jev 1.14 soft labels. Public-index results are author self-runs, while conversion parity checks do not establish broad calibration.",
+      "description": "Independent Qwen3.5-based 2.21B model with shared-state typed questions and a 32,768-token context. PyTorch accepts images; linked GGUF/MLX builds are text-only. Training partly uses Jev 1.14 soft labels. Public-index results are author self-runs, while conversion parity checks do not establish broad calibration. The public training archive gives per-row source licenses and includes the training code.",
       "status": "Open weights",
       "date": "2026-10-27",
       "links": [
@@ -10226,9 +10430,13 @@
         {
           "label": "MLX",
           "url": "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4-MLX"
+        },
+        {
+          "label": "Training pool and code archive",
+          "url": "https://huggingface.co/datasets/chaoliangUNSW/jev-style-2b-v4-training"
         }
       ],
-      "checked_on": "2026-11-02",
+      "checked_on": "2026-11-05",
       "cataloged_on": "2026-10-28",
       "icon": "chip",
       "date_kind": "repository_created",
@@ -10238,7 +10446,7 @@
       "date_note": "Hugging Face repository creation, not the first public weight release.",
       "artifact_verification": {
         "method": "first_party_card_and_api",
-        "checked_on": "2026-11-02",
+        "checked_on": "2026-11-05",
         "verified_urls": [
           "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4",
           "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4-GGUF",
@@ -10253,11 +10461,14 @@
           "https://huggingface.co/api/models/chaoliangUNSW/Jev-Style-2B-Decision-v4-GGUF",
           "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4-MLX",
           "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4-MLX/raw/main/README.md",
-          "https://huggingface.co/api/models/chaoliangUNSW/Jev-Style-2B-Decision-v4-MLX"
+          "https://huggingface.co/api/models/chaoliangUNSW/Jev-Style-2B-Decision-v4-MLX",
+          "https://huggingface.co/datasets/chaoliangUNSW/jev-style-2b-v4-training/raw/main/README.md",
+          "https://huggingface.co/api/datasets/chaoliangUNSW/jev-style-2b-v4-training"
         ],
         "finding": "Original card and public file metadata inspected; released artifact files are listed. GGUF and MLX cards/files verified. Builds are text-only; their format-parity checks are not fresh full benchmark runs. Cards now explicitly disclose partial training on TypeSafe Jev 1.14 soft labels.",
         "license_note": "The model card declares Apache-2.0 for the checkpoint. Upstream model and data terms remain separate; no dataset-wide license is inferred.",
-        "scope": "Documentation and file metadata only; no model binaries or dataset records downloaded and no inference or evaluation executed."
+        "scope": "Documentation and file metadata only; no model binaries or dataset records downloaded and no inference or evaluation executed.",
+        "linked_artifact_note": "The public training archive gives per-row source licenses and includes the training code. Only documentation and file metadata were inspected."
       }
     },
     {
@@ -12929,6 +13140,47 @@
         ],
         "license_note": "MIT for the repository code.",
         "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
+      "id": "r788",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "Jev-Style-Cascade-9B confidence router",
+      "description": "A frozen configuration sends text questions to Jev-Style 2B v3 first, escalating low-confidence cases to JevK5-9B. The repository contains thresholds and evaluation records; the two model checkpoints are fetched separately.",
+      "status": "Public configuration · Apache-2.0",
+      "icon": "network",
+      "links": [
+        {
+          "label": "Hub configuration",
+          "url": "https://huggingface.co/chaoliangUNSW/Jev-Style-Cascade-9B"
+        },
+        {
+          "label": "Runtime",
+          "url": "https://github.com/lawrence3699/jev-style"
+        },
+        {
+          "label": "Escalation model",
+          "url": "https://huggingface.co/alibiserikbay/JevK5-9B"
+        }
+      ],
+      "date": "2026-10-02",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/chaoliangUNSW/Jev-Style-Cascade-9B",
+      "checked_on": "2026-11-05",
+      "cataloged_on": "2026-11-05",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-02T22:33:13.000Z",
+      "artifact_verification": {
+        "method": "original_card_license_and_cascade_manifest",
+        "checked_on": "2026-11-05",
+        "sources": [
+          "https://huggingface.co/api/models/chaoliangUNSW/Jev-Style-Cascade-9B",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-Cascade-9B/raw/main/README.md",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-Cascade-9B/raw/main/LICENSE",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-Cascade-9B/raw/main/cascade.json"
+        ],
+        "finding": "Manifest specifies a 0.75 normalized-confidence threshold. No model weights are redistributed here. The card identifies Apache-2.0 for both separately hosted tiers."
       }
     },
     {
@@ -15650,6 +15902,90 @@
       }
     },
     {
+      "id": "r786",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev GUI Training Preview",
+      "description": "Weighted GUI mixture for Jev-Vision: 636,800 sampled decision references point to 132,647 unique images. Repeated decisions are intentional. Public Parquet files separate the sampled rows from their screenshots.",
+      "status": "Public dataset · mixed source rights",
+      "icon": "database",
+      "links": [
+        {
+          "label": "Dataset",
+          "url": "https://huggingface.co/datasets/IntelligenceLab/Jev-GUI-Training-Preview"
+        },
+        {
+          "label": "Source rights",
+          "url": "https://huggingface.co/datasets/IntelligenceLab/Jev-GUI-Training-Preview/blob/main/LICENSES.md"
+        },
+        {
+          "label": "Jev-Vision 2B",
+          "url": "https://huggingface.co/IntelligenceLab/Jev-Vision-2B"
+        }
+      ],
+      "date": "2026-11-04",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/datasets/IntelligenceLab/Jev-GUI-Training-Preview",
+      "checked_on": "2026-11-05",
+      "cataloged_on": "2026-11-05",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-11-04T23:36:50.000Z",
+      "date_note": "Hub repository creation date, not the first availability of the complete training pool.",
+      "artifact_verification": {
+        "method": "original_dataset_card_and_public_file_metadata",
+        "checked_on": "2026-11-05",
+        "sources": [
+          "https://huggingface.co/api/datasets/IntelligenceLab/Jev-GUI-Training-Preview",
+          "https://huggingface.co/datasets/IntelligenceLab/Jev-GUI-Training-Preview/raw/main/README.md",
+          "https://huggingface.co/datasets/IntelligenceLab/Jev-GUI-Training-Preview/blob/main/LICENSES.md"
+        ],
+        "finding": "Dataset identity, card and public file listing checked; no bulk data download.",
+        "license_note": "No blanket license. Some upstream sources lack a declared dataset license, and rights to third-party screenshots remain unresolved."
+      }
+    },
+    {
+      "id": "r787",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev-Style 2B v4 training pool",
+      "description": "Archive of the text and image training mixture, split manifests, configurations, and training code. The authors identify 334,739 training rows with soft labels from Jev 1.14 and record source licenses per row. Some benchmarks share training sources with the pool.",
+      "status": "Public dataset · mixed source terms",
+      "icon": "database",
+      "links": [
+        {
+          "label": "Dataset",
+          "url": "https://huggingface.co/datasets/chaoliangUNSW/jev-style-2b-v4-training"
+        },
+        {
+          "label": "Model",
+          "url": "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4"
+        },
+        {
+          "label": "Companion repository",
+          "url": "https://github.com/lawrence3699/jev-style-2b-v4-training"
+        }
+      ],
+      "date": "2026-10-24",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/datasets/chaoliangUNSW/jev-style-2b-v4-training",
+      "checked_on": "2026-11-05",
+      "cataloged_on": "2026-11-05",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-10-24T18:58:32.000Z",
+      "date_note": "Hub repository creation date, not the first availability of the complete training pool.",
+      "artifact_verification": {
+        "method": "original_dataset_card_and_public_file_metadata",
+        "checked_on": "2026-11-05",
+        "sources": [
+          "https://huggingface.co/api/datasets/chaoliangUNSW/jev-style-2b-v4-training",
+          "https://huggingface.co/datasets/chaoliangUNSW/jev-style-2b-v4-training/raw/main/README.md",
+          "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v4"
+        ],
+        "finding": "Dataset identity, card and public file listing checked; no bulk data download.",
+        "license_note": "The authors declare Apache-2.0 for the archived code. Data, source images, and teacher outputs retain source-specific terms."
+      }
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -16950,6 +17286,39 @@
         "finding": "Original README and license inspected.",
         "license_note": "MIT",
         "scope": "Documentation inspected; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r782",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "jevlint refactoring triage",
+      "description": "Ranks files by structural complexity, change frequency, and optional decision-model judgments about issues such as naming. Can run with AST checks alone. The repository labels its demonstration as a simulated run on a fictional project.",
+      "status": "Open source · MIT",
+      "icon": "code",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/INDXDev/jevlint"
+        }
+      ],
+      "date": "2026-11-04",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/INDXDev/jevlint",
+      "checked_on": "2026-11-05",
+      "cataloged_on": "2026-11-05",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-04T15:09:23Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-05",
+        "sources": [
+          "https://github.com/INDXDev/jevlint",
+          "https://raw.githubusercontent.com/INDXDev/jevlint/HEAD/LICENSE"
+        ],
+        "license_note": "MIT for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
       }
     },
     {
@@ -18741,6 +19110,39 @@
       "date_source_timestamp": "2026-10-30T22:21:38Z"
     },
     {
+      "id": "r790",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Fast, Cheap, and Fair? Evaluating Decision Models",
+      "description": "Audits Jev screening decisions with counterfactual CVs, comparing demographic effects with score changes from names and typos. Finds measurable sensitivity to implicit cues in this dataset. The experiment does not establish fairness for real hiring decisions.",
+      "status": "Preprint",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.04510"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.04510"
+        }
+      ],
+      "date": "2026-11-03",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.04510",
+      "checked_on": "2026-11-05",
+      "cataloged_on": "2026-11-05",
+      "arxiv_id": "2611.04510",
+      "authors": [
+        "Haq, Muhammad Uzair Ul",
+        "Rigoni, Davide",
+        "Sperduti, Alessandro",
+        "Fabris, Flavia"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-03T08:34:28Z"
+    },
+    {
       "id": "r101",
       "section": "4. Research papers",
       "category": "Robustness and security",
@@ -19627,6 +20029,47 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-10-30T20:36:08Z"
+    },
+    {
+      "id": "r793",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "JevBreak: Your Model, Their Decision",
+      "description": "Tests whether appended text can steer seven decision models toward specified wrong options. Across 240 Decision Bench examples, attack success varies substantially by model and task, even when the original answer was correct and confident.",
+      "status": "Preprint",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.03759"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.03759"
+        },
+        {
+          "label": "Evaluation corpus",
+          "url": "https://huggingface.co/datasets/atlanai/decision-bench"
+        },
+        {
+          "label": "Benchmark repository",
+          "url": "https://github.com/atlanai/decision-bench"
+        }
+      ],
+      "date": "2026-11-02",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.03759",
+      "checked_on": "2026-11-05",
+      "cataloged_on": "2026-11-05",
+      "arxiv_id": "2611.03759",
+      "authors": [
+        "Birur, Nitin Aravind",
+        "Kumar, Divyanshu",
+        "Agarwal, Sahil",
+        "Harshangi, Prashanth"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-02T13:05:50Z"
     },
     {
       "id": "r104",
@@ -23890,6 +24333,114 @@
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-10-23T17:49:43Z",
       "date_note": "First submission date from arXiv. The current v2 and its earlier v1 were reviewed during an overlapping search."
+    },
+    {
+      "id": "r789",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Jev with Foresight: Safe Language-Guided Autonomous Driving via a Language World Model",
+      "description": "Pairs Jev with a world model that predicts near-term consequences of driving maneuvers. In 500 simulated merging episodes, the authors report fewer collisions with foresight; they also test replayed traffic. Neither experiment measures on-road safety.",
+      "status": "Preprint",
+      "icon": "compass",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.05448"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.05448"
+        },
+        {
+          "label": "Project and video",
+          "url": "https://ys-qu.github.io/jev-ad-website/"
+        },
+        {
+          "label": "Project website source",
+          "url": "https://github.com/ys-qu/jev-ad-website"
+        }
+      ],
+      "date": "2026-11-03",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.05448",
+      "checked_on": "2026-11-05",
+      "cataloged_on": "2026-11-05",
+      "arxiv_id": "2611.05448",
+      "authors": [
+        "Qu, Yansong",
+        "Chen, Jiancong",
+        "Labi, Samuel"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-03T17:36:47Z"
+    },
+    {
+      "id": "r791",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "ReListen: Training-Free Evidence Localization in Hour-Long Audio with Frozen Audio Language Models",
+      "description": "A frozen audio language model uses Jev-style probability scoring to locate relevant 20-second windows before answering. On VoiceGiraffe, the selected minute overlaps annotated evidence for 88.5% of questions. The scan runs on the audio model itself.",
+      "status": "Preprint",
+      "icon": "bolt",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.04480"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.04480"
+        }
+      ],
+      "date": "2026-11-03",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.04480",
+      "checked_on": "2026-11-05",
+      "cataloged_on": "2026-11-05",
+      "arxiv_id": "2611.04480",
+      "authors": [
+        "Hsu, Ming-Hao",
+        "Liu, Shujie",
+        "Hu, Yuxuan",
+        "Wang, Yuxiang",
+        "Shen, Yingda",
+        "Li, Jinyu",
+        "Wu, Zhizheng"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-03T08:12:55Z"
+    },
+    {
+      "id": "r792",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Structured Clinical Memory as Context for Probabilistic Decision Models: A Synthetic Evaluation with Jev",
+      "description": "Tests Jev with and without curated structured memory on 120 questions across 30 synthetic cases. Five answers improved and one worsened; the paired accuracy difference was not statistically significant. The supplied memory was an upper bound, not a tested extraction pipeline.",
+      "status": "Preprint",
+      "icon": "heart",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.04101"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.04101"
+        }
+      ],
+      "date": "2026-11-03",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.04101",
+      "checked_on": "2026-11-05",
+      "cataloged_on": "2026-11-05",
+      "arxiv_id": "2611.04101",
+      "authors": [
+        "Sayani, Jash",
+        "Karwande, Gaurang",
+        "Bharadwaj, Achinth"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-03T00:22:39Z"
     },
     {
       "id": "r126",
