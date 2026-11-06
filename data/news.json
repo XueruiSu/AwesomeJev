@@ -2,6 +2,33 @@
   "title": "Big News",
   "events": [
     {
+      "date": "2026-11-05",
+      "icon": "brain",
+      "headline": "RSI-Jev releases v7.0-VL 4B with new option-reading attention, open weights and training code.",
+      "url": "https://github.com/Shanghua-Gao/RSI-Jev/releases/tag/v7.0-VL",
+      "label": "Release and weights",
+      "note": "Apache-2.0 weights and MIT code retain image support and adaptive exits. The 60.63 public Decision Index 0.3 score is author-run; the full training corpus is not public and some ambiguity metrics regress.",
+      "date_source": "https://github.com/Shanghua-Gao/RSI-Jev/releases/tag/v7.0-VL",
+      "date_source_field": "published_at",
+      "date_source_timestamp": "2026-11-05T13:20:18Z",
+      "attention": {
+        "platform": "GitHub",
+        "stars": 134,
+        "observed_on": "2026-11-06",
+        "source": "https://api.github.com/repos/Shanghua-Gao/RSI-Jev",
+        "url": "https://github.com/Shanghua-Gao/RSI-Jev",
+        "note": "Included for a substantial new open-weight release in a project with 134 stars. Stars measure accumulated project interest, not attention specific to v7.0 or independent benchmark validation. The new model page has zero likes at this check.",
+        "additional_signals": [
+          {
+            "platform": "Hugging Face",
+            "likes": 0,
+            "observed_on": "2026-11-06",
+            "source": "https://huggingface.co/api/models/shgao/rsi-jev-v7.0-vl-4b"
+          }
+        ]
+      }
+    },
+    {
       "date": "2026-11-03",
       "icon": "chip",
       "headline": "Sarvam releases Prism, a 105B-based decision model with public FP8 weights and inference code.",
