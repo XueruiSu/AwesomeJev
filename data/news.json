@@ -29,6 +29,25 @@
       }
     },
     {
+      "date": "2026-11-04",
+      "icon": "scales",
+      "headline": "Hightouch publishes a Jev–Opus cascade study for auditing identity resolution.",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "label": "Experiment and results",
+      "note": "Synthetic benchmark: 98.8% accuracy at $0.88 per 1,000 identities versus Opus’s 99.0% at $3.86 on the first test. On harder cases, the cascade costs $2.94 versus $5.39; savings and calibration are workload-specific.",
+      "date_source": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-11-04T14:44:00.000Z",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 405,
+        "comments": 91,
+        "observed_on": "2026-11-07",
+        "source": "https://hn.algolia.com/api/v1/items/50397429",
+        "url": "https://news.ycombinator.com/item?id=50397429"
+      }
+    },
+    {
       "date": "2026-11-03",
       "icon": "chip",
       "headline": "Sarvam releases Prism, a 105B-based decision model with public FP8 weights and inference code.",
