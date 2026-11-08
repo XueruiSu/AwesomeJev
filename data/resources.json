@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-07",
+  "last_updated": "2026-11-08",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -3192,6 +3192,31 @@
         "source": "https://hn.algolia.com/api/v1/items/50397429",
         "url": "https://news.ycombinator.com/item?id=50397429"
       }
+    },
+    {
+      "id": "r816",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Jev and System One Models: The Decision Layer Your Java Code Has Been Missing",
+      "description": "Ron Veen implements support-ticket triage using Java HttpClient and Jackson, combining choice, score and noul questions with confidence-based routing. Includes a Maven example. The tutorial’s broad calibration and error-free-output claims are not independently established by these examples.",
+      "status": "Author tutorial",
+      "icon": "code",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://ronveen.com/posts/jev-and-system-one-models-the-decision-layer-your-java-code-has-been-missing/"
+        },
+        {
+          "label": "Example code",
+          "url": "https://github.com/RonVeen/Introducing-Jev"
+        }
+      ],
+      "date": "2026-11-07",
+      "date_kind": "published",
+      "date_source": "https://ronveen.com/posts/jev-and-system-one-models-the-decision-layer-your-java-code-has-been-missing/",
+      "checked_on": "2026-11-08",
+      "cataloged_on": "2026-11-08",
+      "date_source_field": "Visible article date"
     },
     {
       "id": "r035",
@@ -6545,6 +6570,39 @@
       }
     },
     {
+      "id": "r818",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "slop-block YouTube feed filtering",
+      "description": "Chrome extension uses Jev through OpenRouter to match video titles, channels and description snippets against user-defined tags. Supports show-only and hide-matching modes, cached decisions and spending controls. Source builds are available; a packaged release remains announced.",
+      "status": "Open source · MIT",
+      "icon": "browser",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/alexzomai/slop-block"
+        }
+      ],
+      "date": "2026-11-06",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/alexzomai/slop-block",
+      "checked_on": "2026-11-08",
+      "cataloged_on": "2026-11-08",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-06T07:45:59Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-08",
+        "sources": [
+          "https://api.github.com/repos/alexzomai/slop-block/readme",
+          "https://api.github.com/repos/alexzomai/slop-block/license"
+        ],
+        "license_note": "MIT for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -7660,6 +7718,39 @@
         "sources": [
           "https://github.com/theodoretoole/ruby_decision_model",
           "https://raw.githubusercontent.com/theodoretoole/ruby_decision_model/HEAD/LICENSE.txt"
+        ],
+        "license_note": "MIT for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
+      "id": "r817",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "Bounded Decisions for Python and TypeScript",
+      "description": "Shared task/result contracts, local acceptance checks and operation cost records for finite-choice applications. Ships a Jev adapter through PlusVibe and offline synthetic examples. Other compatible providers require verified response and billing mappings; the application owns permissions and recovery.",
+      "status": "Open source · MIT",
+      "icon": "code",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Lisabet/bounded-decisions"
+        }
+      ],
+      "date": "2026-11-07",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Lisabet/bounded-decisions",
+      "checked_on": "2026-11-08",
+      "cataloged_on": "2026-11-08",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-07T09:12:20Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-08",
+        "sources": [
+          "https://api.github.com/repos/Lisabet/bounded-decisions/readme",
+          "https://api.github.com/repos/Lisabet/bounded-decisions/license"
         ],
         "license_note": "MIT for the repository code.",
         "scope": "Documentation reviewed. Third-party code was not run."
@@ -13717,6 +13808,52 @@
       }
     },
     {
+      "id": "r819",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "SparkScore on DGX Spark",
+      "description": "Serves d3-ultra 27B NVFP4 through Atlas with a Jev-shaped API and shared scoring of multiple questions. The author reports hardware-specific JevBench and latency comparisons. Runtime code is AGPL-3.0-only; the linked quantized weights are declared Apache-2.0 separately.",
+      "status": "Open source · AGPL-3.0-only",
+      "icon": "bolt",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Enntity/sparkscore"
+        },
+        {
+          "label": "Quantized weights",
+          "url": "https://huggingface.co/Enntity/d3-ultra-NVFP4"
+        },
+        {
+          "label": "Pinned weight checksums",
+          "url": "https://github.com/Enntity/sparkscore/blob/main/install/d3-ultra-nvfp4.sha256"
+        }
+      ],
+      "date": "2026-11-06",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Enntity/sparkscore",
+      "checked_on": "2026-11-08",
+      "cataloged_on": "2026-11-08",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-06T06:06:16Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_license_and_indirect_weight_manifest",
+        "checked_on": "2026-11-08",
+        "sources": [
+          "https://github.com/Enntity/sparkscore",
+          "https://raw.githubusercontent.com/Enntity/sparkscore/HEAD/LICENSE",
+          "https://github.com/Enntity/sparkscore/blob/main/install/d3-ultra-nvfp4.sha256"
+        ],
+        "license_note": "AGPL-3.0-only for SparkScore code, according to its SPDX notice and license text. The author separately declares Apache-2.0 for the quantized d3-ultra weights.",
+        "scope": "Code documentation, license and download checksums inspected through GitHub API. No weight downloads, inference or benchmark reproduction.",
+        "finding": "Author README links the exact Hugging Face model ID and states its Apache-2.0 license. The pinned checksum manifest lists weight artifacts. Direct Hub model files were not inspected.",
+        "verified_urls": [
+          "https://huggingface.co/Enntity/d3-ultra-NVFP4"
+        ]
+      }
+    },
+    {
       "id": "r078",
       "section": "3. Infrastructure, models, and applications",
       "category": "Benchmarks, calibration, and datasets",
@@ -16549,6 +16686,42 @@
         ],
         "license_note": "MIT for the repository code.",
         "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
+      "id": "r820",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "GraphReflex Neo4j decision-agent benchmark",
+      "description": "Jev routes parameterized graph queries, links entities and filters candidates before Claude writes an answer. Compares retrieval approaches on STaRK-Amazon, with saved run inspection. Results depend on question provenance and answer labels; reported latency excludes final answer generation.",
+      "status": "Public code · license not specified",
+      "icon": "network",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tukka25/graph-reflex"
+        },
+        {
+          "label": "Results",
+          "url": "https://github.com/tukka25/graph-reflex/blob/main/docs/results.md"
+        }
+      ],
+      "date": "2026-11-07",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/tukka25/graph-reflex",
+      "checked_on": "2026-11-08",
+      "cataloged_on": "2026-11-08",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-07T16:07:41Z",
+      "artifact_verification": {
+        "method": "original_readme_and_repository_tree",
+        "checked_on": "2026-11-08",
+        "sources": [
+          "https://api.github.com/repos/tukka25/graph-reflex/readme",
+          "https://api.github.com/repos/tukka25/graph-reflex/git/trees/HEAD?recursive=1"
+        ],
+        "finding": "Public code and benchmark documentation listed. No repository license identified in the tree or metadata; license API returned 404.",
+        "scope": "Documentation and tree inspection only; no experiments executed."
       }
     },
     {
