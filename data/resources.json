@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-08",
+  "last_updated": "2026-11-09",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -6603,6 +6603,105 @@
       }
     },
     {
+      "id": "r826",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Tripwire coding-agent tool-call checks",
+      "description": "Claude Code PreToolUse hook asks Jev seven yes/no questions and maps answers to allow, ask or deny. Ships in shadow mode and compares saved small-set evaluations with Claude classifiers. Real use has only been shadow-tested; the reported zero dangerous calls allowed is not a general security guarantee.",
+      "status": "Open source · MIT",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Sraavan/tripwire"
+        }
+      ],
+      "date": "2026-11-07",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Sraavan/tripwire",
+      "checked_on": "2026-11-09",
+      "cataloged_on": "2026-11-09",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-07T23:49:28Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-09",
+        "sources": [
+          "https://github.com/Sraavan/tripwire",
+          "https://raw.githubusercontent.com/Sraavan/tripwire/HEAD/LICENSE"
+        ],
+        "license_note": "MIT for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
+      "id": "r827",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Android Use with optional Jev decisions",
+      "description": "Android control through Dim Agent or standard MCP, with a live screen and native ADB actions. Jev optionally selects from code-owned UI candidates while the host agent plans and verifies outcomes; the runtime checks freshness and execution bounds. Jev is disabled by default.",
+      "status": "Open source · MIT",
+      "icon": "browser",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/arcships/android-use"
+        }
+      ],
+      "date": "2026-11-06",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/arcships/android-use",
+      "checked_on": "2026-11-09",
+      "cataloged_on": "2026-11-09",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-06T05:23:54Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-09",
+        "sources": [
+          "https://github.com/arcships/android-use",
+          "https://raw.githubusercontent.com/arcships/android-use/HEAD/LICENSE"
+        ],
+        "license_note": "MIT for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
+      "id": "r828",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev-AutoYOLO annotation and training pipeline",
+      "description": "Uses Jev box, noul and choice responses for image/video labeling, with optional local grounding, SAM mask refinement and manual correction. Exports detection datasets and orchestrates YOLO training and validation. Linked third-party model artifacts retain their own terms.",
+      "status": "Open source · AGPL-3.0",
+      "icon": "eye",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/DreamBlooms/Jev-AutoYOLO"
+        }
+      ],
+      "date": "2026-11-06",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/DreamBlooms/Jev-AutoYOLO",
+      "checked_on": "2026-11-09",
+      "cataloged_on": "2026-11-09",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-06T09:23:57Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-09",
+        "sources": [
+          "https://github.com/DreamBlooms/Jev-AutoYOLO",
+          "https://raw.githubusercontent.com/DreamBlooms/Jev-AutoYOLO/HEAD/LICENSE"
+        ],
+        "license_note": "AGPL-3.0 for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -11788,7 +11887,7 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Open-weight decision models",
       "title": "Medical Jev 4B adapter and full fine-tune",
-      "description": "Two Qwen3.5-4B variants score candidate answers to medical questions. In the authors’ external evaluation, the LoRA adapter outscored the full fine-tune across 1,514 questions, counting 100 unsupported items as errors. The separate 1,620-item sealed test was pending at review.",
+      "description": "Qwen3.5-4B medical-choice LoRA adapter, with a separately linked full fine-tune. The adapter card reports 67.90% on 1,514 external questions, counting 100 unsupported items as errors. Original V1 training files were lost; the published pool is reconstructed. Probabilities are uncalibrated and labels lack individual clinical review.",
       "status": "Public medical research weights",
       "icon": "heart",
       "links": [
@@ -11803,33 +11902,47 @@
         {
           "label": "Evaluation",
           "url": "https://huggingface.co/JuneYao/medical-jev-4b-full/blob/main/EVALUATION.md"
+        },
+        {
+          "label": "Training code",
+          "url": "https://github.com/JuneYaooo/medical-jev-train"
+        },
+        {
+          "label": "Reconstructed data",
+          "url": "https://huggingface.co/datasets/JuneYao/medical-jev-4b-data"
+        },
+        {
+          "label": "External benchmark",
+          "url": "https://github.com/JuneYaooo/jev-healthcare-lab"
         }
       ],
-      "date": "2026-11-02",
-      "date_kind": "repository_created",
-      "date_source": "https://huggingface.co/api/models/JuneYao/medical-jev-4b",
-      "checked_on": "2026-11-03",
+      "date": "2026-11-03",
+      "date_kind": "available_by",
+      "date_source": "https://github.com/XueruiSu/AwesomeJev/blob/d07088c34b95b22664b449225e8f1c4d9535d683/data/resources.json",
+      "checked_on": "2026-11-09",
       "cataloged_on": "2026-11-03",
-      "date_source_timestamp": "2026-11-02T03:06:43.000Z",
-      "date_source_field": "createdAt",
-      "date_note": "Hub repository creation. The initial public availability of the weights may differ.",
+      "date_source_field": "r749.checked_on",
+      "date_note": "This catalog recorded direct access on November 3, establishing an availability upper bound. Earlier metadata recorded createdAt November 2; current Hub metadata reports November 8. The reason for the changed creation timestamp is unverified, so neither timestamp is asserted as the first model release.",
       "artifact_verification": {
         "method": "original_card_and_public_file_metadata",
         "sources": [
           "https://huggingface.co/api/models/JuneYao/medical-jev-4b",
           "https://huggingface.co/JuneYao/medical-jev-4b/raw/main/README.md",
-          "https://huggingface.co/api/models/JuneYao/medical-jev-4b-full",
-          "https://huggingface.co/JuneYao/medical-jev-4b/raw/main/LICENSE",
-          "https://huggingface.co/JuneYao/medical-jev-4b-full/raw/main/CODE_LICENSE",
-          "https://huggingface.co/JuneYao/medical-jev-4b-full/raw/main/LICENSE"
+          "https://huggingface.co/datasets/JuneYao/medical-jev-4b-data/raw/main/README.md"
         ],
         "verified_urls": [
           "https://huggingface.co/JuneYao/medical-jev-4b"
         ],
-        "checked_on": "2026-11-03",
-        "finding": "Inspected the model card and public file listing. Both releases list weights and inference files. The separately cited training repository could not be verified through GitHub.",
-        "license_note": "The adapter and bundled inference code use MIT. The full checkpoint and upstream backbone use Apache-2.0. Source datasets retain their own terms.",
+        "checked_on": "2026-11-09",
+        "finding": "Current adapter card and public file listing inspected, including adapter.safetensors, license and inference files. Current card links training and external-benchmark repositories. Full fine-tune details remain from the November 3 check.",
+        "license_note": "Adapter card declares MIT for adapter and bundled code, with Apache-2.0 for the base model. Full fine-tune Apache-2.0 was checked November 3. Dataset sources retain individual terms.",
         "scope": "File metadata and documentation checked. No inference or weight downloads."
+      },
+      "date_evidence": {
+        "previous_createdAt": "2026-11-02T03:06:43.000Z",
+        "current_createdAt": "2026-11-08T01:18:20.000Z",
+        "current_source": "https://huggingface.co/api/models/JuneYao/medical-jev-4b",
+        "checked_on": "2026-11-09"
       }
     },
     {
@@ -12281,6 +12394,98 @@
         "checked_on": "2026-11-07",
         "finding": "Inspected the model card and public file listing.",
         "license_note": "The model card declares Apache-2.0 for weights; the separately licensed RSI-Jev code is MIT.",
+        "scope": "File metadata and documentation checked. No inference or weight downloads."
+      }
+    },
+    {
+      "id": "r821",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Aster-JEV-27B multimodal choice model",
+      "description": "Qwen3.8-27B fine-tune with native image inputs, 2–26 choices and a custom decision engine. Publishes weights, inference files and public Vision Index results. Reported A800 latency measures forward passes only; the official RTX hardware check remains pending.",
+      "status": "Public weights · CC BY-NC-4.0",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/k2021211255/Aster-JEV-27B"
+        },
+        {
+          "label": "Evaluation artifacts",
+          "url": "https://huggingface.co/datasets/k2021211255/Aster-JEV-27B-Results/tree/404d123a4bcb0694a9d1cf0666f44df919df61da"
+        }
+      ],
+      "date": "2026-11-08",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/k2021211255/Aster-JEV-27B",
+      "checked_on": "2026-11-09",
+      "cataloged_on": "2026-11-09",
+      "date_source_timestamp": "2026-11-08T08:53:43.000Z",
+      "date_source_field": "createdAt",
+      "date_note": "Hub repository creation. The initial public availability of the weights may differ.",
+      "artifact_verification": {
+        "method": "original_card_and_public_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/models/k2021211255/Aster-JEV-27B",
+          "https://huggingface.co/k2021211255/Aster-JEV-27B/raw/main/README.md",
+          "https://huggingface.co/k2021211255/Aster-JEV-27B/raw/main/LICENSE"
+        ],
+        "verified_urls": [
+          "https://huggingface.co/k2021211255/Aster-JEV-27B"
+        ],
+        "checked_on": "2026-11-09",
+        "finding": "Inspected the model card and public file listing.",
+        "license_note": "CC BY-NC-4.0 for fine-tuned weights; upstream backbone Apache-2.0. A separate license for bundled engine code was not established.",
+        "scope": "File metadata and documentation checked. No inference or weight downloads."
+      }
+    },
+    {
+      "id": "r822",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Jevora 9B V1.6",
+      "description": "Qwen3.5-9B backbone with rank-64 LoRA and a decision head for 2–255 options in one forward pass. Publishes a custom decision endpoint, pinned adapters and Decision Index artifacts. The author reports improved accuracy but worse NLL than the base model; probabilities have no fitted calibration.",
+      "status": "Open weights and code · Apache-2.0",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/kadirbekovvv/jevora-9b-v1"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/doxanocap/jevora-9b-v1"
+        },
+        {
+          "label": "Pinned checkpoint",
+          "url": "https://huggingface.co/kadirbekovvv/jevora-9b-v1/tree/545549b8e8104f1780966ef1c13136abb32712b4"
+        },
+        {
+          "label": "Evaluation dataset",
+          "url": "https://huggingface.co/datasets/kadirbekovvv/jevora-decision-index"
+        }
+      ],
+      "date": "2026-09-29",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/kadirbekovvv/jevora-9b-v1",
+      "checked_on": "2026-11-09",
+      "cataloged_on": "2026-11-09",
+      "date_source_timestamp": "2026-09-29T14:40:53.000Z",
+      "date_source_field": "createdAt",
+      "date_note": "Creation of the original V1 Hub repository, not the release date of the currently documented V1.6 checkpoint.",
+      "artifact_verification": {
+        "method": "original_card_and_public_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/models/kadirbekovvv/jevora-9b-v1",
+          "https://huggingface.co/kadirbekovvv/jevora-9b-v1/raw/main/README.md",
+          "https://raw.githubusercontent.com/doxanocap/jevora-9b-v1/HEAD/LICENSE"
+        ],
+        "verified_urls": [
+          "https://huggingface.co/kadirbekovvv/jevora-9b-v1"
+        ],
+        "checked_on": "2026-11-09",
+        "finding": "Inspected the model card and public file listing.",
+        "license_note": "Model card declares Apache-2.0 for code and derivative weights; GitHub code LICENSE independently inspected.",
         "scope": "File metadata and documentation checked. No inference or weight downloads."
       }
     },
@@ -16722,6 +16927,109 @@
         ],
         "finding": "Public code and benchmark documentation listed. No repository license identified in the tree or metadata; license API returned 404.",
         "scope": "Documentation and tree inspection only; no experiments executed."
+      }
+    },
+    {
+      "id": "r823",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Medical Jev reconstructed training data",
+      "description": "Multilingual medical-choice pool with 242,921 training records across 27 task categories, development and test splits, and per-record provenance. Reconstructed after the original V1 training files were lost: it is not that exact training set, and its test split is not blind for V1. Labels lack individual clinical-expert review.",
+      "status": "Public dataset · source-specific terms",
+      "icon": "database",
+      "links": [
+        {
+          "label": "Dataset",
+          "url": "https://huggingface.co/datasets/JuneYao/medical-jev-4b-data"
+        },
+        {
+          "label": "Training code",
+          "url": "https://github.com/JuneYaooo/medical-jev-train"
+        }
+      ],
+      "date": "2026-11-08",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/datasets/JuneYao/medical-jev-4b-data",
+      "checked_on": "2026-11-09",
+      "cataloged_on": "2026-11-09",
+      "date_source_timestamp": "2026-11-08T01:04:56.000Z",
+      "date_source_field": "createdAt",
+      "date_note": "Hub dataset repository creation, not the first model release.",
+      "artifact_verification": {
+        "method": "original_dataset_card_and_metadata",
+        "checked_on": "2026-11-09",
+        "sources": [
+          "https://huggingface.co/api/datasets/JuneYao/medical-jev-4b-data",
+          "https://huggingface.co/datasets/JuneYao/medical-jev-4b-data/raw/main/README.md"
+        ],
+        "license_note": "Individual upstream terms apply; the dataset grants no additional rights. Includes noncommercial and unregistered source terms.",
+        "scope": "Card and file metadata inspected; records not downloaded or clinically validated."
+      }
+    },
+    {
+      "id": "r824",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "WorkflowEvals calibration audit",
+      "description": "Offline reanalysis of pinned public WorkflowEvals outputs for Jev 1.13.0 and eight LLMs. Studies calibration, selective agreement and whole-case gating without new model calls. Scores measure agreement with a two-model consensus, not human correctness; within-case correlation limits the threshold guarantees.",
+      "status": "Open source · MIT",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Mohith26/jev-calibration-audit"
+        }
+      ],
+      "date": "2026-11-08",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Mohith26/jev-calibration-audit",
+      "checked_on": "2026-11-09",
+      "cataloged_on": "2026-11-09",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-08T22:06:06Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-09",
+        "sources": [
+          "https://github.com/Mohith26/jev-calibration-audit",
+          "https://raw.githubusercontent.com/Mohith26/jev-calibration-audit/HEAD/LICENSE"
+        ],
+        "license_note": "MIT for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
+      "id": "r825",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev Eval Lab",
+      "description": "Pairwise testbed for typed and generative judges, with swapped A/B order, resumable request hashes, raw responses, calibration metrics and cost records. Includes a JudgeBench protocol and offline mock runs. The synthetic sample is a software check, not evidence of model quality.",
+      "status": "Open source · Apache-2.0",
+      "icon": "flask",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/soraaa013-ops/jev-eval-lab"
+        }
+      ],
+      "date": "2026-11-09",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/soraaa013-ops/jev-eval-lab",
+      "checked_on": "2026-11-09",
+      "cataloged_on": "2026-11-09",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-09T02:03:59Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-09",
+        "sources": [
+          "https://github.com/soraaa013-ops/jev-eval-lab",
+          "https://raw.githubusercontent.com/soraaa013-ops/jev-eval-lab/HEAD/LICENSE"
+        ],
+        "license_note": "Apache-2.0 for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
       }
     },
     {
