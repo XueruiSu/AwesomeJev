@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-09",
+  "last_updated": "2026-11-10",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -915,6 +915,40 @@
       "icon": "chat",
       "date_kind": "submitted",
       "date_source": "https://news.ycombinator.com/item?id=49816899"
+    },
+    {
+      "id": "r836",
+      "section": "2. Community discussion and writing",
+      "category": "Popular Hacker News discussions",
+      "title": "Show HN: Flide decision-model inference",
+      "description": "Discussion of exact state forking and Jev-style inference infrastructure. The linked project reports up to 9.5× speedups against selected serving baselines; workload, hardware and numerical-equivalence conditions matter. Includes the author’s implementation and paper.",
+      "status": "Community discussion",
+      "icon": "chat",
+      "links": [
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50421155"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/OmniJev/Flide"
+        }
+      ],
+      "date": "2026-11-09",
+      "date_kind": "published",
+      "date_source": "https://hn.algolia.com/api/v1/items/50421155",
+      "checked_on": "2026-11-10",
+      "cataloged_on": "2026-11-10",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-09T04:43:12Z",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 119,
+        "comments": 28,
+        "observed_on": "2026-11-10",
+        "source": "https://hn.algolia.com/api/v1/items/50421155",
+        "url": "https://news.ycombinator.com/item?id=50421155"
+      }
     },
     {
       "id": "r027",
@@ -3217,6 +3251,28 @@
       "checked_on": "2026-11-08",
       "cataloged_on": "2026-11-08",
       "date_source_field": "Visible article date"
+    },
+    {
+      "id": "r835",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Testing Jev on Least-Privilege Access Decisions",
+      "description": "Trustle evaluates narrow role-risk questions and Jev-to-Gemini fallback for IAM role selection. Reports 66 access requests and a separate fit on 110 public Google Cloud roles. Broad risk prompts and indirect privilege escalation remain failure cases; results are company-run evaluations.",
+      "status": "Company evaluation",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://www.trustle.com/post/jev-least-privilege"
+        }
+      ],
+      "date": "2026-10-30",
+      "date_kind": "published",
+      "date_source": "https://www.trustle.com/post/jev-least-privilege",
+      "checked_on": "2026-11-10",
+      "cataloged_on": "2026-11-10",
+      "date_source_field": "datePublished",
+      "date_source_timestamp": "2026-10-30T06:44:30.722Z"
     },
     {
       "id": "r035",
@@ -6698,6 +6754,39 @@
           "https://raw.githubusercontent.com/DreamBlooms/Jev-AutoYOLO/HEAD/LICENSE"
         ],
         "license_note": "AGPL-3.0 for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
+      "id": "r834",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "dsh-decide multi-provider decision tools",
+      "description": "DeepSeek Harness plugin exposes typed decisions, review gates, reranking and answer checks through Jev and other hosted or local decision endpoints. Provider-specific limits and errors are explicit; confidence thresholds should not be transferred across providers. Optional execution guarding and loop triage are disabled by default.",
+      "status": "Open source · MIT",
+      "icon": "network",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/calmzealA/dsh-decide"
+        }
+      ],
+      "date": "2026-11-09",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/calmzealA/dsh-decide",
+      "checked_on": "2026-11-10",
+      "cataloged_on": "2026-11-10",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-09T16:56:59Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://github.com/calmzealA/dsh-decide",
+          "https://raw.githubusercontent.com/calmzealA/dsh-decide/HEAD/LICENSE"
+        ],
+        "license_note": "MIT for the repository code.",
         "scope": "Documentation reviewed. Third-party code was not run."
       }
     },
@@ -13691,7 +13780,7 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Local runtimes and alternative implementations",
       "title": "Flide: decision inference with shared-state forking",
-      "description": "Apache-2.0 inference server that reuses state computation across typed questions through a System One-compatible endpoint. Supports several decision-model families, session caching, and optional batch-invariant execution. Exactness is defined against the same model/readout; reported speed and numerical comparisons use specified GPU workloads and do not establish universal gains.",
+      "description": "Apache-2.0 server reuses state computation across typed questions through exact state forking. November 9 updates add more decision checkpoints, KnowLine image support and multi-request bodies. Exactness is relative to the same model/readout; author-reported speedups depend on GPU workloads and baselines.",
       "status": "Open-source inference runtime",
       "date": "2026-10-24",
       "links": [
@@ -13712,7 +13801,7 @@
           "url": "https://arxiv.org/abs/2610.42148"
         }
       ],
-      "checked_on": "2026-11-03",
+      "checked_on": "2026-11-10",
       "cataloged_on": "2026-10-25",
       "icon": "bolt",
       "date_kind": "repository_created",
@@ -13720,13 +13809,21 @@
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-10-24T12:34:07Z",
       "artifact_verification": {
-        "method": "project_announcement_and_preprint",
-        "checked_on": "2026-11-03",
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-10",
         "sources": [
-          "https://github.com/OmniJev/Flide",
-          "https://arxiv.org/abs/2610.42148"
+          "https://api.github.com/repos/OmniJev/Flide/readme",
+          "https://api.github.com/repos/OmniJev/Flide/license"
         ],
-        "finding": "The project announced the paper on November 2. The paper reports the v1 submission date separately."
+        "finding": "Dated README notes identify November 9 versions 0.1.9 and 0.1.10. Apache-2.0 code license inspected. Referenced external model weights and their licenses were not independently inspected."
+      },
+      "attention": {
+        "platform": "Hacker News",
+        "points": 119,
+        "comments": 28,
+        "observed_on": "2026-11-10",
+        "source": "https://hn.algolia.com/api/v1/items/50421155",
+        "url": "https://news.ycombinator.com/item?id=50421155"
       }
     },
     {
@@ -14056,6 +14153,39 @@
         "verified_urls": [
           "https://huggingface.co/Enntity/d3-ultra-NVFP4"
         ]
+      }
+    },
+    {
+      "id": "r833",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "kneejerk embedded decision inference",
+      "description": "Extracts llama.cpp decision readouts into a C ABI library and CLI for local GGUF models without an HTTP server. Reports limited parity checks and a Pixel 8a measurement. Multimodal inputs are unsupported, several model families remain untested, and the Capacitor plugin is planned.",
+      "status": "Open source · MIT",
+      "icon": "phone",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/moudrkat/kneejerk"
+        }
+      ],
+      "date": "2026-11-09",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/moudrkat/kneejerk",
+      "checked_on": "2026-11-10",
+      "cataloged_on": "2026-11-10",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-09T10:47:52Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://github.com/moudrkat/kneejerk",
+          "https://raw.githubusercontent.com/moudrkat/kneejerk/HEAD/LICENSE"
+        ],
+        "license_note": "MIT for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
       }
     },
     {
@@ -20339,6 +20469,40 @@
       "date_source_timestamp": "2026-11-05T13:36:45Z"
     },
     {
+      "id": "r830",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Same Facts, Different Remedy: Linguistic Profiling and Arbitrariness in LLM and System One Decisions",
+      "description": "Audits Jev and two generative models on sociolinguistic rewrites of consumer complaints. Small group-level remedy gaps coexist with larger individual decision instability. Rewrites sometimes alter facts, and standardizing style does not consistently stabilize the probabilistic model.",
+      "status": "Preprint",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08995"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.08995"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/colinpriest/llm-jev-linguistic-profiling"
+        }
+      ],
+      "date": "2026-11-06",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.08995",
+      "checked_on": "2026-11-10",
+      "cataloged_on": "2026-11-10",
+      "arxiv_id": "2611.08995",
+      "authors": [
+        "Priest, Colin"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-06T05:10:09Z"
+    },
+    {
       "id": "r101",
       "section": "4. Research papers",
       "category": "Robustness and security",
@@ -21298,6 +21462,74 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-11-05T16:13:19Z"
+    },
+    {
+      "id": "r829",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "Nudging Decision Models: Do Digital Nudges Steer Fast, Generation-Free AI Agents?",
+      "description": "Tests Jev, Decision-1 and d1 on an online-shopping experiment with 600 runs per model. Defaults and social-influence cues shift choices, with larger effects for automatic nudges. The experiment supports susceptibility in this setting rather than a general equivalence to human System 1 cognition.",
+      "status": "Preprint",
+      "icon": "brain",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09264"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.09264"
+        }
+      ],
+      "date": "2026-11-06",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.09264",
+      "checked_on": "2026-11-10",
+      "cataloged_on": "2026-11-10",
+      "arxiv_id": "2611.09264",
+      "authors": [
+        "Kaltenpoth, Sascha",
+        "Halimeh, Haya",
+        "Bösch, Kevin",
+        "Müller, Oliver"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-06T10:21:27Z"
+    },
+    {
+      "id": "r832",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "Jev as an LLM Safety Guardrail: An Empirical Study of Input Filtering, Selective Output Review, and Over-Refusal",
+      "description": "Evaluates Jev input filtering and selective output review around Qwen2.5-1.5B on 970 prompts. Filtering reduces harmful-prompt answers while increasing benign refusals; a tiered gate trades these errors off. Gains from tuned thresholds over a retuned single gate are not consistent on held-out data.",
+      "status": "Preprint",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08845"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.08845"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ANRGUSC/llm-safe-jev"
+        }
+      ],
+      "date": "2026-11-06",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.08845",
+      "checked_on": "2026-11-10",
+      "cataloged_on": "2026-11-10",
+      "arxiv_id": "2611.08845",
+      "authors": [
+        "Cognetti, Olivia",
+        "Krishnamachari, Bhaskar"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-06T01:03:36Z"
     },
     {
       "id": "r104",
@@ -25842,6 +26074,42 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-11-02T16:09:34Z"
+    },
+    {
+      "id": "r831",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "GeoJeV: Unified Spatial Probability for Training-Free Efficient Evidence Acquisition in Ultra-High-Resolution Remote Sensing",
+      "description": "Uses a frozen JeV model to rank image regions, choose branching width and control search depth for remote-sensing questions. Reports accuracy and latency gains on three datasets through probability-guided evidence acquisition. Comparisons are specific to the evaluated models and search workloads.",
+      "status": "Preprint",
+      "icon": "eye",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08879"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.08879"
+        }
+      ],
+      "date": "2026-11-06",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.08879",
+      "checked_on": "2026-11-10",
+      "cataloged_on": "2026-11-10",
+      "arxiv_id": "2611.08879",
+      "authors": [
+        "Niu, Xinyi",
+        "Chen, Lingfeng",
+        "Zhang, Jiehua",
+        "Hu, Panhe",
+        "Liu, Li",
+        "Liu, Zhen",
+        "Liu, Yongxiang"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-06T02:12:39Z"
     },
     {
       "id": "r126",

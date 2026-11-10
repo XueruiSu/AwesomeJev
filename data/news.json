@@ -2,6 +2,24 @@
   "title": "Big News",
   "events": [
     {
+      "date": "2026-11-09",
+      "icon": "bolt",
+      "headline": "Flide expands decision-model support and multi-request serving as its Show HN discussion gains traction.",
+      "url": "https://github.com/OmniJev/Flide",
+      "label": "Project and release notes",
+      "note": "Versions 0.1.9–0.1.10 add checkpoint support, KnowLine image inputs and batched request bodies. The reported up-to-9.5× speedup is workload-specific, not independent validation. Flide originally launched in October.",
+      "date_source": "https://github.com/OmniJev/Flide/blob/main/README.md",
+      "date_source_field": "Dated November 9 release notes",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 119,
+        "comments": 28,
+        "observed_on": "2026-11-10",
+        "source": "https://hn.algolia.com/api/v1/items/50421155",
+        "url": "https://news.ycombinator.com/item?id=50421155"
+      }
+    },
+    {
       "date": "2026-11-05",
       "icon": "brain",
       "headline": "RSI-Jev releases v7.0-VL 4B with new option-reading attention, open weights and training code.",
