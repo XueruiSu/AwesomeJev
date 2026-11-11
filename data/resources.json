@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-11",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -6791,6 +6791,42 @@
       }
     },
     {
+      "id": "r847",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Probascope on-device decision visualization",
+      "description": "Android app runs Jev-style GGUF models through kneejerk and visualizes layerwise readouts and model blocks. Reports Pixel 8a timings and final-layer agreement checks. Early-layer logit-lens readings may mislead; iOS, multimodal inputs and further causal interventions remain planned.",
+      "status": "Public code · license not established",
+      "icon": "phone",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/moudrkat/probascope"
+        },
+        {
+          "label": "Runtime",
+          "url": "https://github.com/moudrkat/kneejerk"
+        }
+      ],
+      "date": "2026-11-10",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/moudrkat/probascope",
+      "checked_on": "2026-11-11",
+      "cataloged_on": "2026-11-11",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-10T07:51:07Z",
+      "artifact_verification": {
+        "method": "original_readme_and_repository_metadata",
+        "checked_on": "2026-11-11",
+        "sources": [
+          "https://github.com/moudrkat/probascope",
+          "https://api.github.com/repos/moudrkat/probascope"
+        ],
+        "finding": "Public source and README inspected. Top-level LICENSE URL returned 404; this does not establish that every file lacks license terms.",
+        "scope": "Documentation only; app and APK not run."
+      }
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -7939,6 +7975,39 @@
         "sources": [
           "https://api.github.com/repos/Lisabet/bounded-decisions/readme",
           "https://api.github.com/repos/Lisabet/bounded-decisions/license"
+        ],
+        "license_note": "MIT for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
+      "id": "r846",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "TypeSafeKit Swift client and middleware",
+      "description": "Dependency-free Swift HTTP client and typed routing, gating, rating and composite helpers for Jev. Provides injectable transport, local validation and retry handling. The author reports stubbed tests only and no live-service validation; middleware thresholds remain application choices.",
+      "status": "Open source · MIT",
+      "icon": "code",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/AgentiLoop/TypeSafeKit"
+        }
+      ],
+      "date": "2026-11-10",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/AgentiLoop/TypeSafeKit",
+      "checked_on": "2026-11-11",
+      "cataloged_on": "2026-11-11",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-10T16:14:03Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-11",
+        "sources": [
+          "https://github.com/AgentiLoop/TypeSafeKit",
+          "https://raw.githubusercontent.com/AgentiLoop/TypeSafeKit/HEAD/LICENSE"
         ],
         "license_note": "MIT for the repository code.",
         "scope": "Documentation reviewed. Third-party code was not run."
@@ -12575,6 +12644,93 @@
         "checked_on": "2026-11-09",
         "finding": "Inspected the model card and public file listing.",
         "license_note": "Model card declares Apache-2.0 for code and derivative weights; GitHub code LICENSE independently inspected.",
+        "scope": "File metadata and documentation checked. No inference or weight downloads."
+      }
+    },
+    {
+      "id": "r848",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "SocialJev 4B preview",
+      "description": "Qwen3-4B-based classification model inspired by Jev for social-science tasks. Returns typed choices and probabilities through Transformers or the SocialJev vLLM interface. Public weights are listed, but the preview card provides illustrative outputs rather than benchmark evidence; interfaces may change.",
+      "status": "Public weights · model license unspecified",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/social-jev/social-jev-4B-preview"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/social-jev/social-jev"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://social-jev.github.io/docs/"
+        }
+      ],
+      "date": "2026-11-11",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/social-jev/social-jev-4B-preview",
+      "checked_on": "2026-11-11",
+      "cataloged_on": "2026-11-11",
+      "date_source_timestamp": "2026-11-11T00:03:35.000Z",
+      "date_source_field": "createdAt",
+      "date_note": "Hub repository creation. The initial public availability of the weights may differ.",
+      "artifact_verification": {
+        "method": "original_card_and_public_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/models/social-jev/social-jev-4B-preview",
+          "https://huggingface.co/social-jev/social-jev-4B-preview/raw/main/README.md",
+          "https://raw.githubusercontent.com/social-jev/social-jev/HEAD/LICENSE"
+        ],
+        "verified_urls": [
+          "https://huggingface.co/social-jev/social-jev-4B-preview"
+        ],
+        "checked_on": "2026-11-11",
+        "finding": "Inspected the model card and public file listing.",
+        "license_note": "Package repository LICENSE is MIT. No separate weight license identified in the model card or Hub file listing; package licensing is not assumed to cover weights.",
+        "scope": "File metadata and documentation checked. No inference or weight downloads."
+      }
+    },
+    {
+      "id": "r849",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Brainsurged Open-Jev Qwen3.5 4B",
+      "description": "Qwen3.5-4B constrained-JSON engineering study combining synthetic LoRA, weight-space calibration and custom jump-forward decoding. Publishes GGUF weights, delta patches, serving sources and evaluation records. Earlier task suites were reused during development; hosted L4 timings do not establish local-device performance or single-pass typed inference.",
+      "status": "Public weights · Apache-2.0 declared",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/AIHeikki/brainsurged-open-jev-qwen3.5-4b"
+        },
+        {
+          "label": "Serving sources",
+          "url": "https://huggingface.co/AIHeikki/brainsurged-open-jev-qwen3.5-4b/tree/main/serving_v5"
+        }
+      ],
+      "date": "2026-11-07",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/AIHeikki/brainsurged-open-jev-qwen3.5-4b",
+      "checked_on": "2026-11-11",
+      "cataloged_on": "2026-11-11",
+      "date_source_timestamp": "2026-11-07T11:40:55.000Z",
+      "date_source_field": "createdAt",
+      "date_note": "Hub repository creation. The initial public availability of the weights may differ.",
+      "artifact_verification": {
+        "method": "original_card_and_public_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/models/AIHeikki/brainsurged-open-jev-qwen3.5-4b",
+          "https://huggingface.co/AIHeikki/brainsurged-open-jev-qwen3.5-4b/raw/main/README.md"
+        ],
+        "verified_urls": [
+          "https://huggingface.co/AIHeikki/brainsurged-open-jev-qwen3.5-4b"
+        ],
+        "checked_on": "2026-11-11",
+        "finding": "Inspected the model card and public file listing.",
+        "license_note": "Model card declares Apache-2.0. Separate licensing for all bundled serving components was not established.",
         "scope": "File metadata and documentation checked. No inference or weight downloads."
       }
     },
@@ -19014,6 +19170,46 @@
       "date_source_timestamp": "2026-10-31T13:09:19Z"
     },
     {
+      "id": "r841",
+      "section": "4. Research papers",
+      "category": "Surveys and broad evaluations",
+      "title": "AbductionBench: Benchmarking Abductive Reasoning in Large Language Models",
+      "description": "Unifies abductive-reasoning evaluation across 27 datasets and ten domains, including explanation selection, hypothesis revision and information gathering. Jev competes with smaller LLMs on compact evidence but struggles on longer cases. Written reasoning traces are treated as observable outputs rather than faithful internal explanations.",
+      "status": "Preprint",
+      "icon": "brain",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.10705"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.10705"
+        }
+      ],
+      "date": "2026-11-07",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.10705",
+      "checked_on": "2026-11-11",
+      "cataloged_on": "2026-11-11",
+      "arxiv_id": "2611.10705",
+      "authors": [
+        "Salimi, Moein",
+        "Qeysarbeigi, Amir",
+        "Mohtasham, Babak Hosseini",
+        "Tehrani, Faraz Doagoye",
+        "Naieni, Mahdi",
+        "Sartipi, Hanieh",
+        "Nouri, Ali",
+        "Aghakasiri, Amin",
+        "Mahani, Reyhane Khayatzade",
+        "Siavoshani, Mahdi Jafari",
+        "Rohban, Mohammad Hossein"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-07T12:56:43Z"
+    },
+    {
       "id": "r096",
       "section": "4. Research papers",
       "category": "Judging, calibration, and reliability",
@@ -20501,6 +20697,73 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-11-06T05:10:09Z"
+    },
+    {
+      "id": "r837",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Can the Confidence and Decisions of System 1 Models Be Trusted? An Explainability and Perturbation Audit of Jev-Style Decision Models",
+      "description": "Audits five open Jev-style models for calibration, perturbation robustness, bundled-question interference and attribution faithfulness. Finds confidence formulas need not represent empirical accuracy and small models can change answers across bundled questions. Reported injection-defense and explanation results are specific to the evaluated suites.",
+      "status": "Preprint",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.12521"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.12521"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/j2launay/jev-decision-models-xai"
+        }
+      ],
+      "date": "2026-11-09",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.12521",
+      "checked_on": "2026-11-11",
+      "cataloged_on": "2026-11-11",
+      "arxiv_id": "2611.12521",
+      "authors": [
+        "Delaunay, Julien"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-09T14:58:53Z"
+    },
+    {
+      "id": "r838",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Beyond Ranking: Are Decision Models Calibrated Relevance Scorers?",
+      "description": "Compares Jev and open decision models with relevance-ranking baselines on eight BEIR collections. Jev ranks well but native relevance probabilities are overconfident against human labels. A two-parameter calibration fitted on DL19 transfers to DL21 and supports query-specific retrieval cutoffs.",
+      "status": "Preprint",
+      "icon": "gauge",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.11480"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.11480"
+        }
+      ],
+      "date": "2026-11-08",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.11480",
+      "checked_on": "2026-11-11",
+      "cataloged_on": "2026-11-11",
+      "arxiv_id": "2611.11480",
+      "authors": [
+        "Zhuang, Shengyao",
+        "Ma, Xueguang",
+        "Petri, Matthias",
+        "Lin, Jimmy"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-08T16:22:38Z"
     },
     {
       "id": "r101",
@@ -23646,6 +23909,37 @@
       "date_source_timestamp": "2026-11-05T11:31:13Z"
     },
     {
+      "id": "r843",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "Reproducible LoRA Inference Through Deterministic Split-K Reduction",
+      "description": "Introduces deterministic Triton Split-K reduction for LoRA inference in vLLM. Tests repeated reasoning, code and Jev-style toxicity decisions, tracing atomic-reduction variability into outputs and probabilities. Reported latency tradeoffs apply to the measured kernels and workloads.",
+      "status": "Preprint",
+      "icon": "bolt",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.10334"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.10334"
+        }
+      ],
+      "date": "2026-11-07",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.10334",
+      "checked_on": "2026-11-11",
+      "cataloged_on": "2026-11-11",
+      "arxiv_id": "2611.10334",
+      "authors": [
+        "Balusamy, Dhayaneshwar",
+        "Mohan, Ankur"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-07T00:03:56Z"
+    },
+    {
       "id": "r115",
       "section": "4. Research papers",
       "category": "Networking and edge systems",
@@ -26110,6 +26404,191 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-11-06T02:12:39Z"
+    },
+    {
+      "id": "r839",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "NuJEV: Structured Visual Judgments for Consistent Nuclei Quantification",
+      "description": "Jev-inspired nuclear-image analysis combines visual LoRA and a parallel head in Qwen3-VL-2B to locate and type nuclei. Counts are computed from detections while the language decoder handles requests. Reports PanNuke results and a matched encoder ablation; code release is announced rather than verified here.",
+      "status": "Preprint",
+      "icon": "eye",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.11359"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.11359"
+        }
+      ],
+      "date": "2026-11-08",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.11359",
+      "checked_on": "2026-11-11",
+      "cataloged_on": "2026-11-11",
+      "arxiv_id": "2611.11359",
+      "authors": [
+        "Wu, Yonghuang",
+        "Wang, Pengfei",
+        "Liang, Zhenyang",
+        "Ma, Yize",
+        "Song, Pengfei",
+        "Wu, Guoqing",
+        "Yu, Jinhua"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-08T13:05:41Z"
+    },
+    {
+      "id": "r840",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Evaluating Jev on Arabic: Comparing Decision Models and LLMs Across Arabic Tasks and Dialects",
+      "description": "Compares 67 systems on 43 Arabic tasks and examines content-matched dialect versus Modern Standard Arabic gaps. Jev version gains depend on task family, and some dialect contrasts remain statistically inconclusive. Aggregate scores do not establish a general ranking for dialect robustness.",
+      "status": "Preprint",
+      "icon": "globe",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.10802"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.10802"
+        }
+      ],
+      "date": "2026-11-07",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.10802",
+      "checked_on": "2026-11-11",
+      "cataloged_on": "2026-11-11",
+      "arxiv_id": "2611.10802",
+      "authors": [
+        "Elsafty, Hossam",
+        "Deußer, Tobias",
+        "Sparrenberg, Lorenz",
+        "Ramamurthy, Rajkumar",
+        "Sifa, Rafet"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-07T15:30:03Z"
+    },
+    {
+      "id": "r842",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Track or Follow? A Jev-Compatible Multi-Agent Trading System When Web News Lags the Market",
+      "description": "Studies typed news judgments in a Jev-compatible multi-agent trading system with point-in-time stores and code-bounded positions. Event-window associations weaken after news publication, and the confirmatory weekly test finds no rank information beyond code-only features. Hosted Jev results are descriptive.",
+      "status": "Preprint",
+      "icon": "coins",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.10414"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.10414"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/yebof/track-or-follow"
+        }
+      ],
+      "date": "2026-11-07",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.10414",
+      "checked_on": "2026-11-11",
+      "cataloged_on": "2026-11-11",
+      "arxiv_id": "2611.10414",
+      "authors": [
+        "Feng, Yebo",
+        "Gan, Guangyan",
+        "Pan, Liangrui",
+        "Liang, Ruichao",
+        "Wu, Cong",
+        "Xu, Jiahua",
+        "Liu, Yang"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-07T02:47:13Z"
+    },
+    {
+      "id": "r844",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "TrialJev: Open-Weight Single Pass Eligibility Scoring for Patient Trial Screening",
+      "description": "Uses Qwen LoRA adapters and a pointer head for single-pass clinical-trial eligibility scoring. Evaluates 6,975 pairs from 50 synthetic patients and compares matched generative models and hosted Jev. Confidence intervals include zero for key accuracy comparisons; clinical use is not validated.",
+      "status": "Preprint",
+      "icon": "heart",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.10145"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.10145"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/oibrahi1/TrialJev"
+        },
+        {
+          "label": "Model artifacts",
+          "url": "https://huggingface.co/omareng/TrialJev"
+        }
+      ],
+      "date": "2026-11-06",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.10145",
+      "checked_on": "2026-11-11",
+      "cataloged_on": "2026-11-11",
+      "arxiv_id": "2611.10145",
+      "authors": [
+        "Ibrahim, Omar",
+        "Hamblin, Grant",
+        "Haibe-Kains, Benjamin"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-06T19:11:18Z"
+    },
+    {
+      "id": "r845",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "XDecideBench: Evaluating Typed Decision Models and Confidence Policies Across Languages",
+      "description": "Evaluates typed decision models across nine suites in 122 languages. Rankings vary by suite and language, and an English-fitted confidence policy can exceed its target error rate elsewhere. Comparisons include Jev, Clef and pplx-decider, with explicit base-model and task controls.",
+      "status": "Preprint",
+      "icon": "globe",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.01370"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.01370"
+        },
+        {
+          "label": "Announced code repository",
+          "url": "https://github.com/NaiveNeuron/XDecideBench"
+        }
+      ],
+      "date": "2026-11-01",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.01370",
+      "checked_on": "2026-11-11",
+      "cataloged_on": "2026-11-11",
+      "arxiv_id": "2611.01370",
+      "authors": [
+        "Šuppa, Marek",
+        "Kopčan, Jaroslav"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-01T00:11:15Z"
     },
     {
       "id": "r126",
