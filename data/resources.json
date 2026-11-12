@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-11",
+  "last_updated": "2026-11-12",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -3273,6 +3273,29 @@
       "cataloged_on": "2026-11-10",
       "date_source_field": "datePublished",
       "date_source_timestamp": "2026-10-30T06:44:30.722Z"
+    },
+    {
+      "id": "r858",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Cutting LLM Token Costs with Currents News API and TypeSafe Jev Pre-Filtering",
+      "description": "Provider tutorial evaluates Jev relevance screening before news synthesis on two article pools. Reports 16–18% fewer input tokens at a 0.70 threshold, with one small negative blind-panel quality result. Savings depend on synthesis pricing; the illustrated mini-model configuration is net negative.",
+      "status": "Provider tutorial and evaluation",
+      "icon": "coins",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://currentsapi.services/en/blog/cut-llm-token-costs-typesafe-jev-prefiltering"
+        }
+      ],
+      "date": "2026-09-20",
+      "date_kind": "published",
+      "date_source": "https://currentsapi.services/en/blog/cut-llm-token-costs-typesafe-jev-prefiltering",
+      "checked_on": "2026-11-12",
+      "cataloged_on": "2026-11-12",
+      "date_source_field": "datePublished and visible article date",
+      "date_source_timestamp": "2026-09-20T12:00:00+00:00",
+      "date_note": "Original page date; newly discovered through a November Hacker News post, not a November publication."
     },
     {
       "id": "r035",
@@ -6824,6 +6847,72 @@
         ],
         "finding": "Public source and README inspected. Top-level LICENSE URL returned 404; this does not establish that every file lacks license terms.",
         "scope": "Documentation only; app and APK not run."
+      }
+    },
+    {
+      "id": "r854",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev-Interaction full-duplex voice control",
+      "description": "Alpha voice pipeline places editable Jev judgments between speech recognition, language generation and synthesis. Policies govern waiting, backchannels, interruptions and resumption, with replayable decision records. Author-run benchmarks identify weaknesses in acoustic timing and post-interruption latency.",
+      "status": "Open source · Apache-2.0",
+      "icon": "chat",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/native-bond-lab/Jev-Interaction"
+        }
+      ],
+      "date": "2026-11-10",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/native-bond-lab/Jev-Interaction",
+      "checked_on": "2026-11-12",
+      "cataloged_on": "2026-11-12",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-10T09:10:14Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-12",
+        "sources": [
+          "https://github.com/native-bond-lab/Jev-Interaction",
+          "https://raw.githubusercontent.com/native-bond-lab/Jev-Interaction/HEAD/LICENSE"
+        ],
+        "license_note": "Apache-2.0 for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
+      "id": "r855",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Slack Thread Police",
+      "description": "Self-hosted Slack bot uses Jev or another System One endpoint to identify likely thread replies and send private nudges. Moving a message requires a user click and reposts it as the bot with attribution. Recent channel context is held in memory and sent to the configured decision provider.",
+      "status": "Open source · MIT",
+      "icon": "chat",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/seanparkross/slack-thread-police"
+        }
+      ],
+      "date": "2026-11-01",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/seanparkross/slack-thread-police",
+      "checked_on": "2026-11-12",
+      "cataloged_on": "2026-11-12",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-01T15:27:22Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-12",
+        "sources": [
+          "https://github.com/seanparkross/slack-thread-police",
+          "https://raw.githubusercontent.com/seanparkross/slack-thread-police/HEAD/LICENSE"
+        ],
+        "license_note": "MIT for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
       }
     },
     {
@@ -12735,6 +12824,93 @@
       }
     },
     {
+      "id": "r856",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Jev Guard v3.2 2B policy-tree reviewer",
+      "description": "Qwen3.5-2B LoRA adapter and typed heads route agent requests and proposed actions through an editable policy tree. Publishes inference files and task-level evaluations, but training data remain private. The hosted reviewer is marked offline; action-state replay is not an end-to-end attack-success test.",
+      "status": "Public research preview · restricted/unclear terms",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/hubin/jev-guard-v3.2-2b"
+        },
+        {
+          "label": "Project website",
+          "url": "https://hkust-knowcomp.github.io/jev-guardrail/"
+        },
+        {
+          "label": "Source notices",
+          "url": "https://huggingface.co/hubin/jev-guard-v3.2-2b/blob/main/LICENSE-NOTICE.md"
+        }
+      ],
+      "date": "2026-10-06",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/hubin/jev-guard-v3.2-2b",
+      "checked_on": "2026-11-12",
+      "cataloged_on": "2026-11-12",
+      "date_source_timestamp": "2026-10-06T15:16:49.000Z",
+      "date_source_field": "createdAt",
+      "date_note": "Hub repository creation, not the release date of the currently documented v3.2 continuation.",
+      "artifact_verification": {
+        "method": "original_card_and_public_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/models/hubin/jev-guard-v3.2-2b",
+          "https://huggingface.co/hubin/jev-guard-v3.2-2b/raw/main/README.md",
+          "https://huggingface.co/hubin/jev-guard-v3.2-2b/raw/main/LICENSE-NOTICE.md"
+        ],
+        "verified_urls": [
+          "https://huggingface.co/hubin/jev-guard-v3.2-2b"
+        ],
+        "checked_on": "2026-11-12",
+        "finding": "Inspected the model card and public file listing.",
+        "license_note": "Model card labels the license research-preview. The source notice preserves upstream terms but does not state a clear general permission grant for the adapter or all bundled code. Base weights are separate.",
+        "scope": "File metadata and documentation checked. No inference or weight downloads."
+      }
+    },
+    {
+      "id": "r857",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "femto-jev compact text and speech decisions",
+      "description": "7.7M-parameter encoder returns typed option probabilities, with a separate femto-asr front end for speech. Publishes weights and inference files. Author-reported gains on training-domain test splits do not transfer uniformly to unseen audio conditions; each question requires its own forward pass.",
+      "status": "Public weights · Apache-2.0 declared",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/igorktech/femto-jev"
+        },
+        {
+          "label": "Speech front end",
+          "url": "https://huggingface.co/igorktech/femto-asr"
+        }
+      ],
+      "date": "2026-11-11",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/igorktech/femto-jev",
+      "checked_on": "2026-11-12",
+      "cataloged_on": "2026-11-12",
+      "date_source_timestamp": "2026-11-11T15:42:25.000Z",
+      "date_source_field": "createdAt",
+      "date_note": "Hub repository creation. The initial public availability of the weights may differ.",
+      "artifact_verification": {
+        "method": "original_card_and_public_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/models/igorktech/femto-jev",
+          "https://huggingface.co/igorktech/femto-jev/raw/main/README.md"
+        ],
+        "verified_urls": [
+          "https://huggingface.co/igorktech/femto-jev"
+        ],
+        "checked_on": "2026-11-12",
+        "finding": "Inspected the model card and public file listing.",
+        "license_note": "Hub card declares Apache-2.0 and lists a LICENSE file. Licensing of the separately linked ASR artifact is outside this check.",
+        "scope": "File metadata and documentation checked. No inference or weight downloads."
+      }
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -13098,6 +13274,72 @@
         "finding": "Original README and license text inspected.",
         "license_note": "Apache-2.0",
         "scope": "Documentation only; no external code or model inference executed."
+      }
+    },
+    {
+      "id": "r852",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Training pipelines and announced releases",
+      "title": "Snapcall decision-model training toolkit",
+      "description": "CLI and dashboard for typed decision heads, supervised training, calibration objectives, evaluation and System One-compatible serving. Its RLCD implementation is an independent KL-regularized proper-scoring objective, not TypeSafe’s undisclosed training method. Includes an author-run small emotion-classification experiment.",
+      "status": "Open source · Apache-2.0",
+      "icon": "flask",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/AIAnytime/snapcall"
+        }
+      ],
+      "date": "2026-11-11",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/AIAnytime/snapcall",
+      "checked_on": "2026-11-12",
+      "cataloged_on": "2026-11-12",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-11T14:48:28Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-12",
+        "sources": [
+          "https://github.com/AIAnytime/snapcall",
+          "https://raw.githubusercontent.com/AIAnytime/snapcall/HEAD/LICENSE"
+        ],
+        "license_note": "Apache-2.0 for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
+      "id": "r853",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Training pipelines and announced releases",
+      "title": "DecisionForge data, training and evaluation workflows",
+      "description": "Builds choice, noul and score datasets from source material with checks, targeted repairs and provenance. Coordinates multiple training backends and local or hosted evaluation through coding-agent workflows. Published comparisons are project-run; upstream dependencies and data retain separate terms.",
+      "status": "Open source · Apache-2.0",
+      "icon": "code",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Blackteaxx/DecisionForge"
+        }
+      ],
+      "date": "2026-11-11",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Blackteaxx/DecisionForge",
+      "checked_on": "2026-11-12",
+      "cataloged_on": "2026-11-12",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-11T13:22:47Z",
+      "date_note": "GitHub repository creation date. Individual experiments and artifacts have separate histories.",
+      "artifact_verification": {
+        "method": "original_readme_and_license",
+        "checked_on": "2026-11-12",
+        "sources": [
+          "https://github.com/Blackteaxx/DecisionForge",
+          "https://raw.githubusercontent.com/Blackteaxx/DecisionForge/HEAD/LICENSE"
+        ],
+        "license_note": "Apache-2.0 for the repository code.",
+        "scope": "Documentation reviewed. Third-party code was not run."
       }
     },
     {
@@ -21795,6 +22037,43 @@
       "date_source_timestamp": "2026-11-06T01:03:36Z"
     },
     {
+      "id": "r850",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "LEASH: Stay Safe in Agentic Robotics",
+      "description": "Introduces RoboRisk with 92 simulated and 13 physical-robot tasks, and a safety harness using Jev or a Decisions API for task, action and irreversible-operation gates. Reports lower harm with limited task-completion overhead across tested planners. Results concern the specified closed-loop benchmark and shared safety policy.",
+      "status": "Preprint",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.14115"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.14115"
+        }
+      ],
+      "date": "2026-11-10",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.14115",
+      "checked_on": "2026-11-12",
+      "cataloged_on": "2026-11-12",
+      "arxiv_id": "2611.14115",
+      "authors": [
+        "Zhu, Qinfeng",
+        "Zhao, Weiguang",
+        "Sun, Ke",
+        "Guo, Xihao",
+        "Jiang, Yunxi",
+        "Zhang, Rui",
+        "Fan, Lei",
+        "Huang, Kaizhu"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-10T14:06:20Z"
+    },
+    {
       "id": "r104",
       "section": "4. Research papers",
       "category": "Agent memory, routing, and control",
@@ -23938,6 +24217,36 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-11-07T00:03:56Z"
+    },
+    {
+      "id": "r851",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "Omni-JEV: Text and Dual-Stream Speech Decisions",
+      "description": "Maps text or separately encoded user and assistant-reference speech to five interaction-action probabilities. Compares Gaussian-logit and categorical Choice RLCD from matched supervised initializations. Evaluates decisions at collected-segment endpoints, with tradeoffs between classification accuracy and probability quality.",
+      "status": "Preprint",
+      "icon": "chat",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.13777"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.13777"
+        }
+      ],
+      "date": "2026-11-10",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.13777",
+      "checked_on": "2026-11-12",
+      "cataloged_on": "2026-11-12",
+      "arxiv_id": "2611.13777",
+      "authors": [
+        "Kong, Shengzhou"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-10T09:15:58Z"
     },
     {
       "id": "r115",
