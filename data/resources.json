@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-12",
+  "last_updated": "2026-11-13",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -6916,6 +6916,39 @@
       }
     },
     {
+      "id": "r860",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Rust Jev MCP server",
+      "description": "Streamable HTTP MCP server exposes mixed typed questions and candidate ranking through Jev. Ranking sends a separate yes/no request per candidate with bounded concurrency, then sorts returned probabilities. A failed candidate request fails the entire ranking call; model pinning is recommended for stable thresholds.",
+      "status": "Public code · license not established",
+      "icon": "network",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/rgryta/jev-mcp"
+        }
+      ],
+      "date": "2026-11-12",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/rgryta/jev-mcp",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-12T21:26:03Z",
+      "date_note": "GitHub repository creation date, not a model release date. Experiments and individual artifacts have separate histories.",
+      "checked_on": "2026-11-13",
+      "cataloged_on": "2026-11-13",
+      "artifact_verification": {
+        "method": "original_repository_documentation_via_github_api",
+        "checked_on": "2026-11-13",
+        "sources": [
+          "https://api.github.com/repos/rgryta/jev-mcp/readme",
+          "https://api.github.com/repos/rgryta/jev-mcp/license"
+        ],
+        "license_note": "GitHub license endpoint returned HTTP 404; no explicit license was established from the reviewed README. This does not establish that every repository file lacks licensing terms.",
+        "scope": "Repository documentation and available license text reviewed. Third-party code was not executed. Raw GitHub requests failed during TLS connection setup; GitHub API content retrieval succeeded."
+      }
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -8100,6 +8133,39 @@
         ],
         "license_note": "MIT for the repository code.",
         "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
+      "id": "r859",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "cljev Clojure System One client",
+      "description": "Clojure client for Babashka and the JVM supports typed questions, structured states and model discovery. Preserves choice ordering and keyword round trips, and offers bounded batch concurrency with per-request errors. Includes probability sampling and threshold helpers; the 0.x API may change.",
+      "status": "Open source · MIT",
+      "icon": "code",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/joshrotenberg/cljev"
+        }
+      ],
+      "date": "2026-11-12",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/joshrotenberg/cljev",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-12T18:31:25Z",
+      "date_note": "GitHub repository creation date, not a model release date. Experiments and individual artifacts have separate histories.",
+      "checked_on": "2026-11-13",
+      "cataloged_on": "2026-11-13",
+      "artifact_verification": {
+        "method": "original_repository_documentation_via_github_api",
+        "checked_on": "2026-11-13",
+        "sources": [
+          "https://api.github.com/repos/joshrotenberg/cljev/readme",
+          "https://api.github.com/repos/joshrotenberg/cljev/license"
+        ],
+        "license_note": "MIT license file retrieved through the GitHub API. Upstream data and dependencies retain separate terms.",
+        "scope": "Repository documentation and available license text reviewed. Third-party code was not executed. Raw GitHub requests failed during TLS connection setup; GitHub API content retrieval succeeded."
       }
     },
     {
@@ -17558,6 +17624,105 @@
         ],
         "license_note": "Apache-2.0 for the repository code.",
         "scope": "Documentation reviewed. Third-party code was not run."
+      }
+    },
+    {
+      "id": "r861",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Verdict cross-provider decision evaluation",
+      "description": "Runs one YAML rubric across Jev, Clef, OpenAI, Gemini and OpenRouter adapters, retaining case outcomes, failures and disagreement reports. Includes offline mock mode and an author-run 80-case BANKING77 example. The small example diagnoses disagreements rather than establishing a general model ranking.",
+      "status": "Open source · MIT",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Ustay-coder/verdict"
+        }
+      ],
+      "date": "2026-11-11",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Ustay-coder/verdict",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-11T06:38:44Z",
+      "date_note": "GitHub repository creation date, not a model release date. Experiments and individual artifacts have separate histories.",
+      "checked_on": "2026-11-13",
+      "cataloged_on": "2026-11-13",
+      "artifact_verification": {
+        "method": "original_repository_documentation_via_github_api",
+        "checked_on": "2026-11-13",
+        "sources": [
+          "https://api.github.com/repos/Ustay-coder/verdict/readme",
+          "https://api.github.com/repos/Ustay-coder/verdict/license"
+        ],
+        "license_note": "MIT license file retrieved through the GitHub API. Upstream data and dependencies retain separate terms.",
+        "scope": "Repository documentation and available license text reviewed. Third-party code was not executed. Raw GitHub requests failed during TLS connection setup; GitHub API content retrieval succeeded."
+      }
+    },
+    {
+      "id": "r862",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Shot grouping with decision-model probabilities",
+      "description": "Groups 124 film stills into scenes and color-grading groups using pairwise Jev or Clef judgments and hierarchical clustering. Includes saved responses and an agent skill. Ground-truth labels were initialized from Jev output and favor Jev; provider-specific image batching also limits performance comparisons.",
+      "status": "Open source · MIT",
+      "icon": "eye",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/JasonMakes801/shot-grouping-decision-models"
+        }
+      ],
+      "date": "2026-11-12",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/JasonMakes801/shot-grouping-decision-models",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-12T01:42:35Z",
+      "date_note": "GitHub repository creation date, not a model release date. Experiments and individual artifacts have separate histories.",
+      "checked_on": "2026-11-13",
+      "cataloged_on": "2026-11-13",
+      "artifact_verification": {
+        "method": "original_repository_documentation_via_github_api",
+        "checked_on": "2026-11-13",
+        "sources": [
+          "https://api.github.com/repos/JasonMakes801/shot-grouping-decision-models/readme",
+          "https://api.github.com/repos/JasonMakes801/shot-grouping-decision-models/license"
+        ],
+        "license_note": "Repository code is MIT. The README attributes Tears of Steel stills to the Blender Foundation under CC BY 3.0; these are separate from the code license.",
+        "scope": "Repository documentation and available license text reviewed. Third-party code was not executed. Raw GitHub requests failed during TLS connection setup; GitHub API content retrieval succeeded."
+      }
+    },
+    {
+      "id": "r863",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "JevSearch long-document QA evaluation",
+      "description": "Public evaluation scaffold combines table-of-contents routing, Jev evidence judgments and multimodal question answering on 500 MMLongBench-Doc questions. Components use separate denominators. Jev lacks human-confirmed labels, and QA uses gold evidence pages rather than end-to-end retrieval. Publishes sanitized metrics while withholding source documents and question text.",
+      "status": "Public code · license not established",
+      "icon": "book",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lijinyi949341-sudo/JevSearch-public"
+        }
+      ],
+      "date": "2026-11-12",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/lijinyi949341-sudo/JevSearch-public",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-12T18:37:26Z",
+      "date_note": "GitHub repository creation date, not a model release date. Experiments and individual artifacts have separate histories.",
+      "checked_on": "2026-11-13",
+      "cataloged_on": "2026-11-13",
+      "artifact_verification": {
+        "method": "original_repository_documentation_via_github_api",
+        "checked_on": "2026-11-13",
+        "sources": [
+          "https://api.github.com/repos/lijinyi949341-sudo/JevSearch-public/readme",
+          "https://api.github.com/repos/lijinyi949341-sudo/JevSearch-public/license"
+        ],
+        "license_note": "GitHub license endpoint returned HTTP 404; no explicit license was established from the reviewed README. This does not establish that every repository file lacks licensing terms.",
+        "scope": "Repository documentation and available license text reviewed. Third-party code was not executed. Raw GitHub requests failed during TLS connection setup; GitHub API content retrieval succeeded."
       }
     },
     {
