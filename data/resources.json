@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-14",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -4162,6 +4162,39 @@
       }
     },
     {
+      "id": "r872",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Hosted access and framework guides",
+      "title": "Spring AI Jev feedback triage",
+      "description": "Java example asks urgency, routing and mood questions in one Jev call through the Spring AI Decision API. Demonstrates probability thresholds and a fake-provider test. Uses Spring AI 2.1.0-RC2 and explicitly notes refusal handling and release-candidate status.",
+      "status": "Public code · license not established",
+      "icon": "code",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/danvega/jev-feedback-triage"
+        }
+      ],
+      "date": "2026-11-13",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/danvega/jev-feedback-triage",
+      "checked_on": "2026-11-14",
+      "cataloged_on": "2026-11-14",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-13T20:37:13Z",
+      "date_note": "GitHub repository creation, not model weight release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/danvega/jev-feedback-triage/readme",
+          "https://api.github.com/repos/danvega/jev-feedback-triage/license"
+        ],
+        "checked_on": "2026-11-14",
+        "license_note": "License endpoint returned HTTP 404 and README did not establish an application-code license.",
+        "scope": "Documentation checked; third-party code was not executed."
+      }
+    },
+    {
       "id": "r050",
       "section": "3. Infrastructure, models, and applications",
       "category": "Browser and agent infrastructure",
@@ -8166,6 +8199,39 @@
         ],
         "license_note": "MIT license file retrieved through the GitHub API. Upstream data and dependencies retain separate terms.",
         "scope": "Repository documentation and available license text reviewed. Third-party code was not executed. Raw GitHub requests failed during TLS connection setup; GitHub API content retrieval succeeded."
+      }
+    },
+    {
+      "id": "r871",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "Clorian confidence-aware Laravel integration",
+      "description": "Integrates Jev questions with Eloquent events and arbitrary inputs, per-option acceptance thresholds, human review and review-derived calibration reports. Offers redaction, encrypted input storage and a fake driver for tests. Applications provide the review UI and must make policy application safe to repeat.",
+      "status": "Open source · MIT",
+      "icon": "code",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/phoenix1331/laravel-clorian"
+        }
+      ],
+      "date": "2026-11-12",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/phoenix1331/laravel-clorian",
+      "checked_on": "2026-11-14",
+      "cataloged_on": "2026-11-14",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-12T20:39:02Z",
+      "date_note": "GitHub repository creation, not model weight release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/phoenix1331/laravel-clorian/readme",
+          "https://api.github.com/repos/phoenix1331/laravel-clorian/license"
+        ],
+        "checked_on": "2026-11-14",
+        "license_note": "MIT for repository code; upstream assets retain separate terms.",
+        "scope": "Documentation checked; third-party code was not executed."
       }
     },
     {
@@ -17726,6 +17792,79 @@
       }
     },
     {
+      "id": "r873",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Atlas multi-hop RAG relevance filtering",
+      "description": "Compares hybrid and keyword retrieval with and without Jev passage filtering while sharing one answer model. Records selection steps, context, raw judgments and cost. Provides a benchmark interface for MultiHop-RAG; the README describes an experimental setup rather than establishing a measured accuracy or cost advantage.",
+      "status": "Public code · license not established",
+      "icon": "database",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/bytelabs-oss/multihop-rag-jev"
+        }
+      ],
+      "date": "2026-11-13",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/bytelabs-oss/multihop-rag-jev",
+      "checked_on": "2026-11-14",
+      "cataloged_on": "2026-11-14",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-13T03:08:55Z",
+      "date_note": "GitHub repository creation, not model weight release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/bytelabs-oss/multihop-rag-jev/readme",
+          "https://api.github.com/repos/bytelabs-oss/multihop-rag-jev/license"
+        ],
+        "checked_on": "2026-11-14",
+        "license_note": "License endpoint returned HTTP 404 and README did not establish an application-code license.",
+        "scope": "Documentation checked; third-party code was not executed."
+      }
+    },
+    {
+      "id": "r874",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Mini-Jev image moderation v6",
+      "description": "Independent Qwen3-VL-based image moderation heads score sexual content and gore, with external use routed to human review. Author publishes an adapter/head bundle and inference code. Scores are uncalibrated; the small retrospective evaluation and mostly AI-initialized labels do not establish deployment accuracy or human-validated gore recall.",
+      "status": "Open source · Apache-2.0",
+      "icon": "eye",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/cnYanqing/mini-jev-moderation"
+        },
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/lettery/mini-jev-moderation-image-v6"
+        }
+      ],
+      "date": "2026-11-13",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/cnYanqing/mini-jev-moderation",
+      "checked_on": "2026-11-14",
+      "cataloged_on": "2026-11-14",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-13T20:46:00Z",
+      "date_note": "GitHub repository creation, not model weight release.",
+      "artifact_verification": {
+        "method": "indirect_first_party_repository_readme",
+        "sources": [
+          "https://api.github.com/repos/cnYanqing/mini-jev-moderation/readme",
+          "https://api.github.com/repos/cnYanqing/mini-jev-moderation/license"
+        ],
+        "checked_on": "2026-11-14",
+        "license_note": "Apache-2.0 repository license inspected. Author README also declares Apache-2.0 for the released weights; upstream licenses remain separate.",
+        "scope": "Author README corroborates exact Hub ID and describes an 11-part adapter/head download with a separately downloaded Qwen base. Hub files and weight license were not directly inspected or downloaded.",
+        "verified_urls": [
+          "https://huggingface.co/lettery/mini-jev-moderation-image-v6"
+        ]
+      }
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -21173,6 +21312,41 @@
       "date_source_timestamp": "2026-11-08T16:22:38Z"
     },
     {
+      "id": "r868",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Can Model Answer Probabilities Represent Survey Populations? Conditional Prediction and Joint Validity in Jev Survey Simulation",
+      "description": "Evaluates Jev option probabilities on linked responses to 20 binary survey items across five archived waves. Conditional prediction can improve while answer associations remain distorted, and sequential completion depends on question order. Findings concern selected tasks and one model version, not validated population simulation.",
+      "status": "Preprint",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.15576"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.15576"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/wuzengqing001225/jev-survey-distributions"
+        }
+      ],
+      "date": "2026-11-11",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.15576",
+      "checked_on": "2026-11-14",
+      "cataloged_on": "2026-11-14",
+      "arxiv_id": "2611.15576",
+      "authors": [
+        "Wu, Zengqing",
+        "Xiao, Chuan"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-11T14:59:43Z"
+    },
+    {
       "id": "r101",
       "section": "4. Research papers",
       "category": "Robustness and security",
@@ -22237,6 +22411,40 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-11-10T14:06:20Z"
+    },
+    {
+      "id": "r866",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "S1-Evo: Experience-Guided Evidence Competition Attacks on Typed System-1 Decision Models",
+      "description": "Studies attacks that change typed decisions by introducing competing evidence into untrusted context. Builds reusable experience cards from feedback-guided search and tests transfer across tasks. Reports decision flips and end-to-end agent violations on the specified benchmarks; these rates are not general deployment risk estimates.",
+      "status": "Preprint",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.16937"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.16937"
+        }
+      ],
+      "date": "2026-11-12",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.16937",
+      "checked_on": "2026-11-14",
+      "cataloged_on": "2026-11-14",
+      "arxiv_id": "2611.16937",
+      "authors": [
+        "Wang, Kaixiang",
+        "Li, Junjie",
+        "Zhou, Zhaojiacheng",
+        "Lou, Jiong",
+        "Li, Jie"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-12T15:21:44Z"
     },
     {
       "id": "r104",
@@ -23418,6 +23626,49 @@
       "date_source_timestamp": "2026-11-05T15:21:16Z"
     },
     {
+      "id": "r864",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+      "description": "Compares decision models and generative LLMs as actors and retrospective judges on ALFWorld, then uses Jev trajectory judgments to train policies on ALFWorld and WebShop. Reports gains over GRPO for a Qwen2.5-1.5B policy. The results distinguish judging completed actions from choosing actions before consequences are known.",
+      "status": "Preprint",
+      "icon": "network",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.17167"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.17167"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/ZJU-REAL/decision-agents"
+        }
+      ],
+      "date": "2026-11-12",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.17167",
+      "checked_on": "2026-11-14",
+      "cataloged_on": "2026-11-14",
+      "arxiv_id": "2611.17167",
+      "authors": [
+        "Liu, Haochen",
+        "Zhu, Qianhao",
+        "Wang, Zixuan",
+        "Li, Dingming",
+        "Chen, Tongbo",
+        "Qiu, Peng",
+        "Qu, Yingqi",
+        "Lu, Weiming",
+        "Xiao, Jun",
+        "Shen, Yongliang"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-12T17:42:46Z"
+    },
+    {
       "id": "r110",
       "section": "4. Research papers",
       "category": "Open and alternative decision-model methods",
@@ -24412,6 +24663,75 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-11-10T09:15:58Z"
+    },
+    {
+      "id": "r865",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
+      "description": "Proposes a frozen-backbone hybrid that routes between one-pass typed answers and autoregressive reasoning using an estimated value of thinking. Introduces CDPO for episode-level supervision and evaluates classification, JevBench and MiniWoB tasks. Reported latency and token savings depend on the tested models and routing price.",
+      "status": "Preprint",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.16961"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.16961"
+        }
+      ],
+      "date": "2026-11-12",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.16961",
+      "checked_on": "2026-11-14",
+      "cataloged_on": "2026-11-14",
+      "arxiv_id": "2611.16961",
+      "authors": [
+        "Yu, Zhengxu",
+        "Xu, Ke",
+        "Fang, Meng",
+        "Ammar, Haitham",
+        "Luo, Weilin",
+        "Wang, Jun"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-12T15:32:47Z"
+    },
+    {
+      "id": "r867",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "Small Heads, Strong Decisions: A Controlled Study of Typed-Decision Models",
+      "description": "Compares five typed-decision readouts with matched backbones, training sources and a common recipe. Finds small heads competitive in-domain and larger backbones more beneficial on held-out sources. Tests multi-question packing and inference cost; the controlled study uses one seed. Code is announced for release.",
+      "status": "Preprint",
+      "icon": "flask",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.15592"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.15592"
+        },
+        {
+          "label": "Announced code",
+          "url": "https://github.com/Ritvik19/DecideAnything"
+        }
+      ],
+      "date": "2026-11-11",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.15592",
+      "checked_on": "2026-11-14",
+      "cataloged_on": "2026-11-14",
+      "arxiv_id": "2611.15592",
+      "authors": [
+        "Rastogi, Ritvik"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-11T15:10:52Z"
     },
     {
       "id": "r115",
@@ -27063,6 +27383,72 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-11-01T00:11:15Z"
+    },
+    {
+      "id": "r869",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "JEV-VAD: Efficient Semantic Endpointing via Task-First Conditioning and Decoder-Prefix Pruning",
+      "description": "ASR-free semantic endpointing framework uses task-first audio conditioning, a scalar stop head and decoder-prefix pruning on Qwen3-ASR-0.6B. Combines supervised adaptation with reinforcement learning for calibrated decisions. EOT-bench experiments explore cross-language transfer and quality-resource tradeoffs; this is an independent Jev-style method.",
+      "status": "Preprint",
+      "icon": "chat",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.15362"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.15362"
+        }
+      ],
+      "date": "2026-11-11",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.15362",
+      "checked_on": "2026-11-14",
+      "cataloged_on": "2026-11-14",
+      "arxiv_id": "2611.15362",
+      "authors": [
+        "Liang, Jintao",
+        "Li, Nan",
+        "Wang, Longbiao",
+        "Huang, Tubin",
+        "Xu, Min"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-11T11:42:13Z"
+    },
+    {
+      "id": "r870",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Is Jev a Good Multilingual Judge?",
+      "description": "Evaluates Jev as a judge on four human-annotated multilingual benchmarks covering binary, pairwise and graded judgments. Reports competitive performance at lower cost on most tested tasks, but weaker knowledge-intensive verification and more false acceptance in low-resource languages. Studies probability-based selection and routing.",
+      "status": "Preprint",
+      "icon": "globe",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.14861"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.14861"
+        }
+      ],
+      "date": "2026-11-11",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.14861",
+      "checked_on": "2026-11-14",
+      "cataloged_on": "2026-11-14",
+      "arxiv_id": "2611.14861",
+      "authors": [
+        "Liu, Wei",
+        "Fan, Yi",
+        "Fu, Xiyan"
+      ],
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-11T00:21:38Z"
     },
     {
       "id": "r126",
