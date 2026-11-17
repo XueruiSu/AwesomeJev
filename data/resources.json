@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-15",
+  "last_updated": "2026-11-17",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -7052,6 +7052,39 @@
       }
     },
     {
+      "id": "r880",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "sem-jiff semantic and structural diffs",
+      "description": "Combines conservative syntax rules with optional Jev judgments for rewritten extract/inline candidates, with Clef available as a tie-breaker. Returns semantic operations and folds for diff viewers. Some Swift, Ruby and Kotlin labels are disabled after blind-test failures; reported recall gains trade off against additional wrong claims.",
+      "status": "Open source · Apache-2.0",
+      "icon": "code",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/plannotator/sem-jiff"
+        }
+      ],
+      "date": "2026-11-15",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/plannotator/sem-jiff",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-15T20:00:06Z",
+      "date_note": "GitHub repository creation date, not the release date of models or later software versions.",
+      "checked_on": "2026-11-17",
+      "cataloged_on": "2026-11-17",
+      "artifact_verification": {
+        "method": "original_readme_and_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/plannotator/sem-jiff/readme",
+          "https://api.github.com/repos/plannotator/sem-jiff/license"
+        ],
+        "checked_on": "2026-11-17",
+        "license_note": "Apache-2.0 license text inspected. README additionally offers MIT as an alternative; Pierre-derived types/fixtures are Apache-2.0 and bundled WebAssembly assets retain their own terms.",
+        "scope": "Documentation and license checked. No third-party code execution, training or independent benchmark reproduction."
+      }
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -8302,6 +8335,39 @@
         "checked_on": "2026-11-14",
         "license_note": "MIT for repository code; upstream assets retain separate terms.",
         "scope": "Documentation checked; third-party code was not executed."
+      }
+    },
+    {
+      "id": "r883",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "jev-utilities batch categorization helpers",
+      "description": "TypeScript library and CLI categorize records with Jev, preserve input order and expose probabilities, suggestions and review flags. Low-confidence answers leave the accepted label empty; failed calls remain visible in results after retries. Includes dry-run request inspection and configurable bounded concurrency.",
+      "status": "Open source · MIT",
+      "icon": "code",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jadeforrest/jev-utilities"
+        }
+      ],
+      "date": "2026-11-16",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/jadeforrest/jev-utilities",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-16T14:55:38Z",
+      "date_note": "GitHub repository creation date, not the release date of models or later software versions.",
+      "checked_on": "2026-11-17",
+      "cataloged_on": "2026-11-17",
+      "artifact_verification": {
+        "method": "original_readme_and_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/jadeforrest/jev-utilities/readme",
+          "https://api.github.com/repos/jadeforrest/jev-utilities/license"
+        ],
+        "checked_on": "2026-11-17",
+        "license_note": "MIT repository license inspected; upstream models, grammars and data retain separate terms.",
+        "scope": "Documentation and license checked. No third-party code execution, training or independent benchmark reproduction."
       }
     },
     {
@@ -13585,6 +13651,39 @@
       }
     },
     {
+      "id": "r882",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Training pipelines and announced releases",
+      "title": "AutoLaya domain decision-model workspace",
+      "description": "Local workspace combines schema design, Jev or LLM labeling, human review, frozen datasets, Laya/GLiNER training and held-out evaluation. Serves trained models through a System One-compatible API. Management endpoints lack built-in authentication, and GLiNER outputs are not full calibrated probability distributions.",
+      "status": "Open source · AGPL-3.0",
+      "icon": "flask",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/DreamBlooms/Jev-AutoLaya"
+        }
+      ],
+      "date": "2026-11-16",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/DreamBlooms/Jev-AutoLaya",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-16T12:58:54Z",
+      "date_note": "GitHub repository creation date, not the release date of models or later software versions.",
+      "checked_on": "2026-11-17",
+      "cataloged_on": "2026-11-17",
+      "artifact_verification": {
+        "method": "original_readme_and_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/DreamBlooms/Jev-AutoLaya/readme",
+          "https://api.github.com/repos/DreamBlooms/Jev-AutoLaya/license"
+        ],
+        "checked_on": "2026-11-17",
+        "license_note": "AGPL-3.0 repository license inspected; upstream models, grammars and data retain separate terms.",
+        "scope": "Documentation and license checked. No third-party code execution, training or independent benchmark reproduction."
+      }
+    },
+    {
       "id": "r071",
       "section": "3. Infrastructure, models, and applications",
       "category": "Local runtimes and alternative implementations",
@@ -18038,6 +18137,39 @@
         "checked_on": "2026-11-15",
         "license_note": "MIT code license inspected. Third-party data and dependencies retain separate terms.",
         "scope": "Original documentation and license inspected; no third-party code execution or independent performance reproduction."
+      }
+    },
+    {
+      "id": "r881",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Lean Jev Bridge synthetic decision kernel",
+      "description": "Research prototype feeds typed Jev-shaped proposals into a deterministic Lean kernel with reviewed facts, pinned policies and acceptance thresholds. Published evaluation uses manually authored fictional duplicate-charge fixtures, not measured Jev outputs. Theorems establish encoded-rule consistency, not source authenticity, semantic correctness or model calibration.",
+      "status": "Open source · MIT",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/RevanthM/lean-jev-bridge"
+        }
+      ],
+      "date": "2026-11-15",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/RevanthM/lean-jev-bridge",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-15T22:44:53Z",
+      "date_note": "GitHub repository creation date, not the release date of models or later software versions.",
+      "checked_on": "2026-11-17",
+      "cataloged_on": "2026-11-17",
+      "artifact_verification": {
+        "method": "original_readme_and_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/RevanthM/lean-jev-bridge/readme",
+          "https://api.github.com/repos/RevanthM/lean-jev-bridge/license"
+        ],
+        "checked_on": "2026-11-17",
+        "license_note": "MIT repository license inspected; upstream models, grammars and data retain separate terms.",
+        "scope": "Documentation and license checked. No third-party code execution, training or independent benchmark reproduction."
       }
     },
     {
@@ -24908,6 +25040,36 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-11-11T15:10:52Z"
+    },
+    {
+      "id": "r884",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "UltraBERT-JEV: Encoder models for System One Applications",
+      "description": "Compares four UltraBERT-380M recipes for one-pass option scoring against a decoder trained on the same data. Studies yes/no logit contrasts, probability normalization and an auxiliary sentence-evidence head. Reports higher accuracy and lower single-request A100 latency, but greater peak memory, under the tested configuration.",
+      "status": "Preprint",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.17867"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.17867"
+        }
+      ],
+      "date": "2026-11-13",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.17867",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-13T07:58:46Z",
+      "checked_on": "2026-11-17",
+      "cataloged_on": "2026-11-17",
+      "arxiv_id": "2611.17867",
+      "authors": [
+        "Mohapatra, Astarag"
+      ]
     },
     {
       "id": "r115",
