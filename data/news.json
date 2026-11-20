@@ -2,6 +2,26 @@
   "title": "Big News",
   "events": [
     {
+      "date": "2026-11-18",
+      "icon": "eye",
+      "headline": "Jeveration extends System One-style decisions to single-pass image generation.",
+      "url": "https://arxiv.org/abs/2611.24738",
+      "label": "Research paper and artifacts",
+      "note": "Independent preprint with public Apache-2.0 inference code and declared Apache-2.0 weights. The reported 78 ms for a 512-pixel image uses an H200 and is not independently reproduced. [Code](https://github.com/Carol-lyh/Jeveration) · [Weights](https://huggingface.co/linlinlinlinsdada/Jeveration).",
+      "date_source": "https://arxiv.org/abs/2611.24738",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-18T16:56:59Z",
+      "date_note": "Dates the research preprint, not the first public availability of weights.",
+      "attention": {
+        "platform": "Hugging Face",
+        "upvotes": 112,
+        "observed_on": "2026-11-20",
+        "source": "https://huggingface.co/api/papers/2611.24738",
+        "url": "https://huggingface.co/papers/2611.24738",
+        "note": "Observed paper-page interest supports including this research milestone; it does not validate performance claims."
+      }
+    },
+    {
       "date": "2026-11-09",
       "icon": "bolt",
       "headline": "Flide expands decision-model support and multi-request serving as its Show HN discussion gains traction.",

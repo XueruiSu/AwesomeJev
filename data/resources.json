@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-20",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -3329,6 +3329,28 @@
         "observed_on": "2026-11-18",
         "source": "https://hn.algolia.com/api/v1/items/50535223"
       }
+    },
+    {
+      "id": "r909",
+      "section": "2. Community discussion and writing",
+      "category": "Technical blogs and tutorials",
+      "title": "Clef vs Jev: a benchmark on five real AI agent decisions",
+      "description": "Construct compares three models on 117 synthetic agent-decision cases with repeated calls and thresholds initially set for Jev. The Clef–Jev accuracy gap is not statistically significant. November revisions update pricing and image-support facts; the benchmark runs are from October 4, not November.",
+      "status": "Author benchmark and update",
+      "icon": "flask",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://construct.computer/blog/clef-vs-jev-benchmark/"
+        }
+      ],
+      "date": "2026-11-19",
+      "date_kind": "updated",
+      "date_source": "https://construct.computer/blog/clef-vs-jev-benchmark/",
+      "checked_on": "2026-11-20",
+      "cataloged_on": "2026-11-20",
+      "date_source_field": "Visible Updated Nov 19, 2026 label and dated revision note",
+      "date_note": "Page update date; experiments were run on October 4. No precise update time is provided by the inspected page."
     },
     {
       "id": "r035",
@@ -7252,6 +7274,39 @@
       }
     },
     {
+      "id": "r907",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Decision models for OpenCode V2",
+      "description": "Plugin exposes typed Jev, Clef and Gemini decisions inside OpenCode execution tools, with media-aware model selection and bounded batch concurrency. Documents cancellation and provider configuration. Integrates external model services rather than releasing a new model.",
+      "status": "Open source · MIT",
+      "icon": "code",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/third774/opencode-decision-models"
+        }
+      ],
+      "date": "2026-11-19",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/third774/opencode-decision-models",
+      "checked_on": "2026-11-20",
+      "cataloged_on": "2026-11-20",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-19T20:57:04Z",
+      "date_note": "GitHub repository creation, not the release date of subsequent software versions.",
+      "artifact_verification": {
+        "method": "original_readme_and_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/third774/opencode-decision-models/readme",
+          "https://api.github.com/repos/third774/opencode-decision-models/license"
+        ],
+        "checked_on": "2026-11-20",
+        "license_note": "MIT code license inspected. External models and services retain their own terms.",
+        "scope": "Documentation and license checked; no execution or independent benchmark reproduction."
+      }
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -8535,6 +8590,39 @@
         "checked_on": "2026-11-17",
         "license_note": "MIT repository license inspected; upstream models, grammars and data retain separate terms.",
         "scope": "Documentation and license checked. No third-party code execution, training or independent benchmark reproduction."
+      }
+    },
+    {
+      "id": "r904",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "TypeSafe Ruby client",
+      "description": "Independent Ruby client for the System One API, including typed questions, images, model discovery, request validation and retries. Uses the standard Net::HTTP library and documents Rails credential integration. Requires hosted-provider credentials; it does not ship model weights.",
+      "status": "Open source · MIT",
+      "icon": "code",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/revans/typesafe-ruby"
+        }
+      ],
+      "date": "2026-11-19",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/revans/typesafe-ruby",
+      "checked_on": "2026-11-20",
+      "cataloged_on": "2026-11-20",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-19T22:22:32Z",
+      "date_note": "GitHub repository creation, not the release date of subsequent software versions.",
+      "artifact_verification": {
+        "method": "original_readme_and_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/revans/typesafe-ruby/readme",
+          "https://api.github.com/repos/revans/typesafe-ruby/license"
+        ],
+        "checked_on": "2026-11-20",
+        "license_note": "MIT code license inspected. External models and services retain their own terms.",
+        "scope": "Documentation and license checked; no execution or independent benchmark reproduction."
       }
     },
     {
@@ -13474,6 +13562,58 @@
       }
     },
     {
+      "id": "r908",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Jeveration generation weights and inference code",
+      "description": "Independent System One research implementation adapts frozen Qwen3.5-4B for single-pass image generation, image-to-image tasks and dense prediction. Publishes adapters, task heads and image decoders with inference scripts. Dense prediction is trained on indoor NYUv2 scenes; downstream backbone and tokenizer terms remain separate.",
+      "status": "Public weights and code · Apache-2.0",
+      "icon": "eye",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/linlinlinlinsdada/Jeveration"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Carol-lyh/Jeveration"
+        },
+        {
+          "label": "Project",
+          "url": "https://carol-lyh.github.io/Jeveration/"
+        },
+        {
+          "label": "Demo",
+          "url": "https://huggingface.co/spaces/linlinlinlinsdada/Jeveration"
+        },
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2611.24738"
+        }
+      ],
+      "date": "2026-11-18",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/linlinlinlinsdada/Jeveration",
+      "checked_on": "2026-11-20",
+      "cataloged_on": "2026-11-20",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-11-18T03:56:49.000Z",
+      "date_note": "Hugging Face repository creation, not proof of the first public weight release.",
+      "artifact_verification": {
+        "method": "original_model_card_public_file_listing_and_code_license",
+        "sources": [
+          "https://huggingface.co/api/models/linlinlinlinsdada/Jeveration",
+          "https://huggingface.co/linlinlinlinsdada/Jeveration/raw/main/README.md",
+          "https://api.github.com/repos/Carol-lyh/Jeveration/readme",
+          "https://api.github.com/repos/Carol-lyh/Jeveration/license"
+        ],
+        "checked_on": "2026-11-20",
+        "revision": "48c66dceebe76fbfa588072547d5360f8029ee29",
+        "license_note": "Model card declares Apache-2.0 for Jeveration weights; code Apache-2.0 license inspected separately. Runtime dependencies retain their own terms.",
+        "scope": "Public adapter/head and decoder files listed; weights not downloaded and inference not run."
+      }
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -15286,6 +15426,39 @@
         "checked_on": "2026-11-18",
         "license_note": "Apache-2.0 license inspected; README applies it to code and derived weights. Training data retain their own terms. LFS objects were not downloaded.",
         "scope": "Documentation and license inspected; no third-party code execution, weight downloads or independent benchmark reproduction."
+      }
+    },
+    {
+      "id": "r905",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "Quickverdict local decision server",
+      "description": "System One-compatible local classifier scores option logits and averages over candidate orderings. Documents a Qwen 1.5B configuration for a 4 GB GPU and a CLERC comparison in which it trails Jev in accuracy and latency. Reported score behavior is not a general calibration guarantee.",
+      "status": "Open source · MIT",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/janmm97/quickverdict"
+        }
+      ],
+      "date": "2026-11-18",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/janmm97/quickverdict",
+      "checked_on": "2026-11-20",
+      "cataloged_on": "2026-11-20",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-18T16:48:40Z",
+      "date_note": "GitHub repository creation, not the release date of subsequent software versions.",
+      "artifact_verification": {
+        "method": "original_readme_and_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/janmm97/quickverdict/readme",
+          "https://api.github.com/repos/janmm97/quickverdict/license"
+        ],
+        "checked_on": "2026-11-20",
+        "license_note": "MIT code license inspected. External models and services retain their own terms.",
+        "scope": "Documentation and license checked; no execution or independent benchmark reproduction."
       }
     },
     {
@@ -18603,6 +18776,39 @@
         "revision": "46253b2c853d19f4c969681d582c43a534ed7350",
         "license_note": "Model card and LOCAL_EDITION.json inspected. No blanket license: original per-source terms apply; no independent audit of all source rights or full data download.",
         "scope": "Original documentation and public file listing inspected; no model inference or full artifact downloads."
+      }
+    },
+    {
+      "id": "r906",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "PDF formula OCR with Jev review",
+      "description": "Combines MiniCPM OCR with a Jev score comparing a scanned formula against its rendered reconstruction. Publishes a human-review workflow tested on 3,382 formulas from four books. The review rate includes compilation and service failures; it is not an OCR error rate, and the threshold is not calibrated.",
+      "status": "Open source · MIT",
+      "icon": "flask",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/wqx11235/pdf-math-formula-ocr"
+        }
+      ],
+      "date": "2026-11-19",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/wqx11235/pdf-math-formula-ocr",
+      "checked_on": "2026-11-20",
+      "cataloged_on": "2026-11-20",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-19T11:09:48Z",
+      "date_note": "GitHub repository creation, not the release date of subsequent software versions.",
+      "artifact_verification": {
+        "method": "original_readme_and_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/wqx11235/pdf-math-formula-ocr/readme",
+          "https://api.github.com/repos/wqx11235/pdf-math-formula-ocr/license"
+        ],
+        "checked_on": "2026-11-20",
+        "license_note": "MIT code license inspected. External models and services retain their own terms.",
+        "scope": "Documentation and license checked; no execution or independent benchmark reproduction."
       }
     },
     {
@@ -23301,6 +23507,53 @@
       ]
     },
     {
+      "id": "r911",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "JEV vs. LLMs: A Comparative Analysis for Phishing Email Detection",
+      "description": "Compares Jev 1.13 with three generative models on 1,500 labeled phishing emails, measuring classification, calibration, latency and cost. Reports 79.67% Jev accuracy and 82.62% F1 on this test. Results are task-specific; explanatory usefulness is not directly evaluated.",
+      "status": "Preprint",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.23683"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.23683"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mahirmalik030/Jev-vs-LLMs"
+        }
+      ],
+      "date": "2026-11-18",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.23683",
+      "checked_on": "2026-11-20",
+      "cataloged_on": "2026-11-20",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-18T01:17:07Z",
+      "arxiv_id": "2611.23683",
+      "authors": [
+        "Malik, Muhammad Mahir",
+        "Khalid, Muhammad Moiz",
+        "Ahmad, Hussain",
+        "Ullah, Faheem"
+      ],
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/mahirmalik030/Jev-vs-LLMs/readme",
+          "https://api.github.com/repos/mahirmalik030/Jev-vs-LLMs/license"
+        ],
+        "checked_on": "2026-11-20",
+        "license_note": "Public repository and README inspected; license endpoint returned HTTP 404 and no code license was established. This is not a repository availability failure.",
+        "scope": "Documentation checked; no execution or independent reproduction."
+      }
+    },
+    {
       "id": "r104",
       "section": "4. Research papers",
       "category": "Agent memory, routing, and control",
@@ -24602,6 +24855,86 @@
       ]
     },
     {
+      "id": "r912",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "RagHarnessDebugger: Jev-Guided Agentic RAG in Contract Inference Repair Auditing",
+      "description": "Audits Jev-guided repair traces for ContractNLI inference, separating candidate validation from whether repairs can reach an acceptance decision. A revised RAG harness improves results for two reader models. Findings concern the tested contracts and repair protocols rather than a general reliability guarantee.",
+      "status": "Preprint",
+      "icon": "flask",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22991"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.22991"
+        }
+      ],
+      "date": "2026-11-17",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.22991",
+      "checked_on": "2026-11-20",
+      "cataloged_on": "2026-11-20",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-17T16:07:17Z",
+      "arxiv_id": "2611.22991",
+      "authors": [
+        "Dechtiar, Moriya",
+        "Katz, Daniel Martin",
+        "Bommarito II, Michael J.",
+        "Wang, Hongming",
+        "Jaume, Sylvain"
+      ]
+    },
+    {
+      "id": "r915",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "Think Once, Act Fast: Cost-Effective Recursive Self-Improvement for Decision Model Harness",
+      "description": "JevRSI pairs fast decision execution with asynchronous reasoning that improves reusable procedures, state memory and world-model modules. Retrieval uses task relevance and past utility, with environment feedback guiding updates. Reports fewer reasoning-model interventions across three evaluation datasets.",
+      "status": "Preprint",
+      "icon": "brain",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22432"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.22432"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/usail-hkust/JevRSI"
+        }
+      ],
+      "date": "2026-11-17",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.22432",
+      "checked_on": "2026-11-20",
+      "cataloged_on": "2026-11-20",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-17T09:06:14Z",
+      "arxiv_id": "2611.22432",
+      "authors": [
+        "Lai, Siqi",
+        "Li, Haitao",
+        "Liu, Hao"
+      ],
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/usail-hkust/JevRSI/readme",
+          "https://api.github.com/repos/usail-hkust/JevRSI/license"
+        ],
+        "checked_on": "2026-11-20",
+        "license_note": "MIT code license inspected; model services and datasets retain their own terms.",
+        "scope": "Documentation checked; no execution or independent reproduction."
+      }
+    },
+    {
       "id": "r110",
       "section": "4. Research papers",
       "category": "Open and alternative decision-model methods",
@@ -25697,6 +26030,65 @@
       ]
     },
     {
+      "id": "r910",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "Jeveration: System One Models Now Generate",
+      "description": "Repurposes a frozen vision-language model for parallel image-code prediction, using shared randomness and a learned code distribution to coordinate outputs. Unifies generation, image-to-image tasks and dense prediction. The reported 78 ms for a 512-pixel image is an author measurement on an H200, not an independently reproduced general speed guarantee.",
+      "status": "Preprint",
+      "icon": "eye",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.24738"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.24738"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Carol-lyh/Jeveration"
+        },
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/linlinlinlinsdada/Jeveration"
+        },
+        {
+          "label": "Project",
+          "url": "https://carol-lyh.github.io/Jeveration/"
+        },
+        {
+          "label": "Demo",
+          "url": "https://huggingface.co/spaces/linlinlinlinsdada/Jeveration"
+        }
+      ],
+      "date": "2026-11-18",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.24738",
+      "checked_on": "2026-11-20",
+      "cataloged_on": "2026-11-20",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-18T16:56:59Z",
+      "arxiv_id": "2611.24738",
+      "authors": [
+        "Liu, Yuhe",
+        "Li, Qi",
+        "Zhang, Shihua",
+        "Wang, Xinchao"
+      ],
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/Carol-lyh/Jeveration/readme",
+          "https://api.github.com/repos/Carol-lyh/Jeveration/license"
+        ],
+        "checked_on": "2026-11-20",
+        "license_note": "Apache-2.0 code inspected; weights separately declared Apache-2.0 on model card. Runtime dependencies retain their own terms.",
+        "scope": "Documentation checked; no execution or independent reproduction."
+      }
+    },
+    {
       "id": "r115",
       "section": "4. Research papers",
       "category": "Networking and edge systems",
@@ -25941,6 +26333,38 @@
       ],
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-10-28T19:00:56Z"
+    },
+    {
+      "id": "r916",
+      "section": "4. Research papers",
+      "category": "Networking and edge systems",
+      "title": "SpecSearch: Towards Hardware-Aware Efficient Speculative Decoding",
+      "description": "Combines analytical cost modeling and calibration to search speculative-decoding strategies, draft lengths and precision. A Jev-style predictor adapts a frozen Qwen3-4B backbone with LoRA and linear correction for hardware-aware decisions. Throughput gains depend on the evaluated GPU and workload.",
+      "status": "Preprint",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22296"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.22296"
+        }
+      ],
+      "date": "2026-11-17",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.22296",
+      "checked_on": "2026-11-20",
+      "cataloged_on": "2026-11-20",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-17T06:53:30Z",
+      "arxiv_id": "2611.22296",
+      "authors": [
+        "Yildirim, Selin",
+        "Zeyrek, Ali",
+        "Chen, Deming"
+      ]
     },
     {
       "id": "r118",
@@ -28490,6 +28914,95 @@
         "Sheng, Kai",
         "Xu, Renjing"
       ]
+    },
+    {
+      "id": "r913",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "When Do Typed Decision Models Work in Transportation? Evidence from Travel Choice and Traffic Signal Control",
+      "description": "Evaluates typed decision models on travel choice and closed-loop traffic signal control. Jev trails stronger travel-choice baselines and is sensitive to input framing; traffic-control competitiveness varies with scenario and deteriorates on harder networks. Cost and latency advantages are reported for the tested configurations.",
+      "status": "Preprint",
+      "icon": "network",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22926"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.22926"
+        }
+      ],
+      "date": "2026-11-17",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.22926",
+      "checked_on": "2026-11-20",
+      "cataloged_on": "2026-11-20",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-17T15:24:40Z",
+      "arxiv_id": "2611.22926",
+      "authors": [
+        "Zhang, Hongyang",
+        "Deng, Boyuan",
+        "Feng, Siyuan",
+        "Chen, Kai",
+        "Zhang, Junbo"
+      ]
+    },
+    {
+      "id": "r914",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "SlideJev: Order-Stable and Tissue-Grounded Jev Decisions for Whole-Slide Pathology",
+      "description": "Scores candidate answers independently with yes/no support contrasts and conditions visual-token updates on each candidate while freezing the backbone. Evaluates whole-slide pathology question answering on three benchmarks and four answer orders. This is a research evaluation, not evidence of clinical validation.",
+      "status": "Preprint",
+      "icon": "eye",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22879"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.22879"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/leowu-ai/SlideJev"
+        }
+      ],
+      "date": "2026-11-17",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.22879",
+      "checked_on": "2026-11-20",
+      "cataloged_on": "2026-11-20",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-17T14:53:04Z",
+      "arxiv_id": "2611.22879",
+      "authors": [
+        "Wu, Lei",
+        "Liu, Jiashuai",
+        "Zhang, Di",
+        "Yang, Chunze",
+        "Ge, Jiusong",
+        "Lu, Junbo",
+        "Liang, Yongqi",
+        "Zhao, Wenjie",
+        "Zhang, Ni",
+        "Li, Chen",
+        "Gao, Zeyu",
+        "Liu, Qidong"
+      ],
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/leowu-ai/SlideJev/readme",
+          "https://api.github.com/repos/leowu-ai/SlideJev/license"
+        ],
+        "checked_on": "2026-11-20",
+        "license_note": "Public repository and README inspected; license endpoint returned HTTP 404 and no code license was established. This is not a repository availability failure.",
+        "scope": "Documentation checked; no execution or independent reproduction."
+      }
     },
     {
       "id": "r126",
