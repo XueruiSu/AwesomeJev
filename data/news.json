@@ -2,6 +2,27 @@
   "title": "Big News",
   "events": [
     {
+      "date": "2026-11-19",
+      "icon": "cloud",
+      "headline": "HeyGen announces Decision 1 and Turbo, extending hosted typed decisions to text, images, audio and video.",
+      "url": "https://www.heygen.com/research/heygen-decision-1",
+      "label": "Research announcement",
+      "note": "The vendor compares its models with Jev 1.14 and other APIs. Latency and calibration are vendor measurements; the pooled calibration comparison uses different modality coverage for Jev. No public weight release is established.",
+      "date_source": "https://www.heygen.com/research/heygen-decision-1",
+      "date_source_field": "Visible Nov 19, 2026 publication date",
+      "date_note": "Dates the research announcement, not first API availability or the November 20 promotional post. OpenRouter lists earlier November 13 availability.",
+      "attention": {
+        "platform": "X",
+        "likes": 543,
+        "comments": 500,
+        "observed_on": "2026-11-22",
+        "source": "https://cdn.syndication.twimg.com/tweet-result?id=2123834759352852848&lang=en&token=1",
+        "url": "https://x.com/HeyGenDev/status/2123834759352852848",
+        "event_date": "2026-11-20",
+        "note": "Counts describe the November 20 promotional post, not independent adoption or benchmark validation."
+      }
+    },
+    {
       "date": "2026-11-18",
       "icon": "eye",
       "headline": "Jeveration extends System One-style decisions to single-pass image generation.",

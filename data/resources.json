@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-21",
+  "last_updated": "2026-11-22",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -397,6 +397,46 @@
         "comments": 2,
         "source": "https://hn.algolia.com/api/v1/items/50371890",
         "observed_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "r941",
+      "section": "1. Origins and official resources",
+      "category": "Launch and first-party references",
+      "title": "TypeSafe and Strala: decision models for insurance",
+      "description": "TypeSafe shares a customer conversation with Strala about using Jev for insurance decision-making and identifying claim delays. The linked interview provides application context; the promotional reliability wording is not accompanied by a quantified accuracy or uptime evaluation in the inspected post.",
+      "status": "Official customer story",
+      "icon": "chat",
+      "links": [
+        {
+          "label": "TypeSafe announcement",
+          "url": "https://x.com/typesafeai/status/2123901935258636543"
+        },
+        {
+          "label": "Interview",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529663845452222464/"
+        },
+        {
+          "label": "Official interview link",
+          "url": "https://x.com/typesafeai/status/2123901936642781590"
+        }
+      ],
+      "date": "2026-11-20",
+      "date_kind": "published",
+      "date_source": "https://cdn.syndication.twimg.com/tweet-result?id=2123901936642781590&lang=en&token=1",
+      "checked_on": "2026-11-22",
+      "cataloged_on": "2026-11-22",
+      "date_source_field": "parent.created_at",
+      "date_source_timestamp": "2026-11-20T22:10:56.000Z",
+      "date_note": "Original parent announcement timestamp verified through X syndication; interview identity corroborated by the official reply and embedded preview. Full LinkedIn video not independently reviewed.",
+      "attention": {
+        "platform": "X",
+        "likes": 105,
+        "comments": 14,
+        "reposts": 12,
+        "observed_on": "2026-11-22",
+        "source": "https://cdn.syndication.twimg.com/tweet-result?id=2123901936642781590&lang=en&token=1",
+        "url": "https://x.com/typesafeai/status/2123901935258636543"
       }
     },
     {
@@ -4388,6 +4428,56 @@
       }
     },
     {
+      "id": "r940",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Hosted access and framework guides",
+      "title": "HeyGen Decision 1 and Turbo",
+      "description": "Hosted multimodal decision models accept text, images, audio and video and return noul, choice and score judgments. The announcement compares them with Jev 1.14 and other APIs. Performance is vendor-measured; the pooled calibration table uses text and image sets for competitors but text only for Jev.",
+      "status": "Hosted service · no public weight release established",
+      "icon": "cloud",
+      "links": [
+        {
+          "label": "Research announcement",
+          "url": "https://www.heygen.com/research/heygen-decision-1"
+        },
+        {
+          "label": "OpenRouter",
+          "url": "https://openrouter.ai/heygen/heygen-decision-1"
+        },
+        {
+          "label": "Developer announcement",
+          "url": "https://x.com/HeyGenDev/status/2123834759352852848"
+        }
+      ],
+      "date": "2026-11-19",
+      "date_kind": "published",
+      "date_source": "https://www.heygen.com/research/heygen-decision-1",
+      "checked_on": "2026-11-22",
+      "cataloged_on": "2026-11-22",
+      "date_source_field": "Visible Nov 19, 2026 publication date",
+      "date_note": "Dates the research announcement, not first model availability. OpenRouter lists an earlier November 13 release; the developer post is dated November 20.",
+      "attention": {
+        "platform": "X",
+        "likes": 543,
+        "comments": 500,
+        "observed_on": "2026-11-22",
+        "source": "https://cdn.syndication.twimg.com/tweet-result?id=2123834759352852848&lang=en&token=1",
+        "url": "https://x.com/HeyGenDev/status/2123834759352852848",
+        "event_date": "2026-11-20",
+        "note": "Counts describe the November 20 promotional post, not independent adoption or benchmark validation."
+      },
+      "artifact_verification": {
+        "method": "original_vendor_announcement_and_provider_listing",
+        "sources": [
+          "https://www.heygen.com/research/heygen-decision-1",
+          "https://openrouter.ai/heygen/heygen-decision-1"
+        ],
+        "checked_on": "2026-11-22",
+        "license_note": "Hosted API access documented; no downloadable weights or separately licensed inference code verified.",
+        "scope": "Published service capabilities and vendor measurements inspected; no API calls or independent evaluation performed."
+      }
+    },
+    {
       "id": "r050",
       "section": "3. Infrastructure, models, and applications",
       "category": "Browser and agent infrastructure",
@@ -7443,6 +7533,72 @@
       }
     },
     {
+      "id": "r936",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Fairway for Orca",
+      "description": "Orca plugin uses Jev to choose allowlisted agent, model and effort profiles for Codex, Pi and Cursor. Defaults to offline shadow selection and separates paid routing from explicit dispatch. Workflow steps are sequential and require review; autonomous scheduling is not implemented.",
+      "status": "Open source · MIT",
+      "icon": "network",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/spscream/orca-fairway"
+        }
+      ],
+      "date": "2026-11-22",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/spscream/orca-fairway",
+      "checked_on": "2026-11-22",
+      "cataloged_on": "2026-11-22",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-22T00:23:39Z",
+      "date_note": "GitHub repository creation, not a model release date or the date of later software updates.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/spscream/orca-fairway/readme",
+          "https://api.github.com/repos/spscream/orca-fairway/license"
+        ],
+        "checked_on": "2026-11-22",
+        "license_note": "MIT code license inspected; external models and services retain their own terms. No new model weights are established by this code entry.",
+        "scope": "Original documentation and available license read; no downloaded code executed, model files downloaded or performance reproduced."
+      }
+    },
+    {
+      "id": "r937",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Browsemux bounded browser-decision bridge",
+      "description": "Connects TypeSafe/Jev and other decision providers to agent-browser or BSK. Uses compact snapshots, validates proposed actions and requires observable URL or text completion checks within a step budget. Model and network latency can dominate short tasks; savings are workload-dependent.",
+      "status": "Open source · MIT",
+      "icon": "eye",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/xenstar/browsemux"
+        }
+      ],
+      "date": "2026-11-21",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/xenstar/browsemux",
+      "checked_on": "2026-11-22",
+      "cataloged_on": "2026-11-22",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-21T09:39:26Z",
+      "date_note": "GitHub repository creation, not a model release date or the date of later software updates.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/xenstar/browsemux/readme",
+          "https://api.github.com/repos/xenstar/browsemux/license"
+        ],
+        "checked_on": "2026-11-22",
+        "license_note": "MIT code license inspected; external models and services retain their own terms. No new model weights are established by this code entry.",
+        "scope": "Original documentation and available license read; no downloaded code executed, model files downloaded or performance reproduced."
+      }
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -8759,6 +8915,72 @@
         "checked_on": "2026-11-20",
         "license_note": "MIT code license inspected. External models and services retain their own terms.",
         "scope": "Documentation and license checked; no execution or independent benchmark reproduction."
+      }
+    },
+    {
+      "id": "r935",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "sysone Go client and CLI",
+      "description": "Go library and CLI for the TypeSafe/Jev-compatible System One endpoint in llama.cpp. Provides typed choice, noul and score requests, batch calls, threshold exits and machine-readable help. Example model capabilities and suggested thresholds are documentation, not independently validated guarantees.",
+      "status": "Open source · Apache-2.0",
+      "icon": "code",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tsai-danny/sysone"
+        }
+      ],
+      "date": "2026-11-21",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/tsai-danny/sysone",
+      "checked_on": "2026-11-22",
+      "cataloged_on": "2026-11-22",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-21T09:50:56Z",
+      "date_note": "GitHub repository creation, not a model release date or the date of later software updates.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/tsai-danny/sysone/readme",
+          "https://api.github.com/repos/tsai-danny/sysone/license"
+        ],
+        "checked_on": "2026-11-22",
+        "license_note": "Apache-2.0 code license inspected; external models and services retain their own terms. No new model weights are established by this code entry.",
+        "scope": "Original documentation and available license read; no downloaded code executed, model files downloaded or performance reproduced."
+      }
+    },
+    {
+      "id": "r939",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "OntologyJev policy comparison workbench",
+      "description": "Python SDK and local workbench combine explicit object relationships, semantic observations and business rules. Supports optional Jev or Ollama observations, baseline-versus-draft policy comparisons and regression snapshots. The refund demonstration uses synthetic fixtures; live Jev quality is not validated and proposed refunds are not executed.",
+      "status": "Open source · MIT",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Q-17/ontologyjev"
+        }
+      ],
+      "date": "2026-11-21",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Q-17/ontologyjev",
+      "checked_on": "2026-11-22",
+      "cataloged_on": "2026-11-22",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-21T09:19:01Z",
+      "date_note": "GitHub repository creation, not a model release date or the date of later software updates.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/Q-17/ontologyjev/readme",
+          "https://api.github.com/repos/Q-17/ontologyjev/license"
+        ],
+        "checked_on": "2026-11-22",
+        "license_note": "MIT code license inspected; external models and services retain their own terms. No new model weights are established by this code entry.",
+        "scope": "Original documentation and available license read; no downloaded code executed, model files downloaded or performance reproduced."
       }
     },
     {
@@ -15837,6 +16059,72 @@
         "checked_on": "2026-11-20",
         "license_note": "MIT code license inspected. External models and services retain their own terms.",
         "scope": "Documentation and license checked; no execution or independent benchmark reproduction."
+      }
+    },
+    {
+      "id": "r934",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "JoyFox decision-head support for llama.cpp",
+      "description": "Source patch adds native GGUF decision-head tensors and System One scoring for JoyFox Qwen3.5-0.8B-JEV. Uses learned query/key projections rather than converting the checkpoint to text generation. Documents pinned CI conversion and integration checks; weights and generated GGUF files are not bundled.",
+      "status": "Public source patch · license not established",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/xiaocongyu66/llama.cpp-jev-adapter"
+        }
+      ],
+      "date": "2026-11-21",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/xiaocongyu66/llama.cpp-jev-adapter",
+      "checked_on": "2026-11-22",
+      "cataloged_on": "2026-11-22",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-21T23:05:33Z",
+      "date_note": "GitHub repository creation, not a model release date or the date of later software updates.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/xiaocongyu66/llama.cpp-jev-adapter/readme",
+          "https://api.github.com/repos/xiaocongyu66/llama.cpp-jev-adapter/license"
+        ],
+        "checked_on": "2026-11-22",
+        "license_note": "GitHub license endpoint returned HTTP 404; README does not establish a software license. Public source availability is not treated as an open-source license.",
+        "scope": "Original documentation and available license read; no downloaded code executed, model files downloaded or performance reproduced."
+      }
+    },
+    {
+      "id": "r938",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Local runtimes and alternative implementations",
+      "title": "XKS Jev-like Model Base",
+      "description": "Rust CPU runtime reads typed judgments from local LLM next-token distributions and serves the System One API. Shares state prefixes and averages rotated choice labels. Reimplements Intel-Phi-Jev’s prediction method; author-reported oracle agreement and CPU timings do not establish Jev accuracy or calibration.",
+      "status": "Open source · Apache-2.0",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Lasimeri/XKS_Jev-like_Model_Base"
+        }
+      ],
+      "date": "2026-11-21",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Lasimeri/XKS_Jev-like_Model_Base",
+      "checked_on": "2026-11-22",
+      "cataloged_on": "2026-11-22",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-21T17:49:08Z",
+      "date_note": "GitHub repository creation, not a model release date or the date of later software updates.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/Lasimeri/XKS_Jev-like_Model_Base/readme",
+          "https://api.github.com/repos/Lasimeri/XKS_Jev-like_Model_Base/license"
+        ],
+        "checked_on": "2026-11-22",
+        "license_note": "Apache-2.0 code license inspected; external models and services retain their own terms. No new model weights are established by this code entry.",
+        "scope": "Original documentation and available license read; no downloaded code executed, model files downloaded or performance reproduced."
       }
     },
     {
