@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-22",
+  "last_updated": "2026-11-23",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -7599,6 +7599,121 @@
       }
     },
     {
+      "id": "r948",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev orchestration harness for tau2-Bench Airline",
+      "description": "Runs typed Jev decisions beside a speculative LLM call, batches airline tools and checks writes against coded policy. Publishes a replication harness and saved benchmark runs. Results are author-reported on simulated airline tasks; a separately accessible preprint and DOI were not established from the inspected README.",
+      "status": "Open source · MIT",
+      "icon": "network",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/vamshibobby/jev-tau2-harness"
+        }
+      ],
+      "date": "2026-11-22",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/vamshibobby/jev-tau2-harness",
+      "checked_on": "2026-11-23",
+      "cataloged_on": "2026-11-23",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-22T14:04:42Z",
+      "date_note": "GitHub repository creation, not the date of experiments, registration, later updates or a first model release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/vamshibobby/jev-tau2-harness/readme",
+          "https://api.github.com/repos/vamshibobby/jev-tau2-harness/license"
+        ],
+        "checked_on": "2026-11-23",
+        "license_note": "MIT code license inspected; third-party models, data and services retain separate terms.",
+        "scope": "Documentation and available license inspected; no code execution or independent performance reproduction."
+      }
+    },
+    {
+      "id": "r949",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "OS1 voice-first personal assistant",
+      "description": "Combines Hermes, LiveKit, Fish Audio and an Electron interface, using Jev for turn routing and UI decisions. Documents an undo queue and separate confirmation gates for consequential actions. Hosted services and credentials are required for the full stack; advertised latency and enforcement were not independently tested.",
+      "status": "Open source · MIT",
+      "icon": "chat",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nickvasilescu/os1-her"
+        }
+      ],
+      "date": "2026-11-22",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/nickvasilescu/os1-her",
+      "checked_on": "2026-11-23",
+      "cataloged_on": "2026-11-23",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-22T09:24:17Z",
+      "date_note": "GitHub repository creation, not the date of experiments, registration, later updates or a first model release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/nickvasilescu/os1-her/readme",
+          "https://api.github.com/repos/nickvasilescu/os1-her/license"
+        ],
+        "checked_on": "2026-11-23",
+        "license_note": "MIT code license inspected; third-party models, data and services retain separate terms.",
+        "scope": "Documentation and available license inspected; no code execution or independent performance reproduction."
+      },
+      "attention": {
+        "platform": "GitHub",
+        "stars": 33,
+        "observed_on": "2026-11-23",
+        "source": "https://api.github.com/repos/nickvasilescu/os1-her",
+        "url": "https://github.com/nickvasilescu/os1-her",
+        "note": "Early repository interest; not evidence of reliability or benchmark performance."
+      }
+    },
+    {
+      "id": "r950",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Git Ontology Agent",
+      "description": "Stores request state in Git branches and uses Jev or other decision providers to classify follow-ups. Typed claims and dependency rules determine which work to repeat and how to merge results, preserving answer provenance. Offline demonstrations are synthetic, and thresholds require validation on real conversations.",
+      "status": "Open source · MIT",
+      "icon": "network",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/gogoymh/git-ontology-agent"
+        }
+      ],
+      "date": "2026-11-21",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/gogoymh/git-ontology-agent",
+      "checked_on": "2026-11-23",
+      "cataloged_on": "2026-11-23",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-21T06:10:03Z",
+      "date_note": "GitHub repository creation, not the date of experiments, registration, later updates or a first model release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/gogoymh/git-ontology-agent/readme",
+          "https://api.github.com/repos/gogoymh/git-ontology-agent/license"
+        ],
+        "checked_on": "2026-11-23",
+        "license_note": "MIT code license inspected; third-party models, data and services retain separate terms.",
+        "scope": "Documentation and available license inspected; no code execution or independent performance reproduction."
+      },
+      "attention": {
+        "platform": "GitHub",
+        "stars": 26,
+        "observed_on": "2026-11-23",
+        "source": "https://api.github.com/repos/gogoymh/git-ontology-agent",
+        "url": "https://github.com/gogoymh/git-ontology-agent",
+        "note": "Early repository interest; not evidence of reliability or benchmark performance."
+      }
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -8981,6 +9096,39 @@
         "checked_on": "2026-11-22",
         "license_note": "MIT code license inspected; external models and services retain their own terms. No new model weights are established by this code entry.",
         "scope": "Original documentation and available license read; no downloaded code executed, model files downloaded or performance reproduced."
+      }
+    },
+    {
+      "id": "r944",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Language clients and data systems",
+      "title": "Jev typed judgments for Nushell",
+      "description": "Rust plugin exposes noul, choice, score and batched questions as Nushell commands. Restricts requests to the native TypeSafe endpoint and text state, with a 256 KiB request cap. Images and Box outputs are unsupported; plugin protocol versions must match Nushell.",
+      "status": "Open source · MIT",
+      "icon": "code",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/quietlight/nu_plugin_jev"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/quietlight/nu_plugin_jev",
+      "checked_on": "2026-11-23",
+      "cataloged_on": "2026-11-23",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-23T00:50:08Z",
+      "date_note": "GitHub repository creation, not the date of experiments, registration, later updates or a first model release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/quietlight/nu_plugin_jev/readme",
+          "https://api.github.com/repos/quietlight/nu_plugin_jev/license"
+        ],
+        "checked_on": "2026-11-23",
+        "license_note": "MIT code license inspected; third-party models, data and services retain separate terms.",
+        "scope": "Documentation and available license inspected; no code execution or independent performance reproduction."
       }
     },
     {
@@ -14140,6 +14288,47 @@
       }
     },
     {
+      "id": "r951",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Turion Jev 4B",
+      "description": "Qwen3.5-4B text-only adaptation scores typed options from next-token probabilities with per-question-type temperature calibration. Publishes BF16 weights, runtime files and a GGUF variant. Reported Decision Index results use a sampled public suite; H200 timings and held-out calibration do not establish laptop performance or calibration on new tasks.",
+      "status": "Public weights and runtime · Apache-2.0",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/turion-ai/turion-jev-4b"
+        },
+        {
+          "label": "GGUF",
+          "url": "https://huggingface.co/turion-ai/turion-jev-4b-GGUF"
+        }
+      ],
+      "date": "2026-11-21",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/turion-ai/turion-jev-4b",
+      "checked_on": "2026-11-23",
+      "cataloged_on": "2026-11-23",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-11-21T07:36:58.000Z",
+      "date_note": "Hugging Face repository creation, not proof of the first public release.",
+      "artifact_verification": {
+        "method": "original_model_card_license_and_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/models/turion-ai/turion-jev-4b",
+          "https://huggingface.co/turion-ai/turion-jev-4b/raw/main/README.md",
+          "https://huggingface.co/turion-ai/turion-jev-4b/raw/main/LICENSE",
+          "https://huggingface.co/turion-ai/turion-jev-4b/raw/main/NOTICE",
+          "https://huggingface.co/api/models/turion-ai/turion-jev-4b-GGUF"
+        ],
+        "checked_on": "2026-11-23",
+        "revision": "b169f6098b1af1956cb59933d89381c6c3f34403",
+        "license_note": "Card declares Apache-2.0 weights and repository LICENSE supplies Apache-2.0; bundled runtime files have no separate conflicting notice in the inspected material. Training data retains source terms.",
+        "scope": "Public safetensors, runtime and GGUF file listings inspected. No binaries downloaded, inference run or benchmarks reproduced."
+      }
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -14690,32 +14879,117 @@
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
       "title": "HRM-Text LoRA decision-model training pipeline",
-      "description": "Prepares HRM-Text-1B adaptation on Open-Jev with training, evaluation and reporting code. CPU checks are documented, while GPU probes and training remain pending. No trained checkpoint is released here, and the planned comparisons lack matched architecture controls.",
-      "status": "Open-source pipeline · MIT · training pending",
+      "description": "HRM-Text-1B training and evaluation pipeline now has a public rank-16 adapter and 16-option readout head. The author explicitly marks the release not recommended: weak hard-tier results, out-of-distribution overconfidence, one seed and no matched architecture control. The model card supersedes the repository README’s still-pending training status.",
+      "status": "MIT code · Apache-2.0 adapter · not recommended by author",
       "icon": "chip",
       "links": [
         {
           "label": "GitHub",
           "url": "https://github.com/Copperhorse/HRM_JEV"
+        },
+        {
+          "label": "Research adapter",
+          "url": "https://huggingface.co/CopperHorse/hrm-text-1b-open-jev-lora"
         }
       ],
       "date": "2026-11-19",
       "date_kind": "repository_created",
       "date_source": "https://api.github.com/repos/Copperhorse/HRM_JEV",
-      "checked_on": "2026-11-21",
+      "checked_on": "2026-11-23",
       "cataloged_on": "2026-11-21",
       "date_source_field": "created_at",
       "date_source_timestamp": "2026-11-19T19:44:30Z",
       "date_note": "GitHub repository creation; not a model release date or the date of later software updates.",
       "artifact_verification": {
-        "method": "original_readme_and_available_license_via_github_api",
+        "method": "original_repository_license_and_model_card_with_file_metadata",
         "sources": [
           "https://api.github.com/repos/Copperhorse/HRM_JEV/readme",
-          "https://api.github.com/repos/Copperhorse/HRM_JEV/license"
+          "https://api.github.com/repos/Copperhorse/HRM_JEV/license",
+          "https://huggingface.co/api/models/CopperHorse/hrm-text-1b-open-jev-lora",
+          "https://huggingface.co/CopperHorse/hrm-text-1b-open-jev-lora/raw/main/README.md"
         ],
-        "checked_on": "2026-11-21",
-        "license_note": "MIT code license inspected; external base models and training data retain their own licenses. No new trained weights verified.",
-        "scope": "Original documentation and available license inspected; no execution or independent benchmark reproduction."
+        "checked_on": "2026-11-23",
+        "revision": "a7fd68f63a896ba1bcba5d2593ed7bc63e66cc79",
+        "repository_created_at": "2026-11-22T14:22:10.000Z",
+        "license_note": "MIT code license independently inspected. Model card declares Apache-2.0 for the adapter and head; base and dataset terms remain separate.",
+        "scope": "Public adapter_model.safetensors and readout.pt listed. Model card explicitly warns against general use; no binary download or reproduction. Hub creation timestamp is not a first release claim."
+      }
+    },
+    {
+      "id": "r943",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Training pipelines and announced releases",
+      "title": "Jev-RAG Toolbox",
+      "description": "Trains Mentat-based Qwen3.5-4B adapters to judge evidence sufficiency and whether a follow-up search is useful. Publishes a v1 joint adapter/readout archive and iterative BM25 RAG evaluation materials. Later trajectory-based training remains ongoing or planned; model judgments gate retrieval and stopping rather than generating answers.",
+      "status": "Public code and adapter assets · licenses not established",
+      "icon": "network",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/bloosiee/jev-rag-toolbox"
+        },
+        {
+          "label": "Model card",
+          "url": "https://github.com/bloosiee/jev-rag-toolbox/blob/main/models/README.md"
+        },
+        {
+          "label": "Adapter release",
+          "url": "https://github.com/bloosiee/jev-rag-toolbox/releases/tag/v0.1.0-models"
+        }
+      ],
+      "date": "2026-11-22",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/bloosiee/jev-rag-toolbox",
+      "checked_on": "2026-11-23",
+      "cataloged_on": "2026-11-23",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-22T08:23:34Z",
+      "date_note": "GitHub repository creation, not the date of experiments, registration, later updates or a first model release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/bloosiee/jev-rag-toolbox/readme",
+          "https://api.github.com/repos/bloosiee/jev-rag-toolbox/license",
+          "https://raw.githubusercontent.com/bloosiee/jev-rag-toolbox/main/models/README.md",
+          "https://api.github.com/repos/bloosiee/jev-rag-toolbox/releases/tags/v0.1.0-models"
+        ],
+        "checked_on": "2026-11-23",
+        "license_note": "Neither software nor adapter license established. External Qwen and Mentat terms remain separate.",
+        "scope": "Original model card and 28 public split-archive release assets inspected via metadata; archive contents were not downloaded or executed.",
+        "release_published_at": "2026-11-22T16:06:20Z"
+      }
+    },
+    {
+      "id": "r945",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Training pipelines and announced releases",
+      "title": "Sindhi-Jev dot-aware OCR verifier",
+      "description": "Research pipeline builds a small verifier for Sindhi OCR candidates and character-dot errors, referencing MiniCPM-OCR Jev. Provides synthetic-data generation and real-test-set annotation tools. Final real-data evaluation, the hosted Jev baseline and a paper remain pending; real scan images are not distributed.",
+      "status": "Open-source code · Apache-2.0 · research in progress",
+      "icon": "eye",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ArsalanKaleem/sindhi-JEV"
+        }
+      ],
+      "date": "2026-11-22",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/ArsalanKaleem/sindhi-JEV",
+      "checked_on": "2026-11-23",
+      "cataloged_on": "2026-11-23",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-22T08:45:25Z",
+      "date_note": "GitHub repository creation, not the date of experiments, registration, later updates or a first model release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/ArsalanKaleem/sindhi-JEV/readme",
+          "https://api.github.com/repos/ArsalanKaleem/sindhi-JEV/license"
+        ],
+        "checked_on": "2026-11-23",
+        "license_note": "Apache-2.0 code license inspected. Font and data licenses are separate; real scans are not included, and a public trained-weight release was not established.",
+        "scope": "Documentation and available license inspected; no code execution or independent performance reproduction."
       }
     },
     {
@@ -19478,6 +19752,76 @@
       }
     },
     {
+      "id": "r942",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Same Answer, Different Verdict: Jev position-bias audit",
+      "description": "Audits Jev 1.13 using identical answers, quality-gap ladders, mirrored candidate orders and format interventions across MT-Bench, HANNA and SummEval. Publishes code, aggregate results and registration links. Raw API responses and the main per-item results file are absent, limiting independent reanalysis.",
+      "status": "Public research code · license not established",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/suraj-phanindra/jev-position-audit"
+        },
+        {
+          "label": "Registration linked by author",
+          "url": "https://osf.io/4nme3/"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/suraj-phanindra/jev-position-audit",
+      "checked_on": "2026-11-23",
+      "cataloged_on": "2026-11-23",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-23T00:50:19Z",
+      "date_note": "GitHub repository creation, not the date of experiments, registration, later updates or a first model release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/suraj-phanindra/jev-position-audit/readme",
+          "https://api.github.com/repos/suraj-phanindra/jev-position-audit/license"
+        ],
+        "checked_on": "2026-11-23",
+        "license_note": "GitHub license endpoint returned HTTP 404; no software license established from the inspected README. Public availability is not treated as an open-source license.",
+        "scope": "Documentation and available license inspected; no code execution or independent performance reproduction."
+      }
+    },
+    {
+      "id": "r947",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "recalibench domain calibration toolkit",
+      "description": "Evaluates Jev 1.14 on three public-data classification tasks with separate fitting, selection and held-out splits. Provides post-hoc calibrators, bootstrap intervals, reports and a Streamlit app. Reported calibration gains are task-specific; transferring a calibrator across tasks performs worse than fitting it locally.",
+      "status": "Open source · MIT",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dagap/recalibench"
+        }
+      ],
+      "date": "2026-11-22",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/dagap/recalibench",
+      "checked_on": "2026-11-23",
+      "cataloged_on": "2026-11-23",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-22T20:23:24Z",
+      "date_note": "GitHub repository creation, not the date of experiments, registration, later updates or a first model release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/dagap/recalibench/readme",
+          "https://api.github.com/repos/dagap/recalibench/license"
+        ],
+        "checked_on": "2026-11-23",
+        "license_note": "MIT code license inspected; third-party models, data and services retain separate terms.",
+        "scope": "Documentation and available license inspected; no code execution or independent performance reproduction."
+      }
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -20914,6 +21258,39 @@
         "checked_on": "2026-11-21",
         "license_note": "GitHub license endpoint returned HTTP 404 and README does not establish a license. Repository and README are publicly readable; no open-source license inferred.",
         "scope": "Original documentation and available license inspected; no execution or independent benchmark reproduction."
+      }
+    },
+    {
+      "id": "r946",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "TypeSafe Use Case Lab",
+      "description": "Local Node.js app adapts 32 documented Jev workflows with editable inputs, typed judgments and explicit decision rules. Separates illustrative preview fixtures from live API runs and includes experimental image examples. It proposes actions on bounded examples rather than connecting to the full external business systems.",
+      "status": "Public example code · license not established",
+      "icon": "book",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/chaitanya-y/typesafe-jev-workflows"
+        }
+      ],
+      "date": "2026-11-22",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/chaitanya-y/typesafe-jev-workflows",
+      "checked_on": "2026-11-23",
+      "cataloged_on": "2026-11-23",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-22T21:18:51Z",
+      "date_note": "GitHub repository creation, not the date of experiments, registration, later updates or a first model release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/chaitanya-y/typesafe-jev-workflows/readme",
+          "https://api.github.com/repos/chaitanya-y/typesafe-jev-workflows/license"
+        ],
+        "checked_on": "2026-11-23",
+        "license_note": "GitHub license endpoint returned HTTP 404; no software license established from the inspected README. Public availability is not treated as an open-source license.",
+        "scope": "Documentation and available license inspected; no code execution or independent performance reproduction."
       }
     },
     {
@@ -23125,12 +23502,20 @@
         {
           "label": "PDF",
           "url": "https://arxiv.org/pdf/2611.26557"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ALIENS32/MM-SystemOneBias"
+        },
+        {
+          "label": "Dataset",
+          "url": "https://huggingface.co/datasets/ALIENS232/MM-SystemOneBias"
         }
       ],
       "date": "2026-11-19",
       "date_kind": "submitted",
       "date_source": "https://arxiv.org/abs/2611.26557",
-      "checked_on": "2026-11-21",
+      "checked_on": "2026-11-23",
       "cataloged_on": "2026-11-21",
       "date_source_field": "submission_history.v1",
       "date_source_timestamp": "2026-11-19T18:25:41Z",
@@ -23142,7 +23527,20 @@
         "Liu, Li",
         "Wu, Yuan",
         "Chang, Yi"
-      ]
+      ],
+      "artifact_verification": {
+        "method": "author_repository_and_original_dataset_card_with_file_metadata",
+        "sources": [
+          "https://api.github.com/repos/ALIENS32/MM-SystemOneBias/readme",
+          "https://api.github.com/repos/ALIENS32/MM-SystemOneBias/license",
+          "https://huggingface.co/api/datasets/ALIENS232/MM-SystemOneBias",
+          "https://huggingface.co/datasets/ALIENS232/MM-SystemOneBias/raw/main/README.md"
+        ],
+        "checked_on": "2026-11-23",
+        "revision": "8c83db38ab824854534996cfd0a46ca9d57f4aee",
+        "license_note": "No code license established (license endpoint HTTP 404). Dataset card assigns no collection-wide license and records heterogeneous or unresolved source terms; redistribution review remains pending.",
+        "scope": "Author repository matches the arXiv ID and links the exact dataset. Public Parquet metadata and original card inspected; no dataset downloaded or evaluation reproduced."
+      }
     },
     {
       "id": "r932",
@@ -27040,6 +27438,44 @@
         "license_note": "Apache-2.0 code license inspected.",
         "scope": "Original documents inspected; no code execution or reproduction."
       }
+    },
+    {
+      "id": "r952",
+      "section": "4. Research papers",
+      "category": "Open and alternative decision-model methods",
+      "title": "GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers",
+      "description": "Studies a 0.4B–27B decision-model family using bidirectional full attention, option readouts and multi-teacher reasoning distillation, with comparisons including Jev. Also explores checkpoint averaging and recurrent depth. Reported leaderboard rankings and calibration apply to dated benchmark revisions, rather than guaranteeing performance on new workloads.",
+      "status": "Preprint",
+      "icon": "brain",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.26509"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.26509"
+        },
+        {
+          "label": "Author model organization",
+          "url": "https://huggingface.co/fastino"
+        }
+      ],
+      "date": "2026-11-19",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.26509",
+      "checked_on": "2026-11-23",
+      "cataloged_on": "2026-11-23",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-19T17:56:44Z",
+      "arxiv_id": "2611.26509",
+      "authors": [
+        "Allahyar, Sahibzada",
+        "White, Julia",
+        "Atreja, Dhruv",
+        "Hurn-Maloney, George",
+        "Zaratiana, Urchade"
+      ]
     },
     {
       "id": "r115",
