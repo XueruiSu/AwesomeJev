@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-23",
+  "last_updated": "2026-11-24",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -7711,6 +7711,76 @@
         "source": "https://api.github.com/repos/gogoymh/git-ontology-agent",
         "url": "https://github.com/gogoymh/git-ontology-agent",
         "note": "Early repository interest; not evidence of reliability or benchmark performance."
+      }
+    },
+    {
+      "id": "r956",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev code review CLI",
+      "description": "Python CLI prepares commit-only reviews offline and uses an explicit live mode for budgeted Jev checks. Typed violation, no-violation and insufficient-evidence outputs produce candidate findings for human inspection. Context gathering covers a bounded subset of JavaScript/TypeScript relative imports.",
+      "status": "Open source · MIT",
+      "icon": "code",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/zavaii/jev-code-review"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/zavaii/jev-code-review",
+      "checked_on": "2026-11-24",
+      "cataloged_on": "2026-11-24",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-23T12:54:31Z",
+      "date_note": "GitHub repository creation, not the date of experiments, later updates or a first model release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/zavaii/jev-code-review/readme",
+          "https://api.github.com/repos/zavaii/jev-code-review/license"
+        ],
+        "checked_on": "2026-11-24",
+        "license_note": "MIT code license inspected; third-party models, data and services retain separate terms.",
+        "scope": "Documentation and available license inspected; no code execution or independent performance reproduction."
+      }
+    },
+    {
+      "id": "r958",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev Harness RSI for AppWorld",
+      "description": "Builds menus of reusable AppWorld operations for a fixed AutoTrust 27B model, with low-confidence reasoning and code-generation fallback. An offline reasoning model revises the shared harness from training traces. Publishes an experiment protocol and one corrected Spotify training example; that example does not establish full held-out benchmark gains.",
+      "status": "Public code · license not established",
+      "icon": "network",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/OmniAI-Lab-CUHKSZ/jev-harness-rsi"
+        },
+        {
+          "label": "Base model",
+          "url": "https://huggingface.co/autotrust/AutoTrust-Decider-Pro-27B"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/OmniAI-Lab-CUHKSZ/jev-harness-rsi",
+      "checked_on": "2026-11-24",
+      "cataloged_on": "2026-11-24",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-23T15:58:16Z",
+      "date_note": "GitHub repository creation, not the date of experiments, later updates or a first model release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/OmniAI-Lab-CUHKSZ/jev-harness-rsi/readme",
+          "https://api.github.com/repos/OmniAI-Lab-CUHKSZ/jev-harness-rsi/license"
+        ],
+        "checked_on": "2026-11-24",
+        "license_note": "GitHub license endpoint returned HTTP 404; no software license established from the inspected README. Public availability is not treated as an open-source license.",
+        "scope": "Documentation and available license inspected; no code execution or independent performance reproduction. Exact Hugging Face model URL corroborated by the author README; current Hub files and model license were not inspected because Hub discovery requests failed with DNS timeouts."
       }
     },
     {
@@ -19822,6 +19892,72 @@
       }
     },
     {
+      "id": "r954",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev Board decision workbench",
+      "description": "Local workbench compares Noul, Choice, Score and Box questions across wording and input variants, with labeled accuracy checks, request history, costs and cached answers. Supports chained threshold gates. History is stored locally, but live requests send the supplied inputs to TypeSafe.",
+      "status": "Public code · license not established",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/rttq/jev_board"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/rttq/jev_board",
+      "checked_on": "2026-11-24",
+      "cataloged_on": "2026-11-24",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-23T18:53:04Z",
+      "date_note": "GitHub repository creation, not the date of experiments, later updates or a first model release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/rttq/jev_board/readme",
+          "https://api.github.com/repos/rttq/jev_board/license"
+        ],
+        "checked_on": "2026-11-24",
+        "license_note": "GitHub license endpoint returned HTTP 404; no software license established from the inspected README. Public availability is not treated as an open-source license.",
+        "scope": "Documentation and available license inspected; no code execution or independent performance reproduction."
+      }
+    },
+    {
+      "id": "r957",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "GeoDecisions: spatial awareness and geographic bias",
+      "description": "Evaluation framework compares decision models including Jev 1.14 on geographic classification using images, coordinates or both. Covers 2,000 locations and 11 objective or subjective topics, with geographic-bias analysis and a location-prior correction. Data dependencies are obtained separately; reported results are not independently reproduced.",
+      "status": "Open-source code · Apache-2.0",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/cruiseresearchgroup/GeoDecisions"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/cruiseresearchgroup/GeoDecisions",
+      "checked_on": "2026-11-24",
+      "cataloged_on": "2026-11-24",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-23T05:05:58Z",
+      "date_note": "GitHub repository creation, not the date of experiments, later updates or a first model release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/cruiseresearchgroup/GeoDecisions/readme",
+          "https://api.github.com/repos/cruiseresearchgroup/GeoDecisions/license"
+        ],
+        "checked_on": "2026-11-24",
+        "license_note": "Apache-2.0 code license inspected; third-party models, data and services retain separate terms.",
+        "scope": "Documentation and available license inspected; no code execution or independent performance reproduction."
+      }
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -21290,6 +21426,72 @@
         ],
         "checked_on": "2026-11-23",
         "license_note": "GitHub license endpoint returned HTTP 404; no software license established from the inspected README. Public availability is not treated as an open-source license.",
+        "scope": "Documentation and available license inspected; no code execution or independent performance reproduction."
+      }
+    },
+    {
+      "id": "r953",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Jev comment moderation with Spring AI",
+      "description": "Example combines typed spam, topic and tone judgments with Java rules to publish, hold or reject comments. Refusals are held for review, and fake-provider tests exercise the policy. The example thresholds are application choices rather than validated moderation guarantees.",
+      "status": "Public example code · license not established",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/danvega/jev-comment-moderation"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/danvega/jev-comment-moderation",
+      "checked_on": "2026-11-24",
+      "cataloged_on": "2026-11-24",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-23T19:11:10Z",
+      "date_note": "GitHub repository creation, not the date of experiments, later updates or a first model release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/danvega/jev-comment-moderation/readme",
+          "https://api.github.com/repos/danvega/jev-comment-moderation/license"
+        ],
+        "checked_on": "2026-11-24",
+        "license_note": "GitHub license endpoint returned HTTP 404; no software license established from the inspected README. Public availability is not treated as an open-source license.",
+        "scope": "Documentation and available license inspected; no code execution or independent performance reproduction."
+      }
+    },
+    {
+      "id": "r955",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "Model Router Workshop",
+      "description": "Hands-on workshop develops Jev model routing from a direct choice into typed judgments, coded rules and held-out evaluation. Its 168 test prompts are separate from 60 development prompts. The Haiku/Sonnet/Opus tier labels use Qwen stand-ins; reported cost and quality tradeoffs are specific to that setup.",
+      "status": "Open source · MIT",
+      "icon": "book",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Rhys-Lindmark/model-router-workshop"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Rhys-Lindmark/model-router-workshop",
+      "checked_on": "2026-11-24",
+      "cataloged_on": "2026-11-24",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-23T03:22:20Z",
+      "date_note": "GitHub repository creation, not the date of experiments, later updates or a first model release.",
+      "artifact_verification": {
+        "method": "original_readme_and_available_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/Rhys-Lindmark/model-router-workshop/readme",
+          "https://api.github.com/repos/Rhys-Lindmark/model-router-workshop/license"
+        ],
+        "checked_on": "2026-11-24",
+        "license_note": "MIT code license inspected; third-party models, data and services retain separate terms.",
         "scope": "Documentation and available license inspected; no code execution or independent performance reproduction."
       }
     },
@@ -24815,6 +25017,108 @@
         "checked_on": "2026-11-21",
         "scope": "Paper announces the project URL, but direct project request returned HTTP 404. Paper abstract and HTML remain available; code/data release not established."
       }
+    },
+    {
+      "id": "r960",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "Too Fast to Doubt? Skipping Reasoning Leaves Jev-like Models Vulnerable",
+      "description": "Audits four decision models on 1,440 paired synthetic browser-state tasks, finding that injected external comments reduce accuracy and worsen calibration. A smaller matched comparison explores short reasoning as a defense. Results are bounded to the synthetic protocol; cross-endpoint latency and a small matched subset limit causal claims about skipping reasoning.",
+      "status": "Preprint",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.27679"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.27679"
+        }
+      ],
+      "date": "2026-11-20",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.27679",
+      "checked_on": "2026-11-24",
+      "cataloged_on": "2026-11-24",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-20T14:50:54Z",
+      "arxiv_id": "2611.27679",
+      "authors": [
+        "Li, Yue",
+        "Wu, Hao",
+        "Fu, Zenan",
+        "Li, Xiao",
+        "Xu, Fengyuan",
+        "Zhong, Sheng"
+      ]
+    },
+    {
+      "id": "r961",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "Same Facts, Different Decision: Fact-Invariant Manipulation and Provenance-Based Defense in Typed Decision Models",
+      "description": "Introduces LEVER, which searches for persuasive external comments that change typed decisions without adding task facts, evaluating Jev 1.13 and local models. ProvenanceGate accepts a changed decision only when authorized evidence supports it. Its defense depends on known source provenance and a fixed question, rather than providing unrestricted prompt-injection protection.",
+      "status": "Preprint",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.27016"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.27016"
+        }
+      ],
+      "date": "2026-11-20",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.27016",
+      "checked_on": "2026-11-24",
+      "cataloged_on": "2026-11-24",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-20T02:46:13Z",
+      "arxiv_id": "2611.27016",
+      "authors": [
+        "Wang, Yujie",
+        "Chi, Haotian",
+        "Jiang, Shunrong"
+      ]
+    },
+    {
+      "id": "r963",
+      "section": "4. Research papers",
+      "category": "Robustness and security",
+      "title": "Reward Integrity in Adversarial Reinforcement Learning for LLM Guardrail Red-Teaming",
+      "description": "Studies reward integrity in adversarial guardrail training, using Jev to verify required PII in attacks and comparing Jev, Laya and classifier-based outcome judges. Improved agreement with an Opus judge still includes false wins. Evidence comes from one financial scenario and replayed attacks, with limited manual adjudication rather than isolated online training effects.",
+      "status": "Preprint",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.26998"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.26998"
+        }
+      ],
+      "date": "2026-11-20",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.26998",
+      "checked_on": "2026-11-24",
+      "cataloged_on": "2026-11-24",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-20T02:26:54Z",
+      "arxiv_id": "2611.26998",
+      "authors": [
+        "Liu, Chengming",
+        "Viti, Leon",
+        "Chen, Hongxu",
+        "Kemik, Erdem",
+        "Williams, Mary-Anne",
+        "Oliver, Ruth"
+      ]
     },
     {
       "id": "r104",
@@ -30392,6 +30696,107 @@
         "license_note": "Public repository and README inspected; license endpoint returned HTTP 404 and no code license was established. This is not a repository availability failure.",
         "scope": "Documentation checked; no execution or independent reproduction."
       }
+    },
+    {
+      "id": "r959",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Decision Models for Multilingual Emotion Classification: A Comparative Study Against LLMs and Encoders",
+      "description": "Compares three decision-model services, including Jev, with LLMs and fine-tuned encoders on four emotions across ten datasets and five languages. Strong zero-shot averages do not establish equivalence to task-trained encoders. Dataset-level variation, language/source confounding and jointly varied prompt wording and option order limit generalization.",
+      "status": "Preprint",
+      "icon": "brain",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.27721"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.27721"
+        }
+      ],
+      "date": "2026-11-20",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.27721",
+      "checked_on": "2026-11-24",
+      "cataloged_on": "2026-11-24",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-20T15:24:05Z",
+      "arxiv_id": "2611.27721",
+      "authors": [
+        "Piccolo, Alessandro",
+        "De Nicolò, Francesco",
+        "Manco, Francesco",
+        "Lella, Eufemia"
+      ]
+    },
+    {
+      "id": "r962",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "JevRisk: Zero-Shot Financial Risk Assessment with a Language Decision Model",
+      "description": "Combines coded financial-risk indicators with contextual Jev scores without supervised label training, evaluating synthetic AML data and two real credit datasets. Uses unlabeled peer data and expert questions. AML risk ratings are not confirmed laundering events, credit discrimination is modest, and fairness and prospective deployment are not established.",
+      "status": "Preprint",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.26999"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.26999"
+        }
+      ],
+      "date": "2026-11-20",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.26999",
+      "checked_on": "2026-11-24",
+      "cataloged_on": "2026-11-24",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-20T02:28:04Z",
+      "arxiv_id": "2611.26999",
+      "authors": [
+        "Yang, Yaodong",
+        "Huang, Li",
+        "Liang, Junpeng",
+        "Ma, Yi",
+        "Tang, Hongyao",
+        "Fan, Xingyu",
+        "Li, Jinpeng",
+        "Liu, Furui"
+      ]
+    },
+    {
+      "id": "r964",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Are Calibrated Decision Models Calibrated on Markets? Geolocated News, Markov Switching and a System One Model for Nasdaq-100 Allocation",
+      "description": "Evaluates Jev probabilities for four-week Nasdaq-100 declines over 88 weekly observations, alongside geolocated news and regime models. Prior adjustment improves calibration without establishing useful directional discrimination. Overlapping outcomes, one index and uncertain model knowledge boundaries constrain the evidence; the allocation backtest is illustrative.",
+      "status": "Preprint",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.26716"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.26716"
+        }
+      ],
+      "date": "2026-11-19",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.26716",
+      "checked_on": "2026-11-24",
+      "cataloged_on": "2026-11-24",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-19T19:15:23Z",
+      "arxiv_id": "2611.26716",
+      "authors": [
+        "Zając, Jakub",
+        "Dyrek, Michał"
+      ]
     },
     {
       "id": "r126",
