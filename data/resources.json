@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-24",
+  "last_updated": "2026-11-25",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -7784,6 +7784,39 @@
       }
     },
     {
+      "id": "r965",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Decision Playwright browser skill",
+      "description": "Delegates browser actions to a decision provider while the host agent supplies text and verifies outcomes. Supports TypeSafe Jev alongside Microsoft Decision endpoints. The README marks TypeSafe support as mock-tested; live benchmark results use other endpoints and are not evidence of Jev performance.",
+      "status": "Open source · MIT",
+      "icon": "network",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/cheolmin/decision-playwright"
+        }
+      ],
+      "date": "2026-11-24",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/cheolmin/decision-playwright",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-24T12:03:19Z",
+      "date_note": "Repository creation, not the date of experiments or later releases.",
+      "artifact_verification": {
+        "method": "original_readme_and_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/cheolmin/decision-playwright/readme",
+          "https://api.github.com/repos/cheolmin/decision-playwright/license"
+        ],
+        "checked_on": "2026-11-25",
+        "license_note": "MIT code license inspected; third-party data and services retain separate terms.",
+        "scope": "Documentation inspected; no execution or independent reproduction."
+      }
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -14399,6 +14432,122 @@
       }
     },
     {
+      "id": "r968",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Jev Multimodal Qwen3.5-4B",
+      "description": "Merged Laya checkpoint with text, image and visual-only video decisions, plus single-object Box grounding. Publishes weights and bundled runtime. Historical full-test results precede merging; conversion checks do not substitute for a rerun, and the box-quality estimate is not a calibrated presence probability.",
+      "status": "Public weights · Apache-2.0",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/ZeeoRe/jev-multimodal-qwen3.5-4b"
+        },
+        {
+          "label": "GGUF",
+          "url": "https://huggingface.co/ZeeoRe/jev-multimodal-qwen3.5-4b-GGUF"
+        }
+      ],
+      "date": "2026-11-24",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/ZeeoRe/jev-multimodal-qwen3.5-4b",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-11-24T09:12:54.000Z",
+      "date_note": "Hugging Face repository creation; not proof of the first public weight release.",
+      "artifact_verification": {
+        "method": "original_model_card_license_and_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/models/ZeeoRe/jev-multimodal-qwen3.5-4b",
+          "https://huggingface.co/ZeeoRe/jev-multimodal-qwen3.5-4b/raw/main/README.md",
+          "https://huggingface.co/ZeeoRe/jev-multimodal-qwen3.5-4b/raw/main/LICENSE"
+        ],
+        "checked_on": "2026-11-25",
+        "revision": "458928a6e3c2f4fcb2398c56106f69997549a46b",
+        "license_note": "Apache-2.0 checkpoint license inspected; the model card attributes the bundled Laya runtime to Apache-2.0. Source dataset terms remain separate.",
+        "scope": "Public safetensors and runtime file metadata inspected; binaries not downloaded or executed. GGUF links, where present, matched the author model card; variant binaries not inspected."
+      }
+    },
+    {
+      "id": "r969",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Owl-Jev 27B",
+      "description": "Text-and-image decision model combines original images with PP-OCRv5 transcription and returns Choice, Noul and Score probabilities. Public weight shards and inference files are listed. Decision Index scores are author-reported; component licenses do not establish a clear collection-wide license for the adapted weights.",
+      "status": "Public weights · weight license not established",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/Jaysonddd/owl-jev-27b"
+        }
+      ],
+      "date": "2026-11-24",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/Jaysonddd/owl-jev-27b",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-11-24T18:08:35.000Z",
+      "date_note": "Hugging Face repository creation; not proof of the first public weight release.",
+      "artifact_verification": {
+        "method": "original_model_card_license_and_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/models/Jaysonddd/owl-jev-27b",
+          "https://huggingface.co/Jaysonddd/owl-jev-27b/raw/main/README.md",
+          "https://huggingface.co/Jaysonddd/owl-jev-27b/raw/main/LICENSE",
+          "https://huggingface.co/Jaysonddd/owl-jev-27b/raw/main/NOTICE",
+          "https://huggingface.co/Jaysonddd/owl-jev-27b/raw/main/inference/LICENSE",
+          "https://huggingface.co/Jaysonddd/owl-jev-27b/raw/main/LICENSE-D3.txt"
+        ],
+        "checked_on": "2026-11-25",
+        "revision": "8b9ac335fc19ccfa12b831618a9fccb29f3d7385",
+        "license_note": "NOTICE attributes the d3-derived runtime and PaddleOCR to Apache-2.0; inference/LICENSE is MIT. No explicit license for the adapted model weights was established.",
+        "scope": "Public safetensors and runtime file metadata inspected; binaries not downloaded or executed. GGUF links, where present, matched the author model card; variant binaries not inspected."
+      }
+    },
+    {
+      "id": "r970",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Turion Jev 0.8B",
+      "description": "Text-only Qwen3.5-0.8B adaptation reads probabilities over typed options with per-type temperature calibration. Publishes BF16 weights and a runtime, with a linked GGUF variant. Public-index results use a stratified sample and latency is measured on H200; held-out calibration does not guarantee transfer to new tasks.",
+      "status": "Public weights and runtime · Apache-2.0",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/turion-ai/turion-jev-0.8b"
+        },
+        {
+          "label": "GGUF",
+          "url": "https://huggingface.co/turion-ai/turion-jev-0.8b-GGUF"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/turion-ai/turion-jev-0.8b",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-11-23T15:18:17.000Z",
+      "date_note": "Hugging Face repository creation; not proof of the first public weight release.",
+      "artifact_verification": {
+        "method": "original_model_card_license_and_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/models/turion-ai/turion-jev-0.8b",
+          "https://huggingface.co/turion-ai/turion-jev-0.8b/raw/main/README.md",
+          "https://huggingface.co/turion-ai/turion-jev-0.8b/raw/main/LICENSE"
+        ],
+        "checked_on": "2026-11-25",
+        "revision": "01314e897b388e5df90a0c526230588ffa2ab235",
+        "license_note": "Apache-2.0 license inspected; model card applies it to the release. Source training data retains separate terms.",
+        "scope": "Public safetensors and runtime file metadata inspected; binaries not downloaded or executed. GGUF links, where present, matched the author model card; variant binaries not inspected."
+      }
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -19958,6 +20107,39 @@
       }
     },
     {
+      "id": "r966",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Jev rubric judge with human fallback",
+      "description": "Studies Jev-first routing of 1,115 InFoBench rubric questions to human review when uncertain. Publishes the protocol and results, including post-hoc changes and a failed initial acceptance check. Human cost savings are modeled from assumed rates; small task counts limit claims about small quality differences.",
+      "status": "Open source · MIT",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/atoyangeor/jev-rubric-judge"
+        }
+      ],
+      "date": "2026-11-24",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/atoyangeor/jev-rubric-judge",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-24T13:29:24Z",
+      "date_note": "Repository creation, not the date of experiments or later releases.",
+      "artifact_verification": {
+        "method": "original_readme_and_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/atoyangeor/jev-rubric-judge/readme",
+          "https://api.github.com/repos/atoyangeor/jev-rubric-judge/license"
+        ],
+        "checked_on": "2026-11-25",
+        "license_note": "MIT code license inspected; third-party data and services retain separate terms.",
+        "scope": "Documentation inspected; no execution or independent reproduction."
+      }
+    },
+    {
       "id": "r086",
       "section": "3. Infrastructure, models, and applications",
       "category": "Examples, games, and learning projects",
@@ -21496,6 +21678,39 @@
       }
     },
     {
+      "id": "r967",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Examples, games, and learning projects",
+      "title": "20 Questions with Jev",
+      "description": "Workshop separates question selection from deterministic filtering and guessing, with offline recorded races and optional live calls. Uses a shared answer table with manual corrections. Nine-secret demonstrations compare Jev with LLMs; a full-table code baseline wins, illustrating where model judgment is unnecessary.",
+      "status": "Open source · MIT",
+      "icon": "book",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Rhys-Lindmark/20-questions-workshop"
+        }
+      ],
+      "date": "2026-11-24",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/Rhys-Lindmark/20-questions-workshop",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-24T19:12:38Z",
+      "date_note": "Repository creation, not the date of experiments or later releases.",
+      "artifact_verification": {
+        "method": "original_readme_and_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/Rhys-Lindmark/20-questions-workshop/readme",
+          "https://api.github.com/repos/Rhys-Lindmark/20-questions-workshop/license"
+        ],
+        "checked_on": "2026-11-25",
+        "license_note": "MIT code license inspected; third-party data and services retain separate terms.",
+        "scope": "Documentation inspected; no execution or independent reproduction."
+      }
+    },
+    {
       "id": "r092",
       "section": "4. Research papers",
       "category": "Surveys and broad evaluations",
@@ -22058,6 +22273,110 @@
         ],
         "checked_on": "2026-11-18",
         "scope": "Paper announces the exact repository URL. GitHub API access did not establish a public repository or code license; link is labeled announced code."
+      }
+    },
+    {
+      "id": "r973",
+      "section": "4. Research papers",
+      "category": "Surveys and broad evaluations",
+      "title": "OmniDecisionBench: Evaluating and Benchmarking the Multimodal Jev-Style System One Decision Models",
+      "description": "Benchmarks multimodal decision models including Jev 1.14 across 45 datasets and four typed interfaces, measuring accuracy and calibration. Finds input transformations and dataset shifts can invalidate risk thresholds. Evaluation is predominantly English and static-image based, without latency or cost measurements; the announced code URL returned HTTP 404.",
+      "status": "Preprint",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.28924"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.28924"
+        },
+        {
+          "label": "Author-linked code (HTTP 404)",
+          "url": "https://github.com/Glax147/OmniDecisionBench"
+        }
+      ],
+      "date": "2026-11-21",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.28924",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-21T16:54:21Z",
+      "arxiv_id": "2611.28924",
+      "authors": [
+        "Gao, Tianxiang",
+        "Li, Jinzhe",
+        "Zhou, Yue",
+        "Guo, Dandan",
+        "Wang, Qi",
+        "Inkpen, Diana",
+        "Wu, Yuan",
+        "Chang, Yi"
+      ],
+      "artifact_verification": {
+        "method": "paper_link_and_github_api",
+        "sources": [
+          "https://arxiv.org/abs/2611.28924",
+          "https://api.github.com/repos/Glax147/OmniDecisionBench"
+        ],
+        "checked_on": "2026-11-25",
+        "scope": "Author-specified URL returned HTTP 404; public code availability and license not established."
+      }
+    },
+    {
+      "id": "r975",
+      "section": "4. Research papers",
+      "category": "Surveys and broad evaluations",
+      "title": "S1Arena-MM: Which Multimodal Decisions Can Be Left to System 1?",
+      "description": "Compares 33 open models on typed image, video and audio decisions and closed-loop games. Probability quality often improves with decision post-training, but static-task success does not consistently transfer to interaction: only a subset improves closed-loop play, and conversational backchannels remain difficult. Publishes benchmark code and an author-linked media dataset.",
+      "status": "Preprint",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.29773"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.29773"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/zhaoyang02/S1Arena-MM"
+        },
+        {
+          "label": "Dataset",
+          "url": "https://huggingface.co/datasets/Swindl/S1Arena-MM"
+        }
+      ],
+      "date": "2026-11-22",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.29773",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-22T21:08:30Z",
+      "arxiv_id": "2611.29773",
+      "authors": [
+        "Lin, Lang",
+        "Chen, Tianyu",
+        "Gu, Yi",
+        "Zhao, Yang",
+        "Song, Xinran",
+        "Liu, Xinyang",
+        "Cheng, Jianpeng",
+        "Zhou, Mingyuan"
+      ],
+      "artifact_verification": {
+        "method": "paper_link_and_github_api",
+        "sources": [
+          "https://arxiv.org/abs/2611.29773",
+          "https://api.github.com/repos/zhaoyang02/S1Arena-MM"
+        ],
+        "checked_on": "2026-11-25",
+        "scope": "Original repository README and Apache-2.0 code license inspected; source media licenses remain separate. Dataset URL corroborated by author README; dataset files not downloaded."
       }
     },
     {
@@ -23789,6 +24108,164 @@
         "license_note": "Public repository verified; license endpoint returned HTTP 404 and no code license was established.",
         "scope": "Original documents inspected; no code execution or reproduction."
       }
+    },
+    {
+      "id": "r971",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Where the Image Sits: Vision-Text Order Bias in Jev",
+      "description": "Measures vision–text placement sensitivity in a Jev-style readout while holding option order fixed. Proposes averaging prefix and pre-question predictions at the cost of two forward passes. Results concern the tested local model and tasks, not a direct measurement of proprietary Jev. The author-linked code URL returned HTTP 404 during this check.",
+      "status": "Preprint",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.28535"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.28535"
+        },
+        {
+          "label": "Author-linked code (HTTP 404)",
+          "url": "https://github.com/Youzhi333/Visual_Tex_Order_Bias_Jev"
+        }
+      ],
+      "date": "2026-11-21",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.28535",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-21T03:51:56Z",
+      "arxiv_id": "2611.28535",
+      "authors": [
+        "Zhang, Youzhi"
+      ],
+      "artifact_verification": {
+        "method": "paper_link_and_github_api",
+        "sources": [
+          "https://arxiv.org/abs/2611.28535",
+          "https://api.github.com/repos/Youzhi333/Visual_Tex_Order_Bias_Jev"
+        ],
+        "checked_on": "2026-11-25",
+        "scope": "Author-specified URL returned HTTP 404; public code availability and license not established."
+      }
+    },
+    {
+      "id": "r976",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "UUBench: Understanding the Unspoken toward Full-Duplex Multimodal Interaction",
+      "description": "Evaluates digital-human responses to implicit communicative needs on 216 annotated clips. A Jev scoring module judges individual criteria from timestamped audiovisual observations, separating response quality from intent fulfillment. This preview depends on annotated intent and extracted evidence rather than directly establishing reliable full-duplex interaction.",
+      "status": "Preprint",
+      "icon": "eye",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.30157"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.30157"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.30157",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-23T07:03:50Z",
+      "arxiv_id": "2611.30157",
+      "authors": [
+        "Pan, Ye",
+        "Liao, Chenfei",
+        "Ren, Bin",
+        "Li, Hanqian",
+        "He, Haocong",
+        "Chen, Jialei",
+        "He, Jinlin",
+        "Peng, Kunyu",
+        "Jin, Mengyu",
+        "Li, Shijie",
+        "Cui, Wenqian",
+        "Yao, Yuanqi",
+        "Fu, Yuqian",
+        "Ruan, Kailong",
+        "Gao, Yuan",
+        "Wang, Wei",
+        "Hu, Xuming",
+        "King, Irwin",
+        "Sebe, Nicu",
+        "Zheng, Xu"
+      ]
+    },
+    {
+      "id": "r977",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Disclosure Bias in AI Reviewers",
+      "description": "Varies AI-use disclosure statements while holding 150 papers fixed, collecting 23,652 ratings from Jev and five LLM reviewers. Reports penalties for some agentic or fully AI-authored disclosures but no significant penalty for ordinary assistance. Simulated acceptance effects depend on the review rule and are not observed conference decisions.",
+      "status": "Preprint",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.30410"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.30410"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.30410",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-23T10:12:01Z",
+      "arxiv_id": "2611.30410",
+      "authors": [
+        "Leysen, Jens",
+        "Daniëls, Noah",
+        "Favier, Marco",
+        "Goethals, Bart"
+      ]
+    },
+    {
+      "id": "r980",
+      "section": "4. Research papers",
+      "category": "Judging, calibration, and reliability",
+      "title": "Reducing Order Sensitivity in Decision Models",
+      "description": "Compares eight ways to reduce option-order sensitivity after auditing ten decision models including Jev. Tree attention processes options as parallel branches and gives exact order invariance in the tested implementation. Controlled comparisons use one base family and training recipe; hybrid attention needs a separate implementation.",
+      "status": "Preprint",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.31174"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.31174"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.31174",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-23T18:31:54Z",
+      "arxiv_id": "2611.31174",
+      "authors": [
+        "Liu, Bodong",
+        "Go, Dongyoung",
+        "Zalouk, Sofian",
+        "Weinberger, Kilian Q."
+      ]
     },
     {
       "id": "r101",
@@ -26534,6 +27011,36 @@
         "Sun, Yuan",
         "Hu, Peng",
         "Qin, Yang"
+      ]
+    },
+    {
+      "id": "r982",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "Taxi: Analyzing Agents at (Real) Scale",
+      "description": "Presents Taxi for clustering, querying and monitoring large agent-trajectory collections through a relational backbone. An experimental Jev-style integration adds typed semantic routing and evaluation. This is an agent-analysis system rather than a new decision-model weight release; current behavior has limitations for multi-agent analysis.",
+      "status": "Preprint",
+      "icon": "network",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.31457"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.31457"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.31457",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-23T19:29:42Z",
+      "arxiv_id": "2611.31457",
+      "authors": [
+        "Dar, Guy"
       ]
     },
     {
@@ -30796,6 +31303,175 @@
       "authors": [
         "Zając, Jakub",
         "Dyrek, Michał"
+      ]
+    },
+    {
+      "id": "r972",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "JevNavAgent: A Single-Forward Visual Navigation Agent with Trajectory-Level RL for Gigapixel Pathology",
+      "description": "Introduces a 2B single-forward navigation agent for whole-slide pathology, with typed action heads, counterfactual trajectory alignment and online trajectory-level reinforcement learning. Reported gains are limited to breast cohorts and task-specialized checkpoints; small-lesion localization under the read budget remains difficult.",
+      "status": "Preprint",
+      "icon": "eye",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.28766"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.28766"
+        }
+      ],
+      "date": "2026-11-21",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.28766",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-21T12:21:32Z",
+      "arxiv_id": "2611.28766",
+      "authors": [
+        "Wu, Yonghuang",
+        "Liang, Zhenyang",
+        "Wang, Pengfei",
+        "Ma, Yize",
+        "Wu, Guoqing",
+        "Yu, Jinhua"
+      ]
+    },
+    {
+      "id": "r974",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "MolReJev: Decision Models Are In-Context Molecular Predictors",
+      "description": "Combines Jev-style candidate scoring with retrieval of labeled molecular examples, comparing general Kev and a separately trained predictor. Gains extend to held-out tasks and compounds in the reported evaluation. A matched text baseline reaches similar ROC-AUC with four examples, while the decision readout has higher measured throughput.",
+      "status": "Preprint",
+      "icon": "flask",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.28965"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.28965"
+        }
+      ],
+      "date": "2026-11-21",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.28965",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-21T17:59:32Z",
+      "arxiv_id": "2611.28965",
+      "authors": [
+        "Lu, Kaiyuan",
+        "Li, Jiatong",
+        "Bian, Yatao"
+      ]
+    },
+    {
+      "id": "r978",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Triage Accuracy of Jev and Open-Weight System One Decision Models and Their Use for Early Emergency Recognition in Symptom-Assessment Applications",
+      "description": "Retrospectively evaluates 16 decision models on synthetic and real symptom-assessment cases, including Jev. Emergency recognition appears more promising than complete triage. Real-world labels reflect an existing symptom-assessment algorithm rather than clinical ground truth, and the authors do not recommend replacing deterministic triage engines.",
+      "status": "Preprint",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.31012"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.31012"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.31012",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-23T16:58:56Z",
+      "arxiv_id": "2611.31012",
+      "authors": [
+        "Kopka, Marvin",
+        "El-Osta, Austen",
+        "Kollwitz, Christoph",
+        "Balzer, Felix",
+        "Bontrup, Florian"
+      ]
+    },
+    {
+      "id": "r979",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "DKnown-Jev-2: Article-Level Answer-Evidence Classification and Efficient Inference with a Pre-trained Language Model",
+      "description": "Classifies whether an article provides answer evidence under a question’s conditions, using shared encoding and a pointer-style head. Reports improvements over Jev on 972 manually annotated instances, including multi-paragraph evidence. Results establish performance on that evaluation rather than broad retrieval or domain generalization.",
+      "status": "Preprint",
+      "icon": "book",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.31056"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.31056"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.31056",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-23T17:18:23Z",
+      "arxiv_id": "2611.31056",
+      "authors": [
+        "Li, Qi",
+        "Xu, Jianjun",
+        "Li, Jiu",
+        "Wei, Pingtao"
+      ]
+    },
+    {
+      "id": "r981",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "Decision Models for Definition-Driven GitHub Actions Workflow Smell Detection",
+      "description": "Evaluates definition-driven workflow-smell detection on 1,710 validated pairs from 903 GitHub Actions workflows. Jev effectiveness depends on threshold selection, and thresholds transfer poorly to a historical set. Repeatable outputs can still change after label-preserving edits; a static analyzer performs better on the reconstructed comparison subset.",
+      "status": "Preprint",
+      "icon": "code",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.31421"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.31421"
+        }
+      ],
+      "date": "2026-11-23",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.31421",
+      "checked_on": "2026-11-25",
+      "cataloged_on": "2026-11-25",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-23T19:10:12Z",
+      "arxiv_id": "2611.31421",
+      "authors": [
+        "Gheyi, Rohit",
+        "Uchôa, Anderson",
+        "Assunção, Wesley",
+        "Sousa, Francisco",
+        "Fonseca, Baldoino",
+        "Ribeiro, Márcio"
       ]
     },
     {
