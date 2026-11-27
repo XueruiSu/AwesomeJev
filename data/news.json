@@ -2,6 +2,26 @@
   "title": "Big News",
   "events": [
     {
+      "date": "2026-11-25",
+      "icon": "chat",
+      "headline": "Modaic’s Qwen-backbone hypothesis sparks a widely discussed Jev architecture debate.",
+      "url": "https://news.ycombinator.com/item?id=50648823",
+      "label": "Community analysis and debate",
+      "note": "Latency and behavior probes suggest a possible Qwen-family MoE backbone, but do not establish model identity. TypeSafe has not confirmed the hypothesis in the inspected sources. [Original analysis](https://modaic.dev/blog/latency-doesnt-lie).",
+      "date_source": "https://hn.algolia.com/api/v1/items/50648823",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-25T22:57:04Z",
+      "date_note": "Dates the discussion, not a model release or official architecture disclosure.",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 340,
+        "comments": 94,
+        "observed_on": "2026-11-27",
+        "source": "https://hn.algolia.com/api/v1/search_by_date?query=%22Jev%22&tags=story",
+        "url": "https://news.ycombinator.com/item?id=50648823"
+      }
+    },
+    {
       "date": "2026-11-19",
       "icon": "cloud",
       "headline": "HeyGen announces Decision 1 and Turbo, extending hosted typed decisions to text, images, audio and video.",

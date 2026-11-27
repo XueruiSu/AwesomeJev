@@ -1,6 +1,6 @@
 {
   "title": "AwesomeJev",
-  "last_updated": "2026-11-25",
+  "last_updated": "2026-11-27",
   "scope_start": "2026-09-15",
   "resources": [
     {
@@ -988,6 +988,41 @@
         "observed_on": "2026-11-10",
         "source": "https://hn.algolia.com/api/v1/items/50421155",
         "url": "https://news.ycombinator.com/item?id=50421155"
+      }
+    },
+    {
+      "id": "r983",
+      "section": "2. Community discussion and writing",
+      "category": "Popular Hacker News discussions",
+      "title": "Jev is probably Qwen3.5-35B-A3B — architecture-fingerprinting debate",
+      "description": "Discusses Modaic’s latency, tokenizer and behavioral probes suggesting a Qwen-family sparse-MoE backbone. The authors acknowledge unknown serving hardware and overhead, weak self-identification evidence and inability to distinguish some architectural successors. This is an independent hypothesis, not TypeSafe confirmation of Jev’s architecture.",
+      "status": "Community discussion · unconfirmed architecture hypothesis",
+      "icon": "chat",
+      "links": [
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50648823"
+        },
+        {
+          "label": "Original analysis",
+          "url": "https://modaic.dev/blog/latency-doesnt-lie"
+        }
+      ],
+      "date": "2026-11-25",
+      "date_kind": "published",
+      "date_source": "https://hn.algolia.com/api/v1/items/50648823",
+      "checked_on": "2026-11-27",
+      "cataloged_on": "2026-11-27",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-25T22:57:04Z",
+      "date_note": "Dates the Hacker News discussion, not a verified publication date for the linked analysis.",
+      "attention": {
+        "platform": "Hacker News",
+        "points": 340,
+        "comments": 94,
+        "observed_on": "2026-11-27",
+        "source": "https://hn.algolia.com/api/v1/search_by_date?query=%22Jev%22&tags=story",
+        "url": "https://news.ycombinator.com/item?id=50648823"
       }
     },
     {
@@ -7817,6 +7852,105 @@
       }
     },
     {
+      "id": "r984",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Site Scan with Jev triage",
+      "description": "Crawls sites for broken links and images, then uses Jev to label and prioritize findings while preserving deterministic HTTP evidence. Includes CLI and web reports plus a mock mode. HTTP crawling works independently; optional browser mode requires a separate browserkit package that the README says is not yet published.",
+      "status": "Open source · MIT",
+      "icon": "network",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/gabeparra/site-scan"
+        }
+      ],
+      "date": "2026-11-27",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/gabeparra/site-scan",
+      "checked_on": "2026-11-27",
+      "cataloged_on": "2026-11-27",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-27T01:38:29Z",
+      "date_note": "GitHub repository creation, not release or benchmark date.",
+      "artifact_verification": {
+        "method": "original_readme_and_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/gabeparra/site-scan/readme",
+          "https://api.github.com/repos/gabeparra/site-scan/license"
+        ],
+        "checked_on": "2026-11-27",
+        "license_note": "MIT code license inspected; external services retain their own terms.",
+        "scope": "Documentation checked; no installation, execution or independent reproduction."
+      }
+    },
+    {
+      "id": "r985",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev Compaction for OpenCode",
+      "description": "Plugin classifies stale tool output for keeping, truncation or removal from outgoing model requests, with recovery and spending limits. Stored conversation history remains intact. End-to-end tests use a mock coding provider, and the author explicitly says real-world cost savings have not been measured.",
+      "status": "Open source · MIT",
+      "icon": "network",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/GeekCubo/jev-opencode"
+        }
+      ],
+      "date": "2026-11-25",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/GeekCubo/jev-opencode",
+      "checked_on": "2026-11-27",
+      "cataloged_on": "2026-11-27",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-25T06:38:56Z",
+      "date_note": "GitHub repository creation, not release or benchmark date.",
+      "artifact_verification": {
+        "method": "original_readme_and_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/GeekCubo/jev-opencode/readme",
+          "https://api.github.com/repos/GeekCubo/jev-opencode/license"
+        ],
+        "checked_on": "2026-11-27",
+        "license_note": "MIT code license inspected; external services retain their own terms.",
+        "scope": "Documentation checked; no installation, execution or independent reproduction."
+      }
+    },
+    {
+      "id": "r986",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Browser and agent infrastructure",
+      "title": "Jev Guard for Claude Code",
+      "description": "PreToolUse hook combines local rules with Jev risk and credential judgments to add confirmation prompts or deny commands. It never auto-approves commands. API failures default to normal host permissions unless configured to ask; this convenience layer is not a security boundary.",
+      "status": "Open source · MIT",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ashishdhillon/jev-guard"
+        }
+      ],
+      "date": "2026-11-26",
+      "date_kind": "repository_created",
+      "date_source": "https://api.github.com/repos/ashishdhillon/jev-guard",
+      "checked_on": "2026-11-27",
+      "cataloged_on": "2026-11-27",
+      "date_source_field": "created_at",
+      "date_source_timestamp": "2026-11-26T12:16:25Z",
+      "date_note": "GitHub repository creation, not release or benchmark date.",
+      "artifact_verification": {
+        "method": "original_readme_and_license_via_github_api",
+        "sources": [
+          "https://api.github.com/repos/ashishdhillon/jev-guard/readme",
+          "https://api.github.com/repos/ashishdhillon/jev-guard/license"
+        ],
+        "checked_on": "2026-11-27",
+        "license_note": "MIT code license inspected; external services retain their own terms.",
+        "scope": "Documentation checked; no installation, execution or independent reproduction."
+      }
+    },
+    {
       "id": "r055",
       "section": "3. Infrastructure, models, and applications",
       "category": "Language clients and data systems",
@@ -14548,6 +14682,41 @@
       }
     },
     {
+      "id": "r987",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Open-weight decision models",
+      "title": "Visual Jev 4B ONNX for browser inference",
+      "description": "Quantized ONNX conversion of the Visual Jev 4B adapter and Qwen3-VL backbone for s1s2.js. Uses text WebGPU with vision WASM because the tested vision WebGPU path is incorrect. Reports one desktop ScienceQA subset; probability tails exceed stated tolerances and the original paper’s benchmark was not reproduced.",
+      "status": "Public model files · Apache-2.0",
+      "icon": "chip",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/eduardoworrel/Visual-Jev-4B-ONNX-S1S2"
+        }
+      ],
+      "date": "2026-11-26",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/models/eduardoworrel/Visual-Jev-4B-ONNX-S1S2",
+      "checked_on": "2026-11-27",
+      "cataloged_on": "2026-11-27",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-11-26T21:18:31.000Z",
+      "date_note": "Hub repository creation; not proof of first public model or dataset release.",
+      "artifact_verification": {
+        "method": "original_card_license_and_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/models/eduardoworrel/Visual-Jev-4B-ONNX-S1S2",
+          "https://huggingface.co/eduardoworrel/Visual-Jev-4B-ONNX-S1S2/raw/main/README.md",
+          "https://huggingface.co/eduardoworrel/Visual-Jev-4B-ONNX-S1S2/raw/main/LICENSE"
+        ],
+        "checked_on": "2026-11-27",
+        "revision": "2c13337b7fbee6e7b2509a04e4de4113eab0dd02",
+        "license_note": "Apache-2.0 release LICENSE inspected; card records source model licenses. External dataset terms remain separate.",
+        "scope": "Public file metadata and author documentation inspected; no binary or dataset download or execution."
+      }
+    },
+    {
       "id": "r070",
       "section": "3. Infrastructure, models, and applications",
       "category": "Training pipelines and announced releases",
@@ -20137,6 +20306,41 @@
         "checked_on": "2026-11-25",
         "license_note": "MIT code license inspected; third-party data and services retain separate terms.",
         "scope": "Documentation inspected; no execution or independent reproduction."
+      }
+    },
+    {
+      "id": "r988",
+      "section": "3. Infrastructure, models, and applications",
+      "category": "Benchmarks, calibration, and datasets",
+      "title": "Open JEV Omni Qwen Filtered v4 corpus",
+      "description": "Public multimodal decision corpus contains 406,280 training decisions with releasable payloads; a separate reference index covers a 1.2-million-decision local selection. Includes typed targets, media references and evaluation subsets. Public and local source distributions differ, and upstream-only records are not redistributed training payloads.",
+      "status": "Public dataset · mixed source terms",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/datasets/ZeeoRe/open-jev-omni-qwen-filtered-v4"
+        }
+      ],
+      "date": "2026-11-25",
+      "date_kind": "repository_created",
+      "date_source": "https://huggingface.co/api/datasets/ZeeoRe/open-jev-omni-qwen-filtered-v4",
+      "checked_on": "2026-11-27",
+      "cataloged_on": "2026-11-27",
+      "date_source_field": "createdAt",
+      "date_source_timestamp": "2026-11-25T08:13:19.000Z",
+      "date_note": "Hub repository creation; not proof of first public model or dataset release.",
+      "artifact_verification": {
+        "method": "original_card_license_and_file_metadata",
+        "sources": [
+          "https://huggingface.co/api/datasets/ZeeoRe/open-jev-omni-qwen-filtered-v4",
+          "https://huggingface.co/datasets/ZeeoRe/open-jev-omni-qwen-filtered-v4/raw/main/README.md",
+          "https://huggingface.co/datasets/ZeeoRe/open-jev-omni-qwen-filtered-v4/raw/main/SOURCES.md"
+        ],
+        "checked_on": "2026-11-27",
+        "revision": "5a03637328b3e1e11d1ee49109b12e94190111bf",
+        "license_note": "Card and SOURCES.md specify mixed source terms rather than a single permissive license; upstream restrictions and attribution remain applicable.",
+        "scope": "Public file metadata and author documentation inspected; no binary or dataset download or execution."
       }
     },
     {
@@ -27044,6 +27248,84 @@
       ]
     },
     {
+      "id": "r989",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "Procedure Inference as Memory: Learning Recruiter Decision Procedures from OKF-Structured Episodes in Multi-Session Hiring Assistants",
+      "description": "Studies structured episodic retrieval and learned recruiter decision procedures across hiring sessions. Jev-class navigation reduces conversational work but misses temporally relevant evidence more often than the evaluated LLM navigators. Personalization gains depend on evidence selection and the tested overlap and memory settings.",
+      "status": "Preprint",
+      "icon": "brain",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.34576"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.34576"
+        }
+      ],
+      "date": "2026-11-25",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.34576",
+      "checked_on": "2026-11-27",
+      "cataloged_on": "2026-11-27",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-25T15:41:52Z",
+      "arxiv_id": "2611.34576",
+      "authors": [
+        "Bodigutla, Praveen Kumar",
+        "Zhang, Yizhi",
+        "Kanaparthy, Sai Vivek",
+        "De, Arup"
+      ]
+    },
+    {
+      "id": "r990",
+      "section": "4. Research papers",
+      "category": "Agent memory, routing, and control",
+      "title": "The Control-Flow Tax: Specialized Decision Routing for LLM Agent Workflows",
+      "description": "Separates finite control-flow decisions handled by Jev from document generation by Sol. Reports cost and elapsed-time reductions across four software tasks, with a separate reviewed retail-state comparison. Savings depend on preserving efficient trajectories, not only lower router prices; the author-linked code URL returned HTTP 404.",
+      "status": "Preprint",
+      "icon": "network",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.32365"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.32365"
+        },
+        {
+          "label": "Author-linked code (HTTP 404)",
+          "url": "https://github.com/Czk0712/Workflow_routing"
+        }
+      ],
+      "date": "2026-11-24",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.32365",
+      "checked_on": "2026-11-27",
+      "cataloged_on": "2026-11-27",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-24T10:36:06Z",
+      "arxiv_id": "2611.32365",
+      "authors": [
+        "Cheng, Zhikai",
+        "Wang, Shuanghu",
+        "Jiang, Li"
+      ],
+      "artifact_verification": {
+        "method": "paper_link_and_github_api",
+        "sources": [
+          "https://arxiv.org/abs/2611.32365",
+          "https://api.github.com/repos/Czk0712/Workflow_routing"
+        ],
+        "checked_on": "2026-11-27",
+        "scope": "Author URL returned HTTP 404; public code availability and license not established."
+      }
+    },
+    {
       "id": "r110",
       "section": "4. Research papers",
       "category": "Open and alternative decision-model methods",
@@ -31472,6 +31754,76 @@
         "Sousa, Francisco",
         "Fonseca, Baldoino",
         "Ribeiro, Márcio"
+      ]
+    },
+    {
+      "id": "r991",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "EEG-Jev: A Unified Single-Pass Decision Model for EEG",
+      "description": "Independent EEG implementation returns Choice, Noul and Score readouts from one jointly trained checkpoint across 35 public sources. Studies held-out performance, post-hoc calibration and matched-backbone latency. Uses supervised training rather than reproducing TypeSafe’s undisclosed architecture or RLCD; benchmark results do not establish clinical deployment validity.",
+      "status": "Preprint",
+      "icon": "brain",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.31875"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.31875"
+        },
+        {
+          "label": "Author-linked demonstration",
+          "url": "https://neuroimglab.github.io/EEG-Jev/"
+        }
+      ],
+      "date": "2026-11-24",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.31875",
+      "checked_on": "2026-11-27",
+      "cataloged_on": "2026-11-27",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-24T03:29:06Z",
+      "arxiv_id": "2611.31875",
+      "authors": [
+        "Zhu, Zhifei",
+        "Zhang, Hongtao",
+        "Ren, Yu",
+        "Zhou, Wei",
+        "Xie, Zeping",
+        "He, Yi"
+      ]
+    },
+    {
+      "id": "r992",
+      "section": "4. Research papers",
+      "category": "Domain applications and multilingual models",
+      "title": "General-Purpose Decision Models for AI Configuration Tuning",
+      "description": "Evaluates Jev as an optimizer, performance predictor and region guide on eight AI configuration tasks. Conventional optimizers and predictors usually perform better, while region guidance can improve perplexity at extra time and API cost. Results cover fixed recorded workloads and one decision model rather than general tuning superiority.",
+      "status": "Preprint",
+      "icon": "scales",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2611.33190"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2611.33190"
+        }
+      ],
+      "date": "2026-11-15",
+      "date_kind": "submitted",
+      "date_source": "https://arxiv.org/abs/2611.33190",
+      "checked_on": "2026-11-27",
+      "cataloged_on": "2026-11-27",
+      "date_source_field": "submission_history.v1",
+      "date_source_timestamp": "2026-11-15T11:22:52Z",
+      "arxiv_id": "2611.33190",
+      "authors": [
+        "Gong, Jingzhi",
+        "Zhang, Jie M."
       ]
     },
     {
